@@ -51,6 +51,7 @@
         font-family: $main-font;
         color: #fff;
         margin: 0;
+        font-weight: 700;
         @include mq('md'){
           margin-top: 60px;
         }
@@ -102,6 +103,18 @@
   }
   #motivate{
     background-image: url('/img/motivatebg.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include mq('md'){
+      background-position: center center;
+      height: 100vh;
+    }
+    height: 100%;
+  }
+
+  #nosotros{
+    background-image: url('/img/body.png');
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;

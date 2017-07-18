@@ -19,9 +19,16 @@
   .img-about {
     margin-top: 100px; } }
 
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent; }
+
 body {
-  background-color: #fff;
-  height: 100%; }
+  background-color: #fff; }
 
 #nav ul li {
   position: fixed;
@@ -53,14 +60,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center center;
-  margin: 7px;
-  height: 98vh;
-  position: static; }
-  @media (min-width: 768px) {
-    #main {
-      height: 97vh;
-      margin: 5px; } }
+  background-position: center center; }
 
 #main-image img {
   margin: 0 auto; }
@@ -113,15 +113,38 @@ body {
     #fresh {
       background-position: center center;
       height: 100vh; } }
-  #fresh .side-image img {
-    height: 275px;
-    width: 105px;
-    margin: 0 auto; }
-    @media (min-width: 768px) {
-      #fresh .side-image img {
-        height: 500px;
-        width: 190px;
-        margin: 60px auto; } }
+
+#genious {
+  background-image: url("/img/geniousbg.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; }
+  @media (min-width: 768px) {
+    #genious {
+      background-position: center center;
+      height: 100vh; } }
+
+#motivate {
+  background-image: url("/img/motivatebg.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; }
+  @media (min-width: 768px) {
+    #motivate {
+      background-position: center center;
+      height: 100vh; } }
+
+.side-image img {
+  height: 275px;
+  width: 105px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .side-image img {
+      height: 500px;
+      width: 190px;
+      margin: 60px auto; } }
 
 .card {
   position: relative;

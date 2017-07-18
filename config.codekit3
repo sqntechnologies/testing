@@ -47,6 +47,12 @@
 		"oAP": "\/fresh.html",
 		"oF": 0
 		},
+	"\/genious.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/genious.html",
+		"oF": 0
+		},
 	"\/img\/body.png": {
 		"ft": 32768,
 		"iS": 199655,
@@ -95,6 +101,17 @@
 		"iS": 8176659,
 		"oA": 0,
 		"oAP": "\/img\/genious.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/geniousbg.png": {
+		"ft": 32768,
+		"iS": 222123,
+		"oA": 0,
+		"oAP": "\/img\/geniousbg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -168,6 +185,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/motivatebg.png": {
+		"ft": 32768,
+		"iS": 645719,
+		"oA": 0,
+		"oAP": "\/img\/motivatebg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -187,6 +215,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu.html",
+		"oF": 0
+		},
+	"\/motivate.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/motivate.html",
 		"oF": 0
 		},
 	"\/nosotros.html": {

@@ -5,12 +5,12 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
-    margin: 7px;
-    height: 98vh;
-    position: static;
+    //margin: 7px;
+    //height: 100vh;
+    //position: fixed;
     @include mq('md'){
-      height: 97vh;
-      margin: 5px;
+      //height: 100vh;
+      //margin: 5px;
     }
   }
   #main-image{
@@ -88,20 +88,40 @@
       height: 100vh;
     }
     height: 100%;
-    
-    .side-image{
-      img{
-        height: 275px;
-        width: 105px;
-        margin: 0 auto;
-        @include mq('md'){            
-          height: 500px;
-          width: 190px;
-          margin: 60px auto;
-        }
+  }
+  #genious{
+    background-image: url('/img/geniousbg.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include mq('md'){
+      background-position: center center;
+      height: 100vh;
+    }
+    height: 100%;
+  }
+  #motivate{
+    background-image: url('/img/motivatebg.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include mq('md'){
+      background-position: center center;
+      height: 100vh;
+    }
+    height: 100%;
+  }
+  .side-image{
+    img{
+      height: 275px;
+      width: 105px;
+      margin: 0 auto;
+      @include mq('md'){            
+        height: 500px;
+        width: 190px;
+        margin: 60px auto;
       }
     }
-
   }
   .card{
     position: relative;

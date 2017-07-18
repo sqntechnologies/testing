@@ -61,6 +61,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 768px) {
+    #main {
+      height: 100vh; } }
 
 #main-image img {
   margin: 0 auto; }

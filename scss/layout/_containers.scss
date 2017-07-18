@@ -9,7 +9,7 @@
     height: 98vh;
     position: static;
     @include mq('md'){
-      height: 98vh;
+      height: 97vh;
       margin: 5px;
     }
   }
@@ -22,7 +22,7 @@
       // left: 0;
       @include mq('md'){
         width: auto;
-        height: 100vh;
+        height: 98vh;
         //background-image: auto 100%;
       }
       @include mq('lg'){
@@ -43,7 +43,7 @@
     margin: 7px;
     height: 100%;
     @include mq('md'){
-      height: 98vh;
+      height: 97vh;
       
     }
     #products{

@@ -28,7 +28,7 @@ body {
   z-index: 900;
   text-transform: uppercase;
   list-style: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700; }
   #nav ul li a {
     color: #fff; }
@@ -59,7 +59,7 @@ body {
   position: static; }
   @media (min-width: 768px) {
     #main {
-      height: 98vh;
+      height: 97vh;
       margin: 5px; } }
 
 #main-image img {
@@ -67,7 +67,7 @@ body {
   @media (min-width: 768px) {
     #main-image img {
       width: auto;
-      height: 100vh; } }
+      height: 98vh; } }
 
 #main-products {
   background-image: url("/img/body.png");
@@ -78,9 +78,9 @@ body {
   height: 100%; }
   @media (min-width: 768px) {
     #main-products {
-      height: 98vh; } }
+      height: 97vh; } }
   #main-products #products h1 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     margin: 0; }
     @media (min-width: 768px) {
@@ -145,6 +145,6 @@ body {
         left: 0;
         overflow: auto; } }
     .card .content h1 {
-      font-family: "Open Sans", sans-serif;
+      font-family: "Montserrat", sans-serif;
       color: #68BD45;
       margin: 40px 0; }

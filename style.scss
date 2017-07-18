@@ -1,0 +1,26 @@
+// ======================================
+//  Partial Imports
+// ======================================
+
+// Utilities
+@import 'scss/utilities/variables',
+        'scss/utilities/mixins',
+        'scss/utilities/helpers';
+
+//Base 
+@import 'scss/base/base';
+
+//Component 
+@import 'scss/components/buttons',
+        'scss/components/nav';
+
+//Layout 
+@import 'scss/layout/containers';
+//         'scss/layout/box',
+//         'scss/layout/banners',
+//         'scss/layout/card',
+//         'scss/layout/doctor-card',
+//         'scss/layout/sp-card',
+//         'scss/layout/footer',
+//         'scss/layout/specialty-card';
+

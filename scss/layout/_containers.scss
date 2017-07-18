@@ -1,0 +1,138 @@
+
+  #main{
+    background-image: url('/img/body.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    margin: 7px;
+    height: 98vh;
+    position: static;
+    @include mq('md'){
+      height: 98vh;
+      margin: 5px;
+    }
+  }
+  #main-image{
+    img{
+      // height: auto;
+      // width: auto;
+      margin: 0 auto;
+      // position: absolute;
+      // left: 0;
+      @include mq('md'){
+        width: auto;
+        height: 100vh;
+        //background-image: auto 100%;
+      }
+      @include mq('lg'){
+        //left: 20%;
+        // width: auto;
+        // height: 100vh;
+        //background-size: auto 100%;
+      }
+    }
+  }
+
+  #main-products{
+    background-image: url('/img/body.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    //background-position: center center;
+    margin: 7px;
+    height: 100%;
+    @include mq('md'){
+      height: 98vh;
+      
+    }
+    #products{
+      h1{
+        font-family: $main-font;
+        color: #fff;
+        margin: 0;
+        @include mq('md'){
+          margin-top: 60px;
+        }
+      }
+      #products-list{
+        margin-top: 40px;
+        @include mq('md'){
+          margin-top: 60px;
+        }
+        img{
+          height: 275px;
+          width: 100px;
+          margin: 10px auto;
+          transition: all .4s;
+          @include mq('md'){            
+            height: 375px;
+            width: 150px;
+          }
+          &:hover{
+            transform: scale(1.2);
+          }
+        }
+      }
+      
+    }
+  }
+
+  #fresh{
+    background-image: url('/img/hidrofresh.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include mq('md'){
+      background-position: center center;
+      height: 100vh;
+    }
+    height: 100%;
+    
+    .side-image{
+      img{
+        height: 275px;
+        width: 105px;
+        margin: 0 auto;
+        @include mq('md'){            
+          height: 500px;
+          width: 190px;
+          margin: 60px auto;
+        }
+      }
+    }
+
+  }
+  .card{
+    position: relative;
+    top: -70px;
+    @include mq('md'){
+      //position: absolute;
+      top: 10px;
+      // right: 10px;
+      //bottom: 0;
+      margin: 0;
+      overflow: visible;
+      z-index: 599;
+    }
+    .content{
+      background: #fff;
+      @include mq('md'){
+        padding: 0 100px;
+        height: 95vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: auto;
+      }
+      h1{
+        font-family: $main-font;
+        color: #68BD45;
+        margin: 40px 0;
+      }
+    }
+  }
+
+  

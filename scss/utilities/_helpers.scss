@@ -1,0 +1,26 @@
+
+  #logo{
+    height: auto;
+    margin-top: 8px;
+    margin-left: 4%;
+    width: 120px;
+    @include mq('md'){
+      height: auto;
+      margin-top: 2%;
+      width: 190px;
+    }
+  }
+
+  .icon-bar{
+    background-color: #fff;
+    margin-top: 13px;
+    height: 13px;
+    border-radius: 2px;
+  }
+
+  .img-about{
+    @include mq('md'){
+      margin-top: 100px;
+    }
+    
+  }

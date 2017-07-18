@@ -1,0 +1,14 @@
+@mixin mq($break) {  
+  $value: map-get($breakpoints, $break);
+  $xl: map-get($breakpoints, 'xl');  
+    @if $value == $xl {
+      @media (max-width: $value) {
+        @content;       
+      }          
+    }
+    @else {
+    @media (min-width: $value) {
+      @content;       
+    }             
+  }  
+}

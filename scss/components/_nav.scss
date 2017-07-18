@@ -1,0 +1,32 @@
+
+  #nav ul li{
+    position: fixed;
+    z-index: 900;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: $main-font;
+    font-weight: 700;
+    a{
+        color: #fff;
+    }
+    &.bottom-right{
+      bottom: 50px;
+      right: 50px;
+      font-size: 24px;
+      
+    }
+    &.bottom-left{
+      bottom: 40px;
+      left: 50px;
+      font-size: 18px;
+      a{
+        color: #000;
+      }
+    }
+    &.top-right{
+      top: 50px;
+      right: 50px;
+      transform: rotate(90deg);
+      font-size: 18px;
+    }
+  }

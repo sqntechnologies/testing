@@ -55,12 +55,16 @@ body {
     transform: rotate(90deg);
     font-size: 18px; }
 
+#menu-hidronatura ul.nav.navbar-nav {
+  background-color: #fff; }
+
 #main {
   background-image: url("/img/body.png");
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  height: 100vh; }
   @media (min-width: 768px) {
     #main {
       height: 100vh; } }
@@ -150,8 +154,7 @@ body {
       margin: 60px auto; } }
 
 .card {
-  position: relative;
-  top: -70px; }
+  position: relative; }
   @media (min-width: 768px) {
     .card {
       top: 10px;
@@ -159,7 +162,17 @@ body {
       overflow: visible;
       z-index: 599; } }
   .card .content {
-    background: #fff; }
+    background: #fff;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px; }
+    .card .content h1 {
+      font-family: "Montserrat", sans-serif;
+      color: #68BD45;
+      margin: 40px 0; }
+    .card .content p {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400; }
     @media (min-width: 768px) {
       .card .content {
         padding: 0 100px;
@@ -170,7 +183,3 @@ body {
         bottom: 0;
         left: 0;
         overflow: auto; } }
-    .card .content h1 {
-      font-family: "Montserrat", sans-serif;
-      color: #68BD45;
-      margin: 40px 0; }

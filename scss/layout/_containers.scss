@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center center;
     //margin: 7px;
-    //height: 100vh;
+    height: 100vh;
     //position: fixed;
     @include mq('md'){
       height: 100vh;
@@ -125,7 +125,7 @@
   }
   .card{
     position: relative;
-    top: -70px;
+    //top: -70px;
     @include mq('md'){
       //position: absolute;
       top: 10px;
@@ -137,6 +137,18 @@
     }
     .content{
       background: #fff;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      h1{
+        font-family: $main-font;
+        color: #68BD45;
+        margin: 40px 0;
+      }
+      p{
+        font-family: $secondary-font;
+        font-weight: 400;
+      }
       @include mq('md'){
         padding: 0 100px;
         height: 95vh;
@@ -147,11 +159,7 @@
         left: 0;
         overflow: auto;
       }
-      h1{
-        font-family: $main-font;
-        color: #68BD45;
-        margin: 40px 0;
-      }
+
     }
   }
 

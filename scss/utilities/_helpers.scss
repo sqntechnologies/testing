@@ -24,3 +24,11 @@
     }
     
   }
+
+  ul.inside{
+     list-style-image: url('/img/list-img.gif');
+  }
+
+  ul.not{
+    list-style-image: url('/img/list-not-img.gif')
+  }

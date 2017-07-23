@@ -80,8 +80,30 @@
 		"oA": 0,
 		"oAP": "\/img\/footer.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/footer2.png": {
+		"ft": 32768,
+		"iS": 7047854,
+		"oA": 0,
+		"oAP": "\/img\/footer2.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/footer3.png": {
+		"ft": 32768,
+		"iS": 103225,
+		"oA": 0,
+		"oAP": "\/img\/footer3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -140,6 +162,22 @@
 		"oA": 2,
 		"oAP": "\/img\/icon2.ico",
 		"oF": 0
+		},
+	"\/img\/list-img.gif": {
+		"ft": 4194304,
+		"iS": 1652,
+		"oA": 0,
+		"oAP": "\/img\/list-img.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/list-not-img.gif": {
+		"ft": 4194304,
+		"iS": 1757,
+		"oA": 0,
+		"oAP": "\/img\/list-not-img.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/logo.png": {
 		"ft": 32768,

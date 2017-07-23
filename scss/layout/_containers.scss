@@ -36,35 +36,46 @@
 
   #main-products{
     background-image: url('/img/body.png');
+    
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     //background-position: center center;
-    margin: 7px;
-    height: 100%;
+    // margin: 7px;
+    // height: 100%;
     @include mq('md'){
-      height: 97vh;
+      // height: 97vh;
       
     }
+    // #footer{
+    //   @include mq('lg'){
+    //     background: url('/img/footer.png') repeat-x center bottom;
+    //     height: 21vh;
+    //     // position: absolute;
+    //   }
+      
+    // }
     #products{
+      
       h1{
         font-family: $main-font;
         color: #fff;
         margin: 0;
         font-weight: 700;
         @include mq('md'){
-          margin-top: 60px;
+          margin-top: 20px;
         }
       }
       #products-list{
         margin-top: 40px;
         @include mq('md'){
-          margin-top: 60px;
+          margin-top: 20px;
         }
         img{
           height: 275px;
           width: 100px;
-          margin: 10px auto;
+          // margin: 10px auto;
+          margin: 0 auto;
           transition: all .4s;
           @include mq('md'){            
             height: 375px;
@@ -124,6 +135,14 @@
     }
     height: 100%;
   }
+
+  // #footer{
+  //   background: url('/img/footer.png') repeat-x  bottom;
+  //   height: 214px;
+  //   width: 746px;
+  //   // width: 100vh;
+  //   position: absolute;
+  // }
   .side-image{
     img{
       height: 275px;
@@ -154,21 +173,21 @@
       padding-right: 20px;
       padding-left: 20px;
       h1{
-        font-family: $main-font;
+        // font-family: $main-font;
         color: #68BD45;
-        margin: 40px 0;
+        margin: 40px 0 10px;
       }
       p{
         font-family: $secondary-font;
-        font-weight: 400;
+        font-weight: 500;
       }
       @include mq('md'){
         padding: 0 100px;
         height: 95vh;
         position: absolute;
-        top: 0;
+        top: 10px;
         right: 0;
-        bottom: 0;
+        bottom: 10px;
         left: 0;
         overflow: auto;
       }

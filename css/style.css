@@ -19,6 +19,12 @@
   .img-about {
     margin-top: 100px; } }
 
+ul.inside {
+  list-style-image: url("/img/list-img.gif"); }
+
+ul.not {
+  list-style-image: url("/img/list-not-img.gif"); }
+
 html {
   margin: 0;
   padding: 0;
@@ -48,7 +54,7 @@ body {
     left: 50px;
     font-size: 18px; }
     #nav ul li.bottom-left a {
-      color: #000; }
+      color: #fff; }
   #nav ul li.top-right {
     top: 50px;
     right: 50px;
@@ -80,12 +86,7 @@ body {
   background-image: url("/img/body.png");
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  margin: 7px;
-  height: 100%; }
-  @media (min-width: 768px) {
-    #main-products {
-      height: 97vh; } }
+  background-size: cover; }
   #main-products #products h1 {
     font-family: "Montserrat", sans-serif;
     color: #fff;
@@ -93,16 +94,16 @@ body {
     font-weight: 700; }
     @media (min-width: 768px) {
       #main-products #products h1 {
-        margin-top: 60px; } }
+        margin-top: 20px; } }
   #main-products #products #products-list {
     margin-top: 40px; }
     @media (min-width: 768px) {
       #main-products #products #products-list {
-        margin-top: 60px; } }
+        margin-top: 20px; } }
     #main-products #products #products-list img {
       height: 275px;
       width: 100px;
-      margin: 10px auto;
+      margin: 0 auto;
       transition: all .4s; }
       @media (min-width: 768px) {
         #main-products #products #products-list img {
@@ -179,19 +180,18 @@ body {
     padding-right: 20px;
     padding-left: 20px; }
     .card .content h1 {
-      font-family: "Montserrat", sans-serif;
       color: #68BD45;
-      margin: 40px 0; }
+      margin: 40px 0 10px; }
     .card .content p {
-      font-family: "Open Sans", sans-serif;
-      font-weight: 400; }
+      font-family: "Lato", sans-serif;
+      font-weight: 500; }
     @media (min-width: 768px) {
       .card .content {
         padding: 0 100px;
         height: 95vh;
         position: absolute;
-        top: 0;
+        top: 10px;
         right: 0;
-        bottom: 0;
+        bottom: 10px;
         left: 0;
         overflow: auto; } }

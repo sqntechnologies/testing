@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Menu</title>
 </head>
-<body>
-  <div id="main-products">
+<body id="main-products">
+  <!-- <div id="catalog"> -->
     <nav id="nav">
       <ul class="hidden-xs">
         <li class="bottom-right"><a href="index.html">inicio</a></li>
@@ -42,15 +42,15 @@
         </div>
       </nav>
     </div>
-    <div id="products">
+    <div id="products" style="z-index: 4000; ">
       <div class="container">
         <div class="row text-center">
           <div class="col-xs-12">
             <h1>PRODUCTOS</h1>
           </div>
         </div>
-        <div id="products-list">
-          <div class="row ">
+        <div id="products-list" >
+          <div class="row text-center">
             <div class="col-xs-6 col-md-4">
               <a href="fresh.html"><img class="img-responsive" src="img/fresh.png" alt=""></a>
             </div>
@@ -65,7 +65,12 @@
 
       </div>
     </div>
-  </div>
+    
+  <!-- </div> -->
+  <div id="footer" class="visible-lg" style="position: relative;  z-index: 0;">
+    <img src="img/footer3.png" class="img-responsive" style="" width="100%" alt="">
+
+  </div> 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap-min.js"></script>
 </body>

@@ -69,11 +69,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center center;
-  height: 100vh; }
+  background-position: center center; }
   @media (min-width: 768px) {
     #main {
-      height: 100vh; } }
+      height: 100vh;
+      padding-top: 10px; } }
 
 #main-image img {
   margin: 0 auto; }
@@ -154,7 +154,8 @@ body {
   @media (min-width: 768px) {
     #nosotros {
       background-position: center center;
-      height: 100vh; } }
+      height: 100vh;
+      padding-top: 10px; } }
 
 .side-image img {
   height: 275px;
@@ -195,3 +196,31 @@ body {
         bottom: 10px;
         left: 0;
         overflow: auto; } }
+  .card .content-about {
+    position: absolute;
+    background: #fff;
+    overflow: auto; }
+    .card .content-about img {
+      margin: 30px 0 0 69px;
+      position: fixed; }
+    .card .content-about h1 {
+      font-family: "Montserrat", sans-serif; }
+      @media (min-width: 992px) {
+        .card .content-about h1 {
+          padding-left: 200px; } }
+      .card .content-about h1.first-heading {
+        margin-top: 100px; }
+    .card .content-about p {
+      font-family: "Lato", sans-serif; }
+      @media (min-width: 992px) {
+        .card .content-about p {
+          margin-top: 40px;
+          padding-left: 200px;
+          padding-right: 180px; } }
+    .card .content-about a {
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      color: #000; }
+      @media (min-width: 992px) {
+        .card .content-about a {
+          padding-left: 200px; } }

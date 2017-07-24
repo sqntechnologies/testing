@@ -6,10 +6,11 @@
     background-size: cover;
     background-position: center center;
     //margin: 7px;
-    height: 100vh;
+    // height: 100vh;
     //position: fixed;
     @include mq('md'){
       height: 100vh;
+      padding-top: 10px;
       //margin: 5px;
     }
   }
@@ -98,6 +99,7 @@
     @include mq('md'){
       background-position: center center;
       height: 100vh;
+      // padding-top: 10px;
     }
     height: 100%;
   }
@@ -132,6 +134,7 @@
     @include mq('md'){
       background-position: center center;
       height: 100vh;
+      padding-top: 10px;
     }
     height: 100%;
   }
@@ -163,6 +166,7 @@
       top: 10px;
       // right: 10px;
       //bottom: 0;
+      
       margin: 0;
       overflow: visible;
       z-index: 599;
@@ -191,7 +195,41 @@
         left: 0;
         overflow: auto;
       }
-
+    }
+    .content-about{
+      position: absolute;
+      background: #fff;
+      overflow: auto;
+      img{
+        margin: 30px 0 0 69px;
+        position: fixed;
+      }
+      h1{
+        @include mq('lg'){
+          padding-left: 200px;
+        } 
+        font-family: $main-font;
+        &.first-heading{
+          margin-top: 100px;
+        }
+      }
+      p{
+        font-family: $secondary-font;
+        @include mq('lg'){
+          margin-top: 40px;
+          padding-left: 200px;
+          padding-right: 180px;
+        }
+      }
+      a{      
+        @include mq('lg'){
+          padding-left: 200px;
+        }  
+        
+        font-family: $secondary-font;
+        font-size: 16px;
+        color: #000;
+      }
     }
   }
 

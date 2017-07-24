@@ -31,6 +31,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/font-awesome.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -40,6 +50,80 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.woff2",
+		"oF": 0
 		},
 	"\/fresh.html": {
 		"ft": 8192,
@@ -72,6 +156,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/fb.png": {
+		"ft": 32768,
+		"iS": 493,
+		"oA": 0,
+		"oAP": "\/img\/fb.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/footer.png": {
@@ -162,6 +257,17 @@
 		"oA": 2,
 		"oAP": "\/img\/icon2.ico",
 		"oF": 0
+		},
+	"\/img\/instagram.png": {
+		"ft": 32768,
+		"iS": 1241,
+		"oA": 0,
+		"oAP": "\/img\/instagram.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/list-img.gif": {
 		"ft": 4194304,

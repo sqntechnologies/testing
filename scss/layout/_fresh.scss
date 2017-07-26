@@ -1,0 +1,20 @@
+  
+#fresh{
+    // background-image: url('/img/HIDRO_FRESH FOTO 1.jpg');
+    background-color: #9EC432;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    height: 100%;
+    @include mq('md'){
+      div.col-sm-3{
+        padding-left: 0;
+      }
+      // padding-top: 10px;
+      .background-left img{
+        width: 91.2vh;
+        // background-position: 50%;
+      }
+    }
+    // height: 100%;
+}

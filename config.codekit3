@@ -224,6 +224,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/geniousTest.jpg": {
+		"ft": 16384,
+		"iS": 567396,
+		"oA": 0,
+		"oAP": "\/img\/geniousTest.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/HIDRO_FRESH FOTO 1.jpg": {
 		"ft": 16384,
 		"iS": 715998,
@@ -245,6 +255,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/hidroTest.jpg": {
+		"ft": 16384,
+		"iS": 126945,
+		"oA": 0,
+		"oAP": "\/img\/hidroTest.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/HNGenious.jpg": {
 		"ft": 16384,
 		"iS": 192643,
@@ -255,6 +275,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/HNGenious.png": {
+		"ft": 32768,
+		"iS": 147332,
+		"oA": 0,
+		"oAP": "\/img\/HNGenious.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/HNMotivate.jpg": {
 		"ft": 16384,
 		"iS": 205293,
@@ -263,6 +294,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/HNMotivate.png": {
+		"ft": 32768,
+		"iS": 161624,
+		"oA": 0,
+		"oAP": "\/img\/HNMotivate.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/icon.ico": {
@@ -337,6 +379,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/LogoHNFresh.png": {
+		"ft": 32768,
+		"iS": 19735,
+		"oA": 0,
+		"oAP": "\/img\/LogoHNFresh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/main.png": {
 		"ft": 32768,
 		"iS": 113916,
@@ -368,6 +421,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/motivateTest.jpg": {
+		"ft": 16384,
+		"iS": 607632,
+		"oA": 0,
+		"oAP": "\/img\/motivateTest.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -460,6 +523,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/layout\/_card.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/layout\/_card.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/layout\/_containers.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -469,6 +545,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/layout\/_containers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/layout\/_fresh.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/layout\/_fresh.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/layout\/_genious.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/layout\/_genious.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/layout\/_motivate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/layout\/_motivate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/layout\/_nosotros.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/layout\/_nosotros.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

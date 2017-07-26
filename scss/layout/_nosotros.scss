@@ -1,0 +1,13 @@
+
+#nosotros{
+  background-image: url('/img/body.png');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @include mq('md'){
+    background-position: center center;
+    height: 100vh;
+    padding-top: 10px;
+  }
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+
+#genious{
+  // background-image: url('/img/geniousbg.png');
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  background-color: #329bca;
+  height: 100%;
+  @include mq('md'){
+    // background-position: center center;
+    // padding-top: 10px;
+    div.col-sm-3{
+      padding-left: 0;
+    }
+    // padding-top: 10px;
+    .background-left img{
+      width: 91.2vh;
+      // background-position: 50%;
+    }
+  }
+  
+}

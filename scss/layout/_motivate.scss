@@ -1,0 +1,18 @@
+
+#motivate{
+  // background-image: url('/img/motivatebg.png');
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  background-color: #aa0000;
+  height: 100%;
+  @include mq('md'){
+    div.col-sm-3{
+      padding-left: 0;
+    }
+    .background-left img{
+      width: 91.2vh;
+    }
+  }
+
+}

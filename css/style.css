@@ -25,6 +25,10 @@ ul.inside {
 ul.not {
   list-style-image: url("/img/list-not-img.png"); }
 
+.funny-font {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 28px; }
+
 html, body {
   height: 100%;
   min-height: 100%;
@@ -118,6 +122,13 @@ body {
       #main-products #products #products-list img:hover {
         transform: scale(1.2); }
 
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto; }
+
 #fresh {
   background-color: #9EC432;
   height: 100%; }
@@ -128,26 +139,22 @@ body {
       width: 91.2vh; } }
 
 #genious {
-  background-image: url("/img/geniousbg.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #329bca;
   height: 100%; }
   @media (min-width: 768px) {
-    #genious {
-      background-position: center center;
-      padding-top: 10px; } }
+    #genious div.col-sm-3 {
+      padding-left: 0; }
+    #genious .background-left img {
+      width: 91.2vh; } }
 
 #motivate {
-  background-image: url("/img/motivatebg.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #aa0000;
   height: 100%; }
   @media (min-width: 768px) {
-    #motivate {
-      background-position: center center;
-      padding-top: 10px; } }
+    #motivate div.col-sm-3 {
+      padding-left: 0; }
+    #motivate .background-left img {
+      width: 91.2vh; } }
 
 #nosotros {
   background-image: url("/img/body.png");
@@ -161,51 +168,14 @@ body {
       height: 100vh;
       padding-top: 10px; } }
 
-#footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: auto; }
-
-.side-image img {
-  height: 275px;
-  width: 105px;
-  margin: 0 auto; }
-  @media (min-width: 768px) {
-    .side-image img {
-      height: 500px;
-      width: 190px;
-      margin: 60px auto; } }
-
 .card {
   position: relative; }
   @media (min-width: 768px) {
     .card {
       top: 10px;
-      margin: 0;
-      overflow: visible;
-      z-index: 599; } }
+      overflow: visible; } }
   .card .content {
-    background: #FFF8D9;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 20px; }
-    .card .content h1 {
-      color: #68BD45;
-      margin: 40px 0 10px; }
-    .card .content p {
-      font-family: "Lato", sans-serif;
-      font-weight: 500; }
-      .card .content p.heading {
-        font-size: 36px; }
-      .card .content p.sub-heading {
-        font-weight: 300; }
-    .card .content .img-card {
-      height: 150px;
-      margin: 20px 0 0; }
-    .card .content .description {
-      margin-bottom: 20px; }
+    background: #FFF8D9; }
     @media (min-width: 768px) {
       .card .content {
         padding: 0 100px;
@@ -216,6 +186,31 @@ body {
         bottom: 10px;
         left: 90px;
         overflow: auto; } }
+    .card .content p {
+      font-family: "Lato", sans-serif;
+      font-weight: 500; }
+      .card .content p.heading {
+        font-size: 34px; }
+      .card .content p.sub-heading {
+        font-weight: 300; }
+    .card .content .img-card {
+      margin: 20px 0 0; }
+      @media (min-width: 768px) {
+        .card .content .img-card {
+          height: 100px; } }
+      @media (max-width: 1023px) {
+        .card .content .img-card {
+          height: 120px; } }
+    .card .content .description {
+      margin-bottom: 20px;
+      padding: 0 40px; }
+    .card .content .info {
+      padding: 0 80px;
+      margin-bottom: 30px; }
+      .card .content .info h3 {
+        margin: 0; }
+      .card .content .info ul li {
+        font-family: "Lato", sans-serif; }
   .card .content-about {
     position: absolute;
     background: #fff;

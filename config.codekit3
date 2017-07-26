@@ -143,8 +143,8 @@
 		"oA": 0,
 		"oAP": "\/img\/body.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -208,8 +208,8 @@
 		"oA": 0,
 		"oAP": "\/img\/genious.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -396,8 +396,8 @@
 		"oA": 0,
 		"oAP": "\/img\/main.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -407,8 +407,8 @@
 		"oA": 0,
 		"oAP": "\/img\/motivate.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

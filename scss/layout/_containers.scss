@@ -207,12 +207,12 @@
       }
       @include mq('md'){
         padding: 0 100px;
-        height: 94vh;
+        height: 97vh;
         position: absolute;
         top: 0;
-        right: 20px;
+        right: 10px;
         bottom: 10px;
-        left: 80px;
+        left: 90px;
         overflow: auto;
       }
     }

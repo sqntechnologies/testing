@@ -20,10 +20,10 @@
     margin-top: 100px; } }
 
 ul.inside {
-  list-style-image: url("/img/list-img.gif"); }
+  list-style-image: url("/img/list-img.png"); }
 
 ul.not {
-  list-style-image: url("/img/list-not-img.gif"); }
+  list-style-image: url("/img/list-not-img.png"); }
 
 html, body {
   height: 100%;
@@ -209,12 +209,12 @@ body {
     @media (min-width: 768px) {
       .card .content {
         padding: 0 100px;
-        height: 94vh;
+        height: 97vh;
         position: absolute;
         top: 0;
-        right: 20px;
+        right: 10px;
         bottom: 10px;
-        left: 80px;
+        left: 90px;
         overflow: auto; } }
   .card .content-about {
     position: absolute;

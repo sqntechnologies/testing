@@ -1,0 +1,16 @@
+
+  table{
+    
+    
+    @include mq('lg'){
+      margin-top: 20px;
+    }
+    font-family: $secondary-font;
+    font-size: 12px;
+  }
+  .table tbody tr th{
+      padding: 5px;
+  }
+  .table tfoot{
+    font-size: 10px;
+  }

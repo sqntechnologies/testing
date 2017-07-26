@@ -21,7 +21,7 @@
       //   color: #68BD45;
       //   margin: 40px 0 10px;
       // }
-      @include mq('md'){
+      @include mq('lg'){
         padding: 0 100px;
         height: 97vh;
         position: absolute;
@@ -68,33 +68,53 @@
 
     }
     .content-about{
+      // padding: 0 40;
+      height: 95vh;
       position: absolute;
-      background: #fff;
+      top: 0;
+      right: 5px;
+      bottom: 10px;
+      left: 10px;
       overflow: auto;
+      overflow-x: hidden;
+    // position: absolute;
+      background: #FFF8D9;
+      // overflow: auto;
+      // height: 92vh;
+      // overflow-x: hidden;
       img{
         margin: 30px 0 0 69px;
         position: fixed;
       }
-      h1{
+      h3{
         @include mq('lg'){
           padding-left: 200px;
-        } 
-        font-family: $main-font;
+        }      
         &.first-heading{
-          margin-top: 100px;
+          margin: 100px 0 0;
+          font-size: 48px;
+          font-weight: 500;
         }
       }
+      // h3{
+      //   padding-left: 200px;
+      // }
       p{
         font-family: $secondary-font;
         @include mq('lg'){
-          margin-top: 40px;
-          padding-left: 200px;
-          padding-right: 180px;
+          margin-top: 20px;
+          padding: 0 200px;
+          // padding-left: 200px;
+          // padding-right: 180px;
         }
       }
-      a{      
+      a{
+ 
         @include mq('lg'){
           padding-left: 200px;
+          &:nth-child(2n){
+            padding-left: 20px;
+          }     
         }  
         
         font-family: $secondary-font;

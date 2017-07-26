@@ -25,13 +25,10 @@ ul.inside {
 ul.not {
   list-style-image: url("/img/list-not-img.gif"); }
 
-html {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  vertical-align: baseline;
-  background: transparent; }
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0; }
 
 body {
   background-color: #fff; }
@@ -56,10 +53,14 @@ body {
     #nav ul li.bottom-left a {
       color: #fff; }
   #nav ul li.top-right {
-    top: 50px;
+    top: 10px;
     right: 50px;
-    transform: rotate(90deg);
-    font-size: 18px; }
+    font-size: 30px; }
+    #nav ul li.top-right a {
+      text-decoration: none; }
+  #nav ul li.top-left {
+    top: 30px;
+    left: 50px; }
 
 #menu-hidronatura ul.nav.navbar-nav {
   background-color: #fff; }
@@ -69,10 +70,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  height: 100%; }
   @media (min-width: 768px) {
     #main {
-      height: 100vh;
       padding-top: 10px; } }
 
 #main-image img {
@@ -80,13 +81,18 @@ body {
   @media (min-width: 768px) {
     #main-image img {
       width: auto;
-      height: 98vh; } }
+      height: 97vh; } }
 
 #main-products {
   background-image: url("/img/body.png");
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  min-height: 100%;
+  position: relative; }
+  @media (min-width: 768px) {
+    #main-products {
+      padding-top: 10px; } }
   #main-products #products h1 {
     font-family: "Montserrat", sans-serif;
     color: #fff;
@@ -113,15 +119,13 @@ body {
         transform: scale(1.2); }
 
 #fresh {
-  background-image: url("/img/hidrofresh.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #9EC432;
   height: 100%; }
   @media (min-width: 768px) {
-    #fresh {
-      background-position: center center;
-      height: 100vh; } }
+    #fresh div.col-sm-3 {
+      padding-left: 0; }
+    #fresh .background-left img {
+      width: 91.2vh; } }
 
 #genious {
   background-image: url("/img/geniousbg.png");
@@ -132,7 +136,7 @@ body {
   @media (min-width: 768px) {
     #genious {
       background-position: center center;
-      height: 100vh; } }
+      padding-top: 10px; } }
 
 #motivate {
   background-image: url("/img/motivatebg.png");
@@ -143,7 +147,7 @@ body {
   @media (min-width: 768px) {
     #motivate {
       background-position: center center;
-      height: 100vh; } }
+      padding-top: 10px; } }
 
 #nosotros {
   background-image: url("/img/body.png");
@@ -156,6 +160,13 @@ body {
       background-position: center center;
       height: 100vh;
       padding-top: 10px; } }
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto; }
 
 .side-image img {
   height: 275px;
@@ -176,7 +187,7 @@ body {
       overflow: visible;
       z-index: 599; } }
   .card .content {
-    background: #fff;
+    background: #FFF8D9;
     padding-top: 10px;
     padding-right: 20px;
     padding-left: 20px; }
@@ -186,15 +197,24 @@ body {
     .card .content p {
       font-family: "Lato", sans-serif;
       font-weight: 500; }
+      .card .content p.heading {
+        font-size: 36px; }
+      .card .content p.sub-heading {
+        font-weight: 300; }
+    .card .content .img-card {
+      height: 150px;
+      margin: 20px 0 0; }
+    .card .content .description {
+      margin-bottom: 20px; }
     @media (min-width: 768px) {
       .card .content {
         padding: 0 100px;
-        height: 95vh;
+        height: 94vh;
         position: absolute;
-        top: 10px;
-        right: 0;
+        top: 0;
+        right: 20px;
         bottom: 10px;
-        left: 0;
+        left: 80px;
         overflow: auto; } }
   .card .content-about {
     position: absolute;

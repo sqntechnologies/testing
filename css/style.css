@@ -138,36 +138,6 @@ body {
     #fresh .background-left img {
       width: 91.2vh; } }
 
-#genious {
-  background-color: #329bca;
-  height: 100%; }
-  @media (min-width: 768px) {
-    #genious div.col-sm-3 {
-      padding-left: 0; }
-    #genious .background-left img {
-      width: 91.2vh; } }
-
-#motivate {
-  background-color: #aa0000;
-  height: 100%; }
-  @media (min-width: 768px) {
-    #motivate div.col-sm-3 {
-      padding-left: 0; }
-    #motivate .background-left img {
-      width: 91.2vh; } }
-
-#nosotros {
-  background-image: url("/img/body.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%; }
-  @media (min-width: 768px) {
-    #nosotros {
-      background-position: center center;
-      height: 100vh;
-      padding-top: 10px; } }
-
 .card {
   position: relative; }
   @media (min-width: 768px) {
@@ -239,3 +209,33 @@ body {
       @media (min-width: 992px) {
         .card .content-about a {
           padding-left: 200px; } }
+
+#genious {
+  background-color: #329bca;
+  height: 100%; }
+  @media (min-width: 768px) {
+    #genious div.col-sm-3 {
+      padding-left: 0; }
+    #genious .background-left img {
+      width: 91.2vh; } }
+
+#motivate {
+  background-color: #aa0000;
+  height: 100%; }
+  @media (min-width: 768px) {
+    #motivate div.col-sm-3 {
+      padding-left: 0; }
+    #motivate .background-left img {
+      width: 91.2vh; } }
+
+#nosotros {
+  background-image: url("/img/body.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; }
+  @media (min-width: 768px) {
+    #nosotros {
+      background-position: center center;
+      height: 100vh;
+      padding-top: 10px; } }

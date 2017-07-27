@@ -6,8 +6,8 @@
   background-size: cover;
   @include mq('md'){
     background-position: center center;
-    height: 100vh;
-    padding-top: 10px;
+    // height: 100vh;
+    // padding-top: 10px;
   }
   height: 100%;
 }

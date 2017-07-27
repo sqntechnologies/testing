@@ -8,7 +8,11 @@
     font-weight: 700;
     a{
         color: #fff;
+        img{
+          height: 60px;
+        }
     }
+
     &.bottom-right{
       bottom: 50px;
       right: 50px;
@@ -23,16 +27,24 @@
       }
     }
     &.top-right{
-      top: 10px;
+      top: 30px;
       right: 50px;
       font-size: 30px;
       a{
         text-decoration: none;
       }
     }
+    &.top-right-2{
+      top: 80px;
+      right: 40px;
+      a{
+        color: #000;
+      }
+    }
     &.top-left{
-      top: 30px;
+      top: 20px;
       left: 50px;
+      
     } 
   }
 

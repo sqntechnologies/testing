@@ -57,13 +57,13 @@
       
     // }
     #products{
-      h1{
-        font-family: $main-font;
+      h3{
         color: #fff;
         margin: 0;
         font-weight: 700;
         @include mq('md'){
-          margin-top: 20px;
+          margin-top: 10px;
+          font-size: 50px;
         }
       }
       #products-list{
@@ -77,12 +77,17 @@
           // margin: 10px auto;
           margin: 0 auto;
           transition: all .4s;
-          @include mq('md'){            
-            height: 375px;
-            width: 150px;
+          @include mq('lg'){            
+            height: 35%;
+            width: 47%;
+          }
+          @include mq('xl'){
+            height: 45%;
+            width: 65%;
           }
           &:hover{
             transform: scale(1.2);
+            
           }
         }
       }

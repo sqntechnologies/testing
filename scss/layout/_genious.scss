@@ -9,12 +9,15 @@
   @include mq('md'){
     // background-position: center center;
     // padding-top: 10px;
-    div.col-sm-3{
+    div.col-md-3{
       padding-left: 0;
     }
     // padding-top: 10px;
     .background-left img{
-      width: 91.2vh;
+      max-height: 100vh;
+      width: auto;
+      display: block;
+      // width: 91.2vh;
       // background-position: 50%;
     }
   }

@@ -23,11 +23,18 @@ ul.inside {
   list-style-image: url("/img/list-img.png"); }
 
 ul.not {
-  list-style-image: url("/img/list-not-img.png"); }
+  list-style-image: url("/img/list-not.png"); }
 
 .funny-font {
   font-family: "Covered By Your Grace", cursive;
   font-size: 28px; }
+
+p.description {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 50%;
+  padding-right: 120px; }
 
 html, body {
   height: 100%;
@@ -36,6 +43,15 @@ html, body {
 
 body {
   background-color: #fff; }
+
+.btn.btn-main {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  background-color: #fff;
+  color: #63b9ac;
+  transition: box-shadow, .4s; }
+  .btn.btn-main:hover {
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.22); }
 
 #nav ul li {
   position: fixed;
@@ -60,18 +76,33 @@ body {
       color: #fff; }
   #nav ul li.top-right {
     top: 30px;
-    right: 50px;
+    right: 70px;
     font-size: 30px; }
     #nav ul li.top-right a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #000; }
+      #nav ul li.top-right a:first-child {
+        font-size: 12px; }
   #nav ul li.top-right-2 {
     top: 80px;
-    right: 40px; }
+    right: 70px; }
     #nav ul li.top-right-2 a {
       color: #000; }
   #nav ul li.top-left {
     top: 20px;
     left: 50px; }
+  #nav ul li.arrow-left a, #nav ul li.arrow-right a {
+    color: #c2c2c2;
+    font-size: 30px;
+    transition: color 1s ease; }
+  #nav ul li.arrow-left :hover, #nav ul li.arrow-right :hover {
+    color: #aaaaaa; }
+  #nav ul li.arrow-left {
+    top: 50%;
+    left: 95%; }
+  #nav ul li.arrow-right {
+    top: 50%;
+    left: 2%; }
 
 #menu-hidronatura ul.nav.navbar-nav {
   background-color: #fff; }
@@ -99,9 +130,62 @@ table {
   background-size: cover;
   background-position: center center;
   height: 100%; }
-  @media (min-width: 768px) {
-    #main {
-      padding-top: 10px; } }
+
+#fresh-main {
+  background-image: url("/img/fresh-main.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+  @media (min-width: 992px) {
+    #fresh-main img {
+      width: auto;
+      height: 100vh; } }
+
+#genious-main {
+  background-image: url("/img/geniousbg.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+  @media (min-width: 992px) {
+    #genious-main img {
+      width: auto;
+      height: 100vh; } }
+
+#motivate-main {
+  background-image: url("/img/motivatebg.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+  @media (min-width: 992px) {
+    #motivate-main img {
+      width: auto;
+      height: 100vh; } }
+
+#main-image .test {
+  position: relative;
+  display: block; }
+
+#main-image .on {
+  background-color: rgba(99, 201, 172, 0.5);
+  opacity: 0;
+  display: inline-block;
+  position: fixed;
+  margin: 0 auto;
+  color: #000;
+  font-size: 50px;
+  transition-property: opacity, left;
+  transition-duration: .5s;
+  transition-delay: .3s;
+  transition-timing-function: ease-in-out, ease-out; }
+
+#main-image .test:hover .on {
+  opacity: 1; }
 
 #main-image img {
   margin: 0 auto; }
@@ -117,19 +201,17 @@ table {
   background-size: cover;
   min-height: 100%;
   position: relative; }
-  @media (min-width: 768px) {
-    #main-products {
-      padding-top: 10px; } }
   #main-products #products h3 {
     color: #fff;
     margin: 0;
     font-weight: 700; }
     @media (min-width: 768px) {
       #main-products #products h3 {
-        margin-top: 10px;
+        margin-top: 40px;
         font-size: 50px; } }
   #main-products #products #products-list {
-    margin-top: 40px; }
+    margin-top: 40px;
+    z-index: 1; }
     @media (min-width: 768px) {
       #main-products #products #products-list {
         margin-top: 20px; } }
@@ -141,13 +223,35 @@ table {
       @media (min-width: 992px) {
         #main-products #products #products-list img {
           height: 35%;
-          width: 47%; } }
-      @media (max-width: 1023px) {
+          width: 46%; } }
+      @media (min-width: 1282px) {
         #main-products #products #products-list img {
           height: 45%;
+          width: 55%; } }
+      @media (min-width: 1679px) {
+        #main-products #products #products-list img {
+          height: 55%;
           width: 65%; } }
       #main-products #products #products-list img:hover {
         transform: scale(1.2); }
+    #main-products #products #products-list p {
+      z-index: 0;
+      position: fixed;
+      bottom: 20%;
+      left: 56%;
+      font-family: "Covered By Your Grace", cursive;
+      color: #fff;
+      font-size: 20px; }
+      @media (min-width: 1282px) {
+        #main-products #products #products-list p {
+          bottom: 30%;
+          left: 55.7%; } }
+      @media (min-width: 1679px) {
+        #main-products #products #products-list p {
+          bottom: 30%;
+          left: 55.6%; } }
+      #main-products #products #products-list p i {
+        font-size: 14px; }
 
 #footer {
   position: absolute;
@@ -159,11 +263,13 @@ table {
 #fresh {
   background-color: #9EC432;
   height: 100%; }
-  @media (min-width: 768px) {
-    #fresh div.col-sm-3 {
+  @media (min-width: 992px) {
+    #fresh div.col-md-3 {
       padding-left: 0; }
     #fresh .background-left img {
-      width: 91.2vh; } }
+      max-height: 100vh;
+      width: auto;
+      display: block; } }
 
 .card {
   position: relative; }
@@ -172,7 +278,8 @@ table {
       top: 10px;
       overflow: visible; } }
   .card .content {
-    background: #FFF8D9; }
+    background: #FFF8D9;
+    overflow: auto; }
     @media (min-width: 992px) {
       .card .content {
         padding: 0 100px;
@@ -244,24 +351,72 @@ table {
         @media (min-width: 992px) {
           .card .content-about .social a:nth-child(2n) {
             padding-left: 0; } }
+    @media (min-width: 992px) {
+      .card .content-about #contact-form {
+        padding: 0 240px;
+        overflow: hidden; }
+        .card .content-about #contact-form .form-group {
+          margin-top: 15px; }
+          .card .content-about #contact-form .form-group .form-control {
+            position: absolute;
+            background-color: #FFF8D9;
+            border: none;
+            border-bottom: 1px solid #c7bca9;
+            border-radius: 0;
+            width: 45%;
+            font-family: "Lato", sans-serif;
+            box-shadow: none; }
+            .card .content-about #contact-form .form-group .form-control + .control-label {
+              position: relative;
+              padding: 6px 11px;
+              cursor: text;
+              transform-origin: left center;
+              -webkit-transform-origin: left center;
+              color: #6A7989;
+              -webkit-transition: all 0.3s;
+              transition: all 0.3s; }
+            .card .content-about #contact-form .form-group .form-control:focus + .control-label {
+              color: #333;
+              -webkit-transform: scale(0.8) translateY(-18px);
+              -ms-transform: scale(0.8) translateY(-18px);
+              transform: scale(0.8) translateY(-18px); }
+        .card .content-about #contact-form .btn-send {
+          background-color: #63c9ac;
+          color: #fff;
+          font-family: "Covered By Your Grace", cursive;
+          font-size: 20px;
+          width: 200px;
+          transition: all .3s; }
+          .card .content-about #contact-form .btn-send:hover {
+            background-color: #63b9ac;
+            box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.15); } }
+  .card .footer {
+    padding: 0 240px; }
+    .card .footer h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px; }
 
 #genious {
   background-color: #329bca;
   height: 100%; }
   @media (min-width: 768px) {
-    #genious div.col-sm-3 {
+    #genious div.col-md-3 {
       padding-left: 0; }
     #genious .background-left img {
-      width: 91.2vh; } }
+      max-height: 100vh;
+      width: auto;
+      display: block; } }
 
 #motivate {
   background-color: #aa0000;
   height: 100%; }
   @media (min-width: 768px) {
-    #motivate div.col-sm-3 {
+    #motivate div.col-md-3 {
       padding-left: 0; }
     #motivate .background-left img {
-      width: 91.2vh; } }
+      max-height: 100vh;
+      width: auto;
+      display: block; } }
 
 #nosotros {
   background-image: url("/img/body.png");

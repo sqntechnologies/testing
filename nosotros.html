@@ -41,7 +41,7 @@
         <div class="col-xs-12 col-md-8">
           <div  class="card">     
             <div class="content-about">
-              <a href="index.html"><img src="img/logoHN.png" alt=""></a>     
+              <a href="index2.html"><img src="img/logoHN.png" alt=""></a>     
               <div class="row">                             
                 <div class="col-xs-12">
                   <h3 class="funny-font first-heading">hidrata tu espíritu</h1>
@@ -54,8 +54,27 @@
                   </div>
                   <h3 class="funny-font">Contacto</h3>
                   <p style="margin: 0;">¿Tienes comentarios o sugerencias? ¿Te interesaría convertirte en proveedor? ¡Comunícate con nosotros!</p>
-                  
-                  <p style="height: 600px;"> </p>
+                  <form id="contact-form" class="form-horizontal" role="form" method="post" action="contact.php">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name"  required="required" data-error="Nombre y Apellido son campos necesarios.">
+                      <label for="name" class="control-label">Nombre</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="email" required="required" data-error="Correo Electrónico es un campo necesario">
+                      <label for="email" class="control-label">Email</label>
+                    </div>
+                    <div class="form-group">                      
+                      <textarea class="form-control" id="message" rows="4" required="required" data-error="Mensaje es Necesario." style="resize: none; "></textarea>
+                      <label for="message" class="control-label">Mensaje</label>
+                    </div>
+                    <div style="margin: 70px 0 20px;" class="text-center">
+                      <input id="submit" name="submit" type="submit" value="ENVIAR" class="btn btn-send">
+                      <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+                    </div>                  
+                  </form>
+                  <div class="footer">
+                    <h4>Todos los derechos reservados Hidronatura 2017</h4>
+                  </div>
                 </div>
               </div>  
               
@@ -63,8 +82,10 @@
           </div>
         </div>
         <div class="col-xs-12 col-md-4 hidden-xs">
-          <img class="img-about img-responsive" src="img/main.png" alt="">
-          
+          <img class="img-about img-responsive" src="img/main.png" alt="">  
+        </div>
+        <div class="col-xs-12">
+
         </div>
       </div>
     </div>
@@ -74,12 +95,11 @@
   <nav id="nav">
     <ul class="hidden-xs">
       <li  class="bottom-right"><a style="color: #fff;" href="menu.html">productos</a></li>
-      <!-- <li class="bottom-left"><a style="color: #000;" href="nosotros.html">inicio</a></li> -->
-      <li style="top: 30px;" class="top-right">
+      <li  class="top-right">
+        <a style="color: #fff;" href="en/motivate.html">EN</a>
         <a href="https://www.instagram.com/hidronaturafresh/" target="new"><i style="color: #fff;" class="fa fa-instagram" aria-hidden="true"></i> </a>
         <a href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i style="color: #fff;" class="fa fa-facebook" aria-hidden="true"></i> </a> 
       </li>
-      <!-- <li class="top-left"><a style="color: #000;" href="en/">en</a></li> -->
     </ul>
   </nav>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

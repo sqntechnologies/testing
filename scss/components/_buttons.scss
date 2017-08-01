@@ -1,0 +1,13 @@
+
+
+  .btn.btn-main{
+    font-family: $main-font;
+    font-size: 18px;
+    background-color: #fff;
+    color: #63b9ac;
+    transition: box-shadow, .4s;
+    &:hover{
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.22);
+
+    }
+  }

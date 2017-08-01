@@ -1,6 +1,7 @@
 
 .card{
     position: relative;
+    
     //top: -70px;
     @include mq('md'){
       //position: absolute;
@@ -13,6 +14,7 @@
     }
     .content{
       background: #FFF8D9;
+      overflow: auto;
       // padding-top: 10px;
       // padding-right: 20px;
       // padding-left: 20px;
@@ -127,8 +129,62 @@
         font-family: $secondary-font;
         font-size: 16px;
         color: #000;
+        }
       }
-      }
+      #contact-form{
+        @include mq('lg'){
+          padding: 0 240px;
+          overflow: hidden;
+          .form-group{
+            margin-top: 15px;
+            .form-control{
+              position: absolute;
+              background-color: #FFF8D9;
+              border: none;
+              border-bottom: 1px solid #c7bca9;
+              border-radius: 0;
+              width: 45%;
+              font-family: $secondary-font;
+              box-shadow: none;
+              & + .control-label {
+                position: relative;
+                padding: 6px 11px  ;
+                cursor: text;
+                transform-origin: left center;
+                -webkit-transform-origin: left center;
+                color: #6A7989;
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+              }
+              &:focus + .control-label{
+                color: #333;
+                -webkit-transform: scale(0.8) translateY(-18px);
+                -ms-transform: scale(0.8) translateY(-18px);
+                transform: scale(0.8) translateY(-18px);
+              }
+            }
+          }
+          .btn-send{
+            background-color: #63c9ac;
+            color: #fff;
+            font-family: $funny-font;
+            font-size: 20px;
+            width: 200px;
+            transition: all .3s;
+            &:hover{
+              background-color: #63b9ac;
+              box-shadow: 0 2px 6px 3px rgba(0,0,0,0.15);
+            }
+          }
+        }
 
+      }
     }
+    .footer{
+      padding: 0 240px;
+      h4{
+        font-family: $main-font;
+        font-size: 10px;
+      }
+    }  
   }

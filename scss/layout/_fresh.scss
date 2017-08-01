@@ -6,13 +6,17 @@
     // -o-background-size: cover;
     // background-size: cover;
     height: 100%;
-    @include mq('md'){
-      div.col-sm-3{
+    //
+    @include mq('lg'){
+      div.col-md-3{
         padding-left: 0;
       }
       // padding-top: 10px;
       .background-left img{
-        width: 91.2vh;
+        // width: 91.2vh;
+        max-height: 100vh;
+        width: auto;
+        display: block;
         // background-position: 50%;
       }
     }

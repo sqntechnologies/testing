@@ -6,6 +6,7 @@
     list-style: none;
     font-family: $main-font;
     font-weight: 700;
+    
     a{
         color: #fff;
         img{
@@ -28,15 +29,19 @@
     }
     &.top-right{
       top: 30px;
-      right: 50px;
+      right: 70px;
       font-size: 30px;
       a{
         text-decoration: none;
+        color: #000;
+        &:first-child{
+          font-size: 12px;
+        }
       }
     }
     &.top-right-2{
       top: 80px;
-      right: 40px;
+      right: 70px;
       a{
         color: #000;
       }
@@ -44,8 +49,27 @@
     &.top-left{
       top: 20px;
       left: 50px;
-      
+    }
+    &.arrow-left, &.arrow-right{ 
+      a{
+        color: #c2c2c2;
+        font-size: 30px;
+        transition: color 1s ease;
+      }
+      :hover{
+        color: #aaaaaa;
+      }
     } 
+    &.arrow-left{
+      top: 50%;
+      left: 95%;
+      
+    }
+    &.arrow-right{
+      top: 50%;
+      left: 2%;
+      
+    }
   }
 
   #menu-hidronatura ul.nav.navbar-nav{

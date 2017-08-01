@@ -191,6 +191,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/fresh-main.png": {
+		"ft": 32768,
+		"iS": 549935,
+		"oA": 0,
+		"oAP": "\/img\/fresh-main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/fresh-slider.png": {
+		"ft": 32768,
+		"iS": 766000,
+		"oA": 0,
+		"oAP": "\/img\/fresh-slider.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/fresh.png": {
 		"ft": 32768,
 		"iS": 226577,
@@ -199,6 +221,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/genious-main.png": {
+		"ft": 32768,
+		"iS": 514428,
+		"oA": 0,
+		"oAP": "\/img\/genious-main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/genious-slider.png": {
+		"ft": 32768,
+		"iS": 715805,
+		"oA": 0,
+		"oAP": "\/img\/genious-slider.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -357,6 +401,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/list-not.png": {
+		"ft": 32768,
+		"iS": 16592,
+		"oA": 0,
+		"oAP": "\/img\/list-not.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 4686,
@@ -412,6 +467,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/motivate-main.png": {
+		"ft": 32768,
+		"iS": 645719,
+		"oA": 0,
+		"oAP": "\/img\/motivate-main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/motivate-slider.png": {
+		"ft": 32768,
+		"iS": 745164,
+		"oA": 0,
+		"oAP": "\/img\/motivate-slider.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/motivate.png": {
 		"ft": 32768,
 		"iS": 49461,
@@ -444,21 +521,22 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/US.png": {
-		"ft": 32768,
-		"iS": 3049,
-		"oA": 0,
-		"oAP": "\/img\/US.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/index2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index2.html",
+		"oF": 0
+		},
+	"\/index3.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index3.html",
 		"oF": 0
 		},
 	"\/js\/bootstrap-min.js": {
@@ -466,6 +544,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/bootstrap-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.carousel.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.carousel.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

@@ -30,10 +30,20 @@
   }
 
   ul.not{
-    list-style-image: url('/img/list-not-img.png')
+    list-style-image: url('/img/list-not.png');
+    
   }
 
   .funny-font{
     font-family: $funny-font;
     font-size: 28px;
   }
+
+  p.description{
+    font-family: $funny-font;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 50%; 
+    padding-right: 120px;
+  }
+

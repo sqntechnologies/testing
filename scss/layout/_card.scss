@@ -74,12 +74,15 @@
       // padding: 0 40;
       height: 97vh;
       position: absolute;
-      top: 0;
+      top: 10px;
       right: 5px;
       bottom: 10px;
       left: 10px;
       overflow: auto;
       overflow-x: hidden;
+      @include mq('md'){
+        top: 0;
+      }
       
     // position: absolute;
       background: #FFF8D9;
@@ -87,30 +90,76 @@
       // height: 92vh;
       // overflow-x: hidden;
       img{
-        height: 60px;
-        margin: 10px 0 0 25px;
         position: fixed;
-        z-index: 999;
-        
+        // z-index: 999;
+        @include mq('sm'){
+          height: 35px;
+          margin: 10px 0 0 25px;
+        }
+        @include mq('md'){          
+          margin: 10px 0 0 25px;
+        }
+        @include mq('lg'){
+          height: 40px;
+          margin: 10px 0 0 25px;
+        }
+        @include mq('xl'){
+          height: 60px;
+          margin: 10px 0 0 25px;
+        }
       }
       h3{
-        padding: 0 230px 0;
+        @include mq('sm'){
+          padding: 0 110px 0 140px;
+        }
+        // @include mq('md'){
+        //   padding: 0 155px 0;
+        // }
         @include mq('lg'){
-          // padding-left: 200px;
-        }      
+          padding: 0 160px 0;
+        }
+        @include mq('xl'){
+          padding: 0 230px 0;
+        }
+           
         &.first-heading{
-          margin: 100px 0 0;
-          font-size: 48px;
           font-weight: 500;
+          @include mq('sm'){
+            margin: 50px 0 20px;
+          }
+          @include mq('md'){
+            margin: 50px 0 20px;
+          }
+          @include mq('lg'){
+            margin: 60px 0 0;
+            font-size: 40px;
+          }
+          @include mq('xl'){
+            margin: 100px 0 0;
+            font-size: 48px;
+            
+          }
+          
         }
       }
       // h3{
       //   padding-left: 200px;
       // }
-      p{
-        padding: 0 230px 0;
+      p{        
         font-family: $secondary-font;
+        @include mq('sm'){
+          font-size: 13px;
+          padding: 0 40px 0 140px;
+        }
+        @include mq('md'){
+          padding: 0 70px 0 150px;
+        }
         @include mq('lg'){
+          padding: 0 100px 0 160px;
+          margin-top: 20px;
+        }
+        @include mq('xl'){
+          padding: 0 230px 0;
           margin-top: 20px;
           // padding: 0 220px;
           // padding-left: 200px;
@@ -118,22 +167,33 @@
         }
       }
       .social{
-        padding: 0 230px;
-        a{
-        @include mq('lg'){
-          // padding-left: 200px;
-          &:nth-child(2n){
-            padding-left: 0;
-          }     
-        }   
-        font-family: $secondary-font;
-        font-size: 16px;
-        color: #000;
+        @include mq('sm'){
+          padding: 0 140px;
         }
-      }
-      #contact-form{
+        @include mq('md'){
+          padding: 0 150px;
+        } 
         @include mq('lg'){
-          padding: 0 240px;
+          padding: 0 160px;
+        }
+        @include mq('xl'){
+          padding: 0 230px;
+        }
+        a{
+          font-family: $secondary-font;
+          font-size: 28px;
+          color: #000;
+          @include mq('xl'){
+            // padding-left: 200px;
+            &:nth-child(2n){
+              padding-left: 10px;
+            }     
+          }           
+        }
+      }      
+      #contact-form{
+        @include mq('sm'){
+          padding: 0 150px;
           overflow: hidden;
           .form-group{
             margin-top: 15px;
@@ -143,7 +203,7 @@
               border: none;
               border-bottom: 1px solid #c7bca9;
               border-radius: 0;
-              width: 45%;
+              width: 57%;
               font-family: $secondary-font;
               box-shadow: none;
               & + .control-label {
@@ -152,7 +212,7 @@
                 cursor: text;
                 transform-origin: left center;
                 -webkit-transform-origin: left center;
-                color: #6A7989;
+                color: #C0BFBF;
                 -webkit-transition: all 0.3s;
                 transition: all 0.3s;
               }
@@ -177,11 +237,33 @@
             }
           }
         }
-
+        @include mq('md'){
+          padding: 0 180px;
+          overflow: hidden;
+          .form-group{
+            .form-control{
+              width: 57%;
+            }
+          }
+        }
+        @include mq('xl'){
+          padding: 0 240px;
+          overflow: hidden;
+          .form-group{
+            .form-control{
+              width: 45%;
+            }
+          }
+          
+        }
       }
     }
     .footer{
-      padding: 0 240px;
+      padding-left: 100px;
+      @include mq('lg'){
+        padding: 0 240px;
+      }
+      
       h4{
         font-family: $main-font;
         font-size: 10px;

@@ -3,7 +3,7 @@
   margin-top: 8px;
   margin-left: 4%;
   width: 120px; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     #logo {
       height: auto;
       margin-top: 2%;
@@ -17,24 +17,92 @@
 
 @media (min-width: 768px) {
   .img-about {
-    margin-top: 100px; } }
+    margin-top: 200px; } }
+
+@media (min-width: 992px) {
+  .img-about {
+    margin-top: 170px; } }
+
+@media (min-width: 1023px) {
+  .img-about {
+    margin-top: 130px; } }
 
 ul.inside {
-  list-style-image: url("/img/list-img.png"); }
+  list-style-image: url("/img/ok.png"); }
 
 ul.not {
-  list-style-image: url("/img/list-not.png"); }
+  list-style-image: url("/img/not.png"); }
 
 .funny-font {
   font-family: "Covered By Your Grace", cursive;
   font-size: 28px; }
 
 p.description {
-  font-family: "Covered By Your Grace", cursive;
-  font-size: 22px;
-  color: #fff;
-  margin-top: 50%;
-  padding-right: 120px; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #fff; }
+  p.description span {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 500; }
+    @media (min-width: 768px) {
+      p.description span {
+        font-size: 21px; } }
+    @media (min-width: 992px) {
+      p.description span {
+        font-size: 24px; } }
+    @media (min-width: 1023px) {
+      p.description span {
+        font-size: 30px; } }
+  @media (min-width: 768px) {
+    p.description {
+      margin-top: 47%;
+      padding: 0 60px 0 128px;
+      font-size: 14px; } }
+  @media (min-width: 992px) {
+    p.description {
+      font-size: 14px;
+      line-height: 25px;
+      margin-top: 60%;
+      padding-left: 0;
+      padding-right: 75px;
+      font-size: 16px; } }
+  @media (min-width: 1023px) {
+    p.description {
+      line-height: 30px;
+      font-size: 16px;
+      margin-top: 45%;
+      padding-right: 85px; } }
+  @media (min-width: 1280px) {
+    p.description {
+      padding-right: 105px; } }
+
+p.description-fresh {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #fff; }
+  p.description-fresh span {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 30px;
+    font-weight: 500; }
+  @media (min-width: 768px) {
+    p.description-fresh {
+      margin-top: 60%;
+      padding: 0 70px 0 130px;
+      font-size: 14px; } }
+  @media (min-width: 992px) {
+    p.description-fresh {
+      margin-top: 60%;
+      padding: 0 70px 0 70px;
+      padding-left: 0; } }
+  @media (min-width: 1023px) {
+    p.description-fresh {
+      margin-top: 50%;
+      padding-right: 80px;
+      font-size: 18px;
+      line-height: 35px; } }
+  @media (min-width: 1280px) {
+    p.description-fresh {
+      padding-right: 120px; } }
 
 html, body {
   height: 100%;
@@ -45,13 +113,16 @@ body {
   background-color: #fff; }
 
 .btn.btn-main {
+  margin: 20px 0 10px;
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 12px;
+  text-transform: uppercase;
   background-color: #fff;
-  color: #63b9ac;
-  transition: box-shadow, .4s; }
+  color: #68BD45;
+  transition: all, .4s;
+  padding: 10px 20px; }
   .btn.btn-main:hover {
-    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.22); }
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.22); }
 
 #nav ul li {
   position: fixed;
@@ -59,11 +130,11 @@ body {
   text-transform: uppercase;
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  text-decoration: none; }
   #nav ul li a {
-    color: #fff; }
-    #nav ul li a img {
-      height: 60px; }
+    color: #fff;
+    transition: all .3s; }
   #nav ul li.bottom-right {
     bottom: 50px;
     right: 50px;
@@ -71,9 +142,35 @@ body {
   #nav ul li.bottom-left {
     bottom: 40px;
     left: 50px;
-    font-size: 18px; }
+    font-size: 24px; }
     #nav ul li.bottom-left a {
       color: #fff; }
+    @media (min-width: 768px) {
+      #nav ul li.bottom-left {
+        left: 50px;
+        bottom: 50px; } }
+    @media (min-width: 1280px) {
+      #nav ul li.bottom-left {
+        bottom: 60px; } }
+  #nav ul li.bottom-left-rot {
+    transform: rotate(-90deg);
+    font-size: 22px; }
+    @media (min-width: 768px) {
+      #nav ul li.bottom-left-rot {
+        bottom: 160px;
+        left: 0; } }
+    @media (min-width: 992px) {
+      #nav ul li.bottom-left-rot {
+        bottom: 180px;
+        left: 0; } }
+    @media (min-width: 1023px) {
+      #nav ul li.bottom-left-rot {
+        bottom: 195px;
+        left: 0; } }
+    @media (min-width: 1280px) {
+      #nav ul li.bottom-left-rot {
+        bottom: 220px;
+        left: 0; } }
   #nav ul li.top-right {
     top: 30px;
     right: 70px;
@@ -82,7 +179,8 @@ body {
       text-decoration: none;
       color: #000; }
       #nav ul li.top-right a:first-child {
-        font-size: 12px; }
+        font-weight: 400;
+        font-size: 22px; }
   #nav ul li.top-right-2 {
     top: 80px;
     right: 70px; }
@@ -91,6 +189,18 @@ body {
   #nav ul li.top-left {
     top: 20px;
     left: 50px; }
+    @media (min-width: 768px) {
+      #nav ul li.top-left img {
+        height: 40px;
+        width: auto; } }
+    @media (min-width: 992px) {
+      #nav ul li.top-left img {
+        height: 50px;
+        width: auto; } }
+    @media (min-width: 1023px) {
+      #nav ul li.top-left img {
+        height: 60px;
+        width: auto; } }
   #nav ul li.arrow-left a, #nav ul li.arrow-right a {
     color: #c2c2c2;
     font-size: 30px;
@@ -102,7 +212,7 @@ body {
     left: 95%; }
   #nav ul li.arrow-right {
     top: 50%;
-    left: 2%; }
+    left: 35%; }
 
 #menu-hidronatura ul.nav.navbar-nav {
   background-color: #fff; }
@@ -110,7 +220,7 @@ body {
 table {
   font-family: "Lato", sans-serif;
   font-size: 12px; }
-  @media (min-width: 992px) {
+  @media (min-width: 1023px) {
     table {
       margin-top: 20px; } }
 
@@ -130,69 +240,105 @@ table {
   background-size: cover;
   background-position: center center;
   height: 100%; }
+  @media (min-width: 1023px) {
+    #main {
+      height: 100vh; } }
+
+#fresh-main, #genious-main, #motivate-main {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+  @media (min-width: 992px) {
+    #fresh-main img, #genious-main img, #motivate-main img {
+      position: absolute; }
+      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
+        left: 140px; } }
+  #fresh-main img, #genious-main img, #motivate-main img {
+    position: absolute; }
+    @media (min-width: 992px) {
+      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
+        left: 100px; } }
+    @media (min-width: 1280px) {
+      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
+        left: 125px; } }
+    @media (min-width: 1380px) {
+      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
+        left: 145px; } }
+  @media (min-width: 992px) {
+    #fresh-main img.animated, #genious-main img.animated, #motivate-main img.animated {
+      animation: test 5s linear  infinite; }
+    @keyframes test {
+      10% {
+        transform: scale(1); }
+      80% {
+        transform: scale(1.1); }
+      100% {
+        transform: scale(1); } } }
 
 #fresh-main {
-  background-image: url("/img/fresh-main.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  height: 100%; }
-  @media (min-width: 992px) {
-    #fresh-main img {
-      width: auto;
-      height: 100vh; } }
+  background-image: url("/img/fresh-main.png"); }
+  #fresh-main img {
+    height: 300px;
+    margin: 10% auto; }
+    @media (min-width: 768px) {
+      #fresh-main img {
+        margin-top: 25%;
+        height: 80vh;
+        float: right; } }
+    @media (min-width: 1023px) {
+      #fresh-main img {
+        margin: 6% auto;
+        height: 90vh; } }
 
 #genious-main {
-  background-image: url("/img/geniousbg.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  height: 100%; }
-  @media (min-width: 992px) {
-    #genious-main img {
-      width: auto;
-      height: 100vh; } }
+  background-image: url("/img/geniousbg.png"); }
+  #genious-main img {
+    height: 300px;
+    margin: 10% auto; }
+    @media (min-width: 768px) {
+      #genious-main img {
+        margin-top: 27%;
+        height: 78vh; } }
+    @media (min-width: 1023px) {
+      #genious-main img {
+        margin: 6% 3%;
+        height: 90vh; } }
+    @media (min-width: 1280px) {
+      #genious-main img {
+        margin: 6% auto 0;
+        height: 90vh; } }
+    #genious-main img :nth-child(2n+1) {
+      margin-right: 10px; }
 
 #motivate-main {
-  background-image: url("/img/motivatebg.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  height: 100%; }
+  background-image: url("/img/motivatebg.png"); }
+  #motivate-main img {
+    height: 300px;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      #motivate-main img {
+        margin-top: 25%;
+        height: 80vh; } }
+    @media (min-width: 1023px) {
+      #motivate-main img {
+        margin: 6% auto 0;
+        height: 90vh; } }
+
+#main-image img.img-responsive {
+  margin: 0 auto;
+  height: auto; }
+  @media (min-width: 768px) {
+    #main-image img.img-responsive {
+      height: 99vh; } }
   @media (min-width: 992px) {
-    #motivate-main img {
+    #main-image img.img-responsive {
+      height: 99vh; } }
+  @media (min-width: 1280px) {
+    #main-image img.img-responsive {
       width: auto;
       height: 100vh; } }
-
-#main-image .test {
-  position: relative;
-  display: block; }
-
-#main-image .on {
-  background-color: rgba(99, 201, 172, 0.5);
-  opacity: 0;
-  display: inline-block;
-  position: fixed;
-  margin: 0 auto;
-  color: #000;
-  font-size: 50px;
-  transition-property: opacity, left;
-  transition-duration: .5s;
-  transition-delay: .3s;
-  transition-timing-function: ease-in-out, ease-out; }
-
-#main-image .test:hover .on {
-  opacity: 1; }
-
-#main-image img {
-  margin: 0 auto; }
-  @media (min-width: 768px) {
-    #main-image img {
-      width: auto;
-      height: 97vh; } }
 
 #main-products {
   background-image: url("/img/body.png");
@@ -207,51 +353,99 @@ table {
     font-weight: 700; }
     @media (min-width: 768px) {
       #main-products #products h3 {
-        margin-top: 40px;
+        margin-top: 90px;
+        font-size: 60px; } }
+    @media (min-width: 992px) {
+      #main-products #products h3 {
+        margin-top: 80px;
         font-size: 50px; } }
+    @media (min-width: 1023px) {
+      #main-products #products h3 {
+        margin-top: 50px; } }
+    @media (min-width: 1280px) {
+      #main-products #products h3 {
+        margin-top: 40px; } }
+  #main-products #products p {
+    z-index: 0;
+    position: absolute;
+    font-family: "Covered By Your Grace", cursive;
+    color: #fff; }
+    @media (min-width: 992px) {
+      #main-products #products p {
+        font-size: 18px;
+        bottom: 30%;
+        left: 56.5%; } }
+    @media (min-width: 1080px) {
+      #main-products #products p {
+        left: 55.7%; } }
+    @media (min-width: 1199px) {
+      #main-products #products p {
+        left: 55.4%; } }
+    @media (min-width: 1200px) {
+      #main-products #products p {
+        font-size: 20px;
+        left: 57%; } }
+    @media (min-width: 1280px) {
+      #main-products #products p {
+        font-size: 20px;
+        left: 56%; } }
+    @media (min-width: 1300px) {
+      #main-products #products p {
+        font-size: 20px;
+        left: 56.4%; } }
+    @media (min-width: 1400px) {
+      #main-products #products p {
+        font-size: 20px;
+        left: 56%; } }
+    #main-products #products p i {
+      font-size: 14px; }
   #main-products #products #products-list {
     margin-top: 40px;
     z-index: 1; }
     @media (min-width: 768px) {
       #main-products #products #products-list {
         margin-top: 20px; } }
-    #main-products #products #products-list img {
+    @media (min-width: 992px) {
+      #main-products #products #products-list {
+        margin-top: 20px; } }
+    @media (min-width: 1023px) {
+      #main-products #products #products-list {
+        margin-top: 20px; } }
+    #main-products #products #products-list a img.img-responsive {
       height: 275px;
       width: 100px;
       margin: 0 auto;
       transition: all .4s; }
+      @media (min-width: 768px) {
+        #main-products #products #products-list a img.img-responsive {
+          height: 60%;
+          width: 71%; } }
       @media (min-width: 992px) {
-        #main-products #products #products-list img {
-          height: 35%;
-          width: 46%; } }
+        #main-products #products #products-list a img.img-responsive {
+          height: 43%;
+          width: 55%; }
+          #main-products #products #products-list a img.img-responsive[src*="img/fresh.png"] {
+            float: right; }
+          #main-products #products #products-list a img.img-responsive[src*="img/motivate.png"] {
+            float: left; } }
+      @media (min-width: 1280px) {
+        #main-products #products #products-list a img.img-responsive {
+          height: 37%;
+          width: 48%; } }
+      @media (min-width: 1380px) {
+        #main-products #products #products-list a img.img-responsive {
+          height: 45%;
+          width: 56%; } }
       @media (min-width: 1282px) {
-        #main-products #products #products-list img {
+        #main-products #products #products-list a img.img-responsive {
           height: 45%;
           width: 55%; } }
       @media (min-width: 1679px) {
-        #main-products #products #products-list img {
+        #main-products #products #products-list a img.img-responsive {
           height: 55%;
           width: 65%; } }
-      #main-products #products #products-list img:hover {
-        transform: scale(1.2); }
-    #main-products #products #products-list p {
-      z-index: 0;
-      position: fixed;
-      bottom: 20%;
-      left: 56%;
-      font-family: "Covered By Your Grace", cursive;
-      color: #fff;
-      font-size: 20px; }
-      @media (min-width: 1282px) {
-        #main-products #products #products-list p {
-          bottom: 30%;
-          left: 55.7%; } }
-      @media (min-width: 1679px) {
-        #main-products #products #products-list p {
-          bottom: 30%;
-          left: 55.6%; } }
-      #main-products #products #products-list p i {
-        font-size: 14px; }
+      #main-products #products #products-list a img.img-responsive:hover {
+        transform: scale(1.1); }
 
 #footer {
   position: absolute;
@@ -260,10 +454,67 @@ table {
   left: 0;
   height: auto; }
 
+#mycarousel a.left.carousel-control {
+  text-shadow: none;
+  opacity: 1;
+  transition: color .3s;
+  width: 38%; }
+  #mycarousel a.left.carousel-control:hover {
+    color: #000; }
+  #mycarousel a.left.carousel-control .left-arrow {
+    position: relative;
+    top: 55%;
+    right: 40%; }
+    #mycarousel a.left.carousel-control .left-arrow .text {
+      font-family: "Covered By Your Grace", cursive;
+      font-size: 24px;
+      position: absolute;
+      top: 0;
+      left: 10%;
+      opacity: 0;
+      transition-property: opacity, left;
+      transition-delay: .3s;
+      transition-duration: .5s;
+      transition-timing-function: ease-in-out, ease-out; }
+    #mycarousel a.left.carousel-control .left-arrow span i.fa {
+      font-size: 36px; }
+  #mycarousel a.left.carousel-control:hover .text {
+    opacity: 1;
+    left: 53.4%; }
+
+.right-arrow {
+  opacity: 1;
+  width: 300px; }
+  .right-arrow .text {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    opacity: 0;
+    transition-property: opacity, right;
+    transition-delay: .3s;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out, ease-out; }
+  .right-arrow span i.fa {
+    font-size: 36px;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    text-shadow: none;
+    opacity: 1; }
+  .right-arrow #mycarousel a.right.carousel-control {
+    transition: color .3s; }
+    .right-arrow #mycarousel a.right.carousel-control:hover {
+      color: #000; }
+    .right-arrow #mycarousel a.right.carousel-control:hover .text {
+      opacity: 1;
+      right: 90%; }
+
 #fresh {
   background-color: #9EC432;
   height: 100%; }
-  @media (min-width: 992px) {
+  @media (min-width: 1023px) {
     #fresh div.col-md-3 {
       padding-left: 0; }
     #fresh .background-left img {
@@ -273,14 +524,14 @@ table {
 
 .card {
   position: relative; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .card {
       top: 10px;
       overflow: visible; } }
   .card .content {
     background: #FFF8D9;
     overflow: auto; }
-    @media (min-width: 992px) {
+    @media (min-width: 1023px) {
       .card .content {
         padding: 0 100px;
         height: 97vh;
@@ -299,10 +550,10 @@ table {
         font-weight: 300; }
     .card .content .img-card {
       margin: 20px 0 0; }
-      @media (min-width: 768px) {
+      @media (min-width: 992px) {
         .card .content .img-card {
           height: 100px; } }
-      @media (max-width: 1023px) {
+      @media (min-width: 1280px) {
         .card .content .img-card {
           height: 120px; } }
     .card .content .description {
@@ -318,42 +569,97 @@ table {
   .card .content-about {
     height: 97vh;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 5px;
     bottom: 10px;
     left: 10px;
     overflow: auto;
     overflow-x: hidden;
     background: #FFF8D9; }
+    @media (min-width: 992px) {
+      .card .content-about {
+        top: 0; } }
     .card .content-about img {
-      height: 60px;
-      margin: 10px 0 0 25px;
-      position: fixed;
-      z-index: 999; }
-    .card .content-about h3 {
-      padding: 0 230px 0; }
-      .card .content-about h3.first-heading {
-        margin: 100px 0 0;
-        font-size: 48px;
-        font-weight: 500; }
+      position: fixed; }
+      @media (min-width: 768px) {
+        .card .content-about img {
+          height: 35px;
+          margin: 10px 0 0 25px; } }
+      @media (min-width: 992px) {
+        .card .content-about img {
+          margin: 10px 0 0 25px; } }
+      @media (min-width: 1023px) {
+        .card .content-about img {
+          height: 40px;
+          margin: 10px 0 0 25px; } }
+      @media (min-width: 1280px) {
+        .card .content-about img {
+          height: 60px;
+          margin: 10px 0 0 25px; } }
+    @media (min-width: 768px) {
+      .card .content-about h3 {
+        padding: 0 110px 0 140px; } }
+    @media (min-width: 1023px) {
+      .card .content-about h3 {
+        padding: 0 160px 0; } }
+    @media (min-width: 1280px) {
+      .card .content-about h3 {
+        padding: 0 230px 0; } }
+    .card .content-about h3.first-heading {
+      font-weight: 500; }
+      @media (min-width: 768px) {
+        .card .content-about h3.first-heading {
+          margin: 50px 0 20px; } }
+      @media (min-width: 992px) {
+        .card .content-about h3.first-heading {
+          margin: 50px 0 20px; } }
+      @media (min-width: 1023px) {
+        .card .content-about h3.first-heading {
+          margin: 60px 0 0;
+          font-size: 40px; } }
+      @media (min-width: 1280px) {
+        .card .content-about h3.first-heading {
+          margin: 100px 0 0;
+          font-size: 48px; } }
     .card .content-about p {
-      padding: 0 230px 0;
       font-family: "Lato", sans-serif; }
+      @media (min-width: 768px) {
+        .card .content-about p {
+          font-size: 13px;
+          padding: 0 40px 0 140px; } }
       @media (min-width: 992px) {
         .card .content-about p {
+          padding: 0 70px 0 150px; } }
+      @media (min-width: 1023px) {
+        .card .content-about p {
+          padding: 0 100px 0 160px;
           margin-top: 20px; } }
-    .card .content-about .social {
-      padding: 0 230px; }
-      .card .content-about .social a {
-        font-family: "Lato", sans-serif;
-        font-size: 16px;
-        color: #000; }
-        @media (min-width: 992px) {
-          .card .content-about .social a:nth-child(2n) {
-            padding-left: 0; } }
+      @media (min-width: 1280px) {
+        .card .content-about p {
+          padding: 0 230px 0;
+          margin-top: 20px; } }
+    @media (min-width: 768px) {
+      .card .content-about .social {
+        padding: 0 140px; } }
     @media (min-width: 992px) {
+      .card .content-about .social {
+        padding: 0 150px; } }
+    @media (min-width: 1023px) {
+      .card .content-about .social {
+        padding: 0 160px; } }
+    @media (min-width: 1280px) {
+      .card .content-about .social {
+        padding: 0 230px; } }
+    .card .content-about .social a {
+      font-family: "Lato", sans-serif;
+      font-size: 28px;
+      color: #000; }
+      @media (min-width: 1280px) {
+        .card .content-about .social a:nth-child(2n) {
+          padding-left: 10px; } }
+    @media (min-width: 768px) {
       .card .content-about #contact-form {
-        padding: 0 240px;
+        padding: 0 150px;
         overflow: hidden; }
         .card .content-about #contact-form .form-group {
           margin-top: 15px; }
@@ -363,7 +669,7 @@ table {
             border: none;
             border-bottom: 1px solid #c7bca9;
             border-radius: 0;
-            width: 45%;
+            width: 57%;
             font-family: "Lato", sans-serif;
             box-shadow: none; }
             .card .content-about #contact-form .form-group .form-control + .control-label {
@@ -372,7 +678,7 @@ table {
               cursor: text;
               transform-origin: left center;
               -webkit-transform-origin: left center;
-              color: #6A7989;
+              color: #C0BFBF;
               -webkit-transition: all 0.3s;
               transition: all 0.3s; }
             .card .content-about #contact-form .form-group .form-control:focus + .control-label {
@@ -390,8 +696,23 @@ table {
           .card .content-about #contact-form .btn-send:hover {
             background-color: #63b9ac;
             box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.15); } }
+    @media (min-width: 992px) {
+      .card .content-about #contact-form {
+        padding: 0 180px;
+        overflow: hidden; }
+        .card .content-about #contact-form .form-group .form-control {
+          width: 57%; } }
+    @media (min-width: 1280px) {
+      .card .content-about #contact-form {
+        padding: 0 240px;
+        overflow: hidden; }
+        .card .content-about #contact-form .form-group .form-control {
+          width: 45%; } }
   .card .footer {
-    padding: 0 240px; }
+    padding-left: 100px; }
+    @media (min-width: 1023px) {
+      .card .footer {
+        padding: 0 240px; } }
     .card .footer h4 {
       font-family: "Montserrat", sans-serif;
       font-size: 10px; }
@@ -399,7 +720,7 @@ table {
 #genious {
   background-color: #329bca;
   height: 100%; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     #genious div.col-md-3 {
       padding-left: 0; }
     #genious .background-left img {
@@ -410,7 +731,7 @@ table {
 #motivate {
   background-color: #aa0000;
   height: 100%; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     #motivate div.col-md-3 {
       padding-left: 0; }
     #motivate .background-left img {
@@ -423,7 +744,5 @@ table {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
   height: 100%; }
-  @media (min-width: 768px) {
-    #nosotros {
-      background-position: center center; } }

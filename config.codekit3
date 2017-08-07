@@ -21,6 +21,12 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/contacto.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contacto.html",
+		"oF": 0
+		},
 	"\/css\/bootstrap-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,6 +44,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/owl.carousel.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/owl.carousel.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -208,8 +224,8 @@
 		"oA": 0,
 		"oAP": "\/img\/fresh-slider.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -230,8 +246,8 @@
 		"oA": 0,
 		"oAP": "\/img\/genious-main.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -259,12 +275,12 @@
 		},
 	"\/img\/geniousbg.png": {
 		"ft": 32768,
-		"iS": 222123,
+		"iS": 227268,
 		"oA": 0,
 		"oAP": "\/img\/geniousbg.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -362,6 +378,39 @@
 		"oA": 2,
 		"oAP": "\/img\/icon2.ico",
 		"oF": 0
+		},
+	"\/img\/leafs-fresh.png": {
+		"ft": 32768,
+		"iS": 7192726,
+		"oA": 0,
+		"oAP": "\/img\/leafs-fresh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/leafs-gen.png": {
+		"ft": 32768,
+		"iS": 7603295,
+		"oA": 0,
+		"oAP": "\/img\/leafs-gen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/leafs-mot.png": {
+		"ft": 32768,
+		"iS": 8101506,
+		"oA": 0,
+		"oAP": "\/img\/leafs-mot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/list-img.gif": {
 		"ft": 4194304,
@@ -521,6 +570,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/not.png": {
+		"ft": 32768,
+		"iS": 20533,
+		"oA": 0,
+		"oAP": "\/img\/not.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/ok.png": {
+		"ft": 32768,
+		"iS": 17975,
+		"oA": 0,
+		"oAP": "\/img\/ok.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -544,6 +615,78 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/bootstrap-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lib\/animsition\/animsition.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/animsition-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lib\/animsition\/animsition.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/lib\/animsition\/animsition.css.map",
+		"oF": 0
+		},
+	"\/js\/lib\/animsition\/animsition.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/animsition.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lib\/animsition\/animsition.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/animsition.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lib\/animsition\/animsition.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/animsition.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lib\/animsition\/jquery.animsition-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/jquery.animsition-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lib\/animsition\/jquery.animsition.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/jquery.animsition-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lib\/animsition\/jquery.animsition.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/jquery.animsition.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

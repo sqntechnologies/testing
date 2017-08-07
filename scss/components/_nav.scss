@@ -6,25 +6,71 @@
     list-style: none;
     font-family: $main-font;
     font-weight: 700;
-    
+    text-decoration: none;
+   
     a{
-        color: #fff;
-        img{
-          height: 60px;
-        }
+      color: #fff;
+      transition: all .3s;
+      // &:hover{
+      //   text-decoration: none;
+      //   border-bottom: 1px solid #000;
+      // }
     }
+    
 
     &.bottom-right{
       bottom: 50px;
       right: 50px;
       font-size: 24px;
     }
-    &.bottom-left{
+    &.bottom-left{      
       bottom: 40px;
       left: 50px;
-      font-size: 18px;
+      font-size: 24px;
       a{
         color: #fff;
+      }
+      @include mq('sm'){
+        left: 50px;
+        bottom: 50px;
+      }
+      @include mq('xl'){
+        bottom: 60px;
+      }
+      // @include mq('md'){
+      //   left: 50px;
+      //   bottom: 50px;
+      // }
+      // // @include mq('lg'){
+      // //   bottom: 50px;
+      // //   left: 50px;
+      // // }
+      // @include mq('xl'){
+      //   left: 50px;
+      //   // ESTE ES DE NOSOTROS PERO EN MENU
+      //   // bottom: 200px;
+      //   bottom: 50px;
+      // }
+    }
+    &.bottom-left-rot{
+
+      transform: rotate(-90deg);
+      font-size: 22px;
+      @include mq('sm'){
+        bottom: 160px;
+        left: 0; 
+      }
+      @include mq('md'){
+        bottom: 180px;
+        left: 0; 
+      }
+      @include mq('lg'){
+        bottom: 195px;
+        left: 0; 
+      }
+      @include mq('xl'){
+        bottom: 220px; 
+        left: 0; 
       }
     }
     &.top-right{
@@ -35,7 +81,8 @@
         text-decoration: none;
         color: #000;
         &:first-child{
-          font-size: 12px;
+          font-weight: 400;
+          font-size: 22px;
         }
       }
     }
@@ -49,6 +96,21 @@
     &.top-left{
       top: 20px;
       left: 50px;
+      img{
+        @include mq('sm'){
+          height: 40px;
+          width: auto;
+        }
+        @include mq('md'){
+          height: 50px;
+          width: auto;
+        }
+        @include mq('lg'){
+          height: 60px;
+          width: auto;
+        } 
+       
+      }
     }
     &.arrow-left, &.arrow-right{ 
       a{
@@ -67,7 +129,7 @@
     }
     &.arrow-right{
       top: 50%;
-      left: 2%;
+      left: 35%;
       
     }
   }

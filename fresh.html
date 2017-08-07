@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +8,12 @@
   <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Lato:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap-min.css">
+  <link rel="stylesheet" href="js/lib/animsition/animsition.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Hidronatura Fresh</title>
 </head>
 <body>
-  <div id="fresh">
+  <div id="fresh" class="animsition">
     <div class="visible-xs">
       <nav class="navbar navbar-custom">
         <div class="container">
@@ -36,7 +37,7 @@
         </div>
       </nav>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid ">
       <div class="row">
          <div class="col-md-3">
           <div class="background-left">
@@ -45,7 +46,7 @@
         </div> 
         <div class="col-md-9 ">
           <div class="row">
-            <div class="card">
+            <div class="card ">
               <div class="content">
                 <div class="col-xs-12">
                   <!-- <h1 style="background: url('img/LogoHNFresh.png');">Hidronatura Fresh</h1> -->
@@ -59,7 +60,7 @@
                     <p>Vuelve costumbre tomar agua + Depurar tu organismo. ¡Todo en uno! Más los 25 beneficios que tiene la clorofila</p>
                     <p style="font-size: 16px; ">PROPIEDADES DE LA CLOROFILA</p>
                     <p>Combate el mal aliento. Desintoxica tu organismo. Equilibra el metabolismo. Incrementa el oxígeno en la sangre. Disminuye el colesterol y triglicéridos. Reduce el estreñimiento</p>
-                    <p style="font-size: 18px; font-weight: 700;">MÁS DE 25 PROPIEDADES</p>
+                    <p style="font-size: 18px; font-weight: 700;">MÁS DE 25 PROPIEDADES*</p>
                     <p>Además contiene un alto contenido de Vitaminas A, E y C que junto a la hierbabuena resultan en una sensación refrescante al paladar.</p>
                   </div>
                 </div>
@@ -67,8 +68,7 @@
                   <div class="col-xs-6">
                     <h3 class="funny-font text-center">CONTIENE</h3>
                     <ul class="inside">
-                      <li>100% Clorofila Natural extraía de la alfala</li>
-                      <li>0 cal, 0 azúcar</li>
+                      <li>100% Clorofila Natural extraía de la alfala</li>              
                       <li>+25 beneficios</li>
                     </ul>
                   </div>
@@ -77,13 +77,15 @@
                     <ul class="not">
                       <li>Energizantes artificiales</li>
                       <li>Colores / sabores artificiales</li> 
+                      <li>Calorías (0kcal)</li>
+                      <li>Azúcares</li>
                     </ul>
                   </div>
                 </div>
                 <div class="row info" >
                   <div class="col-sm-6">
                     <h3 class="funny-font">INGREDIENTES</h3>
-                    <p>Agua, Clorofila líquida, benzoato de sodio (conservador) </p>
+                    <p>Agua, Clorofila líquida, Benzoato de sodio (conservador) </p>
                   </div>
                   <div class="col-sm-6">
                     <h3 class="funny-font">Lo puedes encontrar en:</h3>
@@ -98,7 +100,7 @@
                         <tr>                          
                           <!-- <td colspan="2">Vitamina A 2700 UI. Vitamina D3 15 UI. Vitamina B6 93 mcg. Vitamina B12 0,21mcg. Biotina 3mcg. Maltodextrina C.S.P. Ácido Fólico 38mcg. Hierro 1,7mg. Calcio 90mg. Zinc 1mg. Magnesio 24,8mg.</td> -->
                           <!-- <td colspan="">Ácido Fólico 38mcg. Hierro 1,7mg. Calcio 90mg. Zinc 1mg. Magnesio 24,8mg.</td> -->
-                          <td colspan="3">NOM-086 IDR porcentaje de los valores nutrimentales está basado en una dieta de 2,000 calorías. Tus porcentajes diarios podrías ser mayores o menores según tus requerimientos calóricos.</td>
+                          <td colspan="3">NOM-086 IDR porcentaje de los valores nutrimentales está basado en una dieta de 2,000 calorías. Tus porcentajes diarios podrías ser mayores o menores según tus requerimientos calóricos.  *Esten, Mabel M. and Dannin, Albert G. (1950) “Chlorophyll therapy and its relation to pathogenic bacteria.” Butler University Botanical Studies : Vol. 9, Article 21.</td>
                           <!-- <td colspan="">Vitamina D3 15 UI</td>
                           <td colspan="">Vitamina B6 93 mcg</td>
                           <td colspan="">Vitamina B12 0,21mcg</td>
@@ -112,7 +114,7 @@
                         </tr>
                         <tr>
                           <td >Tamaño porción: 1 botella (500 ml). Porciones por envase: 1</td>
-                          <td colspan="2" class="text-center">Calorías: 0.05kcal</td>                    
+                          <td colspan="2" class="text-center">Contenido Energético: 0.05 kcal</td>                    
                         </tr>
                         <tr>
                           <th></th>
@@ -174,12 +176,24 @@
           <a href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i> </a> 
         </li>
         <li class="top-left"><a href="index2.html"><img src="img/logoHN.png" alt=""></a></li>
-        <li class="arrow-left"><a href="genious.html"><i class=" fa fa-arrow-right" aria-hidden="true"></i></a></li>
-        <li class="arrow-right"><a href="motivate.html"><i class=" fa fa-arrow-left" aria-hidden="true"></i></a></li>
+        <li class="arrow-left"><a  href="genious.html" class="animsition-link" data-animsition-in-class="fade-in-left-sm"><i class=" fa fa-arrow-right " aria-hidden="true"></i></a></li>
+        <li class="arrow-right"><a  href="motivate.html" class="animsition-link"  ><i class=" fa fa-arrow-left " aria-hidden="true"></i></a></li>
       </ul>
     </nav>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap-min.js"></script>
+  <script src="js/lib/animsition/animsition.min.js"></script>
+  <script>
+    
+    $(".animsition").animsition({
+      inClass: 'fade-in-right',
+      outClass: 'fade-out-right-sm',
+      linkElement: '.animsition-link',
+      inDuration: 1000,
+      outDuration: 500
+    });
+  
+  </script>
 </body>
 </html>

@@ -19,18 +19,25 @@
   }
 
   .img-about{
+    @include mq('sm'){
+      margin-top: 200px;
+    }
     @include mq('md'){
-      margin-top: 100px;
+      margin-top: 170px;
+    }
+    @include mq('lg'){
+      margin-top: 130px;
     }
     
   }
 
   ul.inside{
-     list-style-image: url('/img/list-img.png');
+     list-style-image: url('/img/ok.png');
   }
 
   ul.not{
-    list-style-image: url('/img/list-not.png');
+    list-style-image: url('/img/not.png');
+    
     
   }
 
@@ -40,10 +47,79 @@
   }
 
   p.description{
-    font-family: $funny-font;
-    font-size: 22px;
+    font-family: $main-font;
+    font-size: 18px;    
     color: #fff;
-    margin-top: 50%; 
-    padding-right: 120px;
+    span{
+      font-family: $funny-font;      
+      font-weight: 500;
+      @include mq('sm'){
+        font-size: 21px;
+      }
+      @include mq('md'){
+        font-size: 24px;
+      }
+      @include mq('lg'){
+        font-size: 30px;
+      }
+    }
+    
+    @include mq('sm'){
+      margin-top: 47%;
+      padding: 0 60px 0 128px;
+      font-size: 14px;
+    }
+    @include mq('md'){
+      font-size: 14px;
+      line-height: 25px;
+      margin-top: 60%;
+      padding-left: 0;
+      padding-right: 75px;
+      font-size: 16px;
+    }
+    @include mq('lg') {
+      line-height: 30px;
+      font-size: 16px;
+      margin-top: 45%; 
+      padding-right: 85px;
+    }
+    @include mq('xl'){      
+      
+      //margin-top: 60%; 
+      padding-right: 105px;
+    }
+  }
+  p.description-fresh{
+    font-family: $main-font;
+    font-size: 18px;
+    color: #fff;
+    // margin: 10% 0 9% 0;
+    span{
+      font-family: $funny-font;
+      font-size: 30px;
+      font-weight: 500;
+    }
+    @include mq('sm'){
+      margin-top: 60%;
+      padding: 0 70px 0 130px;
+      font-size: 14px;
+    }
+    @include mq('md'){
+      margin-top: 60%;
+      padding: 0 70px 0 70px;
+      padding-left: 0;
+    }
+    @include mq('lg') {
+      margin-top: 50%; 
+      padding-right: 80px;
+      font-size: 18px;
+      line-height: 35px;
+    }
+    @include mq('xl'){
+      // margin: 0;
+      // margin-top: 55%; 
+      padding-right: 120px;
+    }
+    
   }
 

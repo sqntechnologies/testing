@@ -1,13 +1,16 @@
 
 
   .btn.btn-main{
+    margin: 20px 0 10px;
     font-family: $main-font;
-    font-size: 18px;
+    font-size: 12px;
+    text-transform: uppercase;
     background-color: #fff;
-    color: #63b9ac;
-    transition: box-shadow, .4s;
+    color: $main-green;
+    transition: all, .4s;
+    padding: 10px 20px;
     &:hover{
-    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.22);
+       box-shadow: 0 4px 6px 0 rgba(0,0,0,0.22);
 
     }
   }

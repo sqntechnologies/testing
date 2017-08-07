@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Gloria+Hallelujah|Indie+Flower" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap-min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
 
@@ -20,38 +21,68 @@
 </head>
 <body>
   <div class="owl-carousel owl-theme">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
+    <div class="item">
+        <div class="item">
+            <div id="main">
+                <div id="main-image">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <img class="img-responsive" src="img/main.png" alt="">
+                            </div>
+                            <div class="col-xs-12">
+                                <p style="" class="description hidden-lg">Vuelve costumbre tomar agua + Depurar tu organismo, todo en uno! más los 25 beneficios que tiene la clorofila</p>        
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div> 
+            </div>        
+        </div>
+    </div>
+    <div class="item">
+        <div id="fresh-main">
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-offset-3 col-md-5">
+                    <img class="img-responsive" src="img/fresh-slider.png" alt="">
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <p style="margin-top: 10%; " class="description">Vuelve costumbre tomar agua + Depurar tu organismo, todo en uno! más los 25 beneficios que tiene la clorofila</p>        
+                    <a class="visible-lg" href="fresh.html"><button class="btn btn-main">Saber Más</button></a>
+                </div>
+            </div>
+            </div>        
+        </div>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script>
+
   $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
+        loop: true,
+        margin:10,
+        
+        
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
         }
-    }
-})
+    })
+    $('.owl-carousel').click(function(event) {
+        $(this).removeClass('disabled');
+    });
+        
   </script>
 </body>
 </html>

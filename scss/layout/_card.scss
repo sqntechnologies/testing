@@ -15,6 +15,16 @@
     .content{
       background: #FFF8D9;
       overflow: auto;
+      .card-link-contact{
+        font-family: $main-font;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #000;
+      }
+      .source{
+        padding-right: 10px; 
+        font-size: 9px;
+      }
       // padding-top: 10px;
       // padding-right: 20px;
       // padding-left: 20px;
@@ -91,7 +101,7 @@
       // overflow-x: hidden;
       img{
         position: fixed;
-        // z-index: 999;
+        z-index: 999;
         @include mq('sm'){
           height: 35px;
           margin: 10px 0 0 25px;
@@ -100,7 +110,7 @@
           margin: 10px 0 0 25px;
         }
         @include mq('lg'){
-          height: 40px;
+          height: 50px;
           margin: 10px 0 0 25px;
         }
         @include mq('xl'){
@@ -116,7 +126,7 @@
         //   padding: 0 155px 0;
         // }
         @include mq('lg'){
-          padding: 0 160px 0;
+          padding: 0 190px 0;
         }
         @include mq('xl'){
           padding: 0 230px 0;
@@ -155,7 +165,7 @@
           padding: 0 70px 0 150px;
         }
         @include mq('lg'){
-          padding: 0 100px 0 160px;
+          padding: 0 100px 0 190px;
           margin-top: 20px;
         }
         @include mq('xl'){
@@ -243,6 +253,15 @@
           .form-group{
             .form-control{
               width: 57%;
+            }
+          }
+        }
+        @include mq('lg'){
+          padding: 0 210px;
+          overflow: hidden;
+          .form-group{
+            .form-control{
+              width: 52%;
             }
           }
         }

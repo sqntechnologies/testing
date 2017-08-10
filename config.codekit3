@@ -598,16 +598,16 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/index2.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index2.html",
-		"oF": 0
-		},
 	"\/index3.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index3.html",
+		"oF": 0
+		},
+	"\/index4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index4.html",
 		"oF": 0
 		},
 	"\/js\/bootstrap-min.js": {
@@ -618,6 +618,16 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/js\/lib\/animsition\/animsition-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/animsition-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/js\/lib\/animsition\/animsition.css": {
 		"aP": 1,
@@ -644,6 +654,15 @@
 		"oAP": "\/js\/lib\/animsition\/animsition.min-min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/js\/lib\/animsition\/animsition.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lib\/animsition\/animsition.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/lib\/animsition\/animsition.min.css": {
 		"aP": 1,

@@ -28,10 +28,38 @@
     margin-top: 130px; } }
 
 ul.inside {
-  list-style-image: url("/img/ok.png"); }
+  list-style: none; }
+  ul.inside li {
+    position: relative; }
+    ul.inside li:before {
+      position: absolute;
+      display: block;
+      content: '\2022';
+      text-indent: -999999px;
+      left: -12%;
+      width: 19px;
+      height: 21px;
+      background-repeat: no-repeat;
+      background-image: url("../img/ok.png");
+      background-size: 14px 14px;
+      background-position: 0 .3em; }
 
 ul.not {
-  list-style-image: url("/img/not.png"); }
+  list-style: none; }
+  ul.not li {
+    position: relative; }
+    ul.not li:before {
+      position: absolute;
+      display: block;
+      content: '\2022';
+      text-indent: -999999px;
+      left: -12%;
+      width: 19px;
+      height: 21px;
+      background-repeat: no-repeat;
+      background-image: url("../img/not.png");
+      background-size: 14px 14px;
+      background-position: 0 .3em; }
 
 .funny-font {
   font-family: "Covered By Your Grace", cursive;
@@ -154,7 +182,7 @@ body {
         bottom: 60px; } }
   #nav ul li.bottom-left-rot {
     transform: rotate(-90deg);
-    font-size: 22px; }
+    font-size: 18px; }
     @media (min-width: 768px) {
       #nav ul li.bottom-left-rot {
         bottom: 160px;
@@ -165,12 +193,13 @@ body {
         left: 0; } }
     @media (min-width: 1023px) {
       #nav ul li.bottom-left-rot {
-        bottom: 195px;
-        left: 0; } }
+        bottom: 175px;
+        left: 0;
+        right: 95%; } }
     @media (min-width: 1280px) {
       #nav ul li.bottom-left-rot {
-        bottom: 220px;
-        left: 0; } }
+        bottom: 180px;
+        right: 95%; } }
   #nav ul li.top-right {
     top: 30px;
     right: 70px;
@@ -182,25 +211,27 @@ body {
         font-weight: 400;
         font-size: 22px; }
   #nav ul li.top-right-2 {
-    top: 80px;
-    right: 70px; }
+    top: 65px;
+    right: 77px; }
     #nav ul li.top-right-2 a {
       color: #000; }
   #nav ul li.top-left {
-    top: 20px;
+    top: 40px;
     left: 50px; }
-    @media (min-width: 768px) {
-      #nav ul li.top-left img {
-        height: 40px;
-        width: auto; } }
-    @media (min-width: 992px) {
-      #nav ul li.top-left img {
-        height: 50px;
-        width: auto; } }
-    @media (min-width: 1023px) {
-      #nav ul li.top-left img {
-        height: 60px;
-        width: auto; } }
+    #nav ul li.top-left img {
+      top: 20px; }
+      @media (min-width: 768px) {
+        #nav ul li.top-left img {
+          height: 40px;
+          width: auto; } }
+      @media (min-width: 992px) {
+        #nav ul li.top-left img {
+          height: 50px;
+          width: auto; } }
+      @media (min-width: 1023px) {
+        #nav ul li.top-left img {
+          height: 60px;
+          width: auto; } }
   #nav ul li.arrow-left a, #nav ul li.arrow-right a {
     color: #c2c2c2;
     font-size: 30px;
@@ -250,20 +281,24 @@ table {
   background-size: cover;
   background-position: center center;
   height: 100%; }
+  #fresh-main img[src*="img/logoHN.png"], #genious-main img[src*="img/logoHN.png"], #motivate-main img[src*="img/logoHN.png"] {
+    margin: 1% 0 0 2%;
+    height: 60px;
+    width: auto;
+    z-index: 99999; }
   @media (min-width: 992px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 140px; } }
-  #fresh-main img, #genious-main img, #motivate-main img {
-    position: absolute; }
-    @media (min-width: 992px) {
-      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
         left: 100px; } }
-    @media (min-width: 1280px) {
+  @media (min-width: 1280px) {
+    #fresh-main img, #genious-main img, #motivate-main img {
+      position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
         left: 125px; } }
-    @media (min-width: 1380px) {
+  @media (min-width: 1380px) {
+    #fresh-main img, #genious-main img, #motivate-main img {
+      position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
         left: 145px; } }
   @media (min-width: 992px) {
@@ -282,6 +317,11 @@ table {
   #fresh-main img {
     height: 300px;
     margin: 10% auto; }
+    #fresh-main img[src*="img/logoHN.png"] {
+      margin: 1% 0 0 2%;
+      height: 60px;
+      width: auto;
+      z-index: 99999; }
     @media (min-width: 768px) {
       #fresh-main img {
         margin-top: 25%;
@@ -370,11 +410,21 @@ table {
     position: absolute;
     font-family: "Covered By Your Grace", cursive;
     color: #fff; }
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       #main-products #products p {
         font-size: 18px;
         bottom: 30%;
-        left: 56.5%; } }
+        left: 58%; } }
+    @media (min-width: 800px) {
+      #main-products #products p {
+        font-size: 18px;
+        bottom: 30%;
+        left: 57.5%; } }
+    @media (min-width: 900px) {
+      #main-products #products p {
+        font-size: 18px;
+        bottom: 30%;
+        left: 56.8%; } }
     @media (min-width: 1080px) {
       #main-products #products p {
         left: 55.7%; } }
@@ -384,7 +434,7 @@ table {
     @media (min-width: 1200px) {
       #main-products #products p {
         font-size: 20px;
-        left: 57%; } }
+        left: 56%; } }
     @media (min-width: 1280px) {
       #main-products #products p {
         font-size: 20px;
@@ -428,7 +478,7 @@ table {
             float: right; }
           #main-products #products #products-list a img.img-responsive[src*="img/motivate.png"] {
             float: left; } }
-      @media (min-width: 1280px) {
+      @media (min-width: 1200px) {
         #main-products #products #products-list a img.img-responsive {
           height: 37%;
           width: 48%; } }
@@ -458,58 +508,81 @@ table {
   text-shadow: none;
   opacity: 1;
   transition: color .3s;
-  width: 38%; }
+  position: fixed;
+  margin: 60px 0 170px; }
   #mycarousel a.left.carousel-control:hover {
     color: #000; }
-  #mycarousel a.left.carousel-control .left-arrow {
-    position: relative;
-    top: 55%;
-    right: 40%; }
-    #mycarousel a.left.carousel-control .left-arrow .text {
-      font-family: "Covered By Your Grace", cursive;
-      font-size: 24px;
-      position: absolute;
-      top: 0;
-      left: 10%;
-      opacity: 0;
-      transition-property: opacity, left;
-      transition-delay: .3s;
-      transition-duration: .5s;
-      transition-timing-function: ease-in-out, ease-out; }
-    #mycarousel a.left.carousel-control .left-arrow span i.fa {
-      font-size: 36px; }
   #mycarousel a.left.carousel-control:hover .text {
     opacity: 1;
     left: 53.4%; }
 
-.right-arrow {
+.left-arrow {
   opacity: 1;
-  width: 300px; }
-  .right-arrow .text {
-    font-family: "Covered By Your Grace", cursive;
-    font-size: 24px;
-    position: absolute;
-    top: 0;
-    right: 10%;
-    opacity: 0;
-    transition-property: opacity, right;
-    transition-delay: .3s;
-    transition-duration: .5s;
-    transition-timing-function: ease-in-out, ease-out; }
-  .right-arrow span i.fa {
+  position: fixed;
+  top: 50%;
+  left: 2%; }
+  .left-arrow span i.fa {
     font-size: 36px;
     position: relative;
     top: 50%;
     left: 10%;
     text-shadow: none;
     opacity: 1; }
-  .right-arrow #mycarousel a.right.carousel-control {
+  .left-arrow:hover {
+    color: #000; }
+  .left-arrow:hover .text {
+    opacity: 1;
+    right: 90%; }
+
+#mycarousel .control-right a.right.carousel-control {
+  text-shadow: none;
+  opacity: 1;
+  transition: color .3s;
+  margin: 70px 0;
+  z-index: 1; }
+  #mycarousel .control-right a.right.carousel-control .right-arrow {
+    position: fixed;
+    width: 500px;
+    top: 50%;
+    left: 77%;
     transition: color .3s; }
-    .right-arrow #mycarousel a.right.carousel-control:hover {
+    #mycarousel .control-right a.right.carousel-control .right-arrow span i.fa {
+      font-size: 36px; }
+    #mycarousel .control-right a.right.carousel-control .right-arrow:hover {
       color: #000; }
-    .right-arrow #mycarousel a.right.carousel-control:hover .text {
+    #mycarousel .control-right a.right.carousel-control .right-arrow:hover .text {
       opacity: 1;
-      right: 90%; }
+      right: 60%; }
+
+.carousel-inner #main a.right.carousel-control {
+  text-shadow: none;
+  opacity: 1;
+  transition: color .3s;
+  margin: 70px 0;
+  z-index: 9999999; }
+  .carousel-inner #main a.right.carousel-control .right-arrow {
+    position: fixed;
+    width: 500px;
+    top: 50%;
+    left: 77%; }
+    .carousel-inner #main a.right.carousel-control .right-arrow .text {
+      font-family: "Covered By Your Grace", cursive;
+      font-size: 30px;
+      position: absolute;
+      top: 0;
+      right: 20%;
+      opacity: 0;
+      transition-property: opacity, right;
+      transition-delay: .3s;
+      transition-duration: .5s;
+      transition-timing-function: ease-in-out, ease-out; }
+    .carousel-inner #main a.right.carousel-control .right-arrow span i.fa {
+      font-size: 36px; }
+    .carousel-inner #main a.right.carousel-control .right-arrow:hover {
+      color: #000; }
+    .carousel-inner #main a.right.carousel-control .right-arrow:hover .text {
+      opacity: 1;
+      right: 60%; }
 
 #fresh {
   background-color: #9EC432;
@@ -531,6 +604,14 @@ table {
   .card .content {
     background: #FFF8D9;
     overflow: auto; }
+    .card .content .card-link-contact {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #000; }
+    .card .content .source {
+      padding-right: 10px;
+      font-size: 9px; }
     @media (min-width: 1023px) {
       .card .content {
         padding: 0 100px;
@@ -580,7 +661,8 @@ table {
       .card .content-about {
         top: 0; } }
     .card .content-about img {
-      position: fixed; }
+      position: fixed;
+      z-index: 999; }
       @media (min-width: 768px) {
         .card .content-about img {
           height: 35px;
@@ -590,7 +672,7 @@ table {
           margin: 10px 0 0 25px; } }
       @media (min-width: 1023px) {
         .card .content-about img {
-          height: 40px;
+          height: 50px;
           margin: 10px 0 0 25px; } }
       @media (min-width: 1280px) {
         .card .content-about img {
@@ -601,7 +683,7 @@ table {
         padding: 0 110px 0 140px; } }
     @media (min-width: 1023px) {
       .card .content-about h3 {
-        padding: 0 160px 0; } }
+        padding: 0 190px 0; } }
     @media (min-width: 1280px) {
       .card .content-about h3 {
         padding: 0 230px 0; } }
@@ -632,7 +714,7 @@ table {
           padding: 0 70px 0 150px; } }
       @media (min-width: 1023px) {
         .card .content-about p {
-          padding: 0 100px 0 160px;
+          padding: 0 100px 0 190px;
           margin-top: 20px; } }
       @media (min-width: 1280px) {
         .card .content-about p {
@@ -702,6 +784,12 @@ table {
         overflow: hidden; }
         .card .content-about #contact-form .form-group .form-control {
           width: 57%; } }
+    @media (min-width: 1023px) {
+      .card .content-about #contact-form {
+        padding: 0 210px;
+        overflow: hidden; }
+        .card .content-about #contact-form .form-group .form-control {
+          width: 52%; } }
     @media (min-width: 1280px) {
       .card .content-about #contact-form {
         padding: 0 240px;

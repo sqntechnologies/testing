@@ -490,10 +490,22 @@
         top: 0;
         right: 20%;
         opacity: 0;
+        -webkit-transition-property: opacity, right;
+        -o-transition-property: opacity, right;
         transition-property: opacity, right;
+        -webkit-transition-delay: .3s;
+        -o-transition-delay: .3s;
         transition-delay: .3s;
+        -webkit-transition-duration: .5s;
+        -o-transition-duration: .5s;
         transition-duration: .5s;        
+        -webkit-transition-timing-function: ease-in-out, ease-out;        
+        -o-transition-timing-function: ease-in-out, ease-out;        
         transition-timing-function: ease-in-out, ease-out;
+        // transition-property: opacity, right;
+        // transition-delay: .3s;
+        // transition-duration: .5s;        
+        // transition-timing-function: ease-in-out, ease-out;
       }
       span i.fa{
         font-size: 36px;

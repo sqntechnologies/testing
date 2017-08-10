@@ -219,11 +219,13 @@
               & + .control-label {
                 position: relative;
                 padding: 6px 11px  ;
-                cursor: text;
-                transform-origin: left center;
+                cursor: text;                
                 -webkit-transform-origin: left center;
+                -ms-transform-origin: left center;
+                transform-origin: left center;
                 color: #C0BFBF;
                 -webkit-transition: all 0.3s;
+                -o-transition: all 0.3s;
                 transition: all 0.3s;
               }
               &:focus + .control-label{

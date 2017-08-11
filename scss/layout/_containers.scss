@@ -506,6 +506,10 @@
       }
       @include mq('xl'){
         width: 500px;
+        left: 77%;
+      }
+      @media (min-width: 1330px){
+        width: 500px;
         left: 79%;
       }
       

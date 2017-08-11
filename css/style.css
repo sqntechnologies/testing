@@ -613,6 +613,10 @@ table {
     @media (min-width: 1280px) {
       .carousel-inner #main a.right.carousel-control .right-arrow {
         width: 500px;
+        left: 77%; } }
+    @media (min-width: 1330px) {
+      .carousel-inner #main a.right.carousel-control .right-arrow {
+        width: 500px;
         left: 79%; } }
     .carousel-inner #main a.right.carousel-control .right-arrow .text {
       font-family: "Covered By Your Grace", cursive;

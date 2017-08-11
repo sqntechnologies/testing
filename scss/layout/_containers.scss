@@ -37,22 +37,35 @@
         width: auto;
         z-index: 99999;
       }
-      @include mq('md'){
+      @media (min-width: 993px){
+        position: absolute;
+         &:nth-child(2n){
+          left: 118px;
+          height: 57vh;
+          margin-top: 145px;
+        }
+      }
+      @include mq('lg'){
         position: absolute;
         &:nth-child(2n){
-          left: 100px;
+          left: 120px;
+          height: 75vh;
+          margin-top: 65px;
         }
       }
       @media(min-width: 1280px){
         position: absolute;
         &:nth-child(2n){
-          left: 125px;
+          left: 130px;
+          margin-top: 65px;
+          height: 80vh;
         }
       }
       @media(min-width: 1380px){
         position: absolute;
-        &:nth-child(2n){
+        &:nth-child(2n){                    
           left: 145px;
+          margin-top: 75px;
         }
       }
     }
@@ -396,10 +409,10 @@
       color: #000;
     }
   
-    &:hover .text{     
-      opacity: 1;
-      left: 53.4%;
-    }
+    // &:hover .text{     
+    //   opacity: 1;
+    //   left: 53.4%;
+    // }
   }
   .left-arrow{
     opacity: 1;
@@ -442,18 +455,20 @@
     text-shadow: none;
     opacity: 1;
     transition: color .3s;
-    margin: 70px 0;
+    margin: 110px 0;
     // visibility: hidden; 
     z-index: 1;      
+    position: fixed;
+    // width: 500px;   
     .right-arrow{
       position: fixed;
-      width: 500px;      
+         
       // -ms-transform: translateY(90%);
       // -webkit-transform: translateY(90%);
       // -moz-transform: translateY(90%);
       // -o-transform: translateY(90%);
       top: 50%;
-      left: 77%;
+      left: 96%;
       transition: color .3s;
       span i.fa{
         font-size: 36px;        
@@ -461,28 +476,45 @@
       &:hover{
       color: #000;
     } 
-      &:hover .text{     
+      
+    }
+  &:hover .text{     
         opacity: 1;
         right: 60%;
       }
-    }
     
   }
   .carousel-inner #main a.right.carousel-control{    
     text-shadow: none;
     opacity: 1;
     transition: color .3s;
-    margin: 70px 0;
-    z-index: 9999999;
+    margin: 110px 0;
+    // z-index: 9999999;    
     .right-arrow{
       position: fixed;
-      width: 500px;
+      @include mq('sm'){
+        width: 200px;
+        left: 84%;
+      }
+      @include mq('md'){
+        width: 300px;
+        left: 81%;
+      }
+      @include mq('lg'){
+        width: 400px;
+        left: 78%;
+      }
+      @include mq('xl'){
+        width: 500px;
+        left: 79%;
+      }
+      
       // -ms-transform: translateY(90%);
       // -webkit-transform: translateY(90%);
       // -moz-transform: translateY(90%);
       // -o-transform: translateY(90%);
       top: 50%;
-      left: 77%;      
+      left: 90%;      
       .text{
         font-family: $funny-font;
         font-size: 30px;

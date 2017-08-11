@@ -87,8 +87,8 @@
       }
     }
     &.top-right-2{
-      top: 65px;
-      right: 77px;
+      top: 70px;
+      right: 72px;
       a{
         color: #000;
       }
@@ -96,6 +96,7 @@
     &.top-left{
       top: 40px;
       left: 50px;
+      font-size: 24px;
       img{
         top: 20px;
         @include mq('sm'){

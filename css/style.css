@@ -114,18 +114,18 @@ p.description-fresh {
     font-weight: 500; }
   @media (min-width: 768px) {
     p.description-fresh {
-      margin-top: 60%;
-      padding: 0 70px 0 130px;
-      font-size: 14px; } }
+      margin-top: 50%;
+      padding: 0 35px 0 0;
+      font-size: 16px; } }
   @media (min-width: 992px) {
     p.description-fresh {
-      margin-top: 60%;
+      margin-top: 70%;
       padding: 0 70px 0 70px;
       padding-left: 0; } }
   @media (min-width: 1023px) {
     p.description-fresh {
-      margin-top: 45%;
-      padding-right: 80px;
+      margin-top: 54%;
+      padding-right: 60px;
       font-size: 18px;
       line-height: 35px; } }
   @media (min-width: 1280px) {
@@ -140,20 +140,6 @@ html, body {
 body {
   background-color: #fff; }
 
-.btn {
-  font-family: "Montserrat", sans-serif;
-  font-size: 26px;
-  text-transform: uppercase;
-  background-color: #fff;
-  color: #68BD45;
-  transition: all, .4s;
-  padding: 0;
-  height: 40px;
-  width: 40px;
-  border-radius: 100%; }
-  .btn:hover {
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.22); }
-
 .face-button {
   height: 40px;
   display: inline-block;
@@ -167,6 +153,15 @@ body {
   overflow: hidden; }
   .face-button:hover {
     text-decoration: none; }
+  @media (min-width: 768px) {
+    .face-button.cm {
+      margin-left: 130px; } }
+  @media (min-width: 992px) {
+    .face-button.cm {
+      margin-left: 0; } }
+  @media (min-width: 1023px) {
+    .face-button.cm {
+      margin-left: 0; } }
   .face-button .icon {
     margin-right: 6px; }
   .face-button .face-primary,
@@ -241,13 +236,14 @@ body {
         font-weight: 400;
         font-size: 22px; }
   #nav ul li.top-right-2 {
-    top: 65px;
-    right: 77px; }
+    top: 70px;
+    right: 72px; }
     #nav ul li.top-right-2 a {
       color: #000; }
   #nav ul li.top-left {
     top: 40px;
-    left: 50px; }
+    left: 50px;
+    font-size: 24px; }
     #nav ul li.top-left img {
       top: 20px; }
       @media (min-width: 768px) {
@@ -316,21 +312,33 @@ table {
     height: 60px;
     width: auto;
     z-index: 99999; }
-  @media (min-width: 992px) {
+  @media (min-width: 993px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 100px; } }
+        left: 118px;
+        height: 57vh;
+        margin-top: 145px; } }
+  @media (min-width: 1023px) {
+    #fresh-main img, #genious-main img, #motivate-main img {
+      position: absolute; }
+      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
+        left: 120px;
+        height: 75vh;
+        margin-top: 65px; } }
   @media (min-width: 1280px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 125px; } }
+        left: 130px;
+        margin-top: 65px;
+        height: 80vh; } }
   @media (min-width: 1380px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 145px; } }
+        left: 145px;
+        margin-top: 75px; } }
   @media (min-width: 992px) {
     #fresh-main img.animated, #genious-main img.animated, #motivate-main img.animated {
       animation: test 5s linear  infinite; }
@@ -542,9 +550,6 @@ table {
   margin: 60px 0 170px; }
   #mycarousel a.left.carousel-control:hover {
     color: #000; }
-  #mycarousel a.left.carousel-control:hover .text {
-    opacity: 1;
-    left: 53.4%; }
 
 .left-arrow {
   opacity: 1;
@@ -568,33 +573,47 @@ table {
   text-shadow: none;
   opacity: 1;
   transition: color .3s;
-  margin: 70px 0;
-  z-index: 1; }
+  margin: 110px 0;
+  z-index: 1;
+  position: fixed; }
   #mycarousel .control-right a.right.carousel-control .right-arrow {
     position: fixed;
-    width: 500px;
     top: 50%;
-    left: 77%;
+    left: 96%;
     transition: color .3s; }
     #mycarousel .control-right a.right.carousel-control .right-arrow span i.fa {
       font-size: 36px; }
     #mycarousel .control-right a.right.carousel-control .right-arrow:hover {
       color: #000; }
-    #mycarousel .control-right a.right.carousel-control .right-arrow:hover .text {
-      opacity: 1;
-      right: 60%; }
+  #mycarousel .control-right a.right.carousel-control:hover .text {
+    opacity: 1;
+    right: 60%; }
 
 .carousel-inner #main a.right.carousel-control {
   text-shadow: none;
   opacity: 1;
   transition: color .3s;
-  margin: 70px 0;
-  z-index: 9999999; }
+  margin: 110px 0; }
   .carousel-inner #main a.right.carousel-control .right-arrow {
     position: fixed;
-    width: 500px;
     top: 50%;
-    left: 77%; }
+    left: 90%; }
+    @media (min-width: 768px) {
+      .carousel-inner #main a.right.carousel-control .right-arrow {
+        width: 200px;
+        left: 84%; } }
+    @media (min-width: 992px) {
+      .carousel-inner #main a.right.carousel-control .right-arrow {
+        width: 300px;
+        left: 81%; } }
+    @media (min-width: 1023px) {
+      .carousel-inner #main a.right.carousel-control .right-arrow {
+        width: 400px;
+        left: 78%; } }
+    @media (min-width: 1280px) {
+      .carousel-inner #main a.right.carousel-control .right-arrow {
+        width: 500px;
+        left: 79%; } }
     .carousel-inner #main a.right.carousel-control .right-arrow .text {
       font-family: "Covered By Your Grace", cursive;
       font-size: 30px;

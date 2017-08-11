@@ -133,18 +133,18 @@
       font-weight: 500;
     }
     @include mq('sm'){
-      margin-top: 60%;
-      padding: 0 70px 0 130px;
-      font-size: 14px;
+      margin-top: 50%;
+      padding: 0 35px 0 0;
+      font-size: 16px;
     }
     @include mq('md'){
-      margin-top: 60%;
+      margin-top: 70%;
       padding: 0 70px 0 70px;
       padding-left: 0;
     }
     @include mq('lg') {
-      margin-top: 45%; 
-      padding-right: 80px;
+      margin-top: 54%; 
+      padding-right: 60px;
       font-size: 18px;
       line-height: 35px;
     }

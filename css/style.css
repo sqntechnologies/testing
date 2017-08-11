@@ -98,7 +98,7 @@ p.description {
     p.description {
       line-height: 30px;
       font-size: 16px;
-      margin-top: 45%;
+      margin-top: 40%;
       padding-right: 85px; } }
   @media (min-width: 1280px) {
     p.description {
@@ -124,7 +124,7 @@ p.description-fresh {
       padding-left: 0; } }
   @media (min-width: 1023px) {
     p.description-fresh {
-      margin-top: 50%;
+      margin-top: 45%;
       padding-right: 80px;
       font-size: 18px;
       line-height: 35px; } }
@@ -140,17 +140,47 @@ html, body {
 body {
   background-color: #fff; }
 
-.btn.btn-main {
-  margin: 20px 0 10px;
+.btn {
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 26px;
   text-transform: uppercase;
   background-color: #fff;
   color: #68BD45;
   transition: all, .4s;
-  padding: 10px 20px; }
-  .btn.btn-main:hover {
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%; }
+  .btn:hover {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.22); }
+
+.face-button {
+  height: 40px;
+  display: inline-block;
+  border: 3px solid #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #68BD45;
+  overflow: hidden; }
+  .face-button:hover {
+    text-decoration: none; }
+  .face-button .icon {
+    margin-right: 6px; }
+  .face-button .face-primary,
+  .face-button .face-secondary {
+    display: block;
+    padding: 0 10px;
+    line-height: 35px;
+    transition: margin .4s;
+    color: #fff; }
+  .face-button .face-primary {
+    background-color: #fff;
+    color: #68BD45; }
+  .face-button:hover .face-primary {
+    margin-top: -35px; }
 
 #nav ul li {
   position: fixed;

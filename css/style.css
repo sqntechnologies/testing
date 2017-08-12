@@ -130,6 +130,7 @@ p.description-fresh {
       line-height: 35px; } }
   @media (min-width: 1280px) {
     p.description-fresh {
+      margin-top: 47%;
       padding-right: 120px; } }
 
 html, body {
@@ -323,25 +324,39 @@ table {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 120px;
-        height: 75vh;
-        margin-top: 65px; } }
+        left: 115px;
+        height: 450px;
+        margin-top: 120px; } }
+  @media (min-width: 1180px) {
+    #fresh-main img, #genious-main img, #motivate-main img {
+      position: absolute; }
+      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
+        left: 140px;
+        margin-top: 140px;
+        height: 450px; } }
   @media (min-width: 1280px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
         left: 130px;
         margin-top: 65px;
-        height: 80vh; } }
+        height: 500px; } }
+  @media (min-width: 1283px) {
+    #fresh-main img, #genious-main img, #motivate-main img {
+      position: absolute; }
+      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
+        left: 130px;
+        margin-top: 95px;
+        height: 500px; } }
   @media (min-width: 1380px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
         left: 145px;
-        margin-top: 75px; } }
+        height: 580px; } }
   @media (min-width: 992px) {
     #fresh-main img.animated, #genious-main img.animated, #motivate-main img.animated {
-      animation: test 5s linear  infinite; }
+      animation: test 7s ease-in-out infinite; }
     @keyframes test {
       10% {
         transform: scale(1); }
@@ -362,13 +377,24 @@ table {
       z-index: 99999; }
     @media (min-width: 768px) {
       #fresh-main img {
-        margin-top: 25%;
+        margin-top: 35%;
         height: 80vh;
         float: right; } }
+    @media (min-width: 992px) {
+      #fresh-main img {
+        margin-top: 120px;
+        height: auto; } }
     @media (min-width: 1023px) {
       #fresh-main img {
-        margin: 6% auto;
-        height: 90vh; } }
+        margin-top: 100px; } }
+    @media (min-width: 1280px) {
+      #fresh-main img {
+        margin: 15% auto;
+        height: auto; } }
+    @media (min-width: 1380px) {
+      #fresh-main img {
+        margin: 10% auto;
+        height: auto; } }
 
 #genious-main {
   background-image: url("/img/geniousbg.png"); }

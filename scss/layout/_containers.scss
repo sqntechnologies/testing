@@ -48,9 +48,19 @@
       @include mq('lg'){
         position: absolute;
         &:nth-child(2n){
-          left: 120px;
-          height: 75vh;
-          margin-top: 65px;
+          left: 115px;
+          // height: 75vh;
+          height: 450px;
+          margin-top: 120px;
+        }
+      }
+      @media(min-width: 1180px){
+        position: absolute;
+        &:nth-child(2n){
+          left: 140px;
+          margin-top: 140px;
+          // height: 80vh;
+          height: 450px;
         }
       }
       @media(min-width: 1280px){
@@ -58,20 +68,34 @@
         &:nth-child(2n){
           left: 130px;
           margin-top: 65px;
-          height: 80vh;
+          // height: 80vh;
+          height: 500px;
+        }
+      }
+      @media(min-width: 1283px){
+        position: absolute;
+        &:nth-child(2n){
+          left: 130px;
+          margin-top: 95px;
+          // height: 80vh;
+          height: 500px;
         }
       }
       @media(min-width: 1380px){
         position: absolute;
         &:nth-child(2n){                    
           left: 145px;
-          margin-top: 75px;
+          // margin-top: 65px;
+          // margin-top: calc(100vh/10%);
+          
+          height: 580px;
         }
       }
     }
     @include mq('md'){      
       img.animated{
-        animation: test 5s linear  infinite;
+        // linear
+        animation: test 7s ease-in-out infinite;
         @keyframes test{
           10% { transform: scale(1);}
           80% { transform: scale(1.1);}
@@ -94,16 +118,28 @@
         z-index: 99999;
       }
       @include mq('sm'){
-        margin-top: 25%;
-        height: 80vh;   
+        margin-top: 35%;
+        height: 80vh;  
+        // height: auto; 
         float: right;     
       }
-            
-      @include mq('lg'){
-        margin: 6% auto;
-        height: 90vh;
+      @include mq('md'){
+        margin-top: 120px;
+        // height: 83vh;
+        height: auto;
       }
-     
+      @include mq('lg'){
+        margin-top: 100px;
+      }      
+      @include mq('xl'){
+        margin: 15% auto;
+        // height: 90vh;
+        height: auto;
+      }
+     @media (min-width: 1380px){
+       margin: 10% auto;
+       height: auto;
+     }
       // @media (min-width: 992px){
       //   height: 90vh;
       // }

@@ -209,7 +209,7 @@
 		},
 	"\/img\/fresh-main.png": {
 		"ft": 32768,
-		"iS": 549935,
+		"iS": 424526,
 		"oA": 0,
 		"oAP": "\/img\/fresh-main.png",
 		"oF": 0,
@@ -231,7 +231,7 @@
 		},
 	"\/img\/fresh.png": {
 		"ft": 32768,
-		"iS": 226577,
+		"iS": 192924,
 		"oA": 0,
 		"oAP": "\/img\/fresh.png",
 		"oF": 0,
@@ -381,7 +381,7 @@
 		},
 	"\/img\/leafs-fresh.png": {
 		"ft": 32768,
-		"iS": 7192726,
+		"iS": 6821824,
 		"oA": 0,
 		"oAP": "\/img\/leafs-fresh.png",
 		"oF": 0,
@@ -392,7 +392,7 @@
 		},
 	"\/img\/leafs-gen.png": {
 		"ft": 32768,
-		"iS": 7603295,
+		"iS": 7070899,
 		"oA": 0,
 		"oAP": "\/img\/leafs-gen.png",
 		"oF": 0,
@@ -403,7 +403,7 @@
 		},
 	"\/img\/leafs-mot.png": {
 		"ft": 32768,
-		"iS": 8101506,
+		"iS": 7591579,
 		"oA": 0,
 		"oAP": "\/img\/leafs-mot.png",
 		"oF": 0,
@@ -518,7 +518,7 @@
 		},
 	"\/img\/motivate-main.png": {
 		"ft": 32768,
-		"iS": 645719,
+		"iS": 602673,
 		"oA": 0,
 		"oAP": "\/img\/motivate-main.png",
 		"oF": 0,

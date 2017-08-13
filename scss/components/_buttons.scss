@@ -42,13 +42,10 @@
       @include mq('lg'){
         margin-left: 0;
       }
-      
     }
-    
     .icon {
       margin-right: 6px;
     }
-    
     .face-primary,
     .face-secondary {
       display: block;
@@ -56,15 +53,58 @@
       line-height: 35px;
       transition: margin .4s;
       color: #fff;
-      
     }
-    
     .face-primary {
       background-color: #fff;
       color: $main-green;
     }
-    
     &:hover .face-primary {
       margin-top: -35px;
     }
+}
+.face-button-card {
+  $height: 40px;
+  height: $height;
+  display: inline-block;
+  border: 3px solid #fff;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: $main-green;
+  overflow: hidden;
+  &:hover{
+    text-decoration: none;
+  }
+  &.cm{
+    @include mq('sm'){
+      margin-left: 130px;
+    }
+    @include mq('md'){
+      margin-left: 0;
+    }
+    @include mq('lg'){
+      margin-left: 0;
+    }
+  }
+  .icon {
+    margin-right: 6px;
+  }
+  .face-primary,
+  .face-secondary {
+    display: block;
+    padding: 0 10px;
+    line-height: 35px;
+    transition: margin .4s;
+    color: #000;
+  }
+  .face-primary {
+    background-color: #fff;
+    color: $main-green;
+  }
+  &:hover .face-primary {
+    margin-top: -35px;
+   
+  }
 }

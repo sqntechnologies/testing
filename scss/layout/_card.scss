@@ -278,6 +278,13 @@
           
         }
       }
+      .logos{
+        @include mq('xl'){
+          padding: 0 220px;
+          margin-bottom: 20px;
+        }
+        
+      }
     }
     .footer{
       padding-left: 100px;

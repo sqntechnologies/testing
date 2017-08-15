@@ -32,9 +32,15 @@
     &:hover{
       text-decoration: none;
     }
+    @include mq('sm'){
+      margin-left: 30px;
+    }
+    @include mq('lg'){
+      margin-left: 0;
+    }
     &.cm{
       @include mq('sm'){
-        margin-left: 130px;
+        margin-left: 40px;
       }
       @include mq('md'){
         margin-left: 0;

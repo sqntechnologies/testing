@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+
+    .panel {
+      border: 0;
+      margin-bottom: 0;
+    }
+
+    .text {
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+
+    .mauve { background: #c9f }
+    .mint  { background: #9fc }
+    .peach { background: #fc9 }
+
+    .text.mauve { background: #edf }
+    .text.mint  { background: #dfe }
+    .text.peach { background: #fed }
+      
+  </style>
+</head>
+<body>
+  <div id="myGroup" class="container-fluid">
+    <div class="panel">
+      <div class="row mint" >
+        <div role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="col-xs-4">left</div>
+        <div role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="col-xs-4 text-center">center</div>
+        <div class="col-xs-4">
+          <div class="row mint" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseOne-1" aria-expanded="false" aria-controls="collapseOne-1">
+              <div class="col-xs-12 text-right">
+                  right
+              </div>
+            </div>  
+        </div>
+        <!-- <div class="col-xs-4 text-right">right</div> -->
+                  
+      </div>  
+      <div style="width: 50%;" id="collapseOne" class="collapse">
+        <div class="text mint">text</div>
+      </div>
+      <div style="width: 50%; margin-left: 60%;" id="collapseOne-1" class="collapse">
+          <div class="text mint">text 2</div>
+        </div>
+      <div class="row mauve" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <div class="col-xs-4">left</div>
+        <div class="col-xs-4 text-center">center</div>
+        <div class="col-xs-4 text-right">right</div>
+      </div>
+      <div id="collapseTwo" class="row collapse">
+       <div class="text mauve">text</div>
+      </div>
+      
+      <div class="row peach" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <div class="col-xs-4">left</div>
+        <div class="col-xs-4 text-center">center</div>
+        <div class="col-xs-4 text-right">right</div>
+      </div>
+      <div id="collapseThree" class="row collapse">
+        <div class="text peach">text</div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>

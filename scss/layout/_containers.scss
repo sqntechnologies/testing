@@ -30,6 +30,16 @@
     //     }
     //   }
     // }
+    .logo-sm{
+      height: 120px; 
+      float: none;
+      margin: 45% 0 4% 0;
+    }
+    .logo-sm-2{
+      height: 150px; 
+      float: none;
+      margin: 45% 0 4% 0;
+    }
     img{      
       &[src*="img/logoHN.png"]{
         margin: 1% 0 0 2%;
@@ -105,8 +115,10 @@
     
   }
   #fresh-main{
-    background-image: url('/img/fresh-main.png');
-    
+    background-image: url('/img/fresh-main-sm.jpg');
+    @include mq('md'){
+      background-image: url('/img/fresh-main.jpg');
+    }
     img{
       height: 300px;
       margin: 10% auto;
@@ -117,10 +129,10 @@
         z-index: 99999;
       }
       @include mq('sm'){
-        margin-top: 35%;
-        height: 80vh;  
+        margin-top: 27%;
+        height: 78vh;  
         // height: auto; 
-        float: right;     
+        // float: right;     
       }
       @include mq('md'){
         margin-top: 120px;
@@ -139,6 +151,8 @@
        margin: 6% auto;
        height: auto;
      }
+     
+     
       // @media (min-width: 992px){
       //   height: 90vh;
       // }
@@ -146,9 +160,13 @@
       // width: auto;
       // margin: 0 auto;
     }
+    
   }
   #genious-main{
-    background-image: url('/img/geniousbg.png');
+    background-image: url('/img/genious-main-sm.jpg');
+    @include mq('md'){
+      background-image: url('/img/genious-main.jpg');
+    }
     // -moz-background-size: cover;
     // -o-background-size: cover;
     // background-size: cover;
@@ -164,7 +182,7 @@
         //float: right;     
       }       
       @include mq('lg'){
-        margin: 6% 3%;
+        margin: 100px 3%;
         // height: 90vh;
         height: auto;
       }
@@ -179,7 +197,10 @@
     }
   }
   #motivate-main{
-    background-image: url('/img/motivatebg.png');
+    background-image: url('/img/motivate-main-sm.jpg');
+    @include mq('md'){
+      background-image: url('/img/motivate-main.jpg');
+    }
     // -moz-background-size: cover;
     // -o-background-size: cover;
     // background-size: cover;
@@ -191,12 +212,18 @@
       margin: 0 auto;
       @include mq('sm'){
         margin-top: 25%;
-        height: 80vh;   
+        height: 78vh;
         //float: right;     
       }       
       @include mq('lg'){
+        margin: 100px 3%;
+        // height: 90vh;
+        height: auto;
+      }
+      @include mq('xl'){
         margin: 6% auto 0;
-        height: 90vh;
+        // height: 90vh;
+        height: auto;
       }
     }
   }
@@ -441,8 +468,8 @@
     transition: color .3s;
     // width: 38%;
     position: fixed;
-    @include mq('lg'){
-      margin: 100px 0 170px;
+    @include mq('sm'){
+      margin: 120px 0 170px;
     }
    
     &:hover{
@@ -508,8 +535,14 @@
       // -moz-transform: translateY(90%);
       // -o-transform: translateY(90%);
       top: 50%;
-      left: 96%;
+      left: 91%;
       transition: color .3s;
+      @include mq('sm'){
+        left: 95%;
+      }
+      @include mq('lg'){
+        left: 96%;
+      }
       span i.fa{
         font-size: 36px;        
       }

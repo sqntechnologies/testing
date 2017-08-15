@@ -83,8 +83,8 @@ p.description {
         font-size: 30px; } }
   @media (min-width: 768px) {
     p.description {
-      margin-top: 47%;
-      padding: 0 60px 0 128px;
+      margin-top: 0;
+      padding: 0 60px 0 40px;
       font-size: 14px; } }
   @media (min-width: 992px) {
     p.description {
@@ -114,8 +114,8 @@ p.description-fresh {
     font-weight: 500; }
   @media (min-width: 768px) {
     p.description-fresh {
-      margin-top: 50%;
-      padding: 0 35px 0 0;
+      margin-top: 0;
+      padding: 0 35px 0 30px;
       font-size: 16px; } }
   @media (min-width: 992px) {
     p.description-fresh {
@@ -132,6 +132,13 @@ p.description-fresh {
     p.description-fresh {
       margin-top: 47%;
       padding-right: 120px; } }
+
+.panel {
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  box-shadow: none; }
 
 html, body {
   height: 100%;
@@ -155,8 +162,14 @@ body {
   .face-button:hover {
     text-decoration: none; }
   @media (min-width: 768px) {
+    .face-button {
+      margin-left: 30px; } }
+  @media (min-width: 1023px) {
+    .face-button {
+      margin-left: 0; } }
+  @media (min-width: 768px) {
     .face-button.cm {
-      margin-left: 130px; } }
+      margin-left: 40px; } }
   @media (min-width: 992px) {
     .face-button.cm {
       margin-left: 0; } }
@@ -345,6 +358,14 @@ table {
   background-size: cover;
   background-position: center center;
   height: 100%; }
+  #fresh-main .logo-sm, #genious-main .logo-sm, #motivate-main .logo-sm {
+    height: 120px;
+    float: none;
+    margin: 45% 0 4% 0; }
+  #fresh-main .logo-sm-2, #genious-main .logo-sm-2, #motivate-main .logo-sm-2 {
+    height: 150px;
+    float: none;
+    margin: 45% 0 4% 0; }
   #fresh-main img[src*="img/logoHN.png"], #genious-main img[src*="img/logoHN.png"], #motivate-main img[src*="img/logoHN.png"] {
     margin: 1% 0 0 2%;
     height: 60px;
@@ -404,7 +425,10 @@ table {
         transform: scale(1); } } }
 
 #fresh-main {
-  background-image: url("/img/fresh-main.png"); }
+  background-image: url("/img/fresh-main-sm.jpg"); }
+  @media (min-width: 992px) {
+    #fresh-main {
+      background-image: url("/img/fresh-main.jpg"); } }
   #fresh-main img {
     height: 300px;
     margin: 10% auto; }
@@ -415,9 +439,8 @@ table {
       z-index: 99999; }
     @media (min-width: 768px) {
       #fresh-main img {
-        margin-top: 35%;
-        height: 80vh;
-        float: right; } }
+        margin-top: 27%;
+        height: 78vh; } }
     @media (min-width: 992px) {
       #fresh-main img {
         margin-top: 120px;
@@ -435,7 +458,10 @@ table {
         height: auto; } }
 
 #genious-main {
-  background-image: url("/img/geniousbg.png"); }
+  background-image: url("/img/genious-main-sm.jpg"); }
+  @media (min-width: 992px) {
+    #genious-main {
+      background-image: url("/img/genious-main.jpg"); } }
   #genious-main img {
     height: 300px;
     margin: 10% auto; }
@@ -445,7 +471,7 @@ table {
         height: 78vh; } }
     @media (min-width: 1023px) {
       #genious-main img {
-        margin: 6% 3%;
+        margin: 100px 3%;
         height: auto; } }
     @media (min-width: 1280px) {
       #genious-main img {
@@ -455,18 +481,25 @@ table {
       margin-right: 10px; }
 
 #motivate-main {
-  background-image: url("/img/motivatebg.png"); }
+  background-image: url("/img/motivate-main-sm.jpg"); }
+  @media (min-width: 992px) {
+    #motivate-main {
+      background-image: url("/img/motivate-main.jpg"); } }
   #motivate-main img {
     height: 300px;
     margin: 0 auto; }
     @media (min-width: 768px) {
       #motivate-main img {
         margin-top: 25%;
-        height: 80vh; } }
+        height: 78vh; } }
     @media (min-width: 1023px) {
       #motivate-main img {
+        margin: 100px 3%;
+        height: auto; } }
+    @media (min-width: 1280px) {
+      #motivate-main img {
         margin: 6% auto 0;
-        height: 90vh; } }
+        height: auto; } }
 
 #main-image img.img-responsive {
   margin: 0 auto;
@@ -611,9 +644,9 @@ table {
   opacity: 1;
   transition: color .3s;
   position: fixed; }
-  @media (min-width: 1023px) {
+  @media (min-width: 768px) {
     #mycarousel a.left.carousel-control {
-      margin: 100px 0 170px; } }
+      margin: 120px 0 170px; } }
   #mycarousel a.left.carousel-control:hover {
     color: #000; }
 
@@ -645,8 +678,14 @@ table {
   #mycarousel .control-right a.right.carousel-control .right-arrow {
     position: fixed;
     top: 50%;
-    left: 96%;
+    left: 91%;
     transition: color .3s; }
+    @media (min-width: 768px) {
+      #mycarousel .control-right a.right.carousel-control .right-arrow {
+        left: 95%; } }
+    @media (min-width: 1023px) {
+      #mycarousel .control-right a.right.carousel-control .right-arrow {
+        left: 96%; } }
     #mycarousel .control-right a.right.carousel-control .right-arrow span i.fa {
       font-size: 36px; }
     #mycarousel .control-right a.right.carousel-control .right-arrow:hover {
@@ -756,14 +795,20 @@ table {
         font-size: 34px; }
       .card .content p.sub-heading {
         font-weight: 300; }
-    .card .content .img-card {
-      margin: 20px 0 0; }
-      @media (min-width: 992px) {
-        .card .content .img-card {
-          height: 100px; } }
-      @media (min-width: 1280px) {
-        .card .content .img-card {
-          height: 120px; } }
+    @media (min-width: 992px) {
+      .card .content .img-card {
+        margin: 20px 0 0;
+        height: 100px; } }
+    @media (min-width: 1280px) {
+      .card .content .img-card {
+        height: 120px; } }
+    @media (min-width: 992px) {
+      .card .content .img-card-fresh {
+        margin: 20px 0 0;
+        height: 100px; } }
+    @media (min-width: 1280px) {
+      .card .content .img-card-fresh {
+        height: 170px; } }
     .card .content .description {
       margin-bottom: 20px;
       padding: 0 40px; }
@@ -848,6 +893,18 @@ table {
           padding: 0 230px 0;
           margin-top: 20px; } }
     @media (min-width: 768px) {
+      .card .content-about .face-button-card {
+        margin: 0 40px 0 140px; } }
+    @media (min-width: 992px) {
+      .card .content-about .face-button-card {
+        margin: 0 70px 0 150px; } }
+    @media (min-width: 1023px) {
+      .card .content-about .face-button-card {
+        margin: 0 100px 0 190px; } }
+    @media (min-width: 1280px) {
+      .card .content-about .face-button-card {
+        margin: 0 230px 0; } }
+    @media (min-width: 768px) {
       .card .content-about .social {
         padding: 0 140px; } }
     @media (min-width: 992px) {
@@ -855,7 +912,7 @@ table {
         padding: 0 150px; } }
     @media (min-width: 1023px) {
       .card .content-about .social {
-        padding: 0 160px; } }
+        padding: 0 190px; } }
     @media (min-width: 1280px) {
       .card .content-about .social {
         padding: 0 230px; } }
@@ -925,10 +982,20 @@ table {
         overflow: hidden; }
         .card .content-about #contact-form .form-group .form-control {
           width: 45%; } }
+    .card .content-about .logos img {
+      margin: 0 auto 20px; }
+    @media (min-width: 768px) {
+      .card .content-about .logos {
+        padding: 0 50px 0 150px; } }
+    @media (min-width: 992px) {
+      .card .content-about .logos {
+        padding: 0 30px 0 200px; } }
+    @media (min-width: 1023px) {
+      .card .content-about .logos {
+        padding: 0 70px 0 200px; } }
     @media (min-width: 1280px) {
       .card .content-about .logos {
-        padding: 0 220px;
-        margin-bottom: 20px; } }
+        padding: 0 50px 0 240px; } }
   .card .footer {
     padding-left: 100px; }
     @media (min-width: 1023px) {

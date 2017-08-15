@@ -98,8 +98,8 @@
     }
     
     @include mq('sm'){
-      margin-top: 47%;
-      padding: 0 60px 0 128px;
+      margin-top: 0;
+      padding: 0 60px 0 40px;
       font-size: 14px;
     }
     @include mq('md'){
@@ -133,8 +133,8 @@
       font-weight: 500;
     }
     @include mq('sm'){
-      margin-top: 50%;
-      padding: 0 35px 0 0;
+      margin-top: 0;
+      padding: 0 35px 0 30px;
       font-size: 16px;
     }
     @include mq('md'){
@@ -155,5 +155,12 @@
       padding-right: 120px;
     }
     
+  }
+  .panel{
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
   }
 

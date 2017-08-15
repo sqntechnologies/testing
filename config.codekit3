@@ -207,6 +207,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/fresh-main-sm.jpg": {
+		"ft": 16384,
+		"iS": 212081,
+		"oA": 0,
+		"oAP": "\/img\/fresh-main-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/fresh-main.jpg": {
+		"ft": 16384,
+		"iS": 273125,
+		"oA": 0,
+		"oAP": "\/img\/fresh-main.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/fresh-main.png": {
 		"ft": 32768,
 		"iS": 424526,
@@ -238,6 +258,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/genious-main-sm.jpg": {
+		"ft": 16384,
+		"iS": 220663,
+		"oA": 0,
+		"oAP": "\/img\/genious-main-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/genious-main.jpg": {
+		"ft": 16384,
+		"iS": 255118,
+		"oA": 0,
+		"oAP": "\/img\/genious-main.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/genious-main.png": {
@@ -461,6 +501,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/Logo-HN-Fresh-Bisel.png": {
+		"ft": 32768,
+		"iS": 231056,
+		"oA": 0,
+		"oAP": "\/img\/Logo-HN-Fresh-Bisel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Logo-HN-GeniousBisel.png": {
+		"ft": 32768,
+		"iS": 157239,
+		"oA": 0,
+		"oAP": "\/img\/Logo-HN-GeniousBisel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Logo-HN-MotivateBisel.png": {
+		"ft": 32768,
+		"iS": 132949,
+		"oA": 0,
+		"oAP": "\/img\/Logo-HN-MotivateBisel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 4686,
@@ -505,11 +578,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/LOGOS BISEL BLANCO-02.png": {
+		"ft": 32768,
+		"iS": 152829,
+		"oA": 0,
+		"oAP": "\/img\/LOGOS BISEL BLANCO-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logos\/cityMarket.png": {
+		"ft": 32768,
+		"iS": 16365,
+		"oA": 0,
+		"oAP": "\/img\/logos\/cityMarket.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/logos\/comercial-mexicana.png": {
 		"ft": 32768,
 		"iS": 46943,
 		"oA": 0,
 		"oAP": "\/img\/logos\/comercial-mexicana.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logos\/fresko.png": {
+		"ft": 32768,
+		"iS": 40498,
+		"oA": 0,
+		"oAP": "\/img\/logos\/fresko.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -569,6 +675,26 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/motivate-main-sm.jpg": {
+		"ft": 16384,
+		"iS": 220524,
+		"oA": 0,
+		"oAP": "\/img\/motivate-main-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/motivate-main.jpg": {
+		"ft": 16384,
+		"iS": 284232,
+		"oA": 0,
+		"oAP": "\/img\/motivate-main.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/motivate-main.png": {
@@ -991,6 +1117,12 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/test.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test.html",
+		"oF": 0
 		},
 	"\/testing\/CNAME": {
 		"ft": 8192,

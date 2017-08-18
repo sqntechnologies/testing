@@ -35,8 +35,11 @@
     @include mq('sm'){
       margin-left: 30px;
     }
-    @include mq('lg'){
-      margin-left: 0;
+    @include mq('md'){
+      margin-left: 20px;
+    }
+    @include mq('xl'){
+      // margin-left: 10px;
     }
     &.cm{
       @include mq('sm'){
@@ -46,7 +49,7 @@
         margin-left: 0;
       }
       @include mq('lg'){
-        margin-left: 0;
+        margin-left: 20px;
       }
     }
     .icon {
@@ -72,7 +75,7 @@
   $height: 40px;
   height: $height;
   display: inline-block;
-  border: 3px solid #fff;
+  //border: 3px solid #fff;
   font-family: $main-font;
   font-size: 14px;
   font-weight: 500;
@@ -106,8 +109,12 @@
     color: #000;
   }
   .face-primary {
-    background-color: #fff;
+    background-color: transparent;
     color: $main-green;
+    padding: 0 190px 0 0;
+  }
+  .face-secondary{
+    padding-right: 100px;
   }
   &:hover .face-primary {
     margin-top: -35px;

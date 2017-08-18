@@ -174,6 +174,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/footer-test.png": {
+		"ft": 32768,
+		"iS": 7047854,
+		"oA": 0,
+		"oAP": "\/img\/footer-test.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/footer.png": {
 		"ft": 32768,
 		"iS": 7047854,
@@ -212,6 +223,16 @@
 		"iS": 212081,
 		"oA": 0,
 		"oAP": "\/img\/fresh-main-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/fresh-main-test.jpg": {
+		"ft": 16384,
+		"iS": 242101,
+		"oA": 0,
+		"oAP": "\/img\/fresh-main-test.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -265,6 +286,16 @@
 		"iS": 220663,
 		"oA": 0,
 		"oAP": "\/img\/genious-main-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/genious-main-test.jpg": {
+		"ft": 16384,
+		"iS": 255486,
+		"oA": 0,
+		"oAP": "\/img\/genious-main-test.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -362,7 +393,7 @@
 		"oAP": "\/img\/hidroTest.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/HNGenious.jpg": {
@@ -685,6 +716,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/motivate-main-test.jpg": {
+		"ft": 16384,
+		"iS": 253501,
+		"oA": 0,
+		"oAP": "\/img\/motivate-main-test.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/motivate-main.jpg": {

@@ -68,7 +68,7 @@
           margin: 20px 0 0;
           height: 100px;
         }
-        @include mq('xl'){
+        @include mq('lg'){
           height: 170px;
         }
       }
@@ -178,7 +178,7 @@
           margin-top: 20px;
         }
         @include mq('xl'){
-          padding: 0 230px 0;
+          padding: 0 75px 0 230px;
           margin-top: 20px;
           // padding: 0 220px;
           // padding-left: 200px;
@@ -195,8 +195,21 @@
         @include mq('lg'){
           margin: 0 100px 0 190px;
         }
-        @include mq('xl'){
-          margin: 0 230px 0;
+        // @include mq('xl'){
+        //   margin: 0 230px 0;
+        // }
+      }
+      .social-contacto{
+        a{
+          font-family: $secondary-font;
+          font-size: 28px;
+          color: #000;
+          @include mq('xl'){
+            // padding-left: 200px;
+            &:nth-child(2n){
+              padding-left: 10px;
+            }     
+          }           
         }
       }
       .social{
@@ -303,10 +316,21 @@
       }
       .logos{
         img{
-          margin: 0 auto 20px ;
-          @include mq('md'){
-            
+          margin: 0 auto 20px;
+          @include mq('xl'){
+            &[src*="img/logos/heb.png"]{
+              width: 150px;
+            }
+            &[src*="img/logos/oxxo.png"]{
+              width: 110px;
+            }
           }
+          @media(min-width:1920px){
+            &[src*="img/logos/oxxo.png"]{
+              width: 130px;
+            }
+          }
+          
         }
         @include mq('sm'){
           padding: 0 50px 0 150px;
@@ -321,7 +345,7 @@
           
         }
         @include mq('xl'){
-          padding: 0 50px 0 240px;
+          padding: 0 80px 0 240px;
           
         }
         

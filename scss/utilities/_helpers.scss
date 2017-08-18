@@ -83,6 +83,7 @@
     font-family: $main-font;
     font-size: 18px;    
     color: #fff;
+    margin-top: 0;
     span{
       font-family: $funny-font;      
       font-weight: 500;
@@ -96,7 +97,9 @@
         font-size: 30px;
       }
     }
-    
+    // @media(max-width: 1024px) and (max-height: 774px){
+    //   margin-top: 62%;
+    // }
     @include mq('sm'){
       margin-top: 0;
       padding: 0 60px 0 40px;
@@ -110,14 +113,21 @@
       padding-right: 75px;
       font-size: 16px;
     }
+    @media (min-width: 993px){
+      padding: 0 70px 0 15px;
+    }
+    
     @include mq('lg') {
       line-height: 30px;
       font-size: 16px;
-      margin-top: 40%; 
-      padding-right: 85px;
+      // margin-top: 40%; 
+      // padding-right: 85px;
+      margin-top: 58%; 
+      padding: 0 60px 0 20px;
     }
+    
     @include mq('xl'){      
-      
+      margin-top: 49%;
       //margin-top: 60%; 
       padding-right: 105px;
     }
@@ -137,14 +147,18 @@
       padding: 0 35px 0 30px;
       font-size: 16px;
     }
+    
     @include mq('md'){
       margin-top: 70%;
       padding: 0 70px 0 70px;
       padding-left: 0;
     }
+    @media (min-width: 993px){
+      padding: 0 70px 0 15px;
+    }
     @include mq('lg') {
-      margin-top: 54%; 
-      padding-right: 60px;
+      margin-top: 63%; 
+      padding: 0 60px 0 20px;
       font-size: 18px;
       line-height: 35px;
     }

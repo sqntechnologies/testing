@@ -6,15 +6,69 @@
   // background-size: cover;
   background-color: #aa0000;
   height: 100%;
-  @include mq('md'){
-    
+  div.col-xs-12.product-card-img{      
+    padding: 0;
+  }
+  @include mq('lg'){
     div.col-md-3{
       padding-left: 0;
     }
-    .background-left img{
-      max-height: 100vh;
-      width: auto;
-      display: block;
+    // padding-top: 10px;    
+  }
+  .background-left {
+    overflow: hidden;
+    // position: fixed;
+    // z-index: 200;
+    @include mq('lg'){
+      overflow: initial;
+    }
+    img{        
+      height: 550px;
+      transform: scale(1.2);
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        height: 620px;
+      }
+      
+      /* Portrait and Landscape */
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2) { 
+        
+        height: 750px;
+      }
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+        height: 650px;
+      }
+      @media only screen 
+      and (min-device-width: 414px) 
+      and (max-device-width: 736px) 
+      and (-webkit-min-device-pixel-ratio: 3)
+      and (orientation: landscape) { 
+        height: 800px;
+      }
+      // width: 91.2vh;
+      @include mq('sm'){
+        height: 650px;
+        transform: scale(1);
+      }
+      @include mq('lg'){          
+        height: auto;
+        max-height: 100vh;
+        width: auto;
+        display: block;
+        transform: scale(1);
+      }
+      
+      // background-position: 50%;
     }
   }
 

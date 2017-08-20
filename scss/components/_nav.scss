@@ -56,7 +56,7 @@
       transform: rotate(-90deg);
       font-size: 18px;
       @include mq('sm'){
-        bottom: 160px;
+        bottom: 120px;
         left: 0; 
       }
       @include mq('md'){
@@ -64,13 +64,13 @@
         left: 0; 
       }
       @include mq('lg'){
-        bottom: 175px;
-        left: 0; 
-        right: 90%; 
+        bottom: 110px;
+        
+        right: 92%; 
       }
       @include mq('xl'){
-        bottom: 180px; 
-        right: 95%; 
+        bottom: 120px; 
+        right: 92%; 
       }
     }
     &.top-right{
@@ -136,7 +136,32 @@
       
     }
   }
-
-  #menu-hidronatura ul.nav.navbar-nav{
-    background-color: #fff;
+  .navbar-custom{
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1023;
+    button.navbar-toggle{
+      margin-top: 3px;
+    }
+    .navbar-brand img{
+      width: 120px;
+    }
+    // .btn.btn-link.navbar-toggle.collapsed{
+    //   .icon-bar{
+    //     background-color: #000;
+    //   }
+    // }
   }
+  #menu-hidronatura ul.nav.navbar-nav{
+    background-color: $main-green;
+    li a{
+      color: #fff;
+      font-family: $funny-font;
+      font-size: 20px;
+      
+    }
+  }
+  

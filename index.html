@@ -24,11 +24,36 @@
   </style>
 </head>
 <body>
+    
   <div id="mycarousel" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox">    
     <div class="item">
+          
       <div id="main">
+          <div class="visible-xs">
+              <nav class="navbar navbar-custom">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs visible-sm" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
+                  </div>
+                   <div class="collapse navbar-collapse" id="menu-hidronatura">
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">INICIO</a></li>
+                      <li><a href="menu.html">PRODUCTOS</a></li>
+                      <li><a href="nosotros.html">NOSOTROS</a></li>
+                      <li><a href="index.html">SOCIAL</a></li>
+                    </ul>
+                  </div> 
+                </div>
+              </nav>
+            </div>       
         <div id="main-image">
           <img class="img-responsive" src="img/main.png" alt="">
         </div>
@@ -40,11 +65,11 @@
           <span class="sr-only">Next</span>
         </a>   
       </div>
-       
+      
       <nav id="nav">
         <ul class="hidden-xs">
           <li class="bottom-right"><a href="menu.html">productos</a></li>
-          <li class="top-right-2"><a style="color:#fff;"   href="nosotros.html">nosotros</a></li>
+          <li  class="bottom-left-rot"><a href="nosotros.html">nosotros</a></li>
           <li class="top-right">
             <a style="color: #fff;" href="en/motivate.html">EN</a>
             <a style="color: #fff;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
@@ -93,7 +118,8 @@
       <nav id="nav">
         <ul class="hidden-xs">
           <li class="bottom-right"><a href="menu.html">productos</a></li>
-          <li class="top-right-2"><a style="color:#fff;"   href="contacto.html">contacto</a></li>
+          <li  class="bottom-left-rot visible-lg visible-xl"><a href="contacto.html">contacto</a></li>
+          <li class="top-right-2 visible-md"><a style="color:#fff; " href="contacto.html">contacto</a></li>
           <li class="top-right">
             <a style="color: #fff;" href="en/motivate.html">EN</a>
             <a style="color: #fff;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
@@ -244,14 +270,18 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap-min.js"></script>
   <script>
-    $(setTimeout(function(){
-      $('.text').css({
-        'opacity': '1',
-        'right': '60%',
-        'color': '#000'
-      });
-      $('.carousel-inner #main a.right.carousel-control').css('color', '#000');
-    }, 5000));
+    if($(window).width() >= 1024){
+      // do your stuff
+      $(setTimeout(function(){
+        $('.text').css({
+          'opacity': '1',
+          'right': '60%',
+          'color': '#000'
+        });
+        $('.carousel-inner #main a.right.carousel-control').css('color', '#000');
+      }, 5000));
+    }
+   
     var $item = $('.carousel .item'); 
     var $wHeight = $(window).height();
     $item.eq(0).addClass('active');

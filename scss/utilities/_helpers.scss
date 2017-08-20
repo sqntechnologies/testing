@@ -34,6 +34,10 @@
   ul.inside{
     //  list-style-image: url('/img/ok.png');
     list-style: none;
+    padding-left: 20px;
+    @include mq('xl'){
+      padding-left: 40px;
+    }
     li{
       position: relative;
       &:before{
@@ -41,13 +45,37 @@
         display: block;
         content: '\2022';
         text-indent: -999999px;
-        left: -12%;
-        width: 19px;
-        height: 21px;
+        left: -18%;
+        width: 14px;
+        height: 20px;
         background-repeat: no-repeat;
         background-image: url('../img/ok.png');
         background-size: 14px 14px;
         background-position: 0 .3em;
+        @media only screen 
+        and (min-device-width: 320px) 
+        and (max-device-width: 480px)
+        and (-webkit-min-device-pixel-ratio: 2)
+        and (orientation: landscape) {
+          left: -10%;
+        }
+        /* Portrait and Landscape */
+        @media only screen 
+        and (min-device-width: 414px) 
+        and (max-device-width: 736px) 
+        and (-webkit-min-device-pixel-ratio: 3) { 
+          left: -10%;
+        }
+        @media only screen 
+        and (min-device-width: 414px) 
+        and (max-device-width: 736px) 
+        and (-webkit-min-device-pixel-ratio: 3)
+        and (orientation: landscape) { 
+          left: -7%;
+        }
+        @include mq('xl'){
+          left: -12%;
+        }
       }
     }
   }
@@ -55,6 +83,10 @@
   ul.not{
     list-style: none;
     // list-style-image: url('/img/not.png');
+    padding-left: 20px;
+    @include mq('xl'){
+      padding-left: 40px;
+    }
     li{
       position: relative;
       &:before{
@@ -62,13 +94,37 @@
         display: block;
         content: '\2022';
         text-indent: -999999px;
-        left: -12%;
+        left: -18%;
         width: 19px;
         height: 21px;
         background-repeat: no-repeat;
         background-image: url('../img/not.png');
         background-size: 14px 14px;
         background-position: 0 .3em;
+        @media only screen 
+        and (min-device-width: 320px) 
+        and (max-device-width: 480px)
+        and (-webkit-min-device-pixel-ratio: 2)
+        and (orientation: landscape) {
+          left: -10%;
+        }
+        @media only screen 
+        and (min-device-width: 414px) 
+        and (max-device-width: 736px) 
+        and (-webkit-min-device-pixel-ratio: 3)
+        and (orientation: portrait) { 
+          left: -14%;
+        }
+        @media only screen 
+        and (min-device-width: 414px) 
+        and (max-device-width: 736px) 
+        and (-webkit-min-device-pixel-ratio: 3)
+        and (orientation: landscape) { 
+          left: -8%;
+        }
+        @include mq('xl'){
+          left: -12%;
+        }
       }
     }
     

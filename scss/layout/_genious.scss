@@ -17,8 +17,19 @@
   }
   .background-left {
     overflow: hidden;
-    // position: fixed;
-    // z-index: 200;
+    position: fixed;
+    z-index: 200;
+    background-image: url('/img/HIDRO_GENIOUS_FOTO.jpg');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    @include mq('lg'){
+      background-image: url('/img/geniousTest.jpg');
+      width: 50%;
+    }
     @include mq('lg'){
       overflow: initial;
     }

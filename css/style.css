@@ -57,6 +57,12 @@ ul.inside {
       @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
         ul.inside li:before {
           left: -7%; } }
+      @media (min-width: 768px) {
+        ul.inside li:before {
+          left: -7%; } }
+      @media (min-width: 1023px) {
+        ul.inside li:before {
+          left: -11%; } }
       @media (min-width: 1280px) {
         ul.inside li:before {
           left: -12%; } }
@@ -90,6 +96,12 @@ ul.not {
       @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
         ul.not li:before {
           left: -8%; } }
+      @media (min-width: 768px) {
+        ul.not li:before {
+          left: -7%; } }
+      @media (min-width: 1023px) {
+        ul.not li:before {
+          left: -11%; } }
       @media (min-width: 1280px) {
         ul.not li:before {
           left: -12%; } }
@@ -366,7 +378,7 @@ body {
 
 .navbar-custom {
   margin-bottom: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -910,7 +922,20 @@ table {
     #fresh div.col-md-3 {
       padding-left: 0; } }
   #fresh .background-left {
-    overflow: hidden; }
+    overflow: hidden;
+    position: fixed;
+    z-index: 200;
+    background-image: url("/img/HIDRO_FRESH_FOTO.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%; }
+    @media (min-width: 1023px) {
+      #fresh .background-left {
+        background-image: url("/img/hidroTest.jpg");
+        width: 50%; } }
     @media (min-width: 1023px) {
       #fresh .background-left {
         overflow: initial; } }
@@ -944,9 +969,11 @@ table {
 
 .card {
   position: relative;
-  margin-top: -60px;
-  margin: -60px 5px 0 5px;
+  margin: 420px 5px 0 5px;
   z-index: 500; }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .card {
+      margin-top: 590px; } }
   @media (min-width: 992px) {
     .card {
       top: 10px;
@@ -955,10 +982,23 @@ table {
   .card .content {
     background: #FFF8D9;
     overflow: auto;
-    padding: 15px; }
+    padding: 15px;
+    position: absolute; }
     @media (min-width: 768px) {
       .card .content {
-        padding: 0; } }
+        padding: 35px; } }
+    @media (min-width: 992px) {
+      .card .content {
+        height: 97vh;
+        top: 0;
+        right: 10px;
+        bottom: 10px;
+        left: 90px;
+        overflow: auto;
+        padding: 0 70px; } }
+    @media (min-width: 1280px) {
+      .card .content {
+        padding: 0 100px; } }
     .card .content .card-link-contact {
       font-family: "Montserrat", sans-serif;
       font-size: 12px;
@@ -967,16 +1007,6 @@ table {
     .card .content .source {
       padding-right: 10px;
       font-size: 9px; }
-    @media (min-width: 1023px) {
-      .card .content {
-        padding: 0 100px;
-        height: 97vh;
-        position: absolute;
-        top: 0;
-        right: 10px;
-        bottom: 10px;
-        left: 90px;
-        overflow: auto; } }
     .card .content p {
       font-family: "Lato", sans-serif;
       font-weight: 500; }
@@ -1003,7 +1033,10 @@ table {
       @media (min-width: 1280px) {
         .card .content .description {
           padding: 0 40px; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1280px) {
+      .card .content .info {
+        padding: 0 80px; } }
+    @media (min-width: 1280px) {
       .card .content .info {
         padding: 0 80px;
         margin-bottom: 30px; } }
@@ -1218,7 +1251,20 @@ table {
     #genious div.col-md-3 {
       padding-left: 0; } }
   #genious .background-left {
-    overflow: hidden; }
+    overflow: hidden;
+    position: fixed;
+    z-index: 200;
+    background-image: url("/img/HIDRO_GENIOUS_FOTO.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%; }
+    @media (min-width: 1023px) {
+      #genious .background-left {
+        background-image: url("/img/geniousTest.jpg");
+        width: 50%; } }
     @media (min-width: 1023px) {
       #genious .background-left {
         overflow: initial; } }
@@ -1259,7 +1305,20 @@ table {
     #motivate div.col-md-3 {
       padding-left: 0; } }
   #motivate .background-left {
-    overflow: hidden; }
+    overflow: hidden;
+    position: fixed;
+    z-index: 200;
+    background-image: url("/img/HIDRO_ACTIVATE_FOTO.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%; }
+    @media (min-width: 1023px) {
+      #motivate .background-left {
+        background-image: url("/img/motivateTest.jpg");
+        width: 50%; } }
     @media (min-width: 1023px) {
       #motivate .background-left {
         overflow: initial; } }

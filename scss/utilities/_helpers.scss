@@ -73,6 +73,12 @@
         and (orientation: landscape) { 
           left: -7%;
         }
+        @include mq('sm'){
+          left: -7%;
+        }
+        @include mq('lg'){
+          left: -11%;
+        }
         @include mq('xl'){
           left: -12%;
         }
@@ -121,6 +127,12 @@
         and (-webkit-min-device-pixel-ratio: 3)
         and (orientation: landscape) { 
           left: -8%;
+        }
+        @include mq('sm'){
+          left: -7%;
+        }
+        @include mq('lg'){
+          left: -11%;
         }
         @include mq('xl'){
           left: -12%;

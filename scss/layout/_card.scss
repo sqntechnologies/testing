@@ -1,10 +1,17 @@
 
 .card{
     position: relative;
-    margin-top: -60px;
-    margin: -60px 5px 0 5px;
+    // margin-top: -60px;
+    margin: 420px 5px 0 5px;
     z-index: 500;
     //top: -70px;
+    @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+      margin-top: 590px;
+    }
     @include mq('md'){
       //position: absolute;
       top: 10px;
@@ -19,8 +26,25 @@
       background: #FFF8D9;
       overflow: auto;
       padding: 15px;
+      position: absolute;
+      // margin-top: 490px;
       @include mq('sm'){
-        padding: 0;
+        padding: 35px;
+      }
+      
+      @include mq('md'){
+        height: 97vh;
+        
+        top: 0;
+        right: 10px;
+        bottom: 10px;
+        left: 90px;
+        overflow: auto;
+        padding: 0 70px;
+      }
+      @include mq('xl'){
+        padding: 0 100px;
+        
       }
       .card-link-contact{
         font-family: $main-font;
@@ -40,16 +64,7 @@
       //   color: #68BD45;
       //   margin: 40px 0 10px;
       // }
-      @include mq('lg'){
-        padding: 0 100px;
-        height: 97vh;
-        position: absolute;
-        top: 0;
-        right: 10px;
-        bottom: 10px;
-        left: 90px;
-        overflow: auto;
-      }
+      
       p{
         font-family: $secondary-font;
         font-weight: 500;
@@ -87,7 +102,10 @@
         }
       }
       .info{
-        @include mq('lg'){
+        @include mq('xl'){
+          padding: 0 80px;          
+        }
+        @include mq('xl'){
           padding: 0 80px;
           margin-bottom: 30px;
         }

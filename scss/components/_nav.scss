@@ -138,11 +138,11 @@
   }
   .navbar-custom{
     margin-bottom: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1023;
+    z-index: 1023;    
     button.navbar-toggle{
       margin-top: 3px;
     }

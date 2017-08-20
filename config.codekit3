@@ -386,14 +386,44 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/HIDRO_FRESH FOTO 1.jpg": {
+	"\/img\/HIDRO_ACTIVATE_FOTO.jpg": {
+		"ft": 16384,
+		"iS": 837236,
+		"oA": 0,
+		"oAP": "\/img\/HIDRO_ACTIVATE_FOTO.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/HIDRO_FRESH_FOTO.jpg": {
 		"ft": 16384,
 		"iS": 715998,
 		"oA": 0,
-		"oAP": "\/img\/HIDRO_FRESH FOTO 1.jpg",
+		"oAP": "\/img\/HIDRO_FRESH_FOTO.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/HIDRO_GENIOUS_FOTO.jpg": {
+		"ft": 16384,
+		"iS": 648185,
+		"oA": 0,
+		"oAP": "\/img\/HIDRO_GENIOUS_FOTO.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hidroFresh-sm.jpg": {
+		"ft": 16384,
+		"iS": 334156,
+		"oA": 0,
+		"oAP": "\/img\/hidroFresh-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/hidrofresh.png": {
@@ -405,6 +435,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/hidroTest-lg.jpg": {
+		"ft": 16384,
+		"iS": 348966,
+		"oA": 0,
+		"oAP": "\/img\/hidroTest-lg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/hidroTest.jpg": {

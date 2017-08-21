@@ -244,5 +244,10 @@
     border: none;
     border-radius: none;
     box-shadow: none;
+    padding: 0 40px;
+    @include mq('md'){
+      padding: 0;
+    }
+
   }
 

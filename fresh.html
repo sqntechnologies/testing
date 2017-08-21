@@ -200,6 +200,10 @@
   <script src="js/bootstrap-min.js"></script>
   <script src="js/lib/animsition/animsition.min.js"></script>
   <script>
+    var images = ['HIDRO_FRESH_FOTO.jpg', 'HIDRO_FRESH_FOTO_2.jpg', 'HIDRO_FRESH_FOTO_3.jpg'];
+    $('.background-left').css({'background-image': 'url(img/fresh/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+
     if($(window).width() <= 768){
       // do your stuff
       $('body').css('background-color', '#9EC432');    

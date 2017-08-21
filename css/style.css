@@ -191,7 +191,11 @@ p.description-fresh {
   background-color: transparent;
   border: none;
   border-radius: none;
-  box-shadow: none; }
+  box-shadow: none;
+  padding: 0 40px; }
+  @media (min-width: 992px) {
+    .panel {
+      padding: 0; } }
 
 html, body {
   height: 100%;
@@ -913,6 +917,10 @@ table {
   #group.row.logos .panel {
     padding: 0 80px 0 240px; } }
 
+.background-right {
+  position: fixed;
+  margin-bottom: 200px; }
+
 #fresh {
   background-color: #9EC432;
   height: 100%; }
@@ -925,7 +933,6 @@ table {
     overflow: hidden;
     position: fixed;
     z-index: 200;
-    background-image: url("/img/HIDRO_FRESH_FOTO.jpg");
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -934,8 +941,7 @@ table {
     height: 100%; }
     @media (min-width: 1023px) {
       #fresh .background-left {
-        background-image: url("/img/hidroTest.jpg");
-        width: 50%; } }
+        width: 35%; } }
     @media (min-width: 1023px) {
       #fresh .background-left {
         overflow: initial; } }
@@ -1044,7 +1050,23 @@ table {
       margin: 0; }
     .card .content .info ul li {
       font-family: "Lato", sans-serif; }
-  .card .content-about {
+  .card .footer {
+    padding-left: 100px; }
+    @media (min-width: 1023px) {
+      .card .footer {
+        padding: 0 240px; } }
+    .card .footer h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px; }
+
+.card-2 {
+  position: relative; }
+  @media (min-width: 992px) {
+    .card-2 {
+      top: 10px;
+      overflow: visible;
+      margin: 0; } }
+  .card-2 .content-about {
     height: 97vh;
     position: absolute;
     top: 10px;
@@ -1055,190 +1077,202 @@ table {
     overflow-x: hidden;
     background: #FFF8D9; }
     @media (min-width: 992px) {
-      .card .content-about {
+      .card-2 .content-about {
         top: 0; } }
-    .card .content-about img {
+    .card-2 .content-about img {
       position: fixed;
       z-index: 999; }
       @media (min-width: 768px) {
-        .card .content-about img {
+        .card-2 .content-about img {
           height: 35px;
           margin: 10px 0 0 25px; } }
       @media (min-width: 992px) {
-        .card .content-about img {
+        .card-2 .content-about img {
           margin: 10px 0 0 25px; } }
       @media (min-width: 1023px) {
-        .card .content-about img {
+        .card-2 .content-about img {
           height: 50px;
           margin: 10px 0 0 25px; } }
       @media (min-width: 1280px) {
-        .card .content-about img {
+        .card-2 .content-about img {
           height: 60px;
           margin: 10px 0 0 25px; } }
-    @media (min-width: 768px) {
-      .card .content-about h3 {
-        padding: 0 110px 0 140px; } }
-    @media (min-width: 1023px) {
-      .card .content-about h3 {
-        padding: 0 190px 0; } }
-    @media (min-width: 1280px) {
-      .card .content-about h3 {
-        padding: 0 230px 0; } }
-    .card .content-about h3.first-heading {
-      font-weight: 500; }
+    .card-2 .content-about h3 {
+      padding: 30px 40px 0 40px; }
       @media (min-width: 768px) {
-        .card .content-about h3.first-heading {
-          margin: 50px 0 20px; } }
-      @media (min-width: 992px) {
-        .card .content-about h3.first-heading {
-          margin: 50px 0 20px; } }
+        .card-2 .content-about h3 {
+          padding: 0 110px 0 140px; } }
       @media (min-width: 1023px) {
-        .card .content-about h3.first-heading {
-          margin: 60px 0 0;
-          font-size: 40px; } }
+        .card-2 .content-about h3 {
+          padding: 0 190px 0; } }
       @media (min-width: 1280px) {
-        .card .content-about h3.first-heading {
-          margin: 100px 0 0;
-          font-size: 48px; } }
-    .card .content-about p {
+        .card-2 .content-about h3 {
+          padding: 0 230px 0; } }
+      .card-2 .content-about h3.first-heading {
+        font-weight: 500; }
+        @media (min-width: 768px) {
+          .card-2 .content-about h3.first-heading {
+            margin: 50px 0 20px; } }
+        @media (min-width: 992px) {
+          .card-2 .content-about h3.first-heading {
+            margin: 50px 0 20px; } }
+        @media (min-width: 1023px) {
+          .card-2 .content-about h3.first-heading {
+            margin: 60px 0 0;
+            font-size: 40px; } }
+        @media (min-width: 1280px) {
+          .card-2 .content-about h3.first-heading {
+            margin: 100px 0 0;
+            font-size: 48px; } }
+    .card-2 .content-about p {
+      font-size: 13px;
+      padding: 0 40px 0 40px;
       font-family: "Lato", sans-serif; }
       @media (min-width: 768px) {
-        .card .content-about p {
+        .card-2 .content-about p {
           font-size: 13px;
           padding: 0 40px 0 140px; } }
       @media (min-width: 992px) {
-        .card .content-about p {
+        .card-2 .content-about p {
           padding: 0 70px 0 150px; } }
       @media (min-width: 1023px) {
-        .card .content-about p {
+        .card-2 .content-about p {
           padding: 0 100px 0 190px;
           margin-top: 20px; } }
       @media (min-width: 1280px) {
-        .card .content-about p {
+        .card-2 .content-about p {
           padding: 0 75px 0 230px;
           margin-top: 20px; } }
     @media (min-width: 768px) {
-      .card .content-about .face-button-card {
+      .card-2 .content-about .face-button-card {
         margin: 0 40px 0 140px; } }
     @media (min-width: 992px) {
-      .card .content-about .face-button-card {
+      .card-2 .content-about .face-button-card {
         margin: 0 70px 0 150px; } }
     @media (min-width: 1023px) {
-      .card .content-about .face-button-card {
+      .card-2 .content-about .face-button-card {
         margin: 0 100px 0 190px; } }
-    .card .content-about .social-contacto a {
+    .card-2 .content-about .social-contacto a {
       font-family: "Lato", sans-serif;
       font-size: 28px;
       color: #000; }
       @media (min-width: 1280px) {
-        .card .content-about .social-contacto a:nth-child(2n) {
+        .card-2 .content-about .social-contacto a:nth-child(2n) {
           padding-left: 10px; } }
     @media (min-width: 768px) {
-      .card .content-about .social {
+      .card-2 .content-about .social {
         padding: 0 140px; } }
     @media (min-width: 992px) {
-      .card .content-about .social {
+      .card-2 .content-about .social {
         padding: 0 150px; } }
     @media (min-width: 1023px) {
-      .card .content-about .social {
+      .card-2 .content-about .social {
         padding: 0 190px; } }
     @media (min-width: 1280px) {
-      .card .content-about .social {
+      .card-2 .content-about .social {
         padding: 0 230px; } }
-    .card .content-about .social a {
+    .card-2 .content-about .social a {
       font-family: "Lato", sans-serif;
       font-size: 28px;
       color: #000; }
       @media (min-width: 1280px) {
-        .card .content-about .social a:nth-child(2n) {
+        .card-2 .content-about .social a:nth-child(2n) {
           padding-left: 10px; } }
-    @media (min-width: 768px) {
-      .card .content-about #contact-form {
-        padding: 0 150px;
-        overflow: hidden; }
-        .card .content-about #contact-form .form-group {
-          margin-top: 15px; }
-          .card .content-about #contact-form .form-group .form-control {
-            position: absolute;
-            background-color: #FFF8D9;
-            border: none;
-            border-bottom: 1px solid #c7bca9;
-            border-radius: 0;
-            width: 57%;
-            font-family: "Lato", sans-serif;
-            box-shadow: none; }
-            .card .content-about #contact-form .form-group .form-control + .control-label {
-              position: relative;
-              padding: 6px 11px;
-              cursor: text;
-              -webkit-transform-origin: left center;
-              -ms-transform-origin: left center;
-              transform-origin: left center;
-              color: #C0BFBF;
-              -webkit-transition: all 0.3s;
-              -o-transition: all 0.3s;
-              transition: all 0.3s; }
-            .card .content-about #contact-form .form-group .form-control:focus + .control-label {
-              color: #333;
-              -webkit-transform: scale(0.8) translateY(-18px);
-              -ms-transform: scale(0.8) translateY(-18px);
-              transform: scale(0.8) translateY(-18px); }
-        .card .content-about #contact-form .btn-send {
-          background-color: #63c9ac;
-          color: #fff;
-          font-family: "Covered By Your Grace", cursive;
-          font-size: 20px;
-          width: 200px;
-          transition: all .3s; }
-          .card .content-about #contact-form .btn-send:hover {
-            background-color: #63b9ac;
-            box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.15); } }
-    @media (min-width: 992px) {
-      .card .content-about #contact-form {
-        padding: 0 180px;
-        overflow: hidden; }
-        .card .content-about #contact-form .form-group .form-control {
-          width: 57%; } }
-    @media (min-width: 1023px) {
-      .card .content-about #contact-form {
-        padding: 0 210px;
-        overflow: hidden; }
-        .card .content-about #contact-form .form-group .form-control {
-          width: 52%; } }
-    @media (min-width: 1280px) {
-      .card .content-about #contact-form {
-        padding: 0 240px;
-        overflow: hidden; }
-        .card .content-about #contact-form .form-group .form-control {
-          width: 45%; } }
-    .card .content-about .logos img {
-      margin: 0 auto 20px; }
+    .card-2 .content-about #contact-form {
+      padding: 0 40px; }
+      .card-2 .content-about #contact-form .form-group {
+        margin-top: 15px; }
+        .card-2 .content-about #contact-form .form-group .form-control {
+          position: absolute;
+          background-color: #FFF8D9;
+          border: none;
+          border-bottom: 1px solid #c7bca9;
+          border-radius: 0;
+          width: 75%;
+          font-family: "Lato", sans-serif;
+          box-shadow: none; }
+          .card-2 .content-about #contact-form .form-group .form-control + .control-label {
+            position: relative;
+            padding: 6px 11px;
+            cursor: text;
+            -webkit-transform-origin: left center;
+            -ms-transform-origin: left center;
+            transform-origin: left center;
+            color: #C0BFBF;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s; }
+          .card-2 .content-about #contact-form .form-group .form-control:focus + .control-label {
+            color: #333;
+            -webkit-transform: scale(0.8) translateY(-18px);
+            -ms-transform: scale(0.8) translateY(-18px);
+            transform: scale(0.8) translateY(-18px); }
+          @media (min-width: 992px) {
+            .card-2 .content-about #contact-form .form-group .form-control {
+              width: 57%; } }
+      .card-2 .content-about #contact-form .btn-send {
+        background-color: #63c9ac;
+        color: #fff;
+        font-family: "Covered By Your Grace", cursive;
+        font-size: 20px;
+        width: 200px;
+        transition: all .3s; }
+        .card-2 .content-about #contact-form .btn-send:hover {
+          background-color: #63b9ac;
+          box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.15); }
+      @media (min-width: 768px) {
+        .card-2 .content-about #contact-form {
+          padding: 0 150px;
+          overflow: hidden; } }
+      @media (min-width: 992px) {
+        .card-2 .content-about #contact-form {
+          padding: 0 180px;
+          overflow: hidden; }
+          .card-2 .content-about #contact-form .form-group .form-control {
+            width: 57%; } }
+      @media (min-width: 1023px) {
+        .card-2 .content-about #contact-form {
+          padding: 0 210px;
+          overflow: hidden; }
+          .card-2 .content-about #contact-form .form-group .form-control {
+            width: 52%; } }
       @media (min-width: 1280px) {
-        .card .content-about .logos img[src*="img/logos/heb.png"] {
+        .card-2 .content-about #contact-form {
+          padding: 0 240px;
+          overflow: hidden; }
+          .card-2 .content-about #contact-form .form-group .form-control {
+            width: 45%; } }
+    .card-2 .content-about .logos img {
+      margin: 0 auto 20px;
+      width: 100px; }
+      .card-2 .content-about .logos img[src*="img/logos/oxxo.png"] {
+        width: 50px; }
+      @media (min-width: 1280px) {
+        .card-2 .content-about .logos img[src*="img/logos/heb.png"] {
           width: 150px; }
-        .card .content-about .logos img[src*="img/logos/oxxo.png"] {
+        .card-2 .content-about .logos img[src*="img/logos/oxxo.png"] {
           width: 110px; } }
       @media (min-width: 1920px) {
-        .card .content-about .logos img[src*="img/logos/oxxo.png"] {
+        .card-2 .content-about .logos img[src*="img/logos/oxxo.png"] {
           width: 130px; } }
     @media (min-width: 768px) {
-      .card .content-about .logos {
+      .card-2 .content-about .logos {
         padding: 0 50px 0 150px; } }
     @media (min-width: 992px) {
-      .card .content-about .logos {
+      .card-2 .content-about .logos {
         padding: 0 30px 0 200px; } }
     @media (min-width: 1023px) {
-      .card .content-about .logos {
+      .card-2 .content-about .logos {
         padding: 0 70px 0 200px; } }
     @media (min-width: 1280px) {
-      .card .content-about .logos {
+      .card-2 .content-about .logos {
         padding: 0 80px 0 240px; } }
-  .card .footer {
+  .card-2 .footer {
     padding-left: 100px; }
     @media (min-width: 1023px) {
-      .card .footer {
+      .card-2 .footer {
         padding: 0 240px; } }
-    .card .footer h4 {
+    .card-2 .footer h4 {
       font-family: "Montserrat", sans-serif;
       font-size: 10px; }
 
@@ -1254,7 +1288,6 @@ table {
     overflow: hidden;
     position: fixed;
     z-index: 200;
-    background-image: url("/img/HIDRO_GENIOUS_FOTO.jpg");
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -1263,8 +1296,7 @@ table {
     height: 100%; }
     @media (min-width: 1023px) {
       #genious .background-left {
-        background-image: url("/img/geniousTest.jpg");
-        width: 50%; } }
+        width: 35%; } }
     @media (min-width: 1023px) {
       #genious .background-left {
         overflow: initial; } }
@@ -1308,7 +1340,6 @@ table {
     overflow: hidden;
     position: fixed;
     z-index: 200;
-    background-image: url("/img/HIDRO_ACTIVATE_FOTO.jpg");
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -1317,7 +1348,6 @@ table {
     height: 100%; }
     @media (min-width: 1023px) {
       #motivate .background-left {
-        background-image: url("/img/motivateTest.jpg");
         width: 50%; } }
     @media (min-width: 1023px) {
       #motivate .background-left {

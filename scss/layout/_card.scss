@@ -119,6 +119,33 @@
       }
 
     }
+
+    .footer{
+      padding-left: 100px;
+      @include mq('lg'){
+        padding: 0 240px;
+      }
+      
+      h4{
+        font-family: $main-font;
+        font-size: 10px;
+      }
+    }  
+  }
+
+  .card-2{
+    position: relative;
+    
+    @include mq('md'){
+      //position: absolute;
+      top: 10px;
+      // right: 10px;
+      //bottom: 0;
+      // margin: 0;
+      overflow: visible;
+      // z-index: 599;
+      margin: 0;
+    }
     .content-about{
       // padding: 0 40;
       height: 97vh;
@@ -159,6 +186,7 @@
       }
       
       h3{
+        padding: 30px 40px 0 40px;
         @include mq('sm'){
           padding: 0 110px 0 140px;
         }
@@ -196,6 +224,8 @@
       //   padding-left: 200px;
       // }
       p{        
+        font-size: 13px;
+        padding: 0 40px 0 40px;
         font-family: $secondary-font;
         @include mq('sm'){
           font-size: 13px;
@@ -269,53 +299,58 @@
         }
       }      
       #contact-form{
-        
+        padding: 0 40px;
+        .form-group{
+          margin-top: 15px;
+          .form-control{
+            position: absolute;
+            background-color: #FFF8D9;
+            border: none;
+            border-bottom: 1px solid #c7bca9;
+            border-radius: 0;
+            width: 75%;
+            font-family: $secondary-font;
+            box-shadow: none;
+            & + .control-label {
+              position: relative;
+              padding: 6px 11px  ;
+              cursor: text;                
+              -webkit-transform-origin: left center;
+              -ms-transform-origin: left center;
+              transform-origin: left center;
+              color: #C0BFBF;
+              -webkit-transition: all 0.3s;
+              -o-transition: all 0.3s;
+              transition: all 0.3s;
+            }
+            &:focus + .control-label{
+              color: #333;
+              -webkit-transform: scale(0.8) translateY(-18px);
+              -ms-transform: scale(0.8) translateY(-18px);
+              transform: scale(0.8) translateY(-18px);
+            }
+            @include mq('md'){
+              width: 57%;
+            }
+          }
+        }
+        .btn-send{
+          background-color: #63c9ac;
+          color: #fff;
+          font-family: $funny-font;
+          font-size: 20px;
+          width: 200px;
+          transition: all .3s;
+          &:hover{
+            background-color: #63b9ac;
+            box-shadow: 0 2px 6px 3px rgba(0,0,0,0.15);
+          }
+        }
         @include mq('sm'){
           padding: 0 150px;
           overflow: hidden;
-          .form-group{
-            margin-top: 15px;
-            .form-control{
-              position: absolute;
-              background-color: #FFF8D9;
-              border: none;
-              border-bottom: 1px solid #c7bca9;
-              border-radius: 0;
-              width: 57%;
-              font-family: $secondary-font;
-              box-shadow: none;
-              & + .control-label {
-                position: relative;
-                padding: 6px 11px  ;
-                cursor: text;                
-                -webkit-transform-origin: left center;
-                -ms-transform-origin: left center;
-                transform-origin: left center;
-                color: #C0BFBF;
-                -webkit-transition: all 0.3s;
-                -o-transition: all 0.3s;
-                transition: all 0.3s;
-              }
-              &:focus + .control-label{
-                color: #333;
-                -webkit-transform: scale(0.8) translateY(-18px);
-                -ms-transform: scale(0.8) translateY(-18px);
-                transform: scale(0.8) translateY(-18px);
-              }
-            }
-          }
-          .btn-send{
-            background-color: #63c9ac;
-            color: #fff;
-            font-family: $funny-font;
-            font-size: 20px;
-            width: 200px;
-            transition: all .3s;
-            &:hover{
-              background-color: #63b9ac;
-              box-shadow: 0 2px 6px 3px rgba(0,0,0,0.15);
-            }
-          }
+
+          
         }
         @include mq('md'){
           padding: 0 180px;
@@ -349,6 +384,10 @@
       .logos{
         img{
           margin: 0 auto 20px;
+          width: 100px;
+          &[src*="img/logos/oxxo.png"]{
+            width: 50px;
+          }
           @include mq('xl'){
             &[src*="img/logos/heb.png"]{
               width: 150px;
@@ -393,5 +432,5 @@
         font-family: $main-font;
         font-size: 10px;
       }
-    }  
+    } 
   }

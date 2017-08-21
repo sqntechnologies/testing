@@ -23,7 +23,7 @@
       overflow: hidden;
       position: fixed;
       z-index: 200;
-      background-image: url('/img/HIDRO_FRESH_FOTO.jpg');
+      // background-image: url('/img/fresh/HIDRO_FRESH_FOTO.jpg');
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
@@ -31,8 +31,8 @@
       width: 100%;
       height: 100%;
       @include mq('lg'){
-        background-image: url('/img/hidroTest.jpg');
-        width: 50%;
+        // background-image: url('/img/fresh/hidroTest.jpg');
+        width: 35%;
       }
       @include mq('lg'){
         overflow: initial;

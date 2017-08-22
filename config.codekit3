@@ -153,6 +153,17 @@
 		"oAP": "\/genious.html",
 		"oF": 0
 		},
+	"\/img\/01.png": {
+		"ft": 32768,
+		"iS": 451255,
+		"oA": 0,
+		"oAP": "\/img\/01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/body-sm.jpg": {
 		"ft": 16384,
 		"iS": 120207,
@@ -319,7 +330,7 @@
 		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/fresh\/HIDRO_FRESH_FOTO_3.jpg": {
@@ -884,12 +895,12 @@
 		},
 	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_1.jpg": {
 		"ft": 16384,
-		"iS": 1075026,
+		"iS": 1099721,
 		"oA": 0,
 		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_2.jpg": {
@@ -899,7 +910,7 @@
 		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_3.jpg": {

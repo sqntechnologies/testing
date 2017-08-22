@@ -111,10 +111,11 @@
   .face-primary {
     background-color: transparent;
     color: $main-green;
-    padding: 0 190px 0 0;
+    margin-right: 240px;
+    
   }
   .face-secondary{
-    padding-right: 100px;
+    margin-right: 140px;
   }
   &:hover .face-primary {
     margin-top: -35px;

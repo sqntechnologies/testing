@@ -6,11 +6,21 @@
     z-index: 500;
     //top: -70px;
     @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+      margin-top: 490px;
+    }
+    @media only screen 
     and (min-device-width: 414px) 
     and (max-device-width: 736px) 
     and (-webkit-min-device-pixel-ratio: 3)
     and (orientation: portrait) { 
       margin-top: 590px;
+    }
+    @include mq('sm'){
+      margin-top: 600px;
     }
     @include mq('md'){
       //position: absolute;
@@ -135,7 +145,12 @@
 
   .card-2{
     position: relative;
-    
+    margin-top: 400px;
+    z-index: 500;
+    @include mq('sm'){
+      margin-top: 0;
+      top: 10px;
+    }
     @include mq('md'){
       //position: absolute;
       top: 10px;
@@ -148,16 +163,17 @@
     }
     .content-about{
       // padding: 0 40;
-      height: 97vh;
-      position: absolute;
-      top: 10px;
-      right: 5px;
-      bottom: 10px;
-      left: 10px;
-      overflow: auto;
-      overflow-x: hidden;
-      @include mq('md'){
-        top: 0;
+      top: 0;
+      @include mq('sm'){
+        
+        height: 97vh;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        bottom: 10px;
+        left: 10px;
+        overflow: auto;
+        overflow-x: hidden;
       }
       
     // position: absolute;
@@ -247,18 +263,18 @@
         }
       }
       .face-button-card{
-        @include mq('sm'){
-          margin: 0 40px 0 140px;
-        }
-        @include mq('md'){
-          margin: 0 70px 0 150px;
-        }
-        @include mq('lg'){
-          margin: 0 100px 0 190px;
-        }
-        // @include mq('xl'){
-        //   margin: 0 230px 0;
+        // @include mq('sm'){
+        //   margin: 0 40px 0 140px;
         // }
+        // @include mq('md'){
+        //   margin: 0 70px 0 150px;
+        // }
+        // @include mq('lg'){
+        //   margin: 0 100px 0 190px;
+        // }
+        @include mq('xl'){
+          margin: 0 0 0 230px;
+        }
       }
       .social-contacto{
         a{

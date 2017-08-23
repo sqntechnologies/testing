@@ -893,16 +893,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_1.jpg": {
-		"ft": 16384,
-		"iS": 1099721,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_2.jpg": {
 		"ft": 16384,
 		"iS": 751853,
@@ -921,6 +911,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/motivate\/MOTIVATE-02.jpg": {
+		"ft": 16384,
+		"iS": 7553106,
+		"oA": 0,
+		"oAP": "\/img\/motivate\/MOTIVATE-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/motivate\/motivateTest.jpg": {

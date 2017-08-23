@@ -154,7 +154,13 @@
   .face-primary {
     background-color: transparent;
     color: $main-green;
+    @include mq('sm'){
+      margin-right: 0;
+    }
     @include mq('md'){
+      // margin-right: 240px;
+    }
+    @include mq('lg'){
       margin-right: 240px;
     }
     

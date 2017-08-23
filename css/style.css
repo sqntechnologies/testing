@@ -313,7 +313,10 @@ body {
   .face-button-card-2 .face-primary {
     background-color: transparent;
     color: #68BD45; }
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 0; } }
+    @media (min-width: 1023px) {
       .face-button-card-2 .face-primary {
         margin-right: 240px; } }
   .face-button-card-2 .face-secondary {
@@ -1189,6 +1192,15 @@ table {
         .card-2 .content-about p {
           padding: 0 75px 0 230px;
           margin-top: 20px; } }
+    @media (min-width: 768px) {
+      .card-2 .content-about .face-button-card-2 {
+        margin: 0 40px 0 80px; } }
+    @media (min-width: 992px) {
+      .card-2 .content-about .face-button-card-2 {
+        margin: 0 70px 0 150px; } }
+    @media (min-width: 1023px) {
+      .card-2 .content-about .face-button-card-2 {
+        margin: 0 100px 0 190px; } }
     @media (min-width: 1280px) {
       .card-2 .content-about .face-button-card-2 {
         margin: 0 0 0 230px; } }

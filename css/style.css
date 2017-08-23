@@ -280,11 +280,45 @@ body {
     color: #000; }
   .face-button-card .face-primary {
     background-color: transparent;
-    color: #68BD45;
-    margin-right: 240px; }
+    color: #68BD45; }
+    @media (min-width: 1023px) {
+      .face-button-card .face-primary {
+        margin-right: 187px; } }
   .face-button-card .face-secondary {
-    margin-right: 140px; }
+    margin-right: 90px; }
   .face-button-card:hover .face-primary {
+    margin-top: -35px; }
+
+.face-button-card-2 {
+  height: 40px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #68BD45;
+  overflow: hidden; }
+  .face-button-card-2:hover {
+    text-decoration: none; }
+  .face-button-card-2 .icon {
+    margin-right: 6px; }
+  .face-button-card-2 .face-primary,
+  .face-button-card-2 .face-secondary {
+    display: block;
+    padding: 0 10px;
+    line-height: 35px;
+    transition: margin .4s;
+    color: #000; }
+  .face-button-card-2 .face-primary {
+    background-color: transparent;
+    color: #68BD45; }
+    @media (min-width: 992px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 240px; } }
+  .face-button-card-2 .face-secondary {
+    margin-right: 140px; }
+  .face-button-card-2:hover .face-primary {
     margin-top: -35px; }
 
 #nav ul li {
@@ -1067,7 +1101,7 @@ table {
 
 .card-2 {
   position: relative;
-  margin-top: 400px;
+  margin-top: 350px;
   z-index: 500; }
   @media (min-width: 768px) {
     .card-2 {
@@ -1156,12 +1190,15 @@ table {
           padding: 0 75px 0 230px;
           margin-top: 20px; } }
     @media (min-width: 1280px) {
-      .card-2 .content-about .face-button-card {
+      .card-2 .content-about .face-button-card-2 {
         margin: 0 0 0 230px; } }
     .card-2 .content-about .social-contacto a {
       font-family: "Lato", sans-serif;
-      font-size: 28px;
+      font-size: 22px;
       color: #000; }
+      @media (min-width: 992px) {
+        .card-2 .content-about .social-contacto a {
+          font-size: 28px; } }
       @media (min-width: 1280px) {
         .card-2 .content-about .social-contacto a:nth-child(2n) {
           padding-left: 10px; } }
@@ -1392,6 +1429,6 @@ table {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     #nosotros {
       height: 100%; } }

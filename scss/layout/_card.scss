@@ -145,7 +145,7 @@
 
   .card-2{
     position: relative;
-    margin-top: 400px;
+    margin-top: 350px;
     z-index: 500;
     @include mq('sm'){
       margin-top: 0;
@@ -262,7 +262,7 @@
           // padding-right: 180px;
         }
       }
-      .face-button-card{
+      .face-button-card-2{
         // @include mq('sm'){
         //   margin: 0 40px 0 140px;
         // }
@@ -279,8 +279,11 @@
       .social-contacto{
         a{
           font-family: $secondary-font;
-          font-size: 28px;
+          font-size: 22px;
           color: #000;
+          @include mq('md'){
+            font-size: 28px;
+          }
           @include mq('xl'){
             // padding-left: 200px;
             &:nth-child(2n){

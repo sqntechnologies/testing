@@ -111,7 +111,53 @@
   .face-primary {
     background-color: transparent;
     color: $main-green;
-    margin-right: 240px;
+    
+  @include mq('lg'){ 
+    margin-right: 187px;
+  }
+    
+  }
+  .face-secondary{
+    margin-right: 90px;
+  }
+  &:hover .face-primary {
+    margin-top: -35px;
+   
+  }
+}
+.face-button-card-2 {
+  $height: 40px;
+  height: $height;
+  display: inline-block;
+  //border: 3px solid #fff;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: $main-green;
+  overflow: hidden;
+  &:hover{
+    text-decoration: none;
+  }
+  .icon {
+    margin-right: 6px;
+  }
+  .face-primary,
+  .face-secondary {
+    display: block;
+    padding: 0 10px;
+    line-height: 35px;
+    transition: margin .4s;
+    color: #000;
+  }
+  .face-primary {
+    background-color: transparent;
+    color: $main-green;
+    @include mq('md'){
+      margin-right: 240px;
+    }
+    
     
   }
   .face-secondary{

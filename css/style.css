@@ -1203,6 +1203,9 @@ table {
         margin: 0 100px 0 190px; } }
     @media (min-width: 1280px) {
       .card-2 .content-about .face-button-card-2 {
+        margin: 0 0 0 190px; } }
+    @media (min-width: 1440px) {
+      .card-2 .content-about .face-button-card-2 {
         margin: 0 0 0 230px; } }
     .card-2 .content-about .social-contacto a {
       font-family: "Lato", sans-serif;

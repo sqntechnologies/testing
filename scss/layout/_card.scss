@@ -263,29 +263,30 @@
         }
       }
       .face-button-card-2{
+        margin-left: 30px;
         @include mq('sm'){
-          margin: 0 40px 0 80px;
+          margin: 0 40px 0 110px;
         }
         @include mq('md'){
           margin: 0 70px 0 150px;
         }
         @include mq('lg'){
-          margin: 0 100px 0 190px;
+          margin: 0 20px 0 190px;
         }
         @include mq('xl'){
-          margin: 0 0 0 190px;
+          margin: 0 0 0 209px;
         }
         @media (min-width: 1440px){
-          margin: 0 0 0 230px;
+          margin: 0 0 0 210px;
         }
       }
       .social-contacto{
         a{
           font-family: $secondary-font;
-          font-size: 22px;
+          font-size: 34px;
           color: #000;
           @include mq('md'){
-            font-size: 28px;
+            font-size: 34px;
           }
           @include mq('xl'){
             // padding-left: 200px;

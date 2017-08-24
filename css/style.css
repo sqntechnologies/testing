@@ -21,11 +21,15 @@
 
 @media (min-width: 992px) {
   .img-about {
-    margin-top: 170px; } }
+    margin-top: 180px; } }
 
 @media (min-width: 1023px) {
   .img-about {
-    margin-top: 130px; } }
+    margin-top: 150px; } }
+
+@media (min-width: 1280px) {
+  .img-about {
+    margin-top: 140px; } }
 
 ul.inside {
   list-style: none;
@@ -299,6 +303,9 @@ body {
   text-decoration: none;
   color: #68BD45;
   overflow: hidden; }
+  @media (min-width: 1023px) {
+    .face-button-card-2 {
+      margin-right: 120px; } }
   .face-button-card-2:hover {
     text-decoration: none; }
   .face-button-card-2 .icon {
@@ -315,12 +322,38 @@ body {
     color: #68BD45; }
     @media (min-width: 768px) {
       .face-button-card-2 .face-primary {
-        margin-right: 0; } }
-    @media (min-width: 1023px) {
+        margin-right: 20px; } }
+    @media (max-width: 1179px) {
       .face-button-card-2 .face-primary {
-        margin-right: 240px; } }
+        margin-right: 60px;
+        padding-left: 0; } }
+    @media (max-width: 1102px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 40px; } }
+    @media (max-width: 1049px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 30px; } }
+    @media (max-width: 1025px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 0; } }
+    @media (min-width: 1229px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 100px;
+        padding-left: 0; } }
+    @media (min-width: 1280px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 70px; } }
+    @media (min-width: 1440px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 85px; } }
   .face-button-card-2 .face-secondary {
-    margin-right: 140px; }
+    margin-right: 20px; }
+    @media (min-width: 1023px) {
+      .face-button-card-2 .face-secondary {
+        margin-right: 0; } }
+    @media (min-width: 1440px) {
+      .face-button-card-2 .face-secondary {
+        margin-right: 15px; } }
   .face-button-card-2:hover .face-primary {
     margin-top: -35px; }
 
@@ -513,9 +546,9 @@ table {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 33%;
+        left: 32%;
         height: 450px;
-        margin-top: 160px; } }
+        margin-top: 130px; } }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
       left: 31%;
@@ -525,7 +558,7 @@ table {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 33%;
+        left: 30%;
         margin-top: 140px;
         height: 450px; } }
   @media (min-width: 1280px) {
@@ -623,7 +656,7 @@ table {
         height: auto; } }
     @media (min-width: 1023px) {
       #genious-main img {
-        margin-top: 100px;
+        margin-top: 80px;
         height: 80vh; } }
     @media (min-width: 1280px) {
       #genious-main img {
@@ -657,7 +690,7 @@ table {
         height: auto; } }
     @media (min-width: 1023px) {
       #motivate-main img {
-        margin: 100px 3%;
+        margin: 80px 3%;
         height: 80vh; } }
     @media (min-width: 1280px) {
       #motivate-main img {
@@ -1192,28 +1225,30 @@ table {
         .card-2 .content-about p {
           padding: 0 75px 0 230px;
           margin-top: 20px; } }
-    @media (min-width: 768px) {
-      .card-2 .content-about .face-button-card-2 {
-        margin: 0 40px 0 80px; } }
-    @media (min-width: 992px) {
-      .card-2 .content-about .face-button-card-2 {
-        margin: 0 70px 0 150px; } }
-    @media (min-width: 1023px) {
-      .card-2 .content-about .face-button-card-2 {
-        margin: 0 100px 0 190px; } }
-    @media (min-width: 1280px) {
-      .card-2 .content-about .face-button-card-2 {
-        margin: 0 0 0 190px; } }
-    @media (min-width: 1440px) {
-      .card-2 .content-about .face-button-card-2 {
-        margin: 0 0 0 230px; } }
+    .card-2 .content-about .face-button-card-2 {
+      margin-left: 30px; }
+      @media (min-width: 768px) {
+        .card-2 .content-about .face-button-card-2 {
+          margin: 0 40px 0 110px; } }
+      @media (min-width: 992px) {
+        .card-2 .content-about .face-button-card-2 {
+          margin: 0 70px 0 150px; } }
+      @media (min-width: 1023px) {
+        .card-2 .content-about .face-button-card-2 {
+          margin: 0 20px 0 190px; } }
+      @media (min-width: 1280px) {
+        .card-2 .content-about .face-button-card-2 {
+          margin: 0 0 0 209px; } }
+      @media (min-width: 1440px) {
+        .card-2 .content-about .face-button-card-2 {
+          margin: 0 0 0 210px; } }
     .card-2 .content-about .social-contacto a {
       font-family: "Lato", sans-serif;
-      font-size: 22px;
+      font-size: 34px;
       color: #000; }
       @media (min-width: 992px) {
         .card-2 .content-about .social-contacto a {
-          font-size: 28px; } }
+          font-size: 34px; } }
       @media (min-width: 1280px) {
         .card-2 .content-about .social-contacto a:nth-child(2n) {
           padding-left: 10px; } }

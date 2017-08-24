@@ -85,10 +85,10 @@
       @media (min-width: 1023px){
         position: absolute;
          &:nth-child(2n){
-          left: 33%;
+          left: 32%;
           height: 450px;
           // margin-top: 150px;
-          margin-top: 160px;
+          margin-top: 130px;
         }
       }
       @media only screen 
@@ -105,7 +105,7 @@
       @media(min-width: 1180px){
         position: absolute;
         &:nth-child(2n){
-          left: 33%;
+          left: 30%;
           margin-top: 140px;
           // height: 80vh;
           height: 450px;
@@ -248,7 +248,7 @@
         height: auto;
       }
       @include mq('lg'){
-        margin-top: 100px;
+        margin-top: 80px;
         // height: 90vh;
         height: 80vh;
       }
@@ -294,7 +294,7 @@
         height: auto;
       }   
       @include mq('lg'){
-        margin: 100px 3%;
+        margin: 80px 3%;
         // height: 90vh;
         height: 80vh;
       }

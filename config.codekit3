@@ -313,11 +313,21 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/fresh\/HIDRO_FRESH_FOTO.jpg": {
+	"\/img\/fresh\/HIDRO_FRESH_FOTO_1.jpg": {
+		"ft": 16384,
+		"iS": 167672,
+		"oA": 0,
+		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/fresh\/HIDRO_FRESH_FOTO_12.jpg": {
 		"ft": 16384,
 		"iS": 715998,
 		"oA": 0,
-		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO.jpg",
+		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -325,9 +335,19 @@
 		},
 	"\/img\/fresh\/HIDRO_FRESH_FOTO_2.jpg": {
 		"ft": 16384,
-		"iS": 945007,
+		"iS": 326131,
 		"oA": 0,
 		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/fresh\/HIDRO_FRESH_FOTO_22.jpg": {
+		"ft": 16384,
+		"iS": 945007,
+		"oA": 0,
+		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_22.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -335,9 +355,19 @@
 		},
 	"\/img\/fresh\/HIDRO_FRESH_FOTO_3.jpg": {
 		"ft": 16384,
-		"iS": 1217053,
+		"iS": 472478,
 		"oA": 0,
 		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/fresh\/HIDRO_FRESH_FOTO_32.jpg": {
+		"ft": 16384,
+		"iS": 1217053,
+		"oA": 0,
+		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_32.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -438,7 +468,7 @@
 		},
 	"\/img\/genious\/HIDRO_GENIOUS_FOTO_1.jpg": {
 		"ft": 16384,
-		"iS": 671183,
+		"iS": 244014,
 		"oA": 0,
 		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_1.jpg",
 		"oF": 0,
@@ -446,9 +476,19 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/genious\/HIDRO_GENIOUS_FOTO_12.jpg": {
+		"ft": 16384,
+		"iS": 671183,
+		"oA": 0,
+		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/genious\/HIDRO_GENIOUS_FOTO_2.jpg": {
 		"ft": 16384,
-		"iS": 648185,
+		"iS": 254223,
 		"oA": 0,
 		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_2.jpg",
 		"oF": 0,
@@ -456,11 +496,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/genious\/HIDRO_GENIOUS_FOTO_22.jpg": {
+		"ft": 16384,
+		"iS": 648185,
+		"oA": 0,
+		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_22.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/genious\/HIDRO_GENIOUS_FOTO_3.jpg": {
+		"ft": 16384,
+		"iS": 218402,
+		"oA": 0,
+		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/genious\/HIDRO_GENIOUS_FOTO_32.jpg": {
 		"ft": 16384,
 		"iS": 558139,
 		"oA": 0,
-		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_3.jpg",
+		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_32.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -893,31 +953,61 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_2.jpg": {
+	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_23.jpg": {
 		"ft": 16384,
 		"iS": 751853,
 		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_2.jpg",
+		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_23.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_3.jpg": {
+	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_33.jpg": {
 		"ft": 16384,
 		"iS": 837236,
 		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_3.jpg",
+		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_33.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/motivate\/MOTIVATE-02.jpg": {
+	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_1.jpg": {
+		"ft": 16384,
+		"iS": 237891,
+		"oA": 0,
+		"oAP": "\/img\/motivate\/HIDRO_MOTIVATE_FOTO_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_2.jpg": {
+		"ft": 16384,
+		"iS": 252221,
+		"oA": 0,
+		"oAP": "\/img\/motivate\/HIDRO_MOTIVATE_FOTO_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_3.jpg": {
+		"ft": 16384,
+		"iS": 2789939,
+		"oA": 0,
+		"oAP": "\/img\/motivate\/HIDRO_MOTIVATE_FOTO_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/motivate\/MOTIVATE-023.jpg": {
 		"ft": 16384,
 		"iS": 7553106,
 		"oA": 0,
-		"oAP": "\/img\/motivate\/MOTIVATE-02.jpg",
+		"oAP": "\/img\/motivate\/MOTIVATE-023.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

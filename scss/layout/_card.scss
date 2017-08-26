@@ -145,12 +145,20 @@
 
   .card-2{
     position: relative;
-    margin-top: 350px;
+    margin-top: 300px;
     z-index: 500;
     @include mq('sm'){
       margin-top: 0;
       top: 10px;
     }
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+      margin-top: 350px;
+    }
+  
     @include mq('md'){
       //position: absolute;
       top: 10px;
@@ -240,19 +248,23 @@
       //   padding-left: 200px;
       // }
       p{        
-        font-size: 13px;
+        font-size: 14px;
         padding: 0 40px 0 40px;
         font-family: $secondary-font;
+        text-align: center;
+        line-height: 22px;
         @include mq('sm'){
-          font-size: 13px;
+          font-size: 14px;
           padding: 0 40px 0 140px;
         }
         @include mq('md'){
           padding: 0 70px 0 150px;
+          text-align: justify;
         }
         @include mq('lg'){
           padding: 0 100px 0 190px;
           margin-top: 20px;
+          font-size: 14px;
         }
         @include mq('xl'){
           padding: 0 75px 0 230px;
@@ -268,7 +280,7 @@
           margin: 0 40px 0 110px;
         }
         @include mq('md'){
-          margin: 0 70px 0 150px;
+          margin: 0 70px 0 140px;
         }
         @include mq('lg'){
           margin: 0 20px 0 190px;

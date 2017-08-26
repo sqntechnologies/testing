@@ -25,7 +25,7 @@
 
 @media (min-width: 1023px) {
   .img-about {
-    margin-top: 150px; } }
+    margin-top: 200px; } }
 
 @media (min-width: 1280px) {
   .img-about {
@@ -319,23 +319,37 @@ body {
     color: #000; }
   .face-button-card-2 .face-primary {
     background-color: transparent;
-    color: #68BD45; }
+    font-family: "Montserrat", sans-serif;
+    color: #68BD45;
+    margin-right: 0px;
+    font-size: 12px;
+    font-weight: 400; }
     @media (min-width: 768px) {
       .face-button-card-2 .face-primary {
-        margin-right: 20px; } }
-    @media (max-width: 1179px) {
+        margin-right: 0; } }
+    @media (min-width: 992px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 22px; } }
+    @media (min-width: 839px) {
+      .face-button-card-2 .face-primary {
+        font-size: 12px; } }
+    @media (min-width: 1179px) {
       .face-button-card-2 .face-primary {
         margin-right: 60px;
-        padding-left: 0; } }
-    @media (max-width: 1102px) {
-      .face-button-card-2 .face-primary {
-        margin-right: 40px; } }
-    @media (max-width: 1049px) {
+        padding-left: 0;
+        font-size: 14px; } }
+    @media (min-width: 1049px) {
       .face-button-card-2 .face-primary {
         margin-right: 30px; } }
-    @media (max-width: 1025px) {
+    @media (min-width: 1025px) {
       .face-button-card-2 .face-primary {
-        margin-right: 0; } }
+        margin-right: 68px; } }
+    @media (min-width: 1167px) {
+      .face-button-card-2 .face-primary {
+        margin-right: 94px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face-button-card-2 .face-primary {
+        margin-right: 90px; } }
     @media (min-width: 1229px) {
       .face-button-card-2 .face-primary {
         margin-right: 100px;
@@ -1137,12 +1151,15 @@ table {
 
 .card-2 {
   position: relative;
-  margin-top: 350px;
+  margin-top: 300px;
   z-index: 500; }
   @media (min-width: 768px) {
     .card-2 {
       margin-top: 0;
       top: 10px; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .card-2 {
+      margin-top: 350px; } }
   @media (min-width: 992px) {
     .card-2 {
       top: 10px;
@@ -1207,20 +1224,24 @@ table {
             margin: 100px 0 0;
             font-size: 48px; } }
     .card-2 .content-about p {
-      font-size: 13px;
+      font-size: 14px;
       padding: 0 40px 0 40px;
-      font-family: "Lato", sans-serif; }
+      font-family: "Lato", sans-serif;
+      text-align: center;
+      line-height: 22px; }
       @media (min-width: 768px) {
         .card-2 .content-about p {
-          font-size: 13px;
+          font-size: 14px;
           padding: 0 40px 0 140px; } }
       @media (min-width: 992px) {
         .card-2 .content-about p {
-          padding: 0 70px 0 150px; } }
+          padding: 0 70px 0 150px;
+          text-align: justify; } }
       @media (min-width: 1023px) {
         .card-2 .content-about p {
           padding: 0 100px 0 190px;
-          margin-top: 20px; } }
+          margin-top: 20px;
+          font-size: 14px; } }
       @media (min-width: 1280px) {
         .card-2 .content-about p {
           padding: 0 75px 0 230px;
@@ -1232,7 +1253,7 @@ table {
           margin: 0 40px 0 110px; } }
       @media (min-width: 992px) {
         .card-2 .content-about .face-button-card-2 {
-          margin: 0 70px 0 150px; } }
+          margin: 0 70px 0 140px; } }
       @media (min-width: 1023px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 20px 0 190px; } }

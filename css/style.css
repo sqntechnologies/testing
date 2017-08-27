@@ -39,6 +39,9 @@ ul.inside {
       padding-left: 40px; } }
   ul.inside li {
     position: relative; }
+    @media (min-width: 1920px) {
+      ul.inside li {
+        font-size: 18px; } }
     ul.inside li:before {
       position: absolute;
       display: block;
@@ -70,6 +73,9 @@ ul.inside {
       @media (min-width: 1280px) {
         ul.inside li:before {
           left: -12%; } }
+      @media (min-width: 1920px) {
+        ul.inside li:before {
+          left: -7%; } }
 
 ul.not {
   list-style: none;
@@ -79,6 +85,9 @@ ul.not {
       padding-left: 40px; } }
   ul.not li {
     position: relative; }
+    @media (min-width: 1920px) {
+      ul.not li {
+        font-size: 18px; } }
     ul.not li:before {
       position: absolute;
       display: block;
@@ -109,10 +118,16 @@ ul.not {
       @media (min-width: 1280px) {
         ul.not li:before {
           left: -12%; } }
+      @media (min-width: 1920px) {
+        ul.not li:before {
+          left: -7%; } }
 
 .funny-font {
   font-family: "Covered By Your Grace", cursive;
   font-size: 28px; }
+  @media (min-width: 1920px) {
+    .funny-font {
+      font-size: 36px; } }
 
 p.description {
   font-family: "Montserrat", sans-serif;
@@ -131,6 +146,9 @@ p.description {
     @media (min-width: 1023px) {
       p.description span {
         font-size: 30px; } }
+    @media (min-width: 1920px) {
+      p.description span {
+        font-size: 36px; } }
   @media (min-width: 768px) {
     p.description {
       margin-top: 0;
@@ -157,6 +175,10 @@ p.description {
     p.description {
       margin-top: 49%;
       padding-right: 105px; } }
+  @media (min-width: 1920px) {
+    p.description {
+      margin-top: 60%;
+      font-size: 24px; } }
 
 p.description-fresh {
   font-family: "Montserrat", sans-serif;
@@ -166,6 +188,9 @@ p.description-fresh {
     font-family: "Covered By Your Grace", cursive;
     font-size: 30px;
     font-weight: 500; }
+    @media (min-width: 1920px) {
+      p.description-fresh span {
+        font-size: 36px; } }
   @media (min-width: 768px) {
     p.description-fresh {
       margin-top: 0;
@@ -189,6 +214,10 @@ p.description-fresh {
     p.description-fresh {
       margin-top: 47%;
       padding-right: 120px; } }
+  @media (min-width: 1920px) {
+    p.description-fresh {
+      margin-top: 60%;
+      font-size: 24px; } }
 
 .panel {
   margin-bottom: 10px;
@@ -228,6 +257,10 @@ body {
   @media (min-width: 992px) {
     .face-button {
       margin-left: 20px; } }
+  @media (min-width: 1920px) {
+    .face-button {
+      font-size: 18px;
+      height: 50px; } }
   @media (min-width: 768px) {
     .face-button.cm {
       margin-left: 40px; } }
@@ -242,15 +275,15 @@ body {
   .face-button .face-primary,
   .face-button .face-secondary {
     display: block;
-    padding: 0 10px;
-    line-height: 35px;
+    padding: 0 20px;
+    line-height: 45px;
     transition: margin .4s;
     color: #fff; }
   .face-button .face-primary {
     background-color: #fff;
     color: #68BD45; }
   .face-button:hover .face-primary {
-    margin-top: -35px; }
+    margin-top: -45px; }
 
 .face-button-card {
   height: 40px;
@@ -278,16 +311,22 @@ body {
   .face-button-card .face-primary,
   .face-button-card .face-secondary {
     display: block;
-    padding: 0 10px;
     line-height: 35px;
     transition: margin .4s;
     color: #000; }
   .face-button-card .face-primary {
     background-color: transparent;
-    color: #68BD45; }
+    color: #68BD45;
+    margin: 0 auto; }
+    @media (min-width: 992px) {
+      .face-button-card .face-primary {
+        margin-right: 60%; } }
     @media (min-width: 1023px) {
       .face-button-card .face-primary {
-        margin-right: 187px; } }
+        margin-right: 62%; } }
+    @media (min-width: 1323px) {
+      .face-button-card .face-primary {
+        margin-right: 65%; } }
   .face-button-card .face-secondary {
     margin-right: 90px; }
   .face-button-card:hover .face-primary {
@@ -370,6 +409,21 @@ body {
         margin-right: 15px; } }
   .face-button-card-2:hover .face-primary {
     margin-top: -35px; }
+
+.back-to-top {
+  bottom: 20px;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  right: 20px;
+  border: none;
+  z-index: 999999; }
+
+.btn.back-to-top:active {
+  background-color: #68BD45; }
+
+.btn.back-to-top:hover {
+  background-color: #68BD45; }
 
 #nav ul li {
   position: fixed;
@@ -466,15 +520,15 @@ body {
 
 .navbar-custom {
   margin-bottom: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1023; }
+  z-index: 1023;
+  width: 100%;
+  background-color: #fff; }
   .navbar-custom button.navbar-toggle {
     margin-top: 3px; }
   .navbar-custom .navbar-brand img {
     width: 120px; }
+  .navbar-custom .btn.btn-link.navbar-toggle.collapsed .icon-bar {
+    background-color: #000; }
 
 #menu-hidronatura ul.nav.navbar-nav {
   background-color: #68BD45; }
@@ -490,6 +544,9 @@ table {
   @media (min-width: 1023px) {
     table {
       margin-top: 20px; } }
+  @media (min-width: 1920px) {
+    table {
+      font-size: 16px; } }
 
 .table tbody tr th {
   padding: 3px; }
@@ -599,7 +656,7 @@ table {
   @media (min-width: 1920px) {
     #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
       left: 32%;
-      margin-top: 16%;
+      margin-top: 28%;
       height: 680px; } }
   @media (min-width: 992px) {
     #fresh-main img.animated, #genious-main img.animated, #motivate-main img.animated {
@@ -934,9 +991,6 @@ table {
       .carousel-inner #main a.right.carousel-control .right-arrow {
         width: 500px;
         left: 77%; } }
-    @media (min-width: 1917px) {
-      .carousel-inner #main a.right.carousel-control .right-arrow {
-        left: 84% !important; } }
     @media (min-width: 1330px) {
       .carousel-inner #main a.right.carousel-control .right-arrow {
         width: 600px;
@@ -944,6 +998,9 @@ table {
     @media (min-width: 1680px) {
       .carousel-inner #main a.right.carousel-control .right-arrow {
         left: 79%; } }
+    @media (min-width: 1920px) {
+      .carousel-inner #main a.right.carousel-control .right-arrow {
+        left: 81.5%; } }
     .carousel-inner #main a.right.carousel-control .right-arrow .text {
       font-family: "Covered By Your Grace", cursive;
       font-size: 30px;
@@ -1022,7 +1079,11 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    margin-top: -60px; }
+    @media (min-width: 768px) {
+      #fresh .background-left {
+        margin-top: 0; } }
     @media (min-width: 1023px) {
       #fresh .background-left {
         width: 35%; } }
@@ -1059,7 +1120,7 @@ table {
 
 .card {
   position: relative;
-  margin: 420px 5px 0 5px;
+  margin: 350px 5px 0 5px;
   z-index: 500; }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
@@ -1110,6 +1171,9 @@ table {
         font-size: 34px; }
       .card .content p.sub-heading {
         font-weight: 300; }
+      @media (min-width: 1920px) {
+        .card .content p {
+          font-size: 18px; } }
     @media (min-width: 992px) {
       .card .content .img-card {
         margin: 20px 0 0;
@@ -1407,7 +1471,11 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    margin-top: -60px; }
+    @media (min-width: 768px) {
+      #genious .background-left {
+        margin-top: 0; } }
     @media (min-width: 1023px) {
       #genious .background-left {
         width: 35%; } }
@@ -1459,7 +1527,11 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    margin-top: -60px; }
+    @media (min-width: 768px) {
+      #motivate .background-left {
+        margin-top: 0; } }
     @media (min-width: 1023px) {
       #motivate .background-left {
         width: 35%; } }

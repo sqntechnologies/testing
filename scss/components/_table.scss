@@ -6,6 +6,9 @@
     }
     font-family: $secondary-font;
     font-size: 12px;
+    @media (min-width: 1920px){
+      font-size: 16px;
+    }
   }
   .table tbody tr th{
       padding: 3px;

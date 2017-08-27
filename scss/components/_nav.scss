@@ -138,22 +138,25 @@
   }
   .navbar-custom{
     margin-bottom: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1023;    
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    z-index: 1023;
+    //position: absolute;   
+    width: 100%; 
+    background-color: #fff;
     button.navbar-toggle{
       margin-top: 3px;
     }
     .navbar-brand img{
       width: 120px;
     }
-    // .btn.btn-link.navbar-toggle.collapsed{
-    //   .icon-bar{
-    //     background-color: #000;
-    //   }
-    // }
+    .btn.btn-link.navbar-toggle.collapsed{
+      .icon-bar{
+        background-color: #000;
+      }
+    }
   }
   #menu-hidronatura ul.nav.navbar-nav{
     background-color: $main-green;

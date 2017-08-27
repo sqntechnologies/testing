@@ -41,6 +41,10 @@
     @include mq('xl'){
       // margin-left: 10px;
     }
+    @media (min-width: 1920px){
+      font-size: 18px;
+      height: 50px;
+    }
     &.cm{
       @include mq('sm'){
         margin-left: 40px;
@@ -58,8 +62,8 @@
     .face-primary,
     .face-secondary {
       display: block;
-      padding: 0 10px;
-      line-height: 35px;
+      padding: 0 20px;
+      line-height: 45px;
       transition: margin .4s;
       color: #fff;
     }
@@ -68,7 +72,7 @@
       color: $main-green;
     }
     &:hover .face-primary {
-      margin-top: -35px;
+      margin-top: -45px;
     }
 }
 .face-button-card {
@@ -103,7 +107,7 @@
   .face-primary,
   .face-secondary {
     display: block;
-    padding: 0 10px;
+    // padding: 0 10px;
     line-height: 35px;
     transition: margin .4s;
     color: #000;
@@ -111,10 +115,25 @@
   .face-primary {
     background-color: transparent;
     color: $main-green;
-    
-  @include mq('lg'){ 
-    margin-right: 187px;
-  }
+    margin: 0 auto;
+    // @include mq('lg'){ 
+    //   margin-right: 130px;
+    // }
+    @include mq('md'){
+      margin-right: 60%;
+    }
+    @include mq('lg'){
+      margin-right: 62%;
+    } 
+    @media (min-width: 1323px){
+      margin-right: 65%;
+    }
+    // @media (min-width: 1342px) {
+    //   margin-right: 160px;
+    // }
+    // @media (min-width: 1440px){
+    //   margin-right: 178px;
+    // }
     
   }
   .face-secondary{
@@ -231,4 +250,21 @@
     margin-top: -35px;
    
   }
+}
+
+.back-to-top {
+  bottom: 20px;
+  cursor: pointer;
+  display:none;
+  position: fixed;
+  right: 20px;
+  border: none;
+  // background-color: $main-green;
+  z-index: 999999;
+}
+.btn.back-to-top:active{
+  background-color: $main-green;
+}
+.btn.back-to-top:hover{
+  background-color: $main-green;
 }

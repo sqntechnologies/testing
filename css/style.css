@@ -191,8 +191,11 @@ ul.not {
   font-size: 14px;
   padding: 20px;
   color: #000;
-  margin: 0 0 10px;
+  margin: 10px;
   background-color: #FFF8D9; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .description-slider-fresh {
+      margin: 0 0 10px; } }
   @media (min-width: 768px) {
     .description-slider-fresh {
       background-color: transparent;
@@ -576,7 +579,7 @@ body {
 
 .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in {
   width: 70%;
-  background-color: #53A2BE; }
+  background-color: rgba(83, 162, 190, 0.9); }
   .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a {
     color: #fff;
     font-family: "Montserrat", sans-serif;
@@ -739,14 +742,28 @@ table {
     #fresh-main {
       background-image: url("/img/fresh-main-test.jpg"); } }
   #fresh-main img {
-    height: 350px;
-    margin: 7% 10% 0; }
+    height: 350px; }
+    @media (min-width: 400px) {
+      #fresh-main img {
+        margin: 0 10% 0; } }
+    @media (min-width: 500px) {
+      #fresh-main img {
+        margin: 0 20% 0; } }
+    @media (min-width: 620px) {
+      #fresh-main img {
+        margin: 0 27% 0; } }
+    @media (min-width: 700px) {
+      #fresh-main img {
+        margin: 0 30% 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh-main img {
         margin: 0 0 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
       #fresh-main img {
         margin: 7% 23% 0; } }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #fresh-main img {
+        margin: 0 7% 0; } }
     #fresh-main img[src*="img/logoHN.png"] {
       margin: 1% 0 0 2%;
       height: 60px;
@@ -786,15 +803,27 @@ table {
   #genious-main img {
     height: 350px;
     margin: 7% 10% 0; }
+    @media (min-width: 400px) {
+      #genious-main img {
+        margin: 0 10% 0; } }
+    @media (min-width: 500px) {
+      #genious-main img {
+        margin: 0 20% 0; } }
+    @media (min-width: 620px) {
+      #genious-main img {
+        margin: 0 27% 0; } }
+    @media (min-width: 700px) {
+      #genious-main img {
+        margin: 0 30% 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
         margin: 0 0 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
       #genious-main img {
         margin: 7% 23% 0; } }
-    @media only screen and (min-device-width: 375px) and (max-device-width: 668px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
-        margin: 7% 12% 0; } }
+        margin: 0 7% 0; } }
     @media (min-width: 768px) {
       #genious-main img {
         margin-top: 27%;
@@ -829,12 +858,27 @@ table {
   #motivate-main img {
     height: 350px;
     margin: 7% 10% 0; }
+    @media (min-width: 400px) {
+      #motivate-main img {
+        margin: 0 10% 0; } }
+    @media (min-width: 500px) {
+      #motivate-main img {
+        margin: 0 20% 0; } }
+    @media (min-width: 620px) {
+      #motivate-main img {
+        margin: 0 27% 0; } }
+    @media (min-width: 700px) {
+      #motivate-main img {
+        margin: 0 30% 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate-main img {
         margin: 0 0 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
       #motivate-main img {
         margin: 7% 23% 0; } }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #motivate-main img {
+        margin: 0 7% 0; } }
     @media (min-width: 768px) {
       #motivate-main img {
         margin-top: 25%;
@@ -1304,11 +1348,14 @@ table {
 
 .card-2 {
   position: relative;
-  margin-top: 300px; }
+  margin-top: 500px; }
   @media (min-width: 768px) {
     .card-2 {
       margin-top: 0;
       top: 10px; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .card-2 {
+      margin-top: 300px; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card-2 {
       margin-top: 350px; } }

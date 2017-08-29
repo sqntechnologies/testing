@@ -238,7 +238,7 @@
             <nav class="navbar navbar-custom visible-xs" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand visible-xs visible-sm" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
+                        <a class="navbar-brand visible-xs visible-sm" href="index.html"><img  style="height: 39px;" class="img-responsive" id="logo" src="img/logoHN.png" alt=""></a>
                         <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas-2" style="float:left;">
                             <span class="sr-only">Toggle navigation</span>
                             <span>
@@ -460,6 +460,12 @@
   <script src="js/bootstrap-min.js"></script>
   <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
+    $(function() {
+      $('#main-image .img-responsive').mouseover(function(){
+        console.log( "ready!" );
+      });
+      
+    });
     if($(window).width() >= 1024){
       // do your stuff
       $(setTimeout(function(){

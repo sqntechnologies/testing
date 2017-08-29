@@ -237,8 +237,15 @@
     font-size: 14px;
     padding: 20px;
     color: #000;
-    margin: 0 0 10px;
+    margin: 10px;
     background-color: #FFF8D9;
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      margin: 0 0 10px;
+    }
     @include mq('sm'){
       background-color: transparent;
       color: #fff;

@@ -177,7 +177,21 @@
     }
     img{
       height: 350px;
-      margin: 7% 10% 0;
+      @media (min-width: 400px){
+        margin: 0 10% 0;
+      }
+      @media (min-width: 500px){
+        margin: 0 20% 0;
+      }
+      @media (min-width: 620px){
+        margin: 0 27% 0;
+      }
+      @media (min-width: 700px){
+        margin: 0 30% 0;
+      }
+      // @media (min-width: 767px){
+      //   margin: 0 25% 0;
+      // }
       @media only screen 
       and (min-device-width: 320px) 
       and (max-device-width: 568px)
@@ -191,6 +205,13 @@
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: landscape) {
         margin: 7% 23% 0;
+      }
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+        margin: 0 7% 0;
       }
       &[src*="img/logoHN.png"]{
         margin: 1% 0 0 2%;
@@ -265,6 +286,21 @@
     img{
       height: 350px;
       margin: 7% 10% 0;
+      @media (min-width: 400px){
+        margin: 0 10% 0;
+      }
+      @media (min-width: 500px){
+        margin: 0 20% 0;
+      }
+      @media (min-width: 620px){
+        margin: 0 27% 0;
+      }
+      @media (min-width: 700px){
+        margin: 0 30% 0;
+      }
+      // @media (min-width: 767px){
+      //   margin: 0 25% 0;
+      // }
       @media only screen 
       and (min-device-width: 320px) 
       and (max-device-width: 568px)
@@ -281,10 +317,10 @@
       }
       @media only screen 
       and (min-device-width: 375px) 
-      and (max-device-width: 668px) 
+      and (max-device-width: 667px) 
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) { 
-        margin: 7% 12% 0;
+        margin: 0 7% 0;
       }
       @include mq('sm'){
         margin-top: 27%;
@@ -332,6 +368,21 @@
     img{
       height: 350px;
       margin: 7% 10% 0;
+      @media (min-width: 400px){
+        margin: 0 10% 0;
+      }
+      @media (min-width: 500px){
+        margin: 0 20% 0;
+      }
+      @media (min-width: 620px){
+        margin: 0 27% 0;
+      }
+      @media (min-width: 700px){
+        margin: 0 30% 0;
+      }
+      // @media (min-width: 767px){
+      //   margin: 0 25% 0;
+      // }
       @media only screen 
       and (min-device-width: 320px) 
       and (max-device-width: 568px)
@@ -345,6 +396,13 @@
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: landscape) {
         margin: 7% 23% 0;
+      }
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+        margin: 0 7% 0;
       }
       @include mq('sm'){
         margin-top: 25%;

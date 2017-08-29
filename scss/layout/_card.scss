@@ -155,11 +155,18 @@
 
   .card-2{
     position: relative;
-    margin-top: 300px;
+    margin-top: 500px;
     // z-index: 500;
     @include mq('sm'){
       margin-top: 0;
       top: 10px;
+    }
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      margin-top: 300px;
     }
     @media only screen 
     and (min-device-width: 375px) 

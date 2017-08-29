@@ -37,6 +37,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/bootstrap.offcanvas.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/bootstrap.offcanvas-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/font-awesome.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1187,6 +1197,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/lib\/animsition\/jquery.animsition.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lib\/offcanvas\/bootstrap.offcanvas.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lib\/offcanvas\/bootstrap.offcanvas-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

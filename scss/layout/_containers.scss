@@ -8,6 +8,8 @@
     //margin: 7px;
     
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
     //position: fixed;
     @include mq('lg'){
       height: 100vh;
@@ -176,7 +178,20 @@
     img{
       height: 350px;
       margin: 7% 10% 0;
-      
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        margin: 0 0 0;
+      }
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        margin: 7% 23% 0;
+      }
       &[src*="img/logoHN.png"]{
         margin: 1% 0 0 2%;
         height: 60px;
@@ -251,6 +266,20 @@
       height: 350px;
       margin: 7% 10% 0;
       @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        margin: 0 0 0;
+      }
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        margin: 7% 23% 0;
+      }
+      @media only screen 
       and (min-device-width: 375px) 
       and (max-device-width: 668px) 
       and (-webkit-min-device-pixel-ratio: 2)
@@ -302,7 +331,21 @@
     // height: 100%;
     img{
       height: 350px;
-      margin: 7% 8% 0;
+      margin: 7% 10% 0;
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        margin: 0 0 0;
+      }
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        margin: 7% 23% 0;
+      }
       @include mq('sm'){
         margin-top: 25%;
         height: 78vh;
@@ -386,7 +429,7 @@
 
   #main-products{
     background-image: url('/img/body-sm.jpg');
-    
+    background-position: center center;
     @include mq('sm'){
       background-image: url('/img/body.png');
       -moz-background-size: cover;
@@ -411,8 +454,9 @@
       
       h3{
         color: #fff;
-        margin: 0;
+        margin: 0 0 0;
         font-weight: 700;
+        font-size: 40px;
         @include mq('sm'){
           margin-top: 90px;
           font-size: 60px;
@@ -499,7 +543,7 @@
         // }
       }
       #products-list{
-        margin-top: 40px;
+        margin-top: 20px;
         z-index: 1;
         @include mq('sm'){
           margin-top: 20px;
@@ -514,8 +558,9 @@
           // height: 275px;
           // width: 100px;
           // margin: 10px auto;
-          margin: 0 auto;
+          margin: 0 auto 20px;
           transition: all .4s;
+          height: 300px;
           @include mq('sm'){
             height: 60%;
             width: 71%;
@@ -559,13 +604,13 @@
     }
   }
 
-  #footer{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: auto;
-  }
+  // #footer{
+  //   position: absolute;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   height: auto;
+  // }
 
   #mycarousel a.left.carousel-control{
     text-shadow: none;

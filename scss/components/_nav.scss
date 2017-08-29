@@ -125,14 +125,31 @@
       }
     } 
     &.arrow-left{
-      
       top: 50%;
-      left: 95%;
+      left: 90%;
+      @include mq('sm'){
+        top: 50%;
+        left: 95%;
+      }
+      @include mq('md'){
+        top: 50%;
+        left: 95%;
+      }
+      
       
     }
     &.arrow-right{
       top: 50%;
-      left: 35%;
+      left: 2%;
+      @include mq('sm'){
+        top: 50%;
+        left: 2%;
+      }
+      @include mq('md'){
+        top: 50%;
+        left: 35%;
+      }
+      
       
     }
   }
@@ -145,7 +162,7 @@
     z-index: 1023;
     //position: absolute;   
     width: 100%; 
-    background-color: #fff;
+    // background-color: #fff;
     button.navbar-toggle{
       margin-top: 3px;
     }
@@ -154,17 +171,41 @@
     }
     .btn.btn-link.navbar-toggle.collapsed{
       .icon-bar{
-        background-color: #000;
+        background-color: $main-green;
       }
     }
   }
-  #menu-hidronatura ul.nav.navbar-nav{
+  #menu-hidronatura, #menu-hidronatura-2, #menu-hidronatura-3, #menu-hidronatura-4 ul.nav.navbar-nav{
     background-color: $main-green;
     li a{
       color: #fff;
       font-family: $funny-font;
       font-size: 20px;
       
+    }
+  }
+  .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in{
+    width: 50%;
+    background-color: #53A2BE;
+    ul.nav.navbar-nav{
+      li a{
+        color: #fff;
+        font-family: $main-font;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 15px 0 15px 15px;
+        &:hover{
+          background-color: #4992AB;
+        }
+      }      
+      .social-nav{
+        margin-top: 35px;
+        padding: 15px;
+        font-size: 36px;
+        a i{
+          color: #fff;
+        }
+      }
     }
   }
   

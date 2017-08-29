@@ -283,6 +283,11 @@ body {
   .face-button .face-primary {
     background-color: #fff;
     color: #68BD45; }
+  .face-button .face-secondary {
+    color: #000; }
+    @media (min-width: 768px) {
+      .face-button .face-secondary {
+        color: #fff; } }
   .face-button:hover .face-primary {
     margin-top: -35px; }
 
@@ -353,6 +358,9 @@ body {
   @media (min-width: 1023px) {
     .face-button-card-2 {
       margin-right: 120px; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .face-button-card-2 {
+      margin-left: 10px; } }
   .face-button-card-2:hover {
     text-decoration: none; }
   .face-button-card-2 .icon {
@@ -371,6 +379,10 @@ body {
     margin-right: 0px;
     font-size: 12px;
     font-weight: 400; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .face-button-card-2 .face-primary {
+        font-size: 14px;
+        padding: 0 0; } }
     @media (min-width: 768px) {
       .face-button-card-2 .face-primary {
         margin-right: 0; } }
@@ -521,29 +533,62 @@ body {
     color: #aaaaaa; }
   #nav ul li.arrow-left {
     top: 50%;
-    left: 95%; }
+    left: 90%; }
+    @media (min-width: 768px) {
+      #nav ul li.arrow-left {
+        top: 50%;
+        left: 95%; } }
+    @media (min-width: 992px) {
+      #nav ul li.arrow-left {
+        top: 50%;
+        left: 95%; } }
   #nav ul li.arrow-right {
     top: 50%;
-    left: 35%; }
+    left: 2%; }
+    @media (min-width: 768px) {
+      #nav ul li.arrow-right {
+        top: 50%;
+        left: 2%; } }
+    @media (min-width: 992px) {
+      #nav ul li.arrow-right {
+        top: 50%;
+        left: 35%; } }
 
 .navbar-custom {
   margin-bottom: 0;
   z-index: 1023;
-  width: 100%;
-  background-color: #fff; }
+  width: 100%; }
   .navbar-custom button.navbar-toggle {
     margin-top: 3px; }
   .navbar-custom .navbar-brand img {
     width: 120px; }
   .navbar-custom .btn.btn-link.navbar-toggle.collapsed .icon-bar {
-    background-color: #000; }
+    background-color: #68BD45; }
 
-#menu-hidronatura ul.nav.navbar-nav {
+#menu-hidronatura, #menu-hidronatura-2, #menu-hidronatura-3, #menu-hidronatura-4 ul.nav.navbar-nav {
   background-color: #68BD45; }
-  #menu-hidronatura ul.nav.navbar-nav li a {
+  #menu-hidronatura li a, #menu-hidronatura-2 li a, #menu-hidronatura-3 li a, #menu-hidronatura-4 ul.nav.navbar-nav li a {
     color: #fff;
     font-family: "Covered By Your Grace", cursive;
     font-size: 20px; }
+
+.navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in {
+  width: 50%;
+  background-color: #53A2BE; }
+  .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0 15px 15px; }
+    .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a:hover {
+      background-color: #4992AB; }
+  .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav {
+    margin-top: 35px;
+    padding: 15px;
+    font-size: 36px; }
+    .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav a i {
+      color: #fff; }
 
 table {
   padding: 0 20px;
@@ -571,7 +616,9 @@ table {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; }
   @media (min-width: 1023px) {
     #main {
       height: 100vh; } }
@@ -692,6 +739,12 @@ table {
   #fresh-main img {
     height: 350px;
     margin: 7% 10% 0; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #fresh-main img {
+        margin: 0 0 0; } }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      #fresh-main img {
+        margin: 7% 23% 0; } }
     #fresh-main img[src*="img/logoHN.png"] {
       margin: 1% 0 0 2%;
       height: 60px;
@@ -731,6 +784,12 @@ table {
   #genious-main img {
     height: 350px;
     margin: 7% 10% 0; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #genious-main img {
+        margin: 0 0 0; } }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      #genious-main img {
+        margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 668px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
         margin: 7% 12% 0; } }
@@ -767,7 +826,13 @@ table {
       background-image: url("/img/motivate-main-test.jpg"); } }
   #motivate-main img {
     height: 350px;
-    margin: 7% 8% 0; }
+    margin: 7% 10% 0; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #motivate-main img {
+        margin: 0 0 0; } }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      #motivate-main img {
+        margin: 7% 23% 0; } }
     @media (min-width: 768px) {
       #motivate-main img {
         margin-top: 25%;
@@ -804,7 +869,8 @@ table {
       height: 100vh; } }
 
 #main-products {
-  background-image: url("/img/body-sm.jpg"); }
+  background-image: url("/img/body-sm.jpg");
+  background-position: center center; }
   @media (min-width: 768px) {
     #main-products {
       background-image: url("/img/body.png");
@@ -815,8 +881,9 @@ table {
       position: relative; } }
   #main-products #products h3 {
     color: #fff;
-    margin: 0;
-    font-weight: 700; }
+    margin: 0 0 0;
+    font-weight: 700;
+    font-size: 40px; }
     @media (min-width: 768px) {
       #main-products #products h3 {
         margin-top: 90px;
@@ -876,7 +943,7 @@ table {
     #main-products #products p i {
       font-size: 14px; }
   #main-products #products #products-list {
-    margin-top: 40px;
+    margin-top: 20px;
     z-index: 1; }
     @media (min-width: 768px) {
       #main-products #products #products-list {
@@ -888,8 +955,9 @@ table {
       #main-products #products #products-list {
         margin-top: 20px; } }
     #main-products #products #products-list a img.img-responsive {
-      margin: 0 auto;
-      transition: all .4s; }
+      margin: 0 auto 20px;
+      transition: all .4s;
+      height: 300px; }
       @media (min-width: 768px) {
         #main-products #products #products-list a img.img-responsive {
           height: 60%;
@@ -920,13 +988,6 @@ table {
           width: 65%; } }
       #main-products #products #products-list a img.img-responsive:hover {
         transform: scale(1.1); }
-
-#footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: auto; }
 
 #mycarousel a.left.carousel-control {
   text-shadow: none;
@@ -1088,9 +1149,7 @@ table {
     #fresh div.col-md-3 {
       padding-left: 0; } }
   #fresh .background-left {
-    overflow: hidden;
     position: fixed;
-    z-index: 200;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -1232,8 +1291,7 @@ table {
 
 .card-2 {
   position: relative;
-  margin-top: 300px;
-  z-index: 500; }
+  margin-top: 300px; }
   @media (min-width: 768px) {
     .card-2 {
       margin-top: 0;
@@ -1281,7 +1339,7 @@ table {
           height: 60px;
           margin: 10px 0 0 25px; } }
     .card-2 .content-about h3 {
-      padding: 30px 40px 0 40px; }
+      padding: 10px 40px 0 40px; }
       @media (min-width: 768px) {
         .card-2 .content-about h3 {
           padding: 0 110px 0 140px; } }
@@ -1292,7 +1350,8 @@ table {
         .card-2 .content-about h3 {
           padding: 0 230px 0; } }
       .card-2 .content-about h3.first-heading {
-        font-weight: 500; }
+        font-weight: 500;
+        font-size: 36px; }
         @media (min-width: 768px) {
           .card-2 .content-about h3.first-heading {
             margin: 50px 0 20px; } }
@@ -1332,6 +1391,9 @@ table {
           margin-top: 20px; } }
     .card-2 .content-about .face-button-card-2 {
       margin-left: 30px; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .card-2 .content-about .face-button-card-2 {
+          margin-left: 30px; } }
       @media (min-width: 768px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 40px 0 110px; } }
@@ -1472,7 +1534,7 @@ table {
       .card-2 .content-about .logos {
         padding: 0 80px 0 240px; } }
   .card-2 .footer {
-    padding-left: 100px; }
+    padding-left: 20px; }
     @media (min-width: 1023px) {
       .card-2 .footer {
         padding: 0 240px; } }
@@ -1491,7 +1553,6 @@ table {
   #genious .background-left {
     overflow: hidden;
     position: fixed;
-    z-index: 200;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -1547,7 +1608,6 @@ table {
   #motivate .background-left {
     overflow: hidden;
     position: fixed;
-    z-index: 200;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;

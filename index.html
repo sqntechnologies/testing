@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="img/icon2.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Gloria+Hallelujah|Indie+Flower|Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Gloria+Hallelujah|Indie+Flower|Lato:300,400|Montserrat:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap-min.css">
+  <link rel="stylesheet" href="css/bootstrap.offcanvas.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Hidronatura</title>
   <style>
@@ -31,15 +32,15 @@
     <div class="item">
           
       <div id="main">
-          <div class="visible-xs">
+          <!-- <div class="visible-xs">
               <nav class="navbar navbar-custom">
                 <div class="container">
                   <div class="navbar-header">
                     <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura">
                       <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand visible-xs visible-sm" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
                   </div>
@@ -53,7 +54,33 @@
                   </div> 
                 </div>
               </nav>
-            </div>       
+            </div>        -->
+            <nav class="navbar navbar-custom" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand visible-xs visible-sm" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
+                        <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html">INICIO</a></li>
+                          <li><a href="menu.html">PRODUCTOS</a></li>
+                          <li><a href="nosotros.html">NOSOTROS</a></li>
+                          <li><a href="contacto.html">CONTACTO</a></li>
+                          <div class="social-nav">
+                              <a style="color: #000;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a style="color: #000;"  href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          </div>                            
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
         <div id="main-image">
           <img class="img-responsive" src="img/main.png" alt="">
           <p class="visible-xs text-center" style="font-family: 'Covered By Your Grace', cursive; font-size: 30px; margin-top: 40px;">Utiliza las flechas para desplazarte por nuestra página</p>
@@ -82,19 +109,19 @@
     </div>
     <div class="item">
       <div id="fresh-main">
-          <div class="visible-xs">
+          <!-- <div class="visible-xs">
               <nav class="navbar navbar-custom">
                 <div class="container">
                   <div class="navbar-header">
-                    <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura">
+                    <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura-2">
                       <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand visible-xs visible-sm" href="index.html"><img style="height: auto; margin: 0;" id="logo" src="img/logoHN-nav.png" alt=""></a>
                   </div>
-                   <div class="collapse navbar-collapse" id="menu-hidronatura">
+                   <div class="collapse navbar-collapse" id="menu-hidronatura-2">
                     <ul class="nav navbar-nav">
                       <li><a href="index.html">INICIO</a></li>
                       <li><a href="menu.html">PRODUCTOS</a></li>
@@ -104,7 +131,33 @@
                   </div> 
                 </div>
               </nav>
-            </div>     
+            </div>      -->
+            <nav class="navbar navbar-custom" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand visible-xs visible-sm" href="index.html"><img  style="height: 39px;"  id="logo" class="img-responsive" src="img/logoHN.png" alt=""></a>
+                        <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas-1" style="float:left;">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas-1">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html">INICIO</a></li>
+                          <li><a href="menu.html">PRODUCTOS</a></li>
+                          <li><a href="nosotros.html">NOSOTROS</a></li>
+                          <li><a href="contacto.html">CONTACTO</a></li>
+                          <div class="social-nav">
+                              <a style="color: #000;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a style="color: #000;"  href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          </div>                            
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
         <div class="container-fluid">
           <div class="row">
             <!-- <a href="index.html"><img src="img/logoHN.png" alt=""></a> -->
@@ -159,19 +212,19 @@
     </div>
     <div class="item">
       <div id="genious-main">
-          <div class="visible-xs">
+          <!-- <div class="visible-xs">
               <nav class="navbar navbar-custom">
                 <div class="container">
                   <div class="navbar-header">
-                    <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura">
+                    <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura-3">
                       <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand visible-xs visible-sm" href="index.html"><img style="height: auto; margin: 0;" id="logo" src="img/logoHN-nav.png" alt=""></a>
                   </div>
-                   <div class="collapse navbar-collapse" id="menu-hidronatura">
+                   <div class="collapse navbar-collapse" id="menu-hidronatura-3">
                     <ul class="nav navbar-nav">
                       <li><a href="index.html">INICIO</a></li>
                       <li><a href="menu.html">PRODUCTOS</a></li>
@@ -181,7 +234,33 @@
                   </div> 
                 </div>
               </nav>
-            </div>     
+            </div>      -->
+            <nav class="navbar navbar-custom" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand visible-xs visible-sm" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
+                        <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas-2" style="float:left;">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas-2">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html">INICIO</a></li>
+                          <li><a href="menu.html">PRODUCTOS</a></li>
+                          <li><a href="nosotros.html">NOSOTROS</a></li>
+                          <li><a href="contacto.html">CONTACTO</a></li>
+                          <div class="social-nav">
+                              <a style="color: #000;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a style="color: #000;"  href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          </div>                            
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
         <div class="container-fluid">
           <div class="row">
             <!-- <a href="index.html"><img src="img/logoHN.png" alt=""></a> -->
@@ -193,7 +272,7 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
               <img class="visible-sm visible-md logo-sm"src="img/Logo-HN-GeniousBisel.png" alt="Logo Hidronatura Genious">  
               <div class="description-slider">
-                  <img class="visible-xs img-responsive" style="height: 100px; width: auto; margin: 0 0 2%; " src="img/Logo-HN-GeniousBisel.png" alt=""> 
+                  <img class="visible-xs img-responsive" style="height: 80px; width: auto; margin: 0 0 2%; " src="img/Logo-HN-GeniousBisel.png" alt=""> 
                   <p ><span>Diseñamos una fórmula natural y especialmente para ti.</span> Evita el cansancio y la fatiga en tu cuerpo, ayuda a regenerar tus células y tejidos, mejorar tu sistema inmunológico y a activar tu metabolismo para mantenerte con más energía.</p>        
                   <a class="face-button cm " href="genious.html">
                       <div style="color: #329bca;" class="face-primary">
@@ -237,19 +316,19 @@
     </div>
     <div class="item">
       <div id="motivate-main">
-          <div class="visible-xs">
+          <!-- <div class="visible-xs">
               <nav class="navbar navbar-custom">
                 <div class="container">
                   <div class="navbar-header">
-                    <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura">
+                    <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-hidronatura-4">
                       <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
+                      <span style="background-color: #fff;" class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand visible-xs visible-sm" href="index.html"><img style="height: auto; margin: 0;" id="logo" src="img/logoHN-nav.png" alt=""></a>
                   </div>
-                   <div class="collapse navbar-collapse" id="menu-hidronatura">
+                   <div class="collapse navbar-collapse" id="menu-hidronatura-4">
                     <ul class="nav navbar-nav">
                       <li><a href="index.html">INICIO</a></li>
                       <li><a href="menu.html">PRODUCTOS</a></li>
@@ -259,7 +338,33 @@
                   </div> 
                 </div>
               </nav>
-            </div>     
+            </div>      -->
+            <nav class="navbar navbar-custom" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand visible-xs visible-sm" href="index.html"><img  style="height: 39px;"  id="logo" class="img-responsive" src="img/logoHN.png" alt=""></a>
+                        <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas-3" style="float:left;">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                              <span style="background-color: #fff;" class="icon-bar"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas-3">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html">INICIO</a></li>
+                          <li><a href="menu.html">PRODUCTOS</a></li>
+                          <li><a href="nosotros.html">NOSOTROS</a></li>
+                          <li><a href="contacto.html">CONTACTO</a></li>
+                          <div class="social-nav">
+                              <a style="color: #000;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a style="color: #000;"  href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          </div>                            
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
         <div class="container-fluid">
           <div class="row">
             <!-- <a href="index.html"><img src="img/logoHN.png" alt=""></a> -->
@@ -271,14 +376,14 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
               <img class="visible-sm visible-md logo-sm"src="img/Logo-HN-MotivateBisel.png" alt="Logo Hidronatura Motivate"> 
               <div class="description-slider">
-                  <img class="visible-xs img-responsive" style="height: 100px; width: auto; margin: 0 0 2%; " src="img/Logo-HN-MotivateBisel.png" alt=""> 
+                  <img class="visible-xs img-responsive" style="height: 80px; width: auto; margin: 0 0 2%; " src="img/Logo-HN-MotivateBisel.png" alt=""> 
                   <p><span>Creamos esta fórmula para ayudar a</span> que fluya correctamente sangre hacia tu sistema nervioso y cerebro y te mantenga más concentrado en tus actividades, además de contribuir a la formación de dendritas y a reactivar el sistema nervioso central.</p>        
                   <a class="face-button cm" href="motivate.html">
                     <div style="color: #aa0000;" class="face-primary">
                       <div class="icon fa fa-info"></div>
                       Saber Más
                     </div>                
-                    <div class="face-secondary">
+                    <div  class="face-secondary">
                       <div class="icon fa fa-share"></div>
                       ¡Conócelo!
                     </div>
@@ -353,6 +458,7 @@
   </nav>  -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap-min.js"></script>
+  <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
     if($(window).width() >= 1024){
       // do your stuff

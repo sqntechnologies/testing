@@ -46,6 +46,7 @@
       height: 50px;
     }
     &.cm{
+      
       // @include mq('sm'){
       //   margin-left: 40px;
       // }
@@ -70,6 +71,13 @@
     .face-primary {
       background-color: #fff;
       color: $main-green;
+      
+    }
+    .face-secondary{
+      color: #000;
+      @include mq('sm'){
+        color: #fff;
+      }
     }
     &:hover .face-primary {
       margin-top: -35px;
@@ -165,6 +173,13 @@
   @include mq('lg'){
     margin-right: 120px;
   }
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    margin-left: 10px;
+  }
   &:hover{
     text-decoration: none;
   }
@@ -186,6 +201,14 @@
     margin-right: 0px;
     font-size: 12px;
     font-weight: 400;
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      font-size: 14px;
+      padding: 0 0;
+    }
     @include mq('sm'){
       margin-right: 0;
     }

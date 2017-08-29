@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap-min.css">
   <link rel="stylesheet" href="js/lib/animsition/animsition.css">
+  <link rel="stylesheet" href="css/bootstrap.offcanvas.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Genious Hidronatura</title>
 </head>
 <body>
   <div id="genious" class="animsition">
-    <div class="visible-xs">
+    <!-- <div class="visible-xs">
       <nav class="navbar navbar-custom">
         <div class="container">
           <div class="navbar-header">
@@ -36,7 +37,33 @@
           </div> 
         </div>
       </nav>
-    </div>
+    </div> -->
+    <nav class="navbar navbar-custom" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs visible-sm" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
+                <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span>
+                      <span  class="icon-bar"></span>
+                      <span  class="icon-bar"></span>
+                      <span  class="icon-bar"></span>
+                    </span>
+                </button>
+            </div>
+            <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">INICIO</a></li>
+                  <li><a href="menu.html">PRODUCTOS</a></li>
+                  <li><a href="nosotros.html">NOSOTROS</a></li>
+                  <li><a href="contacto.html">CONTACTO</a></li>
+                  <div class="social-nav">
+                      <a style="color: #000;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a style="color: #000;"  href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </div>                            
+                </ul>                        
+            </div>
+        </div>
+    </nav>
     <div class="container-fluid ">
       <div class="row">
         <div class="col-xs-12 col-md-3 product-card-img">
@@ -176,16 +203,16 @@
     </div>
     <a id="back-to-top" style="background-color: #329bca;" href="#" class="btn btn-primary btn-lg back-to-top" role="button"  data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>    
     <nav id="nav">
-      <ul class="hidden-xs">
-        <li  class="bottom-right hidden-md"><a style="color: #A8B7C6;" href="menu.html">productos</a></li>
-        <li  class="bottom-left visible-md"><a style="color: #000;" href="menu.html">productos</a></li>        
-        <li class="top-right-2"><a href="contacto.html">contacto</a></li>
-        <li class="top-right">
+      <ul>
+        <li  class="bottom-right hidden-md hidden-xs"><a style="color: #A8B7C6;" href="menu.html">productos</a></li>
+        <li  class="bottom-left visible-md hidden-xs"><a style="color: #000;" href="menu.html">productos</a></li>        
+        <li class="top-right-2 hidden-xs"><a href="contacto.html">contacto</a></li>
+        <li class="top-right hidden-xs">
           <a href="en/genious.html">EN</a>
           <a href="https://www.instagram.com/hidronaturafresh/" target="new"><i style="color: #000;" class="fa fa-instagram" aria-hidden="true"></i> </a>
           <a href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i style="color: #000;" class="fa fa-facebook" aria-hidden="true"></i> </a> 
         </li>
-        <li class="top-left"><a href="index.html"><img src="img/logoHN.png" alt=""></a></li>
+        <li class="top-left hidden-xs"><a href="index.html"><img src="img/logoHN.png" alt=""></a></li>
         <li class="arrow-left"><a href="motivate.html" class="animsition-link" data-animsition-in-class="fade-in-left-sm"><i class=" fa fa-arrow-right" aria-hidden="true"></i></a></li>
         <li class="arrow-right"><a href="fresh.html" class="animsition-link" ><i class=" fa fa-arrow-left animsition-link" aria-hidden="true"></i></a></li>
       </ul>
@@ -195,12 +222,21 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap-min.js"></script>
   <script src="js/lib/animsition/animsition.min.js"></script>
+  <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
+    $(function() {
+      $('.arrow-left').css('display', 'none');
+      $('.arrow-right').css('display', 'none');
+    });
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
+        $('.arrow-left').fadeIn();
+        $('.arrow-right').fadeIn();
         $('#back-to-top').fadeIn();
       }
       else {
+        $('.arrow-left').fadeOut();
+        $('.arrow-right').fadeOut();
         $('#back-to-top').fadeOut();
       }
       });

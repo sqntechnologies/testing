@@ -38,7 +38,7 @@
         </div>
       </nav>
     </div> -->
-    <nav class="navbar navbar-custom" role="navigation">
+    <nav class="navbar navbar-custom visible-xs" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand visible-xs visible-sm" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
@@ -224,10 +224,6 @@
   <script src="js/lib/animsition/animsition.min.js"></script>
   <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
-    $(function() {
-      $('.arrow-left').css('display', 'none');
-      $('.arrow-right').css('display', 'none');
-    });
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
         $('.arrow-left').fadeIn();
@@ -253,7 +249,8 @@
 
 
     if($(window).width() <= 768){
-      // do your stuff
+      $('.arrow-left').css('display', 'none');
+      $('.arrow-right').css('display', 'none');
       $('body').css('background-color', '#aa0000');    
     }
     $(".animsition").animsition({

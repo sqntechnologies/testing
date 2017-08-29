@@ -564,6 +564,8 @@ body {
     width: 120px; }
   .navbar-custom .btn.btn-link.navbar-toggle.collapsed .icon-bar {
     background-color: #68BD45; }
+  .navbar-custom .navbar-header button {
+    z-index: 10000; }
 
 #menu-hidronatura, #menu-hidronatura-2, #menu-hidronatura-3, #menu-hidronatura-4 ul.nav.navbar-nav {
   background-color: #68BD45; }
@@ -989,6 +991,13 @@ table {
       #main-products #products #products-list a img.img-responsive:hover {
         transform: scale(1.1); }
 
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto; }
+
 #mycarousel a.left.carousel-control {
   text-shadow: none;
   opacity: 1;
@@ -1199,6 +1208,9 @@ table {
   position: relative;
   margin: 550px 5px 0 5px;
   z-index: 500; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .card {
+      margin-top: 350px; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
       margin-top: 490px; } }

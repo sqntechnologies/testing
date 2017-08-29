@@ -224,10 +224,6 @@
   <script src="js/lib/animsition/animsition.min.js"></script>
   <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
-    $(function() {
-      $('.arrow-left').css('display', 'none');
-      $('.arrow-right').css('display', 'none');
-    });
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
         $('.arrow-left').fadeIn();
@@ -252,7 +248,8 @@
     $('.background-left').css({'background-image': 'url(img/genious/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
     if($(window).width() <= 768){
-      // do your stuff
+      $('.arrow-left').css('display', 'none');
+      $('.arrow-right').css('display', 'none');
       $('body').css('background-color', '#329bca');    
     }
     $(".animsition").animsition({

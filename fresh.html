@@ -230,10 +230,6 @@
   <script src="js/lib/animsition/animsition.min.js"></script>
   <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
-    $(function() {
-      $('.arrow-left').css('display', 'none');
-      $('.arrow-right').css('display', 'none');
-    });
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
         $('.arrow-left').fadeIn();
@@ -260,7 +256,9 @@
 
     if($(window).width() <= 768){
       // do your stuff
-      $('body').css('background-color', '#9EC432');    
+      $('body').css('background-color', '#9EC432'); 
+      $('.arrow-left').css('display', 'none');
+      $('.arrow-right').css('display', 'none');   
     }
     $(".animsition").animsition({
       inClass: 'fade-in-right',

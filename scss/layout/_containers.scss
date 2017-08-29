@@ -22,6 +22,8 @@
     background-position: center center;
     //margin: 7px;
     height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     // @include mq('md'){
     //   img{
     //     position: absolute;
@@ -44,7 +46,10 @@
     .logo-sm-2{
       height: 150px; 
       float: none;
-      margin: 45% 0 4% 0;
+      
+      @include mq('sm'){
+        margin: 45% 0 4% 0;
+      }
       @include mq('md'){
         margin: 25% 0 4% 0;
       }
@@ -169,16 +174,18 @@
       background-image: url('/img/fresh-main-test.jpg');
     }
     img{
-      height: 300px;
-      margin: 10% auto;
+      height: 350px;
+      margin: 7% 10% 0;
+      
       &[src*="img/logoHN.png"]{
         margin: 1% 0 0 2%;
         height: 60px;
         width: auto;
         z-index: 99999;
       }
+      
       @include mq('sm'){
-        margin-top: 27%;
+        margin: 27% 0;
         height: 78vh;  
         // height: auto; 
         // float: right;     
@@ -190,10 +197,13 @@
         height: auto;
       }
       @include mq('lg'){
-        margin-top: 100px;
-        // wid
-        // height: 80vh;
-        height: auto;
+        // margin-top: 100px;
+        // // wid
+        // // height: 80vh;
+        // height: auto;
+        margin-top: 80px;
+        // height: 90vh;
+        height: 80vh;
       }
       // @media(max-width: 1024px) and (max-height: 774px){
       //   margin-top: 120px;
@@ -222,6 +232,8 @@
     
   }
   #genious-main{
+    overflow-y: auto;
+    overflow-x: hidden;
     background-image: url('/img/genious-main-sm.jpg');
     @media (min-width: 1200px){
       background-image: url('/img/genious-main-test.jpg');
@@ -236,8 +248,15 @@
     // //margin: 7px;
     // height: 100%;
     img{
-      height: 300px;
-      margin: 10% auto;
+      height: 350px;
+      margin: 7% 10% 0;
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 668px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+        margin: 7% 12% 0;
+      }
       @include mq('sm'){
         margin-top: 27%;
         height: 78vh;   
@@ -282,8 +301,8 @@
     // //margin: 7px;
     // height: 100%;
     img{
-      height: 300px;
-      margin: 0 auto;
+      height: 350px;
+      margin: 7% 8% 0;
       @include mq('sm'){
         margin-top: 25%;
         height: 78vh;

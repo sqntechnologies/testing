@@ -165,14 +165,21 @@
     }
   }
 
-  p.description{
+  .description-slider{
     font-family: $main-font;
-    font-size: 18px;    
-    color: #fff;
-    margin-top: 0;
+    font-size: 14px;    
+    color: #000;
+    margin: 0 0 10px;
+    padding: 20px;
+    background-color: #FFF8D9;
+    @include mq('sm'){
+      background-color: transparent;
+      color: #fff;
+    }
     span{
       font-family: $funny-font;      
       font-weight: 500;
+      font-size: 24px;
       @include mq('sm'){
         font-size: 21px;
       }
@@ -225,15 +232,24 @@
       font-size: 24px;
     }
   }
-  p.description-fresh{
+  .description-slider-fresh{
     font-family: $main-font;
-    font-size: 18px;
-    color: #fff;
-    // margin: 10% 0 9% 0;
+    font-size: 14px;
+    padding: 20px;
+    color: #000;
+    margin: 0 0 10px;
+    background-color: #FFF8D9;
+    @include mq('sm'){
+      background-color: transparent;
+      color: #fff;
+    }
     span{
       font-family: $funny-font;
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 500;
+      @include mq('sm'){
+        font-size: 30px;
+      }
       @media (min-width: 1920px){
        font-size: 36px;
       }

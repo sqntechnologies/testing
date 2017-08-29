@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="img/icon2.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Gloria+Hallelujah|Indie+Flower|Gloria+Hallelujah|Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Gloria+Hallelujah|Indie+Flower|Lato:300,400|Montserrat:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap-min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -234,6 +234,7 @@
       </div>
     </div>
   </div>
+  <a id="back-to-top" style="background-color: #68BD45;" href="#" class="btn btn-primary btn-lg back-to-top" role="button"  data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>      
   <nav id="nav">
     <ul class="hidden-xs">
       <li class="bottom-right"><a style="color: #fff;" href="menu.html">productos</a></li>
@@ -249,6 +250,22 @@
   <script src="js/bootstrap-min.js"></script>
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhTFTEWa2TYYZg2WkJ-E-4XVE8pYRw19I"></script>
   <script type="text/javascript">
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 50) {
+        $('#back-to-top').fadeIn();
+      }
+      else {
+        $('#back-to-top').fadeOut();
+      }
+      });
+      // scroll body to 0px on click
+      $('#back-to-top').click(function () {
+      $('#back-to-top').tooltip('hide');
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
   $('.collapse').on('show.bs.collapse', function (e) {
     $('.collapse').not(e.target).removeClass('in');
 });

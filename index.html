@@ -32,6 +32,7 @@
     <div class="item">
           
       <div id="main">
+        
           <!-- <div class="visible-xs">
               <nav class="navbar navbar-custom">
                 <div class="container">
@@ -70,7 +71,7 @@
                     </div>
                     <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas">
                         <ul class="nav navbar-nav">
-                          <li><a href="index.html">INICIO</a></li>
+                          <li><a class="active" href="index.html">INICIO</a></li>
                           <li><a href="menu.html">PRODUCTOS</a></li>
                           <li><a href="nosotros.html">NOSOTROS</a></li>
                           <li><a href="contacto.html">CONTACTO</a></li>
@@ -81,11 +82,15 @@
                     </div>
                 </div>
             </nav>
+        <div id="message" style="width: 100%; height: 100%; background-color: #000; opacity: 0; position: absolute; z-index: -1;">
+          <h1 id="text" style="color: #fff; text-align: center; margin-top: 24%;">HLA PRUEBA</h1>
+        </div>
         <div id="main-image">
           <img class="img-responsive" src="img/main.png" alt="">
-          <p class="visible-xs text-center" style="font-family: 'Covered By Your Grace', cursive; font-size: 30px; margin-top: 40px;">Utiliza las flechas para desplazarte por nuestra página</p>
+          <p class="visible-xs text-center" style="font-family: 'Covered By Your Grace', cursive; font-size: 30px; margin-top: 40px;">Desliza para conocer nuestros productos</p>
         </div>
-        <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+        
+        <a class="right carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="next">
           <div class="right-arrow">
             <span aria-hidden="true"><i class=" fa fa-chevron-right" aria-hidden="true"></i></span>
             <span class="text">Conoce a la familia</span>
@@ -147,7 +152,7 @@
                     </div>
                     <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas-1">
                         <ul class="nav navbar-nav">
-                          <li><a href="index.html">INICIO</a></li>
+                          <li><a class="active" href="index.html">INICIO</a></li>
                           <li><a href="menu.html">PRODUCTOS</a></li>
                           <li><a href="nosotros.html">NOSOTROS</a></li>
                           <li><a href="contacto.html">CONTACTO</a></li>
@@ -187,7 +192,7 @@
           </div>
         </div>        
         <div class="control-right">
-          <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+          <a class="right carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="next">
             <div class="right-arrow">
               <span aria-hidden="true"><i class=" fa fa-chevron-right" aria-hidden="true"></i></span>
               <!-- <span class="text">Conoce a la familia</span> -->
@@ -250,7 +255,7 @@
                     </div>
                     <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas-2">
                         <ul class="nav navbar-nav">
-                          <li><a href="index.html">INICIO</a></li>
+                          <li><a class="active" href="index.html">INICIO</a></li>
                           <li><a href="menu.html">PRODUCTOS</a></li>
                           <li><a href="nosotros.html">NOSOTROS</a></li>
                           <li><a href="contacto.html">CONTACTO</a></li>
@@ -292,7 +297,7 @@
           </div>
         </div>
         <div class="control-right">
-          <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+          <a class="right carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="next">
             <div class="right-arrow">
               <span aria-hidden="true"><i class=" fa fa-chevron-right" aria-hidden="true"></i></span>
               <!-- <span class="text">Conoce a la familia</span> -->
@@ -354,7 +359,7 @@
                     </div>
                     <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas-3">
                         <ul class="nav navbar-nav">
-                          <li><a href="index.html">INICIO</a></li>
+                          <li><a class="active" href="index.html">INICIO</a></li>
                           <li><a href="menu.html">PRODUCTOS</a></li>
                           <li><a href="nosotros.html">NOSOTROS</a></li>
                           <li><a href="contacto.html">CONTACTO</a></li>
@@ -396,7 +401,7 @@
           </div>
         </div>
         <div class="control-right">
-          <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+          <a class="right carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="next">
             <div class="right-arrow">
               <span aria-hidden="true"><i class=" fa fa-chevron-right" aria-hidden="true"></i></span>
               <!-- <span class="text">Conoce a la familia</span> -->
@@ -421,7 +426,7 @@
   </div>
   <!-- Controls -->
   <div>
-    <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+    <a class="left carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="prev">
       <div class="left-arrow">
         <span aria-hidden="true"><i class=" fa fa-chevron-left" aria-hidden="true"></i></span>
         <!-- <span class="text">Descubre Nuestros Productos</span> -->
@@ -460,12 +465,36 @@
   <script src="js/bootstrap-min.js"></script>
   <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
-    $(function() {
-      $('#main-image .img-responsive').mouseover(function(){
-        console.log( "ready!" );
-      });
-      
+   $(".carousel").on("touchstart", function(event){
+        var xClick = event.originalEvent.touches[0].pageX;
+    $(this).one("touchmove", function(event){
+        var xMove = event.originalEvent.touches[0].pageX;
+        if( Math.floor(xClick - xMove) > 10 ){
+            $(".carousel").carousel('next');
+        }
+        else if( Math.floor(xClick - xMove) < -10 ){
+            $(".carousel").carousel('prev');
+        }
     });
+    $(".carousel").on("touchend", function(){
+            $(this).off("touchmove");
+    });
+});
+    // $(function() {    
+    //   $('#main-image .img-responsive').mouseover(function(){
+    //     $('#message').css({
+    //       'opacity': '1',
+    //       'z-index': '9999999'
+    //     });
+    //     console.log( "ready!" );
+    //   });
+    //   // $('#text').mouseout(function(){
+    //   //   $('#message').css({
+    //   //     'opacity': '0',
+    //   //     'z-index': '-1'
+    //   //   });
+    //   // });
+    // });
     if($(window).width() >= 1024){
       // do your stuff
       $(setTimeout(function(){

@@ -193,13 +193,17 @@
     width: 70%;
     // background-color: #53A2BE;
     background-color: rgba(83, 162, 190, .9);
+    
     ul.nav.navbar-nav{
       li a{
         color: #fff;
         font-family: $main-font;
         font-size: 18px;
-        font-weight: 700;
+        font-weight: 700;        
         padding: 15px 0 15px 15px;
+        &.active{
+          margin-top: 40px;
+        }
         &:hover{
           background-color: #4992AB;
         }

@@ -1095,6 +1095,12 @@
 		"oAP": "\/index4.html",
 		"oF": 0
 		},
+	"\/index5.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index5.html",
+		"oF": 0
+		},
 	"\/js\/bootstrap-min.js": {
 		"ft": 64,
 		"ma": 0,

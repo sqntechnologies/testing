@@ -306,3 +306,10 @@
 
   }
 
+  #main-image.img-responsive::after{
+    content: 'hola';
+    position: absolute;
+    top: 50%;
+    
+
+  }

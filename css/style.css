@@ -249,6 +249,11 @@ ul.not {
     .panel {
       padding: 0; } }
 
+#main-image.img-responsive::after {
+  content: 'hola';
+  position: absolute;
+  top: 50%; }
+
 html, body {
   height: 100%;
   min-height: 100%;
@@ -586,6 +591,8 @@ body {
     font-size: 18px;
     font-weight: 700;
     padding: 15px 0 15px 15px; }
+    .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a.active {
+      margin-top: 40px; }
     .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a:hover {
       background-color: #4992AB; }
   .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav {
@@ -659,10 +666,7 @@ table {
       #fresh-main .logo-sm-2, #genious-main .logo-sm-2, #motivate-main .logo-sm-2 {
         margin: 30% 0 4% 0; } }
   #fresh-main img[src*="img/logoHN.png"], #genious-main img[src*="img/logoHN.png"], #motivate-main img[src*="img/logoHN.png"] {
-    margin: 1% 0 0 2%;
-    height: 60px;
-    width: auto;
-    z-index: 99999; }
+    margin: 0; }
   @media (min-width: 1023px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
@@ -693,30 +697,34 @@ table {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 30%;
+        left: 29%;
         margin-top: 140px;
-        height: 450px; } }
+        height: 450px;
+        width: auto; } }
   @media (min-width: 1280px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
         left: 130px;
         margin-top: 65px;
-        height: 500px; } }
+        height: 500px;
+        width: auto; } }
   @media (min-width: 1283px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 32%;
+        left: 31%;
         margin-top: 95px;
-        height: 500px; } }
+        height: 500px;
+        width: auto; } }
   @media (min-width: 1380px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
       #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
         left: 30%;
         margin-top: calc(.12*100vh);
-        height: 580px; } }
+        height: 580px;
+        width: auto; } }
   @media (min-width: 1920px) {
     #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
       left: 32%;
@@ -742,7 +750,11 @@ table {
     #fresh-main {
       background-image: url("/img/fresh-main-test.jpg"); } }
   #fresh-main img {
-    height: 350px; }
+    height: 350px;
+    width: auto; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #fresh-main img {
+        width: 290px; } }
     @media (min-width: 400px) {
       #fresh-main img {
         margin: 0 10% 0; } }
@@ -765,22 +777,23 @@ table {
       #fresh-main img {
         margin: 0 7% 0; } }
     #fresh-main img[src*="img/logoHN.png"] {
-      margin: 1% 0 0 2%;
       height: 60px;
       width: auto;
       z-index: 99999; }
     @media (min-width: 768px) {
       #fresh-main img {
         margin: 27% 0;
-        height: 78vh; } }
+        height: 78vh;
+        width: auto; } }
     @media (min-width: 992px) {
       #fresh-main img {
         margin-top: 60px;
-        height: auto; } }
+        width: auto; } }
     @media (min-width: 1023px) {
       #fresh-main img {
         margin-top: 80px;
-        height: 80vh; } }
+        height: 80vh;
+        width: auto; } }
     @media (min-width: 1280px) {
       #fresh-main img {
         margin: 10% auto;
@@ -802,7 +815,8 @@ table {
       background-image: url("/img/genious-main-test.jpg"); } }
   #genious-main img {
     height: 350px;
-    margin: 7% 10% 0; }
+    margin: 7% 10% 0;
+    width: auto; }
     @media (min-width: 400px) {
       #genious-main img {
         margin: 0 10% 0; } }
@@ -826,16 +840,19 @@ table {
         margin: 0 7% 0; } }
     @media (min-width: 768px) {
       #genious-main img {
-        margin-top: 27%;
-        height: 78vh; } }
+        margin: 27% 0 0;
+        height: 78vh;
+        width: auto; } }
     @media (min-width: 992px) {
       #genious-main img {
-        margin-top: 60px;
-        height: auto; } }
+        margin: 60px 0 0;
+        height: auto;
+        width: auto; } }
     @media (min-width: 1023px) {
       #genious-main img {
-        margin-top: 80px;
-        height: 80vh; } }
+        margin: 80px 0 0;
+        height: 80vh;
+        width: auto; } }
     @media (min-width: 1280px) {
       #genious-main img {
         margin: 14% auto 0;
@@ -848,6 +865,8 @@ table {
       margin-right: 10px; }
 
 #motivate-main {
+  overflow-y: auto;
+  overflow-x: hidden;
   background-image: url("/img/motivate-main-sm.jpg"); }
   @media (min-width: 1200px) {
     #motivate-main {
@@ -857,7 +876,8 @@ table {
       background-image: url("/img/motivate-main-test.jpg"); } }
   #motivate-main img {
     height: 350px;
-    margin: 7% 10% 0; }
+    margin: 7% 10% 0;
+    width: auto; }
     @media (min-width: 400px) {
       #motivate-main img {
         margin: 0 10% 0; } }
@@ -881,11 +901,11 @@ table {
         margin: 0 7% 0; } }
     @media (min-width: 768px) {
       #motivate-main img {
-        margin-top: 25%;
+        margin: 25% 0 0;
         height: 78vh; } }
     @media (min-width: 992px) {
       #motivate-main img {
-        margin-top: 60px;
+        margin: 60px 0 0;
         height: auto; } }
     @media (min-width: 1023px) {
       #motivate-main img {
@@ -905,7 +925,8 @@ table {
   height: auto; }
   @media (min-width: 768px) {
     #main-image img.img-responsive {
-      height: 99vh; } }
+      height: 99vh;
+      width: auto; } }
   @media (min-width: 992px) {
     #main-image img.img-responsive {
       height: 99vh; } }
@@ -1057,7 +1078,9 @@ table {
   opacity: 1;
   position: fixed;
   top: 50%;
-  left: 2%; }
+  left: 2%;
+  color: #fff;
+  transition: color .4s; }
   .left-arrow span i.fa {
     font-size: 36px;
     position: relative;

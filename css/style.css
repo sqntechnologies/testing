@@ -582,24 +582,24 @@ body {
     font-family: "Covered By Your Grace", cursive;
     font-size: 20px; }
 
-.navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in {
+.navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in {
   width: 70%;
   background-color: rgba(83, 162, 190, 0.9); }
-  .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a {
+  .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 700;
     padding: 15px 0 15px 15px; }
-    .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a.active {
+    .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a.active {
       margin-top: 40px; }
-    .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a:hover {
+    .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a:hover {
       background-color: #4992AB; }
-  .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav {
+  .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav {
     margin-top: 35px;
     padding: 15px;
     font-size: 36px; }
-    .navbar-offcanvas.navbar-offcanvas-touch.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav a i {
+    .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav a i {
       color: #fff; }
 
 table {

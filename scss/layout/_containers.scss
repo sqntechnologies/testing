@@ -181,14 +181,15 @@
       background-image: url('/img/fresh-main-test.jpg');
     }
     img{
-      height: 350px;
+      // height: 350px;
+      height: 290px;
       width: auto;
       @media only screen 
       and (min-device-width: 320px) 
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) {
-        width: 290px;
+        height: 290px;
       }
       @media (min-width: 400px){
         margin: 0 10% 0;
@@ -210,7 +211,7 @@
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) {
-        margin: 0 0 0;
+        margin: 0 8%;
       }
       @media only screen 
       and (min-device-width: 320px) 
@@ -224,10 +225,11 @@
       and (max-device-width: 667px) 
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) { 
-        margin: 0 7% 0;
+        margin: 0 14% 0;
       }
       &[src*="img/logoHN.png"]{
         //margin: 1% 0 0 2%;
+        padding: 0;
         height: 60px;
         width: auto;
         z-index: 99999;
@@ -299,7 +301,8 @@
     // //margin: 7px;
     // height: 100%;
     img{
-      height: 350px;
+      // height: 350px;
+      height: 290px;
       margin: 7% 10% 0;
       width: auto;
       @media (min-width: 400px){
@@ -322,7 +325,7 @@
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) {
-        margin: 0 0 0;
+        margin: 0 7%;
       }
       @media only screen 
       and (min-device-width: 320px) 
@@ -336,7 +339,7 @@
       and (max-device-width: 667px) 
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) { 
-        margin: 0 7% 0;
+        margin: 0 14% 0;
       }
       @include mq('sm'){
         margin: 27% 0 0;
@@ -387,7 +390,8 @@
     // //margin: 7px;
     // height: 100%;
     img{
-      height: 350px;
+      // height: 350px;
+      height: 290px;
       margin: 7% 10% 0;
       width: auto;
       @media (min-width: 400px){
@@ -410,7 +414,7 @@
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) {
-        margin: 0 0 0;
+        margin: 0 8%;
       }
       @media only screen 
       and (min-device-width: 320px) 
@@ -424,7 +428,7 @@
       and (max-device-width: 667px) 
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: portrait) { 
-        margin: 0 7% 0;
+        margin: 0 14% 0;
       }
       @include mq('sm'){
         margin: 25% 0 0;

@@ -750,11 +750,11 @@ table {
     #fresh-main {
       background-image: url("/img/fresh-main-test.jpg"); } }
   #fresh-main img {
-    height: 350px;
+    height: 290px;
     width: auto; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh-main img {
-        width: 290px; } }
+        height: 290px; } }
     @media (min-width: 400px) {
       #fresh-main img {
         margin: 0 10% 0; } }
@@ -769,14 +769,15 @@ table {
         margin: 0 30% 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh-main img {
-        margin: 0 0 0; } }
+        margin: 0 8%; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
       #fresh-main img {
         margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh-main img {
-        margin: 0 7% 0; } }
+        margin: 0 14% 0; } }
     #fresh-main img[src*="img/logoHN.png"] {
+      padding: 0;
       height: 60px;
       width: auto;
       z-index: 99999; }
@@ -814,7 +815,7 @@ table {
     #genious-main {
       background-image: url("/img/genious-main-test.jpg"); } }
   #genious-main img {
-    height: 350px;
+    height: 290px;
     margin: 7% 10% 0;
     width: auto; }
     @media (min-width: 400px) {
@@ -831,13 +832,13 @@ table {
         margin: 0 30% 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
-        margin: 0 0 0; } }
+        margin: 0 7%; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
       #genious-main img {
         margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
-        margin: 0 7% 0; } }
+        margin: 0 14% 0; } }
     @media (min-width: 768px) {
       #genious-main img {
         margin: 27% 0 0;
@@ -875,7 +876,7 @@ table {
     #motivate-main {
       background-image: url("/img/motivate-main-test.jpg"); } }
   #motivate-main img {
-    height: 350px;
+    height: 290px;
     margin: 7% 10% 0;
     width: auto; }
     @media (min-width: 400px) {
@@ -892,13 +893,13 @@ table {
         margin: 0 30% 0; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate-main img {
-        margin: 0 0 0; } }
+        margin: 0 8%; } }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
       #motivate-main img {
         margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate-main img {
-        margin: 0 7% 0; } }
+        margin: 0 14% 0; } }
     @media (min-width: 768px) {
       #motivate-main img {
         margin: 25% 0 0;

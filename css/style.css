@@ -757,7 +757,7 @@ table {
         height: 290px; } }
     @media (min-width: 400px) {
       #fresh-main img {
-        margin: 0 10% 0; } }
+        margin: 0 18% 0; } }
     @media (min-width: 500px) {
       #fresh-main img {
         margin: 0 20% 0; } }
@@ -820,7 +820,7 @@ table {
     width: auto; }
     @media (min-width: 400px) {
       #genious-main img {
-        margin: 0 10% 0; } }
+        margin: 0 18% 0; } }
     @media (min-width: 500px) {
       #genious-main img {
         margin: 0 20% 0; } }
@@ -881,7 +881,7 @@ table {
     width: auto; }
     @media (min-width: 400px) {
       #motivate-main img {
-        margin: 0 10% 0; } }
+        margin: 0 18% 0; } }
     @media (min-width: 500px) {
       #motivate-main img {
         margin: 0 20% 0; } }
@@ -1281,7 +1281,7 @@ table {
       margin-top: 350px; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
-      margin-top: 490px; } }
+      margin-top: 450px; } }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .card {
       margin-top: 590px; } }

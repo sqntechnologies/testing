@@ -218,4 +218,10 @@
       }
     }
   }
+  .affix{
+    transition: opacity .4s;
+    .navbar-header a.navbar-brand{
+      opacity: 0;
+    }
+  }
   

@@ -179,7 +179,14 @@
     span{
       font-family: $funny-font;      
       font-weight: 500;
-      font-size: 24px;
+      font-size: 19px;
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+        font-size: 21px;
+      }
       @include mq('sm'){
         font-size: 21px;
       }

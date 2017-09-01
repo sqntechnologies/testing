@@ -28,7 +28,7 @@
     text-align: center;
     text-decoration: none;
     color: $main-green;
-    overflow: hidden;
+    overflow: hidden;   
     &:hover{
       text-decoration: none;
     }
@@ -79,9 +79,12 @@
         color: #fff;
       }
     }
-    &:hover .face-primary {
-      margin-top: -35px;
+    @include mq('lg'){
+      &:hover .face-primary {
+        margin-top: -35px;
+      }
     }
+   
 }
 .face-button-card {
   $height: 40px;
@@ -150,13 +153,15 @@
   .face-secondary{
     margin-right: 90px;
   }
-  &:hover .face-primary {
-    margin-top: -35px;
-    @media (min-width: 1920px){
-      margin-top: -45px;
+  @include mq('lg'){
+    &:hover .face-primary {
+      margin-top: -35px;
+      @media (min-width: 1920px){
+        margin-top: -45px;
+      }   
     }
-   
   }
+  
 }
 .face-button-card-2 {
   $height: 40px;
@@ -275,10 +280,12 @@
       margin-right: 15px;
     }
   }
-  &:hover .face-primary {
-    margin-top: -35px;
-   
-  }
+  @include mq('lg'){
+    &:hover .face-primary {
+      margin-top: -35px;
+     
+    }
+  }  
 }
 
 .back-to-top {

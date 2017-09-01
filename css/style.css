@@ -142,7 +142,10 @@ ul.not {
   .description-slider span {
     font-family: "Covered By Your Grace", cursive;
     font-weight: 500;
-    font-size: 24px; }
+    font-size: 19px; }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .description-slider span {
+        font-size: 21px; } }
     @media (min-width: 768px) {
       .description-slider span {
         font-size: 21px; } }
@@ -296,8 +299,9 @@ body {
     @media (min-width: 768px) {
       .face-button .face-secondary {
         color: #fff; } }
-  .face-button:hover .face-primary {
-    margin-top: -35px; }
+  @media (min-width: 1023px) {
+    .face-button:hover .face-primary {
+      margin-top: -35px; } }
 
 .face-button-card {
   height: 40px;
@@ -347,11 +351,12 @@ body {
         margin-right: 65%; } }
   .face-button-card .face-secondary {
     margin-right: 90px; }
-  .face-button-card:hover .face-primary {
-    margin-top: -35px; }
-    @media (min-width: 1920px) {
-      .face-button-card:hover .face-primary {
-        margin-top: -45px; } }
+  @media (min-width: 1023px) {
+    .face-button-card:hover .face-primary {
+      margin-top: -35px; } }
+  @media (min-width: 1023px) and (min-width: 1920px) {
+    .face-button-card:hover .face-primary {
+      margin-top: -45px; } }
 
 .face-button-card-2 {
   height: 40px;
@@ -435,8 +440,9 @@ body {
     @media (min-width: 1440px) {
       .face-button-card-2 .face-secondary {
         margin-right: 15px; } }
-  .face-button-card-2:hover .face-primary {
-    margin-top: -35px; }
+  @media (min-width: 1023px) {
+    .face-button-card-2:hover .face-primary {
+      margin-top: -35px; } }
 
 .back-to-top {
   bottom: 20px;
@@ -601,6 +607,11 @@ body {
     font-size: 36px; }
     .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav a i {
       color: #fff; }
+
+.affix {
+  transition: opacity .4s; }
+  .affix .navbar-header a.navbar-brand {
+    opacity: 0; }
 
 table {
   padding: 0 20px;
@@ -1325,7 +1336,21 @@ table {
       font-family: "Lato", sans-serif;
       font-weight: 500; }
       .card .content p.heading {
-        font-size: 34px; }
+        font-size: 30px; }
+        @media (min-width: 992px) {
+          .card .content p.heading {
+            font-size: 34px; } }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+          .card .content p.heading {
+            font-size: 24px; } }
+      .card .content p.heading-2 {
+        font-size: 30px; }
+        @media (min-width: 992px) {
+          .card .content p.heading-2 {
+            font-size: 34px; } }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+          .card .content p.heading-2 {
+            font-size: 22px; } }
       .card .content p.sub-heading {
         font-weight: 300; }
       @media (min-width: 1920px) {
@@ -1495,8 +1520,9 @@ table {
           margin: 0 0 0 210px; } }
     .card-2 .content-about .social-contacto a {
       font-family: "Lato", sans-serif;
-      font-size: 34px;
       color: #000; }
+      .card-2 .content-about .social-contacto a i {
+        font-size: 34px; }
       @media (min-width: 992px) {
         .card-2 .content-about .social-contacto a {
           font-size: 34px; } }

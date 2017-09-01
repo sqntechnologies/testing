@@ -86,8 +86,30 @@
         font-family: $secondary-font;
         font-weight: 500;
         &.heading{
-          font-size: 34px;
-          
+          font-size: 30px;
+          @include mq('md'){
+            font-size: 34px;
+          }
+          @media only screen 
+          and (min-device-width: 320px) 
+          and (max-device-width: 568px)
+          and (-webkit-min-device-pixel-ratio: 2)
+          and (orientation: portrait) {
+            font-size: 24px;
+          }
+        }
+        &.heading-2{
+          font-size: 30px;
+          @include mq('md'){
+            font-size: 34px;
+          }
+          @media only screen 
+          and (min-device-width: 320px) 
+          and (max-device-width: 568px)
+          and (-webkit-min-device-pixel-ratio: 2)
+          and (orientation: portrait) {
+            font-size: 22px;
+          }
         }
         &.sub-heading{
           font-weight: 300;
@@ -328,8 +350,11 @@
       .social-contacto{
         a{
           font-family: $secondary-font;
-          font-size: 34px;
+          
           color: #000;
+          i{
+            font-size: 34px;
+          }
           @include mq('md'){
             font-size: 34px;
           }

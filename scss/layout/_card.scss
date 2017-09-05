@@ -17,7 +17,7 @@
     and (max-device-width: 667px) 
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) { 
-      margin-top: 450px;
+      margin-top: 420px;
     }
     @media only screen 
     and (min-device-width: 414px) 
@@ -114,6 +114,9 @@
         &.sub-heading{
           font-weight: 300;
         }
+        // @media (min-width: 1369px){
+        //   font-size: 18px;
+        // }
         @media (min-width: 1920px){
           font-size: 18px;
         }
@@ -270,6 +273,7 @@
         @include mq('xl'){
           padding: 0 230px 0;
         }
+        
            
         &.first-heading{
           font-weight: 500;
@@ -321,6 +325,9 @@
           // padding-left: 200px;
           // padding-right: 180px;
         }
+        // @media (min-width: 1367px) {
+        //   font-size: 16px;
+        // }
       }
       .face-button-card-2{
         margin-left: 30px;
@@ -338,7 +345,7 @@
           margin: 0 70px 0 140px;
         }
         @include mq('lg'){
-          margin: 0 20px 0 190px;
+          margin: 0 0 0 170px;
         }
         @include mq('xl'){
           margin: 0 0 0 209px;
@@ -348,6 +355,13 @@
         }
       }
       .social-contacto{
+        margin-left: 10%;
+        @media (min-width: 768px){
+          margin-left: 60%;
+        }
+        @include mq('md'){
+          margin-left: 0;
+        }
         a{
           font-family: $secondary-font;
           
@@ -355,9 +369,7 @@
           i{
             font-size: 34px;
           }
-          @include mq('md'){
-            font-size: 34px;
-          }
+          
           @include mq('xl'){
             // padding-left: 200px;
             &:nth-child(2n){
@@ -393,6 +405,12 @@
       }      
       #contact-form{
         padding: 0 40px;
+        .control-label-input{
+          color: #333;
+          -webkit-transform: scale(0.8) translateY(-18px);
+          -ms-transform: scale(0.8) translateY(-18px);
+          transform: scale(0.8) translateY(-18px);
+        }
         .form-group{
           margin-top: 15px;
           .form-control{
@@ -421,7 +439,7 @@
               -webkit-transform: scale(0.8) translateY(-18px);
               -ms-transform: scale(0.8) translateY(-18px);
               transform: scale(0.8) translateY(-18px);
-            }
+            }            
             @include mq('md'){
               width: 57%;
             }
@@ -438,11 +456,24 @@
             background-color: #63b9ac;
             box-shadow: 0 2px 6px 3px rgba(0,0,0,0.15);
           }
+          @include mq('sm'){
+            margin-left: 25%;
+          }
+          @include mq('md'){
+            margin-left: 20%;
+          }
+          @include mq('xl'){
+            margin-left: 30%;
+          }
         }
         @include mq('sm'){
-          padding: 0 150px;
+          padding: 0 190px;
           overflow: hidden;
-
+          .form-group{
+            .form-control{
+              width: 57%;
+            }
+          }
           
         }
         @include mq('md'){
@@ -459,7 +490,7 @@
           overflow: hidden;
           .form-group{
             .form-control{
-              width: 52%;
+              width: 59%;
             }
           }
         }
@@ -468,10 +499,17 @@
           overflow: hidden;
           .form-group{
             .form-control{
-              width: 45%;
+              width: 59%;
             }
           }
           
+        }
+        @media (min-width: 1290px){
+          .form-group{
+            .form-control{
+              width: 65%;
+            }
+          }
         }
       }
       .logos{

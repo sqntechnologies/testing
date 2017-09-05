@@ -257,6 +257,12 @@ ul.not {
   position: absolute;
   top: 50%; }
 
+.text-center-2 {
+  text-align: center; }
+  @media (min-width: 1023px) {
+    .text-center-2 {
+      margin-left: 10%; } }
+
 html, body {
   height: 100%;
   min-height: 100%;
@@ -415,31 +421,39 @@ body {
         margin-right: 30px; } }
     @media (min-width: 1025px) {
       .face-button-card-2 .face-primary {
-        margin-right: 68px; } }
+        margin-right: 50px; } }
     @media (min-width: 1167px) {
       .face-button-card-2 .face-primary {
-        margin-right: 94px; } }
+        margin-right: 70px;
+        font-size: 14px; } }
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
       .face-button-card-2 .face-primary {
         margin-right: 90px; } }
     @media (min-width: 1229px) {
       .face-button-card-2 .face-primary {
-        margin-right: 100px;
+        margin-right: 50px;
         padding-left: 0; } }
     @media (min-width: 1280px) {
       .face-button-card-2 .face-primary {
-        margin-right: 70px; } }
+        margin-right: 30px; } }
     @media (min-width: 1440px) {
       .face-button-card-2 .face-primary {
-        margin-right: 85px; } }
+        margin-right: 55px; } }
   .face-button-card-2 .face-secondary {
     margin-right: 20px; }
     @media (min-width: 1023px) {
       .face-button-card-2 .face-secondary {
-        margin-right: 0; } }
+        margin-right: 0;
+        font-size: 12px; } }
+    @media (min-width: 1167px) {
+      .face-button-card-2 .face-secondary {
+        font-size: 12px; } }
+    @media (min-width: 1280px) {
+      .face-button-card-2 .face-secondary {
+        font-size: 14px; } }
     @media (min-width: 1440px) {
       .face-button-card-2 .face-secondary {
-        margin-right: 15px; } }
+        margin-right: 0; } }
   @media (min-width: 1023px) {
     .face-button-card-2:hover .face-primary {
       margin-top: -35px; } }
@@ -728,14 +742,6 @@ table {
         margin-top: 95px;
         height: 500px;
         width: auto; } }
-  @media (min-width: 1380px) {
-    #fresh-main img, #genious-main img, #motivate-main img {
-      position: absolute; }
-      #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
-        left: 30%;
-        margin-top: calc(.12*100vh);
-        height: 580px;
-        width: auto; } }
   @media (min-width: 1920px) {
     #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
       left: 32%;
@@ -786,7 +792,7 @@ table {
         margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh-main img {
-        margin: 0 14% 0; } }
+        margin: 0 15% 0; } }
     #fresh-main img[src*="img/logoHN.png"] {
       padding: 0;
       height: 60px;
@@ -809,10 +815,6 @@ table {
     @media (min-width: 1280px) {
       #fresh-main img {
         margin: 10% auto;
-        height: auto; } }
-    @media (min-width: 1380px) {
-      #fresh-main img {
-        margin: calc(.1*100vh) auto;
         height: auto; } }
 
 #genious-main {
@@ -849,7 +851,7 @@ table {
         margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
-        margin: 0 14% 0; } }
+        margin: 0 15% 0; } }
     @media (min-width: 768px) {
       #genious-main img {
         margin: 27% 0 0;
@@ -868,10 +870,6 @@ table {
     @media (min-width: 1280px) {
       #genious-main img {
         margin: 14% auto 0;
-        height: auto; } }
-    @media (min-width: 1380px) {
-      #genious-main img {
-        margin: calc(.1*100vh) auto;
         height: auto; } }
     #genious-main img :nth-child(2n+1) {
       margin-right: 10px; }
@@ -910,7 +908,7 @@ table {
         margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate-main img {
-        margin: 0 14% 0; } }
+        margin: 0 15% 0; } }
     @media (min-width: 768px) {
       #motivate-main img {
         margin: 25% 0 0;
@@ -926,10 +924,6 @@ table {
     @media (min-width: 1280px) {
       #motivate-main img {
         margin: 14% auto 0;
-        height: auto; } }
-    @media (min-width: 1380px) {
-      #motivate-main img {
-        margin: calc(.1*100vh) auto;
         height: auto; } }
 
 #main-image img.img-responsive {
@@ -1049,14 +1043,13 @@ table {
             float: right; }
           #main-products #products #products-list a img.img-responsive[src*="img/motivate.png"] {
             float: left; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        #main-products #products #products-list a img.img-responsive {
+          height: 50%; } }
       @media (min-width: 1200px) {
         #main-products #products #products-list a img.img-responsive {
           height: 37%;
           width: 48%; } }
-      @media (min-width: 1380px) {
-        #main-products #products #products-list a img.img-responsive {
-          height: 45%;
-          width: 56%; } }
       @media (min-width: 1282px) {
         #main-products #products #products-list a img.img-responsive {
           height: 45%;
@@ -1292,7 +1285,7 @@ table {
       margin-top: 350px; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
-      margin-top: 450px; } }
+      margin-top: 420px; } }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .card {
       margin-top: 590px; } }
@@ -1511,24 +1504,29 @@ table {
           margin: 0 70px 0 140px; } }
       @media (min-width: 1023px) {
         .card-2 .content-about .face-button-card-2 {
-          margin: 0 20px 0 190px; } }
+          margin: 0 0 0 170px; } }
       @media (min-width: 1280px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 0 0 209px; } }
       @media (min-width: 1440px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 0 0 210px; } }
-    .card-2 .content-about .social-contacto a {
-      font-family: "Lato", sans-serif;
-      color: #000; }
-      .card-2 .content-about .social-contacto a i {
-        font-size: 34px; }
+    .card-2 .content-about .social-contacto {
+      margin-left: 10%; }
+      @media (min-width: 768px) {
+        .card-2 .content-about .social-contacto {
+          margin-left: 60%; } }
       @media (min-width: 992px) {
-        .card-2 .content-about .social-contacto a {
-          font-size: 34px; } }
-      @media (min-width: 1280px) {
-        .card-2 .content-about .social-contacto a:nth-child(2n) {
-          padding-left: 10px; } }
+        .card-2 .content-about .social-contacto {
+          margin-left: 0; } }
+      .card-2 .content-about .social-contacto a {
+        font-family: "Lato", sans-serif;
+        color: #000; }
+        .card-2 .content-about .social-contacto a i {
+          font-size: 34px; }
+        @media (min-width: 1280px) {
+          .card-2 .content-about .social-contacto a:nth-child(2n) {
+            padding-left: 10px; } }
     @media (min-width: 768px) {
       .card-2 .content-about .social {
         padding: 0 140px; } }
@@ -1550,6 +1548,11 @@ table {
           padding-left: 10px; } }
     .card-2 .content-about #contact-form {
       padding: 0 40px; }
+      .card-2 .content-about #contact-form .control-label-input {
+        color: #333;
+        -webkit-transform: scale(0.8) translateY(-18px);
+        -ms-transform: scale(0.8) translateY(-18px);
+        transform: scale(0.8) translateY(-18px); }
       .card-2 .content-about #contact-form .form-group {
         margin-top: 15px; }
         .card-2 .content-about #contact-form .form-group .form-control {
@@ -1590,10 +1593,21 @@ table {
         .card-2 .content-about #contact-form .btn-send:hover {
           background-color: #63b9ac;
           box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.15); }
+        @media (min-width: 768px) {
+          .card-2 .content-about #contact-form .btn-send {
+            margin-left: 25%; } }
+        @media (min-width: 992px) {
+          .card-2 .content-about #contact-form .btn-send {
+            margin-left: 20%; } }
+        @media (min-width: 1280px) {
+          .card-2 .content-about #contact-form .btn-send {
+            margin-left: 30%; } }
       @media (min-width: 768px) {
         .card-2 .content-about #contact-form {
-          padding: 0 150px;
-          overflow: hidden; } }
+          padding: 0 190px;
+          overflow: hidden; }
+          .card-2 .content-about #contact-form .form-group .form-control {
+            width: 57%; } }
       @media (min-width: 992px) {
         .card-2 .content-about #contact-form {
           padding: 0 180px;
@@ -1605,13 +1619,16 @@ table {
           padding: 0 210px;
           overflow: hidden; }
           .card-2 .content-about #contact-form .form-group .form-control {
-            width: 52%; } }
+            width: 59%; } }
       @media (min-width: 1280px) {
         .card-2 .content-about #contact-form {
           padding: 0 240px;
           overflow: hidden; }
           .card-2 .content-about #contact-form .form-group .form-control {
-            width: 45%; } }
+            width: 59%; } }
+      @media (min-width: 1290px) {
+        .card-2 .content-about #contact-form .form-group .form-control {
+          width: 65%; } }
     .card-2 .content-about .logos p.city {
       padding: 0;
       margin: 10px 17%; }
@@ -1723,14 +1740,15 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%;
+    height: 95%;
     margin-top: -60px; }
     @media (min-width: 768px) {
       #motivate .background-left {
         margin-top: 0; } }
     @media (min-width: 1023px) {
       #motivate .background-left {
-        width: 35%; } }
+        width: 35%;
+        height: 100%; } }
     @media (min-width: 1023px) {
       #motivate .background-left {
         overflow: initial; } }

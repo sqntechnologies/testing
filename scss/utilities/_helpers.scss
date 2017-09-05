@@ -163,6 +163,9 @@
     @media (min-width: 1920px){
       font-size: 36px;
     }
+    // @media (min-width: 1367px){
+    //   font-size: 34px;
+    // }
   }
 
   .description-slider{
@@ -234,6 +237,9 @@
       //margin-top: 60%; 
       padding-right: 105px;
     }
+    // @media (min-width: 1367px){
+    //   font-size: 22px;
+    // }
     @media (min-width: 1920px){
       margin-top: 60%;
       font-size: 24px;
@@ -294,6 +300,9 @@
       margin-top: 47%;
       padding-right: 120px;
     }
+    // @media (min-width: 1367px){
+    //   font-size: 24px;
+    // }
     @media (min-width: 1920px){
       margin-top: 60%;
       font-size: 24px;
@@ -319,4 +328,10 @@
     top: 50%;
     
 
+  }
+  .text-center-2{
+    text-align: center;
+    @include mq('lg'){
+      margin-left: 10%;
+    }
   }

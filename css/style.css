@@ -263,6 +263,21 @@ ul.not {
     .text-center-2 {
       margin-left: 10%; } }
 
+a i.fa.fa-whatsapp, a i.fa.fa-phone {
+  font-size: 28px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    a i.fa.fa-whatsapp, a i.fa.fa-phone {
+      font-size: 28px; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    a i.fa.fa-whatsapp, a i.fa.fa-phone {
+      font-size: 34px; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    a i.fa.fa-whatsapp, a i.fa.fa-phone {
+      font-size: 34px; } }
+  @media (min-width: 1280px) {
+    a i.fa.fa-whatsapp, a i.fa.fa-phone {
+      font-size: 34px; } }
+
 html, body {
   height: 100%;
   min-height: 100%;
@@ -396,12 +411,15 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #68BD45;
     margin-right: 0px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       .face-button-card-2 .face-primary {
-        font-size: 14px;
+        font-size: 12px;
         padding: 0 0; } }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .face-button-card-2 .face-primary {
+        font-size: 14px; } }
     @media (min-width: 768px) {
       .face-button-card-2 .face-primary {
         margin-right: 0; } }
@@ -627,15 +645,32 @@ body {
   .affix .navbar-header a.navbar-brand {
     opacity: 0; }
 
-.en {
-  list-style: none;
-  position: fixed;
-  top: 10%;
-  right: 45%; }
-  .en a {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px; }
+a.en {
+  position: absolute;
+  left: 72%;
+  top: 20px;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 600; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    a.en {
+      left: 83%; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    a.en {
+      left: 83%; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    a.en {
+      top: 19px;
+      left: 76%; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    a.en {
+      top: 18px;
+      left: 87%; } }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    a.en {
+      left: 88%;
+      top: 17px; } }
 
 table {
   padding: 0 20px;
@@ -1025,6 +1060,47 @@ table {
         left: 56%; } }
     #main-products #products p i {
       font-size: 14px; }
+    @media (min-width: 768px) {
+      #main-products #products p.en {
+        font-size: 18px;
+        bottom: 30%;
+        left: 58%; } }
+    @media (min-width: 800px) {
+      #main-products #products p.en {
+        font-size: 18px;
+        bottom: 30%;
+        left: 58.4%; } }
+    @media (min-width: 900px) {
+      #main-products #products p.en {
+        font-size: 18px;
+        bottom: 30%;
+        left: 57.2%; } }
+    @media (min-width: 1080px) {
+      #main-products #products p.en {
+        left: 56.5%; } }
+    @media (min-width: 1199px) {
+      #main-products #products p.en {
+        left: 55.4%; } }
+    @media (min-width: 1200px) {
+      #main-products #products p.en {
+        font-size: 20px;
+        left: 57%; } }
+    @media (min-width: 1280px) {
+      #main-products #products p.en {
+        font-size: 20px;
+        left: 57.5%; } }
+    @media (min-width: 1300px) {
+      #main-products #products p.en {
+        font-size: 20px;
+        left: 56.8%; } }
+    @media (min-width: 1400px) {
+      #main-products #products p.en {
+        font-size: 20px;
+        left: 56.7%; } }
+    @media (min-width: 1900px) {
+      #main-products #products p.en {
+        font-size: 20px;
+        left: 55.3%; } }
   #main-products #products #products-list {
     margin-top: 20px;
     z-index: 1; }
@@ -1249,6 +1325,10 @@ table {
     height: 95%;
     margin-top: -60px;
     z-index: 500; }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #fresh .background-left {
+        height: 88%;
+        margin-top: -100px; } }
     @media (min-width: 768px) {
       #fresh .background-left {
         margin-top: 0; } }
@@ -1293,10 +1373,10 @@ table {
   z-index: 500; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
-      margin-top: 350px; } }
+      margin-top: 290px; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
-      margin-top: 420px; } }
+      margin-top: 380px; } }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .card {
       margin-top: 590px; } }
@@ -1503,10 +1583,10 @@ table {
           padding: 0 75px 0 230px;
           margin-top: 20px; } }
     .card-2 .content-about .face-button-card-2 {
-      margin-left: 30px; }
+      margin-left: 10px; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .card-2 .content-about .face-button-card-2 {
-          margin-left: 30px; } }
+          margin-left: 10px; } }
       @media (min-width: 768px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 40px 0 110px; } }
@@ -1534,7 +1614,16 @@ table {
         font-family: "Lato", sans-serif;
         color: #000; }
         .card-2 .content-about .social-contacto a i {
-          font-size: 34px; }
+          font-size: 30px; }
+          @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+            .card-2 .content-about .social-contacto a i {
+              font-size: 28px; } }
+          @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+            .card-2 .content-about .social-contacto a i {
+              font-size: 34px; } }
+          @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+            .card-2 .content-about .social-contacto a i {
+              font-size: 34px; } }
         @media (min-width: 1280px) {
           .card-2 .content-about .social-contacto a:nth-child(2n) {
             padding-left: 10px; } }
@@ -1698,6 +1787,10 @@ table {
     width: 100%;
     height: 95%;
     margin-top: -60px; }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #genious .background-left {
+        height: 85%;
+        margin-top: -90px; } }
     @media (min-width: 768px) {
       #genious .background-left {
         margin-top: 0; } }
@@ -1754,6 +1847,10 @@ table {
     width: 100%;
     height: 95%;
     margin-top: -60px; }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #motivate .background-left {
+        height: 85%;
+        margin-top: -90px; } }
     @media (min-width: 768px) {
       #motivate .background-left {
         margin-top: 0; } }

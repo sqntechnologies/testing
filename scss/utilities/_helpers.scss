@@ -335,3 +335,30 @@
       margin-left: 10%;
     }
   }
+  a i.fa.fa-whatsapp, a i.fa.fa-phone{
+    font-size: 28px;
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      font-size: 28px;
+    }
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      font-size: 34px;
+    }
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+      font-size: 34px;
+    }
+    @include mq('xl'){
+      font-size: 34px;
+    }
+  }

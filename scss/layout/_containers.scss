@@ -626,6 +626,49 @@
         //   bottom: 30%;
         //   left: 56.5%;
         // }
+        &.en{
+          @media (min-width: 768px){
+            font-size: 18px;
+            bottom: 30%;
+            left: 58%;
+          }
+          @media (min-width: 800px){
+            font-size: 18px;
+            bottom: 30%;
+            left: 58.4%;
+          }
+          @media (min-width: 900px){
+            font-size: 18px;
+            bottom: 30%;
+            left: 57.2%;
+          }
+          @media (min-width: 1080px) {                    
+            left: 56.5%;
+          }
+          @media (min-width: 1199px) { 
+            left: 55.4%;
+          }
+          @media(min-width: 1200px){
+            font-size: 20px;
+            left: 57%;
+          }
+          @media(min-width: 1280px){
+            font-size: 20px;
+            left: 57.5%;
+          }
+          @media(min-width: 1300px){
+            font-size: 20px;
+            left: 56.8%;
+          }
+          @media(min-width: 1400px){
+            font-size: 20px;
+            left: 56.7%;
+          }  
+          @media(min-width: 1900px){
+            font-size: 20px;
+            left: 55.3%;
+          }          
+        }
       }
       #products-list{
         margin-top: 20px;

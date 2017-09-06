@@ -204,15 +204,22 @@
     font-family: $main-font;
     color: $main-green;
     margin-right: 0px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     @media only screen 
     and (min-device-width: 320px) 
     and (max-device-width: 568px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) {
-      font-size: 14px;
+      font-size: 12px;
       padding: 0 0;
+    }
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+      font-size: 14px;
     }
     @include mq('sm'){
       margin-right: 0;

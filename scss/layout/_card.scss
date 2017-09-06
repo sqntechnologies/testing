@@ -10,14 +10,14 @@
     and (max-device-width: 568px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) {
-      margin-top: 350px;
+      margin-top: 290px;
     }
     @media only screen 
     and (min-device-width: 375px) 
     and (max-device-width: 667px) 
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) { 
-      margin-top: 420px;
+      margin-top: 380px;
     }
     @media only screen 
     and (min-device-width: 414px) 
@@ -330,13 +330,13 @@
         // }
       }
       .face-button-card-2{
-        margin-left: 30px;
+        margin-left: 10px;
         @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 568px)
         and (-webkit-min-device-pixel-ratio: 2)
         and (orientation: portrait) {
-          margin-left: 30px;
+          margin-left: 10px;
         }
         @include mq('sm'){
           margin: 0 40px 0 110px;
@@ -367,7 +367,28 @@
           
           color: #000;
           i{
-            font-size: 34px;
+            font-size: 30px;
+            @media only screen 
+            and (min-device-width: 320px) 
+            and (max-device-width: 568px)
+            and (-webkit-min-device-pixel-ratio: 2)
+            and (orientation: portrait) {
+              font-size: 28px;
+            }
+            @media only screen 
+            and (min-device-width: 320px) 
+            and (max-device-width: 568px)
+            and (-webkit-min-device-pixel-ratio: 2)
+            and (orientation: landscape) {
+              font-size: 34px;
+            }
+            @media only screen 
+            and (min-device-width: 375px) 
+            and (max-device-width: 667px) 
+            and (-webkit-min-device-pixel-ratio: 2)
+            and (orientation: portrait) { 
+              font-size: 34px;
+            }
           }
           
           @include mq('xl'){

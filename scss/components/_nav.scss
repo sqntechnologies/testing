@@ -224,14 +224,50 @@
       opacity: 0;
     }
   }
-  .en{
-    list-style: none; 
-    position: fixed; 
-    top: 10%;
-    right: 45%;
-    a{
-      color: #fff;
-      font-family: $main-font;
-      font-size: 20px;
+  a.en{    
+    position: absolute; 
+    left: 72%; 
+    top: 20px; 
+    font-size: 20px; 
+    color: #fff;
+    font-family: $secondary-font;
+    font-weight: 600;
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      left: 83%;
+    }
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      left: 83%;
+    }
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+      top: 19px;
+      left: 76%;
+    }
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      top: 18px; 
+      left: 87%;
+    }
+    @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+      left: 88%;
+      top: 17px;
     }
   }

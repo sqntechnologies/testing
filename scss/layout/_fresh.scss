@@ -32,6 +32,14 @@
       height: 95%;
       margin-top: -60px;
       z-index: 500;
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+        height: 88%;
+        margin-top: -100px;
+      }
       @include mq('sm'){
         margin-top: 0;
       }

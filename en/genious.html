@@ -208,13 +208,13 @@
   <script> 
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
-        $('.arrow-left').fadeIn();
-        $('.arrow-right').fadeIn();
+        $('.arrow-left a i').css('color', '#000');
+        $('.arrow-right a i').css('color', '#000');
         $('#back-to-top').fadeIn();
       }
       else {
-        $('.arrow-left').fadeOut();
-        $('.arrow-right').fadeOut();
+        $('.arrow-left a i').css('color', '#fff');
+        $('.arrow-right a i').css('color', '#fff');
         $('#back-to-top').fadeOut();
       }
       });
@@ -230,8 +230,8 @@
     $('.background-left').css({'background-image': 'url(../img/genious/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
     if($(window).width() <= 768){
-      $('.arrow-left').css('display', 'none');
-      $('.arrow-right').css('display', 'none');
+      $('.arrow-left a i').css('color', '#fff');
+      $('.arrow-right a i').css('color', '#fff');
       $('body').css('background-color', '#329bca');    
     }
     $(".animsition").animsition({

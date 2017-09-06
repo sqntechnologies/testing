@@ -627,6 +627,16 @@ body {
   .affix .navbar-header a.navbar-brand {
     opacity: 0; }
 
+.en {
+  list-style: none;
+  position: fixed;
+  top: 10%;
+  right: 45%; }
+  .en a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px; }
+
 table {
   padding: 0 20px;
   font-family: "Lato", sans-serif;

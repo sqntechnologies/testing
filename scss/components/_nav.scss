@@ -224,4 +224,14 @@
       opacity: 0;
     }
   }
-  
+  .en{
+    list-style: none; 
+    position: fixed; 
+    top: 10%;
+    right: 45%;
+    a{
+      color: #fff;
+      font-family: $main-font;
+      font-size: 20px;
+    }
+  }

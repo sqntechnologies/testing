@@ -1246,7 +1246,7 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%;
+    height: 95%;
     margin-top: -60px;
     z-index: 500; }
     @media (min-width: 768px) {
@@ -1254,7 +1254,8 @@ table {
         margin-top: 0; } }
     @media (min-width: 1023px) {
       #fresh .background-left {
-        width: 35%; } }
+        width: 35%;
+        height: 100%; } }
     @media (min-width: 1023px) {
       #fresh .background-left {
         overflow: initial; } }
@@ -1695,14 +1696,15 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%;
+    height: 95%;
     margin-top: -60px; }
     @media (min-width: 768px) {
       #genious .background-left {
         margin-top: 0; } }
     @media (min-width: 1023px) {
       #genious .background-left {
-        width: 35%; } }
+        width: 35%;
+        height: 100%; } }
     @media (min-width: 1023px) {
       #genious .background-left {
         overflow: initial; } }

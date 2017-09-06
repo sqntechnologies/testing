@@ -29,7 +29,7 @@
       background-size: cover;
       background-position: center center;
       width: 100%;
-      height: 100%;
+      height: 95%;
       margin-top: -60px;
       z-index: 500;
       @include mq('sm'){
@@ -38,6 +38,7 @@
       @include mq('lg'){
         // background-image: url('/img/fresh/hidroTest.jpg');
         width: 35%;
+        height: 100%;
       }
       @include mq('lg'){
         overflow: initial;

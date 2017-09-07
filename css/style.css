@@ -415,11 +415,13 @@ body {
     font-weight: 400; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       .face-button-card-2 .face-primary {
-        font-size: 12px;
-        padding: 0 0; } }
+        font-size: 14px;
+        padding: 0 0;
+        margin-right: 80px; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       .face-button-card-2 .face-primary {
-        font-size: 14px; } }
+        font-size: 14px;
+        margin-right: 80px; } }
     @media (min-width: 768px) {
       .face-button-card-2 .face-primary {
         margin-right: 0; } }
@@ -493,7 +495,7 @@ body {
 
 #nav ul li {
   position: fixed;
-  z-index: 900;
+  z-index: 500;
   text-transform: uppercase;
   list-style: none;
   font-family: "Montserrat", sans-serif;
@@ -1614,7 +1616,7 @@ table {
         font-family: "Lato", sans-serif;
         color: #000; }
         .card-2 .content-about .social-contacto a i {
-          font-size: 30px; }
+          font-size: 34px; }
           @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
             .card-2 .content-about .social-contacto a i {
               font-size: 28px; } }

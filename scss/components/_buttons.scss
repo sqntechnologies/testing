@@ -281,7 +281,22 @@
     @media(min-width: 1440px) {
       margin-right: 55px;
     }
-    
+    &.en-v{
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {        
+        margin-right: 45px;
+      }
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {         
+        margin-right: 50px;
+      }
+    }
   }
   .face-secondary{
     margin-right: 20px;

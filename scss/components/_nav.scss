@@ -207,6 +207,14 @@
         &:hover{
           background-color: #4992AB;
         }
+        &.en-nav{
+          font-size: 19px; 
+          color: #fff;
+          font-family: $secondary-font;
+          font-weight: 600;
+          position: absolute;
+          // left: 55%;
+        }
       }      
       .social-nav{
         margin-top: 35px;

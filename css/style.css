@@ -459,6 +459,12 @@ body {
     @media (min-width: 1440px) {
       .face-button-card-2 .face-primary {
         margin-right: 55px; } }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .face-button-card-2 .face-primary.en-v {
+        margin-right: 45px; } }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .face-button-card-2 .face-primary.en-v {
+        margin-right: 50px; } }
   .face-button-card-2 .face-secondary {
     margin-right: 20px; }
     @media (min-width: 1023px) {
@@ -635,6 +641,12 @@ body {
       margin-top: 40px; }
     .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a:hover {
       background-color: #4992AB; }
+    .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav li a.en-nav {
+      font-size: 19px;
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      font-weight: 600;
+      position: absolute; }
   .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav {
     margin-top: 35px;
     padding: 15px;

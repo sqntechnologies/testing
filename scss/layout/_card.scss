@@ -17,14 +17,14 @@
     and (max-device-width: 667px) 
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) { 
-      margin-top: 380px;
+      margin-top: 260px;
     }
     @media only screen 
     and (min-device-width: 414px) 
     and (max-device-width: 736px) 
     and (-webkit-min-device-pixel-ratio: 3)
     and (orientation: portrait) { 
-      margin-top: 590px;
+      margin-top: 350px;
     }
     @include mq('sm'){
       margin-top: 600px;
@@ -50,8 +50,7 @@
       }
       
       @include mq('md'){
-        height: 97vh;
-        
+        height: 97vh;        
         top: 0;
         right: 10px;
         bottom: 10px;
@@ -59,6 +58,7 @@
         overflow: auto;
         padding: 0 70px;
       }
+      
       @include mq('xl'){
         padding: 0 100px;
         
@@ -131,6 +131,10 @@
         }
       }
       .img-card-fresh{
+        width: 81%;
+        @include mq('sm'){
+          width: auto;
+        }
         @include mq('md'){
           margin: 20px 0 0;
           height: 100px;
@@ -180,7 +184,7 @@
 
   .card-2{
     position: relative;
-    margin-top: 500px;
+    // margin-top: 500px;
     // z-index: 500;
     @include mq('sm'){
       margin-top: 0;
@@ -208,7 +212,13 @@
     and (orientation: portrait) { 
       margin-top: 400px;
     }
-  
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      margin-top: 600px;
+    }
     @include mq('md'){
       //position: absolute;
       top: 10px;
@@ -222,8 +232,7 @@
     .content-about{
       // padding: 0 40;
       top: 0;
-      @include mq('sm'){
-        
+      @include mq('sm'){        
         height: 97vh;
         position: absolute;
         top: 10px;
@@ -232,6 +241,13 @@
         left: 10px;
         overflow: auto;
         overflow-x: hidden;
+      }
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: landscape) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        height: 87vh;
       }
       
     // position: absolute;
@@ -264,6 +280,13 @@
         @include mq('sm'){
           padding: 0 110px 0 140px;
         }
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+          padding: 10px 40px 0 60px;
+        }
         // @include mq('md'){
         //   padding: 0 155px 0;
         // }
@@ -280,7 +303,7 @@
           font-size: 36px;
           @include mq('sm'){
             margin: 50px 0 20px;
-          }
+          }          
           @include mq('md'){
             margin: 50px 0 20px;
           }
@@ -308,6 +331,13 @@
         @include mq('sm'){
           font-size: 14px;
           padding: 0 40px 0 140px;
+        }
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+          padding: 0 40px 0 40px;
         }
         @include mq('md'){
           padding: 0 70px 0 150px;
@@ -341,6 +371,13 @@
         @include mq('sm'){
           margin: 0 40px 0 110px;
         }
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+          margin: 0 60px 0 0;
+        }
         @include mq('md'){
           margin: 0 70px 0 140px;
         }
@@ -358,6 +395,13 @@
         margin-left: 10%;
         @media (min-width: 768px){
           margin-left: 60%;
+        }
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+          margin-left: 0;
         }
         @include mq('md'){
           margin-left: 0;
@@ -391,12 +435,12 @@
             }
           }
           
-          @include mq('xl'){
-            // padding-left: 200px;
-            &:nth-child(2n){
-              padding-left: 10px;
-            }     
-          }           
+          // @include mq('xl'){
+          //   // padding-left: 200px;
+          //   &:nth-child(2n){
+          //     padding-left: 10px;
+          //   }     
+          // }           
         }
       }
       .social{
@@ -464,6 +508,13 @@
             @include mq('md'){
               width: 57%;
             }
+            // @media only screen 
+            // and (min-device-width: 768px) 
+            // and (max-device-width: 1024px) 
+            // and (orientation: portrait) 
+            // and (-webkit-min-device-pixel-ratio: 1) {
+            //   width: 90%;
+            // }
           }
         }
         .btn-send{
@@ -479,6 +530,13 @@
           }
           @include mq('sm'){
             margin-left: 25%;
+          }
+          @media only screen 
+          and (min-device-width: 768px) 
+          and (max-device-width: 1024px) 
+          and (orientation: portrait) 
+          and (-webkit-min-device-pixel-ratio: 1) {
+            margin-left: 0;
           }
           @include mq('md'){
             margin-left: 20%;
@@ -496,6 +554,18 @@
             }
           }
           
+        }
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+          padding: 0 90px;
+          .form-group{
+            .form-control{
+              width: 75%;
+            }
+          }
         }
         @include mq('md'){
           padding: 0 180px;
@@ -544,6 +614,13 @@
           @include mq('xl'){
             width: 130px;
           }
+          @media only screen 
+          and (min-device-width: 768px) 
+          and (max-device-width: 1024px) 
+          and (orientation: portrait) 
+          and (-webkit-min-device-pixel-ratio: 1) {
+            width: 120px;
+          }
           &[src*="img/logos/oxxo.png"]{
             width: 80px;
           }
@@ -565,6 +642,13 @@
         @include mq('sm'){
           padding: 0 50px 0 150px;
           
+        }
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (orientation: portrait) 
+        and (-webkit-min-device-pixel-ratio: 1) {
+          padding: 0 50px 0 40px;
         }
         @include mq('md'){
           padding: 0 30px 0 200px;

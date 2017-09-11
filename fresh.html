@@ -38,10 +38,11 @@
         </div>
       </nav>
     </div> -->
-    <nav class="navbar navbar-custom visible-xs navbar-fixed-top" data-spy="affix" data-offset-top="1" role="navigation">
+    <nav class="navbar navbar-custom visible-xs " data-spy="affix" data-offset-top="1" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.html"><img id="logo" src="img/logoHN.png" alt=""></a>
+                <a class="en" href="en/fresh.html">EN</a>                        
                 <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
                     <span class="sr-only">Toggle navigation</span>
                     <span>
@@ -51,7 +52,7 @@
                     </span>
                 </button>
             </div>
-            <div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-right" id="js-bootstrap-offcanvas">
+            <div class="navbar-offcanvas navbar-offcanvas-right" id="js-bootstrap-offcanvas">
                 <ul class="nav navbar-nav">
                   <li><a class="en-nav" href="en/fresh.html">EN</a></li>
                   <li><a class="active" href="index.html">INICIO</a></li>
@@ -244,18 +245,7 @@
   <script src="js/lib/animsition/animsition.min.js"></script>
   <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 50) {
-        $('.arrow-left a i').css('color', '#9EC432');
-        $('.arrow-right a i').css('color', '#9EC432');
-        $('#back-to-top').fadeIn();
-      }
-      else {
-        $('.arrow-left a i').css('color', '#fff');
-        $('.arrow-right a i').css('color', '#fff');
-        $('#back-to-top').fadeOut();
-      }
-    });
+    
       // scroll body to 0px on click
     $('#back-to-top').click(function () {
       $('#back-to-top').tooltip('hide');
@@ -273,6 +263,18 @@
       $('body').css('background-color', '#9EC432'); 
       $('.arrow-left a i').css('color', '#fff');
       $('.arrow-right a i').css('color', '#fff');
+      $(window).scroll(function () {
+      if ($(this).scrollTop() > 60) {
+        $('.arrow-left a i').css('color', '#9EC432');
+        $('.arrow-right a i').css('color', '#9EC432');
+        $('#back-to-top').fadeIn();
+      }
+      else {
+        $('.arrow-left a i').css('color', '#fff');
+        $('.arrow-right a i').css('color', '#fff');
+        $('#back-to-top').fadeOut();
+      }
+    });
     }
     $(".animsition").animsition({
       inClass: 'fade-in-right',
@@ -280,6 +282,7 @@
       linkElement: '.animsition-link',
       inDuration: 1000,
       outDuration: 500
+      
     });
   
   </script>

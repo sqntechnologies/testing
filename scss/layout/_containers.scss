@@ -10,6 +10,7 @@
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    
     //position: fixed;
     @include mq('lg'){
       height: 100vh;
@@ -41,6 +42,14 @@
       @include mq('md'){
         margin: 25% 0 4% 0;
       }
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: portrait) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        height: 100px;
+        margin: 65% 0 4% 0;
+      }
       @media (min-width: 993px){
         margin: 30% 0 4% 0;
       }
@@ -51,6 +60,13 @@
       
       @include mq('sm'){
         margin: 45% 0 4% 0;
+      }
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: portrait) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        margin: 65% 0 4% 0;
       }
       @include mq('md'){
         margin: 25% 0 4% 0;
@@ -98,14 +114,15 @@
           // margin-top: 150px;
           margin-top: 130px;
         }
-      }
+      }      
       @media only screen 
       and (min-device-width: 768px) 
       and (max-device-width: 1024px) 
+      and (orientation: landscape) 
       and (-webkit-min-device-pixel-ratio: 1) {
         &:nth-child(2n){
           left: 31%;
-          margin-top: 140px;
+          margin-top: 100px;
           // height: 80vh;
           height: 500px;
         }
@@ -218,7 +235,7 @@
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: landscape) {
-        margin: 7% 23% 0;
+        // margin: 7% 23% 0;
       }
       @media only screen 
       and (min-device-width: 375px) 
@@ -241,6 +258,14 @@
         width: auto;
         // height: auto; 
         // float: right;     
+      }
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: portrait) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        margin-top: 55%;
+        height: 50vh;
       }
       @include mq('md'){
         // margin-top: 120px;
@@ -332,7 +357,7 @@
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: landscape) {
-        margin: 7% 23% 0;
+        // margin: 7% 23% 0;
       }
       @media only screen 
       and (min-device-width: 375px) 
@@ -346,7 +371,15 @@
         height: 78vh;   
         width: auto;
         //float: right;     
-      }     
+      }   
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: portrait) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        margin-top: 55%;
+        height: 50vh;
+      }  
       @include mq('md')  {
         margin: 60px 0 0;
         height: auto;
@@ -421,7 +454,7 @@
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
       and (orientation: landscape) {
-        margin: 7% 23% 0;
+        // margin: 7% 23% 0;
       }
       @media only screen 
       and (min-device-width: 375px) 
@@ -435,6 +468,14 @@
         height: 78vh;
         //float: right;     
       }    
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: portrait) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        margin-top: 55%;
+        height: 50vh;
+      }
       @include mq('md')  {
         margin: 60px 0 0;
         height: auto;
@@ -496,9 +537,24 @@
       // }
       // position: absolute;
       // left: 0;
+      @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        height: 79vh;
+      }
+      
       @include mq('sm'){
         height: 99vh;
         width: auto;
+      }
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: portrait) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        height: 85vh;
       }
       @include mq('md'){
         height: 99vh;
@@ -692,6 +748,9 @@
           @include mq('sm'){
             height: 60%;
             width: 71%;
+            &:hover{
+              transform: scale(1.1);
+            }
           }
           @include mq('md'){
             height: 43%;
@@ -731,9 +790,7 @@
             height: 55%;
             width: 65%;
           }
-          &:hover{
-            transform: scale(1.1);
-          }
+          
         }
 
       }
@@ -1026,7 +1083,21 @@
 .background-right{
   position: fixed;
   margin-bottom: 200px;
-  
+  margin-left: 30px;
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    margin-left: 0;
+  }
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    margin-left: 20px;
+  }
 }
 
   

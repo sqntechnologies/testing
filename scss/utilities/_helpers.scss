@@ -18,18 +18,28 @@
     border-radius: 2px;
   }
 
-  .img-about{
-    @include mq('sm'){
-      margin-top: 200px;
+  img.img-about{
+    height: 300px;
+    width: auto;
+    // @include mq('sm'){
+    //   margin-top: 200px;
+    // }
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      height: auto;
     }
     @include mq('md'){
       margin-top: 180px;
+      height: auto;
     }
     @include mq('lg'){
-      margin-top: 200px;
+      margin-top: 160px;
     }
     @include mq('xl'){
-      margin-top: 140px;
+      margin-top: 110px;
     }
     
   }
@@ -178,31 +188,7 @@
     @include mq('sm'){
       background-color: transparent;
       color: #fff;
-    }
-    span{
-      font-family: $funny-font;      
-      font-weight: 500;
-      font-size: 19px;
-      @media only screen 
-      and (min-device-width: 375px) 
-      and (max-device-width: 667px) 
-      and (-webkit-min-device-pixel-ratio: 2)
-      and (orientation: portrait) { 
-        font-size: 21px;
-      }
-      @include mq('sm'){
-        font-size: 21px;
-      }
-      @include mq('md'){
-        font-size: 24px;
-      }
-      @include mq('lg'){
-        font-size: 30px;
-      }
-      @media (min-width: 1920px){
-        font-size: 36px;
-       }
-    }
+    }  
     // @media(max-width: 1024px) and (max-height: 774px){
     //   margin-top: 62%;
     // }
@@ -210,6 +196,15 @@
       margin-top: 0;
       padding: 0 60px 0 40px;
       font-size: 14px;
+    }
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      margin-top: 20px;
+      font-size: 16px;
+      padding: 0 40px 0 25px;
     }
     @include mq('md'){
       font-size: 14px;
@@ -244,6 +239,32 @@
       margin-top: 60%;
       font-size: 24px;
     }
+    span{
+      font-family: $funny-font;      
+      font-weight: 500;
+      font-size: 19px;
+      
+      @include mq('sm'){
+        font-size: 26px;
+      }
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+        font-size: 21px;
+      }
+      
+      @include mq('md'){
+        font-size: 24px;
+      }
+      @include mq('lg'){
+        font-size: 30px;
+      }
+      @media (min-width: 1920px){
+        font-size: 36px;
+       }
+    }
   }
   .description-slider-fresh{
     font-family: $main-font;
@@ -262,22 +283,16 @@
     @include mq('sm'){
       background-color: transparent;
       color: #fff;
-    }
-    span{
-      font-family: $funny-font;
-      font-size: 24px;
-      font-weight: 500;
-      @include mq('sm'){
-        font-size: 30px;
-      }
-      @media (min-width: 1920px){
-       font-size: 36px;
-      }
-    }
-    @include mq('sm'){
       margin-top: 0;
       padding: 0 35px 0 30px;
       font-size: 16px;
+    }        
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      margin-top: 20px;
     }
     
     @include mq('md'){
@@ -306,6 +321,29 @@
     @media (min-width: 1920px){
       margin-top: 60%;
       font-size: 24px;
+    }
+    span{
+      font-family: $funny-font;
+      font-size: 24px;
+      font-weight: 500;
+      @include mq('sm'){
+        font-size: 30px;
+      }
+      @media (min-width: 1920px){
+       font-size: 36px;
+      }
+    }
+    img{
+      height: 120px; 
+      width: auto; 
+      margin: 0 0 10%; 
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: portrait) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        margin-top: 20px;
+      }
     }
     
   }

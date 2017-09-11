@@ -14,21 +14,22 @@
   height: 13px;
   border-radius: 2px; }
 
-@media (min-width: 768px) {
-  .img-about {
-    margin-top: 200px; } }
-
-@media (min-width: 992px) {
-  .img-about {
-    margin-top: 180px; } }
-
-@media (min-width: 1023px) {
-  .img-about {
-    margin-top: 200px; } }
-
-@media (min-width: 1280px) {
-  .img-about {
-    margin-top: 140px; } }
+img.img-about {
+  height: 300px;
+  width: auto; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    img.img-about {
+      height: auto; } }
+  @media (min-width: 992px) {
+    img.img-about {
+      margin-top: 180px;
+      height: auto; } }
+  @media (min-width: 1023px) {
+    img.img-about {
+      margin-top: 160px; } }
+  @media (min-width: 1280px) {
+    img.img-about {
+      margin-top: 110px; } }
 
 ul.inside {
   list-style: none;
@@ -139,30 +140,16 @@ ul.not {
     .description-slider {
       background-color: transparent;
       color: #fff; } }
-  .description-slider span {
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 500;
-    font-size: 19px; }
-    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-      .description-slider span {
-        font-size: 21px; } }
-    @media (min-width: 768px) {
-      .description-slider span {
-        font-size: 21px; } }
-    @media (min-width: 992px) {
-      .description-slider span {
-        font-size: 24px; } }
-    @media (min-width: 1023px) {
-      .description-slider span {
-        font-size: 30px; } }
-    @media (min-width: 1920px) {
-      .description-slider span {
-        font-size: 36px; } }
   @media (min-width: 768px) {
     .description-slider {
       margin-top: 0;
       padding: 0 60px 0 40px;
       font-size: 14px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .description-slider {
+      margin-top: 20px;
+      font-size: 16px;
+      padding: 0 40px 0 25px; } }
   @media (min-width: 992px) {
     .description-slider {
       font-size: 14px;
@@ -188,6 +175,25 @@ ul.not {
     .description-slider {
       margin-top: 60%;
       font-size: 24px; } }
+  .description-slider span {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 500;
+    font-size: 19px; }
+    @media (min-width: 768px) {
+      .description-slider span {
+        font-size: 26px; } }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .description-slider span {
+        font-size: 21px; } }
+    @media (min-width: 992px) {
+      .description-slider span {
+        font-size: 24px; } }
+    @media (min-width: 1023px) {
+      .description-slider span {
+        font-size: 30px; } }
+    @media (min-width: 1920px) {
+      .description-slider span {
+        font-size: 36px; } }
 
 .description-slider-fresh {
   font-family: "Montserrat", sans-serif;
@@ -202,22 +208,13 @@ ul.not {
   @media (min-width: 768px) {
     .description-slider-fresh {
       background-color: transparent;
-      color: #fff; } }
-  .description-slider-fresh span {
-    font-family: "Covered By Your Grace", cursive;
-    font-size: 24px;
-    font-weight: 500; }
-    @media (min-width: 768px) {
-      .description-slider-fresh span {
-        font-size: 30px; } }
-    @media (min-width: 1920px) {
-      .description-slider-fresh span {
-        font-size: 36px; } }
-  @media (min-width: 768px) {
-    .description-slider-fresh {
+      color: #fff;
       margin-top: 0;
       padding: 0 35px 0 30px;
       font-size: 16px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .description-slider-fresh {
+      margin-top: 20px; } }
   @media (min-width: 992px) {
     .description-slider-fresh {
       margin-top: 70%;
@@ -240,6 +237,23 @@ ul.not {
     .description-slider-fresh {
       margin-top: 60%;
       font-size: 24px; } }
+  .description-slider-fresh span {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 24px;
+    font-weight: 500; }
+    @media (min-width: 768px) {
+      .description-slider-fresh span {
+        font-size: 30px; } }
+    @media (min-width: 1920px) {
+      .description-slider-fresh span {
+        font-size: 36px; } }
+  .description-slider-fresh img {
+    height: 120px;
+    width: auto;
+    margin: 0 0 10%; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .description-slider-fresh img {
+        margin-top: 20px; } }
 
 .panel {
   margin-bottom: 10px;
@@ -446,16 +460,16 @@ body {
       .face-button-card-2 .face-primary {
         margin-right: 70px;
         font-size: 14px; } }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
       .face-button-card-2 .face-primary {
-        margin-right: 90px; } }
+        margin-right: 40px; } }
     @media (min-width: 1229px) {
       .face-button-card-2 .face-primary {
         margin-right: 50px;
         padding-left: 0; } }
     @media (min-width: 1280px) {
       .face-button-card-2 .face-primary {
-        margin-right: 30px; } }
+        margin-right: 40px; } }
     @media (min-width: 1440px) {
       .face-button-card-2 .face-primary {
         margin-right: 55px; } }
@@ -734,6 +748,10 @@ table {
     @media (min-width: 992px) {
       #fresh-main .logo-sm, #genious-main .logo-sm, #motivate-main .logo-sm {
         margin: 25% 0 4% 0; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #fresh-main .logo-sm, #genious-main .logo-sm, #motivate-main .logo-sm {
+        height: 100px;
+        margin: 65% 0 4% 0; } }
     @media (min-width: 993px) {
       #fresh-main .logo-sm, #genious-main .logo-sm, #motivate-main .logo-sm {
         margin: 30% 0 4% 0; } }
@@ -743,6 +761,9 @@ table {
     @media (min-width: 768px) {
       #fresh-main .logo-sm-2, #genious-main .logo-sm-2, #motivate-main .logo-sm-2 {
         margin: 45% 0 4% 0; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #fresh-main .logo-sm-2, #genious-main .logo-sm-2, #motivate-main .logo-sm-2 {
+        margin: 65% 0 4% 0; } }
     @media (min-width: 992px) {
       #fresh-main .logo-sm-2, #genious-main .logo-sm-2, #motivate-main .logo-sm-2 {
         margin: 25% 0 4% 0; } }
@@ -772,10 +793,10 @@ table {
         left: 32%;
         height: 450px;
         margin-top: 130px; } }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
       left: 31%;
-      margin-top: 140px;
+      margin-top: 100px;
       height: 500px; } }
   @media (min-width: 1180px) {
     #fresh-main img, #genious-main img, #motivate-main img {
@@ -846,9 +867,6 @@ table {
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh-main img {
         margin: 0 8%; } }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-      #fresh-main img {
-        margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh-main img {
         margin: 0 15% 0; } }
@@ -862,6 +880,10 @@ table {
         margin: 27% 0;
         height: 78vh;
         width: auto; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #fresh-main img {
+        margin-top: 55%;
+        height: 50vh; } }
     @media (min-width: 992px) {
       #fresh-main img {
         margin-top: 60px;
@@ -905,9 +927,6 @@ table {
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
         margin: 0 7%; } }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-      #genious-main img {
-        margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious-main img {
         margin: 0 15% 0; } }
@@ -916,6 +935,10 @@ table {
         margin: 27% 0 0;
         height: 78vh;
         width: auto; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #genious-main img {
+        margin-top: 55%;
+        height: 50vh; } }
     @media (min-width: 992px) {
       #genious-main img {
         margin: 60px 0 0;
@@ -962,9 +985,6 @@ table {
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate-main img {
         margin: 0 8%; } }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-      #motivate-main img {
-        margin: 7% 23% 0; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate-main img {
         margin: 0 15% 0; } }
@@ -972,6 +992,10 @@ table {
       #motivate-main img {
         margin: 25% 0 0;
         height: 78vh; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #motivate-main img {
+        margin-top: 55%;
+        height: 50vh; } }
     @media (min-width: 992px) {
       #motivate-main img {
         margin: 60px 0 0;
@@ -988,10 +1012,16 @@ table {
 #main-image img.img-responsive {
   margin: 0 auto;
   height: auto; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #main-image img.img-responsive {
+      height: 79vh; } }
   @media (min-width: 768px) {
     #main-image img.img-responsive {
       height: 99vh;
       width: auto; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    #main-image img.img-responsive {
+      height: 85vh; } }
   @media (min-width: 992px) {
     #main-image img.img-responsive {
       height: 99vh; } }
@@ -1134,7 +1164,9 @@ table {
       @media (min-width: 768px) {
         #main-products #products #products-list a img.img-responsive {
           height: 60%;
-          width: 71%; } }
+          width: 71%; }
+          #main-products #products #products-list a img.img-responsive:hover {
+            transform: scale(1.1); } }
       @media (min-width: 992px) {
         #main-products #products #products-list a img.img-responsive {
           height: 43%;
@@ -1158,8 +1190,6 @@ table {
         #main-products #products #products-list a img.img-responsive {
           height: 55%;
           width: 65%; } }
-      #main-products #products #products-list a img.img-responsive:hover {
-        transform: scale(1.1); }
 
 #footer {
   position: absolute;
@@ -1319,11 +1349,18 @@ table {
 
 .background-right {
   position: fixed;
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  margin-left: 30px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .background-right {
+      margin-left: 0; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .background-right {
+      margin-left: 20px; } }
 
 #fresh {
   background-color: #9EC432;
-  height: 100%; }
+  height: 100vh; }
   #fresh div.col-xs-12.product-card-img {
     padding: 0; }
   @media (min-width: 1023px) {
@@ -1336,13 +1373,12 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 95%;
-    margin-top: -60px;
-    z-index: 500; }
+    height: 90%;
+    margin-top: -60px; }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh .background-left {
-        height: 88%;
-        margin-top: -100px; } }
+        height: 75%;
+        margin-top: -90px; } }
     @media (min-width: 768px) {
       #fresh .background-left {
         margin-top: 0; } }
@@ -1353,33 +1389,12 @@ table {
     @media (min-width: 1023px) {
       #fresh .background-left {
         overflow: initial; } }
-    #fresh .background-left img {
-      height: 550px;
-      transform: scale(1.2);
-      /* Portrait and Landscape */ }
-      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-        #fresh .background-left img {
-          height: 620px; } }
-      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-        #fresh .background-left img {
-          height: 750px; } }
-      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-        #fresh .background-left img {
-          height: 650px; } }
-      @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-        #fresh .background-left img {
-          height: 800px; } }
-      @media (min-width: 768px) {
-        #fresh .background-left img {
-          height: 650px;
-          transform: scale(1); } }
-      @media (min-width: 1023px) {
-        #fresh .background-left img {
-          height: auto;
-          max-height: 100vh;
-          width: auto;
-          display: block;
-          transform: scale(1); } }
+    @media (min-width: 1023px) {
+      #fresh .background-left img {
+        height: auto;
+        max-height: 100vh;
+        width: auto;
+        display: block; } }
 
 .card {
   position: relative;
@@ -1390,10 +1405,10 @@ table {
       margin-top: 290px; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
-      margin-top: 380px; } }
+      margin-top: 260px; } }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .card {
-      margin-top: 590px; } }
+      margin-top: 350px; } }
   @media (min-width: 768px) {
     .card {
       margin-top: 600px; } }
@@ -1461,13 +1476,18 @@ table {
     @media (min-width: 1280px) {
       .card .content .img-card {
         height: 120px; } }
-    @media (min-width: 992px) {
-      .card .content .img-card-fresh {
-        margin: 20px 0 0;
-        height: 100px; } }
-    @media (min-width: 1023px) {
-      .card .content .img-card-fresh {
-        height: 170px; } }
+    .card .content .img-card-fresh {
+      width: 81%; }
+      @media (min-width: 768px) {
+        .card .content .img-card-fresh {
+          width: auto; } }
+      @media (min-width: 992px) {
+        .card .content .img-card-fresh {
+          margin: 20px 0 0;
+          height: 100px; } }
+      @media (min-width: 1023px) {
+        .card .content .img-card-fresh {
+          height: 170px; } }
     .card .content .description {
       margin-bottom: 20px; }
       @media (min-width: 1280px) {
@@ -1494,8 +1514,7 @@ table {
       font-size: 10px; }
 
 .card-2 {
-  position: relative;
-  margin-top: 500px; }
+  position: relative; }
   @media (min-width: 768px) {
     .card-2 {
       margin-top: 0;
@@ -1509,6 +1528,9 @@ table {
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .card-2 {
       margin-top: 400px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .card-2 {
+      margin-top: 600px; } }
   @media (min-width: 992px) {
     .card-2 {
       top: 10px;
@@ -1527,6 +1549,9 @@ table {
         left: 10px;
         overflow: auto;
         overflow-x: hidden; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      .card-2 .content-about {
+        height: 87vh; } }
     .card-2 .content-about img {
       position: fixed;
       z-index: 999; }
@@ -1550,6 +1575,9 @@ table {
       @media (min-width: 768px) {
         .card-2 .content-about h3 {
           padding: 0 110px 0 140px; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .card-2 .content-about h3 {
+          padding: 10px 40px 0 60px; } }
       @media (min-width: 1023px) {
         .card-2 .content-about h3 {
           padding: 0 190px 0; } }
@@ -1583,6 +1611,9 @@ table {
         .card-2 .content-about p {
           font-size: 14px;
           padding: 0 40px 0 140px; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .card-2 .content-about p {
+          padding: 0 40px 0 40px; } }
       @media (min-width: 992px) {
         .card-2 .content-about p {
           padding: 0 70px 0 150px;
@@ -1604,6 +1635,9 @@ table {
       @media (min-width: 768px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 40px 0 110px; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .card-2 .content-about .face-button-card-2 {
+          margin: 0 60px 0 0; } }
       @media (min-width: 992px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 70px 0 140px; } }
@@ -1621,6 +1655,9 @@ table {
       @media (min-width: 768px) {
         .card-2 .content-about .social-contacto {
           margin-left: 60%; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .card-2 .content-about .social-contacto {
+          margin-left: 0; } }
       @media (min-width: 992px) {
         .card-2 .content-about .social-contacto {
           margin-left: 0; } }
@@ -1638,9 +1675,6 @@ table {
           @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
             .card-2 .content-about .social-contacto a i {
               font-size: 34px; } }
-        @media (min-width: 1280px) {
-          .card-2 .content-about .social-contacto a:nth-child(2n) {
-            padding-left: 10px; } }
     @media (min-width: 768px) {
       .card-2 .content-about .social {
         padding: 0 140px; } }
@@ -1710,6 +1744,9 @@ table {
         @media (min-width: 768px) {
           .card-2 .content-about #contact-form .btn-send {
             margin-left: 25%; } }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+          .card-2 .content-about #contact-form .btn-send {
+            margin-left: 0; } }
         @media (min-width: 992px) {
           .card-2 .content-about #contact-form .btn-send {
             margin-left: 20%; } }
@@ -1722,6 +1759,11 @@ table {
           overflow: hidden; }
           .card-2 .content-about #contact-form .form-group .form-control {
             width: 57%; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .card-2 .content-about #contact-form {
+          padding: 0 90px; }
+          .card-2 .content-about #contact-form .form-group .form-control {
+            width: 75%; } }
       @media (min-width: 992px) {
         .card-2 .content-about #contact-form {
           padding: 0 180px;
@@ -1752,6 +1794,9 @@ table {
       @media (min-width: 1280px) {
         .card-2 .content-about .logos img {
           width: 130px; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .card-2 .content-about .logos img {
+          width: 120px; } }
       .card-2 .content-about .logos img[src*="img/logos/oxxo.png"] {
         width: 80px; }
       @media (min-width: 1280px) {
@@ -1765,6 +1810,9 @@ table {
     @media (min-width: 768px) {
       .card-2 .content-about .logos {
         padding: 0 50px 0 150px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .card-2 .content-about .logos {
+        padding: 0 50px 0 40px; } }
     @media (min-width: 992px) {
       .card-2 .content-about .logos {
         padding: 0 30px 0 200px; } }
@@ -1785,7 +1833,7 @@ table {
 
 #genious {
   background-color: #329bca;
-  height: 100%; }
+  height: 100vh; }
   #genious div.col-xs-12.product-card-img {
     padding: 0; }
   @media (min-width: 1023px) {
@@ -1799,11 +1847,11 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 95%;
+    height: 90%;
     margin-top: -60px; }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious .background-left {
-        height: 85%;
+        height: 75%;
         margin-top: -90px; } }
     @media (min-width: 768px) {
       #genious .background-left {
@@ -1822,12 +1870,6 @@ table {
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         #genious .background-left img {
           height: 620px; } }
-      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-        #genious .background-left img {
-          height: 750px; } }
-      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-        #genious .background-left img {
-          height: 650px; } }
       @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
         #genious .background-left img {
           height: 800px; } }
@@ -1845,7 +1887,7 @@ table {
 
 #motivate {
   background-color: #aa0000;
-  height: 100%; }
+  height: 100vh; }
   #motivate div.col-xs-12.product-card-img {
     padding: 0; }
   @media (min-width: 1023px) {
@@ -1859,11 +1901,11 @@ table {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 95%;
+    height: 90%;
     margin-top: -60px; }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate .background-left {
-        height: 85%;
+        height: 75%;
         margin-top: -90px; } }
     @media (min-width: 768px) {
       #motivate .background-left {
@@ -1875,33 +1917,17 @@ table {
     @media (min-width: 1023px) {
       #motivate .background-left {
         overflow: initial; } }
-    #motivate .background-left img {
-      height: 550px;
-      transform: scale(1.2);
-      /* Portrait and Landscape */ }
-      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-        #motivate .background-left img {
-          height: 620px; } }
-      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-        #motivate .background-left img {
-          height: 750px; } }
-      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-        #motivate .background-left img {
-          height: 650px; } }
-      @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-        #motivate .background-left img {
-          height: 800px; } }
-      @media (min-width: 768px) {
-        #motivate .background-left img {
-          height: 650px;
-          transform: scale(1); } }
-      @media (min-width: 1023px) {
-        #motivate .background-left img {
-          height: auto;
-          max-height: 100vh;
-          width: auto;
-          display: block;
-          transform: scale(1); } }
+    @media (min-width: 768px) {
+      #motivate .background-left img {
+        height: 650px;
+        transform: scale(1); } }
+    @media (min-width: 1023px) {
+      #motivate .background-left img {
+        height: auto;
+        max-height: 100vh;
+        width: auto;
+        display: block;
+        transform: scale(1); } }
 
 #nosotros {
   background-image: url("/img/01.png");
@@ -1909,6 +1935,9 @@ table {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     #nosotros {
       height: 100%; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    #nosotros {
+      height: 170vh; } }

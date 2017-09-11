@@ -67,16 +67,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/en\/about.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -248,16 +238,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/body2.jpg": {
-		"ft": 16384,
-		"iS": 198661,
-		"oA": 0,
-		"oAP": "\/img\/body2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/footer-test.png": {
 		"ft": 32768,
 		"iS": 7047854,
@@ -375,16 +355,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/fresh\/HIDRO_FRESH_FOTO_12.jpg": {
-		"ft": 16384,
-		"iS": 715998,
-		"oA": 0,
-		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_12.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/fresh\/HIDRO_FRESH_FOTO_2.jpg": {
 		"ft": 16384,
 		"iS": 195057,
@@ -395,26 +365,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/fresh\/HIDRO_FRESH_FOTO_22.jpg": {
-		"ft": 16384,
-		"iS": 945007,
-		"oA": 0,
-		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_22.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/fresh\/HIDRO_FRESH_FOTO_233.jpg": {
-		"ft": 16384,
-		"iS": 326131,
-		"oA": 0,
-		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_233.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/fresh\/HIDRO_FRESH_FOTO_3.jpg": {
 		"ft": 16384,
 		"iS": 223763,
@@ -423,36 +373,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/fresh\/HIDRO_FRESH_FOTO_32.jpg": {
-		"ft": 16384,
-		"iS": 1217053,
-		"oA": 0,
-		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_32.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/fresh\/HIDRO_FRESH_FOTO_333.jpg": {
-		"ft": 16384,
-		"iS": 472478,
-		"oA": 0,
-		"oAP": "\/img\/fresh\/HIDRO_FRESH_FOTO_333.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/fresh\/hidroTest.jpg": {
-		"ft": 16384,
-		"iS": 126945,
-		"oA": 0,
-		"oAP": "\/img\/fresh\/hidroTest.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/img\/genious-main-sm.jpg": {
@@ -518,16 +438,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/genious\/geniousTest.jpg": {
-		"ft": 16384,
-		"iS": 567396,
-		"oA": 0,
-		"oAP": "\/img\/genious\/geniousTest.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/genious\/HIDRO_GENIOUS_FOTO.jpg": {
 		"ft": 16384,
 		"iS": 648185,
@@ -548,26 +458,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/genious\/HIDRO_GENIOUS_FOTO_12.jpg": {
-		"ft": 16384,
-		"iS": 671183,
-		"oA": 0,
-		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_12.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/genious\/HIDRO_GENIOUS_FOTO_122.jpg": {
-		"ft": 16384,
-		"iS": 244014,
-		"oA": 0,
-		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_122.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/genious\/HIDRO_GENIOUS_FOTO_2.jpg": {
 		"ft": 16384,
 		"iS": 128534,
@@ -578,26 +468,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/genious\/HIDRO_GENIOUS_FOTO_22.jpg": {
-		"ft": 16384,
-		"iS": 648185,
-		"oA": 0,
-		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_22.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/genious\/HIDRO_GENIOUS_FOTO_222.jpg": {
-		"ft": 16384,
-		"iS": 254223,
-		"oA": 0,
-		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_222.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/genious\/HIDRO_GENIOUS_FOTO_3.jpg": {
 		"ft": 16384,
 		"iS": 115159,
@@ -606,78 +476,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/genious\/HIDRO_GENIOUS_FOTO_32.jpg": {
-		"ft": 16384,
-		"iS": 558139,
-		"oA": 0,
-		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_32.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/genious\/HIDRO_GENIOUS_FOTO_322.jpg": {
-		"ft": 16384,
-		"iS": 351496,
-		"oA": 0,
-		"oAP": "\/img\/genious\/HIDRO_GENIOUS_FOTO_322.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/geniousbg.png": {
-		"ft": 32768,
-		"iS": 227268,
-		"oA": 0,
-		"oAP": "\/img\/geniousbg.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/HIDRO_ACTIVATE_FOTO.jpg": {
-		"ft": 16384,
-		"iS": 837236,
-		"oA": 0,
-		"oAP": "\/img\/HIDRO_ACTIVATE_FOTO.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/hidroFresh-sm.jpg": {
-		"ft": 16384,
-		"iS": 334156,
-		"oA": 0,
-		"oAP": "\/img\/hidroFresh-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/hidrofresh.png": {
-		"ft": 32768,
-		"iS": 549935,
-		"oA": 0,
-		"oAP": "\/img\/hidrofresh.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/hidroTest-lg.jpg": {
-		"ft": 16384,
-		"iS": 348966,
-		"oA": 0,
-		"oAP": "\/img\/hidroTest-lg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/img\/HNGenious.jpg": {
@@ -722,12 +520,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/icon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/img\/icon.ico",
-		"oF": 0
-		},
 	"\/img\/icon2.ico": {
 		"ft": 8192,
 		"oA": 2,
@@ -761,55 +553,6 @@
 		"iS": 7591579,
 		"oA": 0,
 		"oAP": "\/img\/leafs-mot.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/list-img.gif": {
-		"ft": 4194304,
-		"iS": 1652,
-		"oA": 0,
-		"oAP": "\/img\/list-img.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/list-img.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/img\/list-img.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/list-not-img.gif": {
-		"ft": 4194304,
-		"iS": 1757,
-		"oA": 0,
-		"oAP": "\/img\/list-not-img.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/list-not-img.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/img\/list-not-img.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/list-not.png": {
-		"ft": 32768,
-		"iS": 16592,
-		"oA": 0,
-		"oAP": "\/img\/list-not.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -857,17 +600,6 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logo2.png": {
-		"ft": 32768,
-		"iS": 18777,
-		"oA": 0,
-		"oAP": "\/img\/logo2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1066,26 +798,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_23.jpg": {
-		"ft": 16384,
-		"iS": 751853,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_23.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/motivate\/HIDRO_ACTIVATE_FOTO_33.jpg": {
-		"ft": 16384,
-		"iS": 837236,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_ACTIVATE_FOTO_33.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_1.jpg": {
 		"ft": 16384,
 		"iS": 126963,
@@ -1094,16 +806,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_122.jpg": {
-		"ft": 16384,
-		"iS": 237891,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_MOTIVATE_FOTO_122.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_2.jpg": {
@@ -1116,16 +818,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_222.jpg": {
-		"ft": 16384,
-		"iS": 252221,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_MOTIVATE_FOTO_222.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_3.jpg": {
 		"ft": 16384,
 		"iS": 169540,
@@ -1134,47 +826,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/motivate\/HIDRO_MOTIVATE_FOTO_3222.jpg": {
-		"ft": 16384,
-		"iS": 2789939,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/HIDRO_MOTIVATE_FOTO_3222.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/motivate\/MOTIVATE-023.jpg": {
-		"ft": 16384,
-		"iS": 7553106,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/MOTIVATE-023.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/motivate\/motivateTest.jpg": {
-		"ft": 16384,
-		"iS": 607632,
-		"oA": 0,
-		"oAP": "\/img\/motivate\/motivateTest.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/motivatebg.png": {
-		"ft": 32768,
-		"iS": 645719,
-		"oA": 0,
-		"oAP": "\/img\/motivatebg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/not.png": {
@@ -1221,6 +872,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index5.html",
+		"oF": 0
+		},
+	"\/indexOld.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/indexOld.html",
 		"oF": 0
 		},
 	"\/js\/bootstrap-min.js": {
@@ -1365,6 +1022,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/nosotros.html",
+		"oF": 0
+		},
+	"\/off.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/off.html",
 		"oF": 0
 		},
 	"\/README.md": {

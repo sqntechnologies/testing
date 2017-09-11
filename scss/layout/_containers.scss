@@ -562,7 +562,13 @@
       and (orientation: landscape) {
         height: 79vh;
       }
-      
+      @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+        height: 60vh;
+      }
       @include mq('sm'){
         height: 99vh;
         width: auto;

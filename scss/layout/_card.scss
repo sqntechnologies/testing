@@ -2,9 +2,12 @@
 .card{
     position: relative;
     // margin-top: -60px;
-    margin: 550px 5px 0 5px;
+    margin: 300px 5px 0 5px;
     z-index: 500;
     //top: -70px;
+    @media screen and (orientation: landscape){
+      margin-top: 150px; 
+    }
     @media only screen 
     and (min-device-width: 320px) 
     and (max-device-width: 568px)
@@ -122,6 +125,9 @@
         }
       }
       .img-card{
+        @media screen and (orientation: landscape){
+          height: 100px;
+        }
         @include mq('md'){
           margin: 20px 0 0;
           height: 100px;
@@ -131,6 +137,9 @@
         }
       }
       .img-card-fresh{
+        @media screen and (orientation: landscape){
+          width: 50%;
+        }
         width: 81%;
         @include mq('sm'){
           width: auto;

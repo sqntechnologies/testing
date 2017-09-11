@@ -848,10 +848,8 @@ table {
       background-image: url("/img/fresh-main-test.jpg"); } }
   #fresh-main img {
     height: 290px;
+    margin: 7% 10% 0;
     width: auto; }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-      #fresh-main img {
-        height: 290px; } }
     @media (min-width: 400px) {
       #fresh-main img {
         margin: 0 18% 0; } }

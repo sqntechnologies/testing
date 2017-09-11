@@ -1373,6 +1373,9 @@ table {
     width: 100%;
     height: 90%;
     margin-top: -60px; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #fresh .background-left {
+        height: 70%; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #fresh .background-left {
         height: 75%;
@@ -1400,7 +1403,7 @@ table {
   z-index: 500; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
-      margin-top: 290px; } }
+      margin-top: 210px; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .card {
       margin-top: 260px; } }
@@ -1847,6 +1850,9 @@ table {
     width: 100%;
     height: 90%;
     margin-top: -60px; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #genious .background-left {
+        height: 70%; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #genious .background-left {
         height: 75%;
@@ -1901,6 +1907,9 @@ table {
     width: 100%;
     height: 90%;
     margin-top: -60px; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      #motivate .background-left {
+        height: 70%; } }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #motivate .background-left {
         height: 75%;

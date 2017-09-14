@@ -45,18 +45,18 @@
       font-size: 18px;
       height: 50px;
     }
-    &.cm{
+    // &.cm{
       
-      // @include mq('sm'){
-      //   margin-left: 40px;
-      // }
-      // @include mq('md'){
-      //   margin-left: 20px;
-      // }
-      // @include mq('lg'){
-      //   margin-left: 20px;
-      // }
-    }
+    //   // @include mq('sm'){
+    //   //   margin-left: 40px;
+    //   // }
+    //   // @include mq('md'){
+    //   //   margin-left: 20px;
+    //   // }
+    //   // @include mq('lg'){
+    //   //   margin-left: 20px;
+    //   // }
+    // }
     .icon {
       margin-right: 6px;
     }
@@ -142,6 +142,9 @@
     @media (min-width: 1323px){
       margin-right: 65%;
     }
+    @media(min-width: 1366px) and (max-height: 768px){
+      margin-right: 105px;
+    }
     // @media (min-width: 1342px) {
     //   margin-right: 160px;
     // }
@@ -152,6 +155,9 @@
   }
   .face-secondary{
     margin-right: 90px;
+    @media(min-width: 1366px) and (max-height: 768px){
+      margin-right: 20px;
+    }
   }
   @include mq('lg'){
     &:hover .face-primary {
@@ -269,7 +275,6 @@
       margin-right: 40px;
     }
   
-    
     @media (min-width: 1229px){
       margin-right: 50px;
       padding-left: 0;
@@ -315,6 +320,9 @@
     }
     @media(min-width: 1440px) {
       margin-right: 0;
+    }
+    @media(min-width: 1366px) and (max-height: 768px){
+      margin-left: 12px;
     }
   }
   @include mq('lg'){

@@ -390,8 +390,14 @@ body {
     @media (min-width: 1323px) {
       .face-button-card .face-primary {
         margin-right: 65%; } }
+    @media (min-width: 1366px) and (max-height: 768px) {
+      .face-button-card .face-primary {
+        margin-right: 105px; } }
   .face-button-card .face-secondary {
     margin-right: 90px; }
+    @media (min-width: 1366px) and (max-height: 768px) {
+      .face-button-card .face-secondary {
+        margin-right: 20px; } }
   @media (min-width: 1023px) {
     .face-button-card:hover .face-primary {
       margin-top: -35px; } }
@@ -503,6 +509,9 @@ body {
     @media (min-width: 1440px) {
       .face-button-card-2 .face-secondary {
         margin-right: 0; } }
+    @media (min-width: 1366px) and (max-height: 768px) {
+      .face-button-card-2 .face-secondary {
+        margin-left: 12px; } }
   @media (min-width: 1023px) {
     .face-button-card-2:hover .face-primary {
       margin-top: -35px; } }

@@ -40,11 +40,11 @@
     // }
     @include mq('xl'){
       // margin-left: 10px;
-    }
-    @media (min-width: 1920px){
+    }    
+    @media(min-width: 1920px) and (max-height: 1080px){
       font-size: 18px;
       height: 50px;
-    }
+    }  
     // &.cm{
       
     //   // @include mq('sm'){
@@ -67,6 +67,9 @@
       line-height: 35px;
       transition: margin .4s;
       color: #fff;
+      @media(min-width: 1920px) and (max-height: 1080px){
+        line-height: 45px;
+      }
     }
     .face-primary {
       background-color: #fff;
@@ -83,6 +86,12 @@
       &:hover .face-primary {
         margin-top: -35px;
       }
+    }
+    @media(min-width: 1920px) and (max-height: 1080px){
+      &:hover .face-primary {
+        margin-top: -45px;
+      }
+    
     }
    
 }

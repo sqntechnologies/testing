@@ -42,8 +42,11 @@
       margin-top: 110px;
     }
     @media(min-width: 1366px) and (max-height: 768px){
-      margin-top: 170px;
+      margin-top: 145px;
     }
+    @media(min-width: 1920px) and (max-height: 1080px){
+      margin-top: 180px;
+    } 
   }
 
   ul.inside{
@@ -241,6 +244,10 @@
       margin-top: 60%;
       font-size: 24px;
     }
+    @media(min-width: 1920px) and (max-height: 1080px){
+      margin-top: 55%;
+      font-size: 22px;
+    } 
     span{
       font-family: $funny-font;      
       font-weight: 500;
@@ -323,10 +330,10 @@
     @media(min-width: 1366px) and (max-height: 768px){
       margin-top: 50%;
     }
-    @media (min-width: 1920px){
-      margin-top: 60%;
+    @media(min-width: 1920px) and (max-height: 1080px){
+      margin-top: 55%;
       font-size: 24px;
-    }
+    }      
     span{
       font-family: $funny-font;
       font-size: 24px;

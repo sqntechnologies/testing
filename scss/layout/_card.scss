@@ -6,27 +6,27 @@
     z-index: 500;
     //top: -70px;
     @media screen and (orientation: landscape){
-      margin-top: 150px; 
+      margin-top: 150px;
     }
-    @media only screen 
-    and (min-device-width: 320px) 
+    @media only screen
+    and (min-device-width: 320px)
     and (max-device-width: 568px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) {
       margin-top: 210px;
     }
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
     and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) { 
+    and (orientation: portrait) {
       margin-top: 260px;
     }
-    @media only screen 
-    and (min-device-width: 414px) 
-    and (max-device-width: 736px) 
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
     and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait) { 
+    and (orientation: portrait) {
       margin-top: 350px;
     }
     @include mq('sm'){
@@ -51,9 +51,9 @@
       @include mq('sm'){
         padding: 35px;
       }
-      
+
       @include mq('md'){
-        height: 97vh;        
+        height: 97vh;
         top: 0;
         right: 10px;
         bottom: 10px;
@@ -61,10 +61,16 @@
         overflow: auto;
         padding: 0 70px;
       }
-      
+      @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (orientation: landscape)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        height: 90vh;
+      }
       @include mq('xl'){
         padding: 0 100px;
-        
+
       }
       .card-link-contact{
         font-family: $main-font;
@@ -73,7 +79,7 @@
         color: #000;
       }
       .source{
-        padding-right: 10px; 
+        padding-right: 10px;
         font-size: 9px;
       }
       // padding-top: 10px;
@@ -84,7 +90,7 @@
       //   color: #68BD45;
       //   margin: 40px 0 10px;
       // }
-      
+
       p{
         font-family: $secondary-font;
         font-weight: 500;
@@ -93,8 +99,8 @@
           @include mq('md'){
             font-size: 34px;
           }
-          @media only screen 
-          and (min-device-width: 320px) 
+          @media only screen
+          and (min-device-width: 320px)
           and (max-device-width: 568px)
           and (-webkit-min-device-pixel-ratio: 2)
           and (orientation: portrait) {
@@ -106,8 +112,8 @@
           @include mq('md'){
             font-size: 34px;
           }
-          @media only screen 
-          and (min-device-width: 320px) 
+          @media only screen
+          and (min-device-width: 320px)
           and (max-device-width: 568px)
           and (-webkit-min-device-pixel-ratio: 2)
           and (orientation: portrait) {
@@ -154,20 +160,20 @@
       }
       .description{
         margin-bottom: 20px;
-        
+
         @include mq('xl'){
           padding: 0 40px;
         }
       }
       .info{
         @include mq('xl'){
-          padding: 0 80px;          
+          padding: 0 80px;
         }
         @include mq('xl'){
           padding: 0 80px;
           margin-bottom: 30px;
         }
-        
+
         h3{
           margin: 0;
         }
@@ -183,12 +189,12 @@
       @include mq('lg'){
         padding: 0 240px;
       }
-      
+
       h4{
         font-family: $main-font;
         font-size: 10px;
       }
-    }  
+    }
   }
 
   .card-2{
@@ -199,34 +205,34 @@
       margin-top: 0;
       top: 10px;
     }
-    @media only screen 
-    and (min-device-width: 320px) 
+    @media only screen
+    and (min-device-width: 320px)
     and (max-device-width: 568px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) {
-      margin-top: 300px;
+      // margin-top: 300px;
     }
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
     and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) { 
-      margin-top: 350px;
+    and (orientation: portrait) {
+      // margin-top: 350px;
     }
-    
-    @media only screen 
-    and (min-device-width: 414px) 
-    and (max-device-width: 736px) 
+
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
     and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait) { 
-      margin-top: 400px;
+    and (orientation: portrait) {
+      // margin-top: 400px;
     }
-    @media only screen 
-    and (min-device-width: 768px) 
-    and (max-device-width: 1024px) 
-    and (orientation: portrait) 
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
     and (-webkit-min-device-pixel-ratio: 1) {
-      margin-top: 600px;
+      margin-top: -100px;
     }
     @include mq('md'){
       //position: absolute;
@@ -241,7 +247,7 @@
     .content-about{
       // padding: 0 40;
       top: 0;
-      @include mq('sm'){        
+      @include mq('sm'){
         height: 97vh;
         position: absolute;
         top: 10px;
@@ -251,15 +257,31 @@
         overflow: auto;
         overflow-x: hidden;
       }
-      @media only screen 
-      and (min-device-width: 768px) 
-      and (max-device-width: 1024px) 
-      and (orientation: landscape) 
+      @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (orientation: landscape)
       and (-webkit-min-device-pixel-ratio: 1) {
         height: 87vh;
       }
+      @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (orientation: portrait)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        height: 115vh;
+      }
       @media(min-width: 1366px) and (max-height: 768px){
         height: 96vh;
+      }
+      &.short{
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
+        and (-webkit-min-device-pixel-ratio: 1) {
+          height: 105vh;
+        }
       }
     // position: absolute;
       background: #FFF8D9;
@@ -273,7 +295,7 @@
           height: 35px;
           margin: 10px 0 0 25px;
         }
-        @include mq('md'){          
+        @include mq('md'){
           margin: 10px 0 0 25px;
         }
         @include mq('lg'){
@@ -283,18 +305,18 @@
         @include mq('xl'){
           height: 60px;
           margin: 10px 0 0 25px;
-        }        
+        }
       }
-      
+
       h3{
         padding: 10px 40px 0 40px;
         @include mq('sm'){
           padding: 0 110px 0 140px;
         }
-        @media only screen 
-        and (min-device-width: 768px) 
-        and (max-device-width: 1024px) 
-        and (orientation: portrait) 
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
         and (-webkit-min-device-pixel-ratio: 1) {
           padding: 10px 40px 0 60px;
         }
@@ -307,14 +329,14 @@
         @include mq('xl'){
           padding: 0 230px 0;
         }
-        
-           
+
+
         &.first-heading{
           font-weight: 500;
           font-size: 36px;
           @include mq('sm'){
             margin: 50px 0 20px;
-          }          
+          }
           @include mq('md'){
             margin: 50px 0 20px;
           }
@@ -322,18 +344,25 @@
             margin: 60px 0 0;
             font-size: 40px;
           }
+          @media only screen
+          and (min-device-width: 768px)
+          and (max-device-width: 1024px)
+          and (orientation: portrait)
+          and (-webkit-min-device-pixel-ratio: 1) {
+            margin: 10px 0 0;
+          }
           @include mq('xl'){
             margin: 100px 0 0;
             font-size: 48px;
-            
+
           }
-          
+
         }
       }
       // h3{
       //   padding-left: 200px;
       // }
-      p{        
+      p{
         font-size: 14px;
         padding: 0 40px 0 40px;
         font-family: $secondary-font;
@@ -343,10 +372,10 @@
           font-size: 14px;
           padding: 0 40px 0 140px;
         }
-        @media only screen 
-        and (min-device-width: 768px) 
-        and (max-device-width: 1024px) 
-        and (orientation: portrait) 
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
         and (-webkit-min-device-pixel-ratio: 1) {
           padding: 0 40px 0 40px;
         }
@@ -372,8 +401,8 @@
       }
       .face-button-card-2{
         margin-left: 10px;
-        @media only screen 
-        and (min-device-width: 320px) 
+        @media only screen
+        and (min-device-width: 320px)
         and (max-device-width: 568px)
         and (-webkit-min-device-pixel-ratio: 2)
         and (orientation: portrait) {
@@ -382,12 +411,12 @@
         @include mq('sm'){
           margin: 0 40px 0 110px;
         }
-        @media only screen 
-        and (min-device-width: 768px) 
-        and (max-device-width: 1024px) 
-        and (orientation: portrait) 
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
         and (-webkit-min-device-pixel-ratio: 1) {
-          margin: 0 60px 0 0;
+          margin: 0 20px 0 0;
         }
         @include mq('md'){
           margin: 0 70px 0 140px;
@@ -407,10 +436,10 @@
         @media (min-width: 768px){
           margin-left: 60%;
         }
-        @media only screen 
-        and (min-device-width: 768px) 
-        and (max-device-width: 1024px) 
-        and (orientation: portrait) 
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
         and (-webkit-min-device-pixel-ratio: 1) {
           margin-left: 0;
         }
@@ -419,39 +448,39 @@
         }
         a{
           font-family: $secondary-font;
-          
+
           color: #000;
           i{
             font-size: 34px;
-            @media only screen 
-            and (min-device-width: 320px) 
+            @media only screen
+            and (min-device-width: 320px)
             and (max-device-width: 568px)
             and (-webkit-min-device-pixel-ratio: 2)
             and (orientation: portrait) {
               font-size: 28px;
             }
-            @media only screen 
-            and (min-device-width: 320px) 
+            @media only screen
+            and (min-device-width: 320px)
             and (max-device-width: 568px)
             and (-webkit-min-device-pixel-ratio: 2)
             and (orientation: landscape) {
               font-size: 34px;
             }
-            @media only screen 
-            and (min-device-width: 375px) 
-            and (max-device-width: 667px) 
+            @media only screen
+            and (min-device-width: 375px)
+            and (max-device-width: 667px)
             and (-webkit-min-device-pixel-ratio: 2)
-            and (orientation: portrait) { 
+            and (orientation: portrait) {
               font-size: 34px;
             }
           }
-          
+
           // @include mq('xl'){
           //   // padding-left: 200px;
           //   &:nth-child(2n){
           //     padding-left: 10px;
-          //   }     
-          // }           
+          //   }
+          // }
         }
       }
       .social{
@@ -460,7 +489,7 @@
         }
         @include mq('md'){
           padding: 0 150px;
-        } 
+        }
         @include mq('lg'){
           padding: 0 190px;
         }
@@ -475,10 +504,10 @@
             // padding-left: 200px;
             &:nth-child(2n){
               padding-left: 10px;
-            }     
-          }           
+            }
+          }
         }
-      }      
+      }
       #contact-form{
         padding: 0 40px;
         .control-label-input{
@@ -501,7 +530,7 @@
             & + .control-label {
               position: relative;
               padding: 6px 11px  ;
-              cursor: text;                
+              cursor: text;
               -webkit-transform-origin: left center;
               -ms-transform-origin: left center;
               transform-origin: left center;
@@ -515,14 +544,14 @@
               -webkit-transform: scale(0.8) translateY(-18px);
               -ms-transform: scale(0.8) translateY(-18px);
               transform: scale(0.8) translateY(-18px);
-            }            
+            }
             @include mq('md'){
               width: 57%;
             }
-            // @media only screen 
-            // and (min-device-width: 768px) 
-            // and (max-device-width: 1024px) 
-            // and (orientation: portrait) 
+            // @media only screen
+            // and (min-device-width: 768px)
+            // and (max-device-width: 1024px)
+            // and (orientation: portrait)
             // and (-webkit-min-device-pixel-ratio: 1) {
             //   width: 90%;
             // }
@@ -542,22 +571,29 @@
           @include mq('sm'){
             margin-left: 25%;
           }
-          @media only screen 
-          and (min-device-width: 768px) 
-          and (max-device-width: 1024px) 
-          and (orientation: portrait) 
+          @include mq('md'){
+            margin-left: 20%;
+          }
+          @media only screen
+          and (min-device-width: 768px)
+          and (max-device-width: 1024px)
+          and (orientation: portrait)
           and (-webkit-min-device-pixel-ratio: 1) {
             margin-left: 0;
           }
-          @include mq('md'){
-            margin-left: 20%;
+          @media only screen
+          and (min-device-width: 768px)
+          and (max-device-width: 1024px)
+          and (orientation: landscape)
+          and (-webkit-min-device-pixel-ratio: 1) {
+            margin-left: 75px;
           }
           @include mq('xl'){
             margin-left: 30%;
           }
           @media(min-width: 1920px) and (max-height: 1080px){
             margin-left: 10%;
-          } 
+          }
         }
         @include mq('sm'){
           padding: 0 190px;
@@ -567,12 +603,12 @@
               width: 57%;
             }
           }
-          
+
         }
-        @media only screen 
-        and (min-device-width: 768px) 
-        and (max-device-width: 1024px) 
-        and (orientation: portrait) 
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
         and (-webkit-min-device-pixel-ratio: 1) {
           padding: 0 90px;
           .form-group{
@@ -607,7 +643,7 @@
               width: 59%;
             }
           }
-          
+
         }
         @media (min-width: 1290px){
           .form-group{
@@ -619,8 +655,8 @@
       }
       .logos{
         p.city{
-          padding: 0; 
-          margin: 10px 17%; 
+          padding: 0;
+          margin: 10px 17%;
         }
         img{
           margin: 0 auto 10px;
@@ -628,10 +664,10 @@
           @include mq('xl'){
             width: 130px;
           }
-          @media only screen 
-          and (min-device-width: 768px) 
-          and (max-device-width: 1024px) 
-          and (orientation: portrait) 
+          @media only screen
+          and (min-device-width: 768px)
+          and (max-device-width: 1024px)
+          and (orientation: portrait)
           and (-webkit-min-device-pixel-ratio: 1) {
             width: 120px;
           }
@@ -651,32 +687,32 @@
               width: 130px;
             }
           }
-          
+
         }
         @include mq('sm'){
           padding: 0 50px 0 150px;
-          
+
         }
-        @media only screen 
-        and (min-device-width: 768px) 
-        and (max-device-width: 1024px) 
-        and (orientation: portrait) 
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
         and (-webkit-min-device-pixel-ratio: 1) {
           padding: 0 50px 0 40px;
         }
         @include mq('md'){
           padding: 0 30px 0 200px;
-          
+
         }
         @include mq('lg'){
           padding:  0 70px 0 200px;
-          
+
         }
         @include mq('xl'){
           padding: 0 80px 0 240px;
-          // width: 
+          // width:
         }
-        
+
       }
     }
     .footer{
@@ -684,10 +720,10 @@
       @include mq('lg'){
         padding: 0 240px;
       }
-      
+
       h4{
         font-family: $main-font;
         font-size: 10px;
       }
-    } 
+    }
   }

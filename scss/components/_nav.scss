@@ -7,7 +7,7 @@
     font-family: $main-font;
     font-weight: 700;
     text-decoration: none;
-   
+
     a{
       color: #fff;
       transition: all .3s;
@@ -16,14 +16,14 @@
       //   border-bottom: 1px solid #000;
       // }
     }
-    
+
 
     &.bottom-right{
       bottom: 50px;
       right: 50px;
       font-size: 24px;
     }
-    &.bottom-left{      
+    &.bottom-left{
       bottom: 40px;
       left: 50px;
       font-size: 24px;
@@ -57,20 +57,20 @@
       font-size: 18px;
       @include mq('sm'){
         bottom: 120px;
-        left: 0; 
+        left: 0;
       }
       @include mq('md'){
         bottom: 180px;
-        left: 0; 
+        left: 0;
       }
       @include mq('lg'){
         bottom: 110px;
-        
-        right: 92%; 
+
+        right: 92%;
       }
       @include mq('xl'){
-        bottom: 120px; 
-        right: 92%; 
+        bottom: 120px;
+        right: 92%;
       }
     }
     &.top-right{
@@ -110,11 +110,11 @@
         @include mq('lg'){
           height: 60px;
           width: auto;
-        } 
-       
+        }
+
       }
     }
-    &.arrow-left, &.arrow-right{ 
+    &.arrow-left, &.arrow-right{
       a{
         color: #c2c2c2;
         font-size: 30px;
@@ -123,7 +123,7 @@
       :hover{
         color: #aaaaaa;
       }
-    } 
+    }
     &.arrow-left{
       top: 50%;
       left: 90%;
@@ -135,8 +135,8 @@
         top: 50%;
         left: 95%;
       }
-      
-      
+
+
     }
     &.arrow-right{
       top: 50%;
@@ -149,8 +149,8 @@
         top: 50%;
         left: 35%;
       }
-      
-      
+
+
     }
   }
   .navbar-custom{
@@ -160,8 +160,8 @@
     // left: 0;
     // right: 0;
     z-index: 501;
-    //position: absolute;   
-    width: 100%; 
+    //position: absolute;
+    width: 100%;
     // background-color: #fff;
     button.navbar-toggle{
       margin-top: 3px;
@@ -186,7 +186,7 @@
       color: #fff;
       font-family: $funny-font;
       font-size: 20px;
-      
+
     }
   }
   .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in{
@@ -199,7 +199,7 @@
         color: #fff;
         font-family: $main-font;
         font-size: 18px;
-        font-weight: 700;        
+        font-weight: 700;
         padding: 15px 0 15px 15px;
         &.active{
           margin-top: 40px;
@@ -208,14 +208,14 @@
           background-color: #4992AB;
         }
         &.en-nav{
-          font-size: 19px; 
+          font-size: 19px;
           color: #fff;
           font-family: $secondary-font;
           font-weight: 600;
           position: absolute;
           // left: 55%;
         }
-      }      
+      }
       .social-nav{
         margin-top: 35px;
         padding: 15px;
@@ -227,54 +227,63 @@
     }
   }
   .affix{
-    transition: opacity .4s;
-    .navbar-header a.navbar-brand{
-      opacity: 0;
+    .navbar-header{
+      a{
+        //transition: opacity .4s;
+        &.navbar-brand{
+          opacity: 0;
+        }
+        &.en{
+          opacity: 0;
+        }
+      }
+
+
     }
   }
-  a.en{    
-    position: absolute; 
-    left: 72%; 
-    top: 20px; 
-    font-size: 20px; 
+  a.en{
+    position: absolute;
+    left: 72%;
+    top: 20px;
+    font-size: 20px;
     color: #fff;
     font-family: $secondary-font;
     font-weight: 600;
-    @media only screen 
-    and (min-device-width: 320px) 
+    @media only screen
+    and (min-device-width: 320px)
     and (max-device-width: 480px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: landscape) {
       left: 83%;
     }
-    @media only screen 
-    and (min-device-width: 320px) 
+    @media only screen
+    and (min-device-width: 320px)
     and (max-device-width: 568px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: landscape) {
       left: 83%;
     }
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
     and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) { 
+    and (orientation: portrait) {
       top: 19px;
       left: 76%;
     }
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: landscape) {
-      top: 18px; 
+      top: 18px;
       left: 87%;
     }
-    @media only screen 
-    and (min-device-width: 414px) 
-    and (max-device-width: 736px) 
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
     and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: landscape) { 
+    and (orientation: landscape) {
       left: 88%;
       top: 17px;
     }

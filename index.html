@@ -8,10 +8,10 @@
   <!-- Google Analytics -->
   <script>
     (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)    
-}, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-106235326-1', 'auto');
@@ -54,10 +54,10 @@
                 <a class="en" href="en/">EN</a>
                 <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas"
                   style="float:left;">
-                  
+
                   <span class="sr-only">Toggle navigation</span>
                   <span>
-                    
+
                     <span style="background-color: #fff;" class="icon-bar"></span>
                     <span style="background-color: #fff;" class="icon-bar"></span>
                     <span style="background-color: #fff;" class="icon-bar"></span>
@@ -83,13 +83,13 @@
           </div>
           <div id="main-image">
             <img class="img-responsive" src="img/main.png" alt="">
-            <ol style="bottom: 21%; position: relative;" class="carousel-indicators visible-xs">
-              <li style="background-color: #68BD45; border:none;" data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <ol class="carousel-indicators ">
+              <li style="background-color: #68BD45; border:none;" data-target="#mycarousel" data-slide-to="20" class="active"></li>
               <li data-target="#mycarousel" data-slide-to="1"></li>
               <li data-target="#mycarousel" data-slide-to="2"></li>
               <li data-target="#mycarousel" data-slide-to="3"></li>
             </ol>
-            <p class="visible-xs text-center" style="font-family: 'Covered By Your Grace', cursive; font-size: 30px; margin: 10px; ">Desliza para conocer nuestros productos</p>
+            <p class="visible-xs visible-md text-center swipe">Desliza para conocer nuestros productos</p>
           </div>
 
           <a class="right carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="next">
@@ -116,79 +116,80 @@
       </div>
       <div class="item">
         <div id="fresh-main">
-          <nav class="navbar navbar-custom visible-xs" data-spy="affix" data-offset-top="197" role="navigation">
+            <nav class="navbar navbar-custom visible-xs" data-spy="affix" data-offset-top="10" role="navigation">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand visible-xs visible-sm" href="index.html"><img  style="height: 39px;"  id="logo" class="img-responsive" src="img/logoHN.png" alt=""></a>
+                  <a class="en" href="en/">EN</a>
+                  <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas-1"
+                    style="float:left;">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span>
+                          <span style="background-color: #fff;" class="icon-bar"></span>
+                          <span style="background-color: #fff;" class="icon-bar"></span>
+                          <span style="background-color: #fff;" class="icon-bar"></span>
+                        </span>
+                    </button>
+                </div>
+                <div class="navbar-offcanvas navbar-offcanvas-right" id="js-bootstrap-offcanvas-1">
+                  <ul class="nav navbar-nav">
+                    <li><a class="en-nav" href="en/">EN</a></li>
+                    <li><a class="active" href="index.html">INICIO</a></li>
+                    <li><a href="menu.html">PRODUCTOS</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <div class="social-nav">
+                      <a style="color: #000;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a>                      <a style="color: #000;" href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i></a>                      <a href="https://api.whatsapp.com/send?phone=5214491063232"><i style="font-size: 34px" class="fa fa-whatsapp" aria-hidden="true"></i></a>                      <a href="tel:4491063232"><i style="font-size: 34px;" class="fa fa-phone" aria-hidden="true"></i></a>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </nav>
             <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand visible-xs visible-sm" href="index.html"><img  style="height: 39px;"  id="logo" class="img-responsive" src="img/logoHN.png" alt=""></a>
-                <a class="en" href="en/">EN</a>
-                <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas-1"
-                  style="float:left;">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span>
-                    <span style="background-color: #fff;" class="icon-bar"></span>
-                    <span style="background-color: #fff;" class="icon-bar"></span>
-                    <span style="background-color: #fff;" class="icon-bar"></span>
-                  </span>
-              </button>
-              </div>
-              <div class="navbar-offcanvas navbar-offcanvas-right" id="js-bootstrap-offcanvas-1">
-                <ul class="nav navbar-nav">
-                  <li><a class="en-nav" href="en/">EN</a></li>
-                  <li><a class="active" href="index.html">INICIO</a></li>
-                  <li><a href="menu.html">PRODUCTOS</a></li>
-                  <li><a href="nosotros.html">NOSOTROS</a></li>
-                  <li><a href="contacto.html">CONTACTO</a></li>
-                  <div class="social-nav">
-                    <a style="color: #000;" href="https://www.instagram.com/hidronaturafresh/" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a>                    <a style="color: #000;" href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i></a>                    <a href="https://api.whatsapp.com/send?phone=5214491063232"><i style="font-size: 34px" class="fa fa-whatsapp" aria-hidden="true"></i></a>                    <a href="tel:4491063232"><i style="font-size: 34px;" class="fa fa-phone" aria-hidden="true"></i></a>
+              <div class="row">
+                <!-- <a href="index.html"><img src="img/logoHN.png" alt=""></a> -->
+                <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-5 col-lg-offset-3 col-lg-4">
+                  <a class="visible-md visible-lg" href="fresh.html"><img class="img-responsive animated" src="img/leafs-fresh.png" alt=""><img class="responsive" src="img/fresh.png" alt=""></a>
+                  <div class="text-center">
+                    <a class="visible-xs visible-sm" href="fresh.html"><img src="img/fresh-slider.png" alt=""></a>
                   </div>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div class="container-fluid">
-            <div class="row">
-              <!-- <a href="index.html"><img src="img/logoHN.png" alt=""></a> -->
-              <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-5 col-lg-offset-3 col-lg-4">
-                <a class="visible-md visible-lg" href="fresh.html"><img class="img-responsive animated" src="img/leafs-fresh.png" alt=""><img class="responsive" src="img/fresh.png" alt=""></a>
-                <div class="text-center">
-                  <a class="visible-xs visible-sm" href="fresh.html"><img src="img/fresh-slider.png" alt=""></a>
                 </div>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 ">
-                <img class="visible-sm visible-md logo-sm-2" src="img/Logo-HN-Fresh-Bisel.png" alt="Logo Hidronatura Fresh">
-                <div class="description-slider-fresh">
-                  <ol style="bottom: 20%; position: relative;" class="carousel-indicators visible-xs">
-                    <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="0"></li>
-                    <li style="background-color: #68BD45; border:none; width: 13px; height: 13px;" data-target="#mycarousel" data-slide-to="1"
-                      class="active"></li>
-                    <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="2"></li>
-                    <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="3"></li>
-                  </ol>
-                  <img class="img-responsive visible-xs" style="height: 120px; width: auto; margin: 0 0 2%; " src="img/Logo-HN-Fresh-Bisel.png"
-                    alt="">
-                  <p>Vuelve a la costumbre de tomar agua + Depurar tu organismo, todo en uno! más los <span>25 beneficios</span>                    que tiene la clorofila</p>
-                  <a class="face-button" href="fresh.html">
-                    <div class="face-primary">
-                      <div class="icon fa fa-info"></div>
-                      Saber Más
-                    </div>
-                    <div class="face-secondary">
-                      <div class="icon fa fa-share"></div>
-                      ¡Conócelo!
-                    </div>
-                  </a>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 ">
+                  <img class="visible-sm visible-md logo-sm-2" src="img/Logo-HN-Fresh-Bisel.png" alt="Logo Hidronatura Fresh">
+                  <div class="description-slider-fresh">
+                    <ol class="carousel-indicators">
+                      <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="0"></li>
+                      <li style="background-color: #68BD45; border:none; width: 13px; height: 13px;" data-target="#mycarousel" data-slide-to="1"
+                        class="active"></li>
+                      <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="2"></li>
+                      <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="3"></li>
+                    </ol>
+                    <img class="img-responsive visible-xs" style="height: 120px; width: auto; margin: 0 0 2%; " src="img/Logo-HN-Fresh-Bisel.png"
+                      alt="">
+                    <p>Vuelve a la costumbre de tomar agua + Depurar tu organismo, todo en uno! más los <span>25 beneficios</span>                      que tiene la clorofila</p>
+                    <a class="face-button" href="fresh.html">
+                      <div class="face-primary">
+                        <div class="icon fa fa-info"></div>
+                        Saber Más
+                      </div>
+                      <div class="face-secondary">
+                        <div class="icon fa fa-share"></div>
+                        ¡Conócelo!
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="control-right">
-            <a class="right carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="next">
-              <div class="right-arrow">
-                <span aria-hidden="true"><i class=" fa fa-chevron-right" aria-hidden="true"></i></span>
-              </div>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+            <div class="control-right">
+              <a class="right carousel-control hidden-xs" href="#mycarousel" role="button" data-slide="next">
+                <div class="right-arrow">
+                  <span aria-hidden="true"><i class=" fa fa-chevron-right" aria-hidden="true"></i></span>
+                </div>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
         </div>
         <nav id="nav">
           <ul class="hidden-xs">
@@ -203,7 +204,6 @@
             <li class="top-left"><a href="index.html"><img src="img/logoHN.png" alt=""></a></li>
           </ul>
         </nav>
-
       </div>
       <div class="item">
         <div id="genious-main">
@@ -247,7 +247,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                 <img class="visible-sm visible-md logo-sm" src="img/Logo-HN-GeniousBisel.png" alt="Logo Hidronatura Genious">
                 <div class="description-slider">
-                  <ol style="bottom: 21%; position: relative;" class="carousel-indicators visible-xs">
+                  <ol class="carousel-indicators">
                     <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="0"></li>
                     <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="1"></li>
                     <li style="background-color: #329bca; border:none; width: 13px; height: 13px;" data-target="#mycarousel" data-slide-to="2"
@@ -338,7 +338,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                 <img class="visible-sm visible-md logo-sm" src="img/Logo-HN-MotivateBisel.png" alt="Logo Hidronatura Motivate">
                 <div class="description-slider">
-                  <ol style="bottom: 21%; position: relative;" class="carousel-indicators visible-xs">
+                  <ol class="carousel-indicators">
                     <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="0"></li>
                     <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="1"></li>
                     <li style="border: 1px solid #000;" data-target="#mycarousel" data-slide-to="2"></li>
@@ -419,7 +419,7 @@
       });
     });
 
-    if ($(window).width() >= 1024) {
+    if ($(window).width() >= 1025) {
       // do your stuff
       $(setTimeout(function () {
         $('.text').css({
@@ -430,6 +430,17 @@
         $('.carousel-inner #main a.right.carousel-control').css('color', '#000');
       }, 5000));
     }
+    // if($(window).width() <= 768){
+    //   $(window).scroll(function () {
+    //     if ($(this).scrollTop() > -100) {
+    //       //$('nav .navbar').toggleClass('affix');
+    //       console.log('gola');
+    //     }
+    //     // else {
+    //     //   $('#back-to-top').fadeOut();
+    //     // }
+    //   });
+    // }
 
     var $item = $('.carousel .item');
     var $wHeight = $(window).height();

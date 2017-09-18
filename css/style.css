@@ -19,7 +19,8 @@ img.img-about {
   width: auto; }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     img.img-about {
-      height: auto; } }
+      height: 600px;
+      margin-left: 65px; } }
   @media (min-width: 992px) {
     img.img-about {
       margin-top: 180px;
@@ -185,6 +186,13 @@ ul.not {
     .description-slider {
       margin-top: 55%;
       font-size: 22px; } }
+  .description-slider .carousel-indicators {
+    bottom: 21%;
+    position: relative; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .description-slider .carousel-indicators {
+        bottom: -490px;
+        left: -50px; } }
   .description-slider span {
     font-family: "Covered By Your Grace", cursive;
     font-weight: 500;
@@ -267,6 +275,13 @@ ul.not {
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
       .description-slider-fresh img {
         margin-top: 20px; } }
+  .description-slider-fresh .carousel-indicators {
+    bottom: 21%;
+    position: relative; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .description-slider-fresh .carousel-indicators {
+        bottom: -440px;
+        left: -50px; } }
 
 .panel {
   margin-bottom: 10px;
@@ -304,6 +319,14 @@ a i.fa.fa-whatsapp, a i.fa.fa-phone {
   @media (min-width: 1280px) {
     a i.fa.fa-whatsapp, a i.fa.fa-phone {
       font-size: 34px; } }
+
+.swipe {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 30px;
+  margin: 10px; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .swipe {
+      display: block !important; } }
 
 html, body {
   height: 100%;
@@ -351,7 +374,7 @@ body {
     @media (min-width: 768px) {
       .face-button .face-secondary {
         color: #fff; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1280px) {
     .face-button:hover .face-primary {
       margin-top: -35px; } }
   @media (min-width: 1920px) and (max-height: 1080px) {
@@ -412,10 +435,10 @@ body {
     @media (min-width: 1366px) and (max-height: 768px) {
       .face-button-card .face-secondary {
         margin-right: 20px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1280px) {
     .face-button-card:hover .face-primary {
       margin-top: -35px; } }
-  @media (min-width: 1023px) and (min-width: 1920px) {
+  @media (min-width: 1280px) and (min-width: 1920px) {
     .face-button-card:hover .face-primary {
       margin-top: -45px; } }
 
@@ -435,6 +458,9 @@ body {
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .face-button-card-2 {
       margin-left: 10px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .face-button-card-2 {
+      margin-left: 100px; } }
   .face-button-card-2:hover {
     text-decoration: none; }
   .face-button-card-2 .icon {
@@ -471,6 +497,9 @@ body {
     @media (min-width: 839px) {
       .face-button-card-2 .face-primary {
         font-size: 12px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .face-button-card-2 .face-primary {
+        font-size: 17px; } }
     @media (min-width: 1179px) {
       .face-button-card-2 .face-primary {
         margin-right: 60px;
@@ -526,7 +555,7 @@ body {
     @media (min-width: 1366px) and (max-height: 768px) {
       .face-button-card-2 .face-secondary {
         margin-left: 12px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1280px) {
     .face-button-card-2:hover .face-primary {
       margin-top: -35px; } }
 
@@ -700,10 +729,11 @@ body {
     .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.js-offcanvas-done.in ul.nav.navbar-nav .social-nav a i {
       color: #fff; }
 
-.affix {
-  transition: opacity .4s; }
-  .affix .navbar-header a.navbar-brand {
-    opacity: 0; }
+.affix .navbar-header a.navbar-brand {
+  opacity: 0; }
+
+.affix .navbar-header a.en {
+  opacity: 0; }
 
 a.en {
   position: absolute;
@@ -771,8 +801,9 @@ table {
   background-size: cover;
   background-position: center center;
   height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden; }
+  overflow-y: auto; }
+  #fresh-main .test, #genious-main .test, #motivate-main .test {
+    height: 100vh; }
   #fresh-main .logo-sm, #genious-main .logo-sm, #motivate-main .logo-sm {
     height: 120px;
     float: none;
@@ -829,7 +860,8 @@ table {
     #fresh-main img:nth-child(2n), #genious-main img:nth-child(2n), #motivate-main img:nth-child(2n) {
       left: 31%;
       margin-top: 100px;
-      height: 500px; } }
+      height: 480px;
+      z-index: 99999; } }
   @media (min-width: 1180px) {
     #fresh-main img, #genious-main img, #motivate-main img {
       position: absolute; }
@@ -929,6 +961,10 @@ table {
         margin-top: 80px;
         height: 80vh;
         width: auto; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      #fresh-main img {
+        margin-top: 20%;
+        height: 75vh; } }
     @media (min-width: 1280px) {
       #fresh-main img {
         margin: 10% auto;
@@ -991,6 +1027,10 @@ table {
         margin: 80px 0 0;
         height: 80vh;
         width: auto; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      #genious-main img {
+        margin-top: 20%;
+        height: 75vh; } }
     @media (min-width: 1280px) {
       #genious-main img {
         margin: 14% auto 0;
@@ -1040,10 +1080,6 @@ table {
       #motivate-main img {
         margin: 25% 0 0;
         height: 78vh; } }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-      #motivate-main img {
-        margin-top: 55%;
-        height: 50vh; } }
     @media (min-width: 992px) {
       #motivate-main img {
         margin: 60px 0 0;
@@ -1052,6 +1088,14 @@ table {
       #motivate-main img {
         margin: 80px 3%;
         height: 80vh; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #motivate-main img {
+        margin-top: 55%;
+        height: 50vh; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      #motivate-main img {
+        margin-top: 20%;
+        height: 75vh; } }
     @media (min-width: 1280px) {
       #motivate-main img {
         margin: 14% auto 0;
@@ -1062,6 +1106,13 @@ table {
     @media (min-width: 1920px) and (max-height: 1080px) {
       #motivate-main img {
         margin: 70px auto 0; } }
+
+#main-image .carousel-indicators {
+  bottom: 21%;
+  position: relative; }
+  @media (min-width: 1280px) {
+    #main-image .carousel-indicators {
+      display: none; } }
 
 #main-image img.img-responsive {
   margin: 0 auto;
@@ -1076,12 +1127,15 @@ table {
     #main-image img.img-responsive {
       height: 99vh;
       width: auto; } }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-    #main-image img.img-responsive {
-      height: 85vh; } }
   @media (min-width: 992px) {
     #main-image img.img-responsive {
       height: 99vh; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    #main-image img.img-responsive {
+      height: 70vh; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    #main-image img.img-responsive {
+      height: 75vh; } }
   @media (min-width: 1280px) {
     #main-image img.img-responsive {
       width: auto;
@@ -1147,6 +1201,10 @@ table {
       #main-products #products p {
         font-size: 20px;
         left: 56%; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #main-products #products p {
+        font-size: 18px;
+        bottom: 72%; } }
     @media (min-width: 1280px) {
       #main-products #products p {
         font-size: 20px;
@@ -1190,6 +1248,11 @@ table {
       #main-products #products p.en {
         font-size: 20px;
         left: 57%; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      #main-products #products p.en {
+        left: 59.3%;
+        font-size: 18px;
+        bottom: 72%; } }
     @media (min-width: 1280px) {
       #main-products #products p.en {
         font-size: 20px;
@@ -1250,6 +1313,9 @@ table {
         #main-products #products #products-list a img.img-responsive {
           height: 37%;
           width: 48%; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        #main-products #products #products-list a img.img-responsive {
+          width: 87%; } }
       @media (min-width: 1282px) {
         #main-products #products #products-list a img.img-responsive {
           height: 45%;
@@ -1278,6 +1344,9 @@ table {
   @media (min-width: 768px) {
     #mycarousel a.left.carousel-control {
       margin: 120px 0 170px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #mycarousel a.left.carousel-control {
+      display: none; } }
   #mycarousel a.left.carousel-control:hover {
     color: #000; }
 
@@ -1308,6 +1377,9 @@ table {
   margin: 110px 0;
   z-index: 1;
   position: fixed; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #mycarousel .control-right a.right.carousel-control {
+      display: none; } }
   #mycarousel .control-right a.right.carousel-control .right-arrow {
     position: fixed;
     top: 50%;
@@ -1332,6 +1404,9 @@ table {
   opacity: 1;
   transition: color .3s;
   margin: 110px 0; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .carousel-inner #main a.right.carousel-control {
+      display: none; } }
   .carousel-inner #main a.right.carousel-control .right-arrow {
     position: fixed;
     top: 50%;
@@ -1516,6 +1591,9 @@ table {
         left: 90px;
         overflow: auto;
         padding: 0 70px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      .card .content {
+        height: 90vh; } }
     @media (min-width: 1280px) {
       .card .content {
         padding: 0 100px; } }
@@ -1607,18 +1685,9 @@ table {
     .card-2 {
       margin-top: 0;
       top: 10px; } }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .card-2 {
-      margin-top: 300px; } }
-  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .card-2 {
-      margin-top: 350px; } }
-  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-    .card-2 {
-      margin-top: 400px; } }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .card-2 {
-      margin-top: 600px; } }
+      margin-top: -100px; } }
   @media (min-width: 992px) {
     .card-2 {
       top: 10px;
@@ -1640,9 +1709,15 @@ table {
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
       .card-2 .content-about {
         height: 87vh; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .card-2 .content-about {
+        height: 115vh; } }
     @media (min-width: 1366px) and (max-height: 768px) {
       .card-2 .content-about {
         height: 96vh; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .card-2 .content-about.short {
+        height: 105vh; } }
     .card-2 .content-about img {
       position: fixed;
       z-index: 999; }
@@ -1688,6 +1763,9 @@ table {
           .card-2 .content-about h3.first-heading {
             margin: 60px 0 0;
             font-size: 40px; } }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+          .card-2 .content-about h3.first-heading {
+            margin: 10px 0 0; } }
         @media (min-width: 1280px) {
           .card-2 .content-about h3.first-heading {
             margin: 100px 0 0;
@@ -1728,7 +1806,7 @@ table {
           margin: 0 40px 0 110px; } }
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
         .card-2 .content-about .face-button-card-2 {
-          margin: 0 60px 0 0; } }
+          margin: 0 20px 0 0; } }
       @media (min-width: 992px) {
         .card-2 .content-about .face-button-card-2 {
           margin: 0 70px 0 140px; } }
@@ -1835,12 +1913,15 @@ table {
         @media (min-width: 768px) {
           .card-2 .content-about #contact-form .btn-send {
             margin-left: 25%; } }
-        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-          .card-2 .content-about #contact-form .btn-send {
-            margin-left: 0; } }
         @media (min-width: 992px) {
           .card-2 .content-about #contact-form .btn-send {
             margin-left: 20%; } }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+          .card-2 .content-about #contact-form .btn-send {
+            margin-left: 0; } }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+          .card-2 .content-about #contact-form .btn-send {
+            margin-left: 75px; } }
         @media (min-width: 1280px) {
           .card-2 .content-about #contact-form .btn-send {
             margin-left: 30%; } }

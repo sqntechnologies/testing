@@ -11,7 +11,7 @@
   //   padding: 0;
   //   height: 40px;
   //   width: 40px;
-    
+
   //   &:hover{
   //      box-shadow: 0 4px 6px 0 rgba(0,0,0,0.22);
 
@@ -28,7 +28,7 @@
     text-align: center;
     text-decoration: none;
     color: $main-green;
-    overflow: hidden;   
+    overflow: hidden;
     &:hover{
       text-decoration: none;
     }
@@ -40,13 +40,13 @@
     // }
     @include mq('xl'){
       // margin-left: 10px;
-    }    
+    }
     @media(min-width: 1920px) and (max-height: 1080px){
       font-size: 18px;
       height: 50px;
-    }  
+    }
     // &.cm{
-      
+
     //   // @include mq('sm'){
     //   //   margin-left: 40px;
     //   // }
@@ -74,7 +74,7 @@
     .face-primary {
       background-color: #fff;
       color: $main-green;
-      
+
     }
     .face-secondary{
       color: #000;
@@ -82,7 +82,7 @@
         color: #fff;
       }
     }
-    @include mq('lg'){
+    @include mq('xl'){
       &:hover .face-primary {
         margin-top: -35px;
       }
@@ -91,9 +91,9 @@
       &:hover .face-primary {
         margin-top: -45px;
       }
-    
+
     }
-   
+
 }
 .face-button-card {
   $height: 40px;
@@ -139,7 +139,7 @@
     background-color: transparent;
     color: $main-green;
     margin: 0 auto;
-    // @include mq('lg'){ 
+    // @include mq('lg'){
     //   margin-right: 130px;
     // }
     @include mq('md'){
@@ -147,7 +147,7 @@
     }
     @include mq('lg'){
       margin-right: 62%;
-    } 
+    }
     @media (min-width: 1323px){
       margin-right: 65%;
     }
@@ -160,7 +160,7 @@
     // @media (min-width: 1440px){
     //   margin-right: 178px;
     // }
-    
+
   }
   .face-secondary{
     margin-right: 90px;
@@ -168,15 +168,15 @@
       margin-right: 20px;
     }
   }
-  @include mq('lg'){
+  @include mq('xl'){
     &:hover .face-primary {
       margin-top: -35px;
       @media (min-width: 1920px){
         margin-top: -45px;
-      }   
+      }
     }
   }
-  
+
 }
 .face-button-card-2 {
   $height: 40px;
@@ -193,12 +193,19 @@
   @include mq('lg'){
     margin-right: 120px;
   }
-  @media only screen 
-  and (min-device-width: 320px) 
+  @media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     margin-left: 10px;
+  }
+  @media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    margin-left: 100px;
   }
   &:hover{
     text-decoration: none;
@@ -221,9 +228,9 @@
     margin-right: 0px;
     font-size: 14px;
     font-weight: 400;
-    
-    @media only screen 
-    and (min-device-width: 320px) 
+
+    @media only screen
+    and (min-device-width: 320px)
     and (max-device-width: 568px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) {
@@ -231,11 +238,11 @@
       padding: 0 0;
       margin-right: 80px;
     }
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
     and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) { 
+    and (orientation: portrait) {
       font-size: 14px;
       margin-right: 80px;
     }
@@ -249,11 +256,18 @@
     @media (min-width: 839px){
       font-size: 12px;
     }
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 1) {
+      font-size: 17px;
+    }
     // @include mq('lg'){
     //   margin-right: 90px;
     //   padding-left: 0;
     // }
-    @media (min-width: 1179px){      
+    @media (min-width: 1179px){
       margin-right: 60px;
       padding-left: 0;
       font-size: 14px;
@@ -261,12 +275,12 @@
     // @media (min-width: 1102px){
     //   margin-right: 40px;
     // }
-    
+
     @media (min-width: 1049px){
       margin-right: 30px;
     }
-   
-  
+
+
     @media (min-width: 1025px){
       // margin-right: 90px;
       margin-right: 50px;
@@ -276,19 +290,19 @@
       margin-right: 70px;
       font-size: 14px;
     }
-    @media only screen 
-    and (min-device-width: 768px) 
-    and (max-device-width: 1024px) 
-    and (orientation: landscape) 
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
     and (-webkit-min-device-pixel-ratio: 1) {
       margin-right: 40px;
     }
-  
+
     @media (min-width: 1229px){
       margin-right: 50px;
       padding-left: 0;
     }
-    
+
     @include mq('xl'){
       margin-right: 40px;
     }
@@ -299,18 +313,18 @@
       margin-right: 55px;
     }
     &.en-v{
-      @media only screen 
-      and (min-device-width: 320px) 
+      @media only screen
+      and (min-device-width: 320px)
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2)
-      and (orientation: portrait) {        
+      and (orientation: portrait) {
         margin-right: 45px;
       }
-      @media only screen 
-      and (min-device-width: 375px) 
-      and (max-device-width: 667px) 
+      @media only screen
+      and (min-device-width: 375px)
+      and (max-device-width: 667px)
       and (-webkit-min-device-pixel-ratio: 2)
-      and (orientation: portrait) {         
+      and (orientation: portrait) {
         margin-right: 50px;
       }
     }
@@ -334,12 +348,12 @@
       margin-left: 12px;
     }
   }
-  @include mq('lg'){
+  @include mq('xl'){
     &:hover .face-primary {
       margin-top: -35px;
-     
+
     }
-  }  
+  }
 }
 
 .back-to-top {

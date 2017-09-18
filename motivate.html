@@ -140,7 +140,7 @@
                           <td colspan="2">Vitamina A 2700 UI. Vitamina D3 15 UI. Vitamina B6 93 mcg. Vitamina B12 0,21mcg. Biotina 3mcg.
                             Maltodextrina C.S.P. Ácido Fólico 38mcg. Hierro 1,7mg. Calcio 90mg. Zinc 1mg. Magnesio 24,8mg.</td>
                           <td>NOM-086 IDR porcentaje de los valores nutrimentales está basado en una dieta de 2,000 calorías.
-                            Tus porcentajes diarios podrías ser mayores o menores según tus requerimientos calóricos.</td>                          
+                            Tus porcentajes diarios podrías ser mayores o menores según tus requerimientos calóricos.</td>
                         </tr>
                       </tfoot>
                       <tbody>
@@ -230,13 +230,9 @@
   <script>
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
-        $('.arrow-left a i').css('color', '#aa0000');
-        $('.arrow-right a i').css('color', '#aa0000');
         $('#back-to-top').fadeIn();
       }
       else {
-        $('.arrow-left a i').css('color', '#fff');
-        $('.arrow-right a i').css('color', '#fff');
         $('#back-to-top').fadeOut();
       }
     });
@@ -253,8 +249,8 @@
 
 
     if ($(window).width() <= 768) {
-      $('.arrow-left a i').css('color', '#fff');
-      $('.arrow-right a i').css('color', '#fff');
+      $('.arrow-left a i').css('color', '#aa0000');
+      $('.arrow-right a i').css('color', '#aa0000');
       $('body').css('background-color', '#aa0000');
     }
     $(".animsition").animsition({

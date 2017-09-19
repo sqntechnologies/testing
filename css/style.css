@@ -193,6 +193,9 @@ ul.not {
       .description-slider .carousel-indicators {
         bottom: -490px;
         left: -50px; } }
+    @media (min-width: 1280px) {
+      .description-slider .carousel-indicators {
+        display: none; } }
   .description-slider span {
     font-family: "Covered By Your Grace", cursive;
     font-weight: 500;
@@ -282,6 +285,9 @@ ul.not {
       .description-slider-fresh .carousel-indicators {
         bottom: -440px;
         left: -50px; } }
+    @media (min-width: 1280px) {
+      .description-slider-fresh .carousel-indicators {
+        display: none; } }
 
 .panel {
   margin-bottom: 10px;

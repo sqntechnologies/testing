@@ -260,6 +260,9 @@
         bottom: -490px;
         left: -50px;
       }
+      @include mq('xl'){
+        display: none;
+      }
     }
     span{
       font-family: $funny-font;
@@ -379,6 +382,9 @@
       and (-webkit-min-device-pixel-ratio: 1) {
         bottom: -440px;
         left: -50px;
+      }
+      @include mq('xl'){
+        display: none;
       }
     }
   }

@@ -1171,8 +1171,14 @@ table {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      min-height: 100%;
+      height: 100vh;
       position: relative; } }
+  #main-products #footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto; }
   #main-products #products h3 {
     color: #fff;
     margin: 0 0 0;
@@ -1349,19 +1355,6 @@ table {
         #main-products #products #products-list a img.img-responsive {
           height: 60%;
           width: 70%; } }
-
-#footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 150px;
-  background-image: url("../img/footer3.png");
-  width: 100%; }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-    #footer {
-      background-image: url("../img/footer-test-squashed.png");
-      height: 300px; } }
 
 #mycarousel a.left.carousel-control {
   text-shadow: none;

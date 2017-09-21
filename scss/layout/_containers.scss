@@ -661,6 +661,13 @@
       // margin: 7px;
       height: 100vh;
       position: relative;
+      @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (orientation: landscape)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        height: 92vh;
+      }
       // height: 97vh;
       // padding-top: 10px;
     }
@@ -674,15 +681,18 @@
       // // top: 90%;
       // background-image: url('../img/footer3.png');
       // width: 100%;
-      // @media only screen
-      // and (min-device-width: 768px)
-      // and (max-device-width: 1024px)
-      // and (orientation: portrait)
-      // and (-webkit-min-device-pixel-ratio: 1) {
-      //   background-image: url('../img/footer-test-squashed.png');
-      //   height: 300px;
+      @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (orientation: portrait)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        img[src*="img/footer3.png"]{
+          display: none;
+        }
+        background-image: url('../img/footer-test-squashed.png');
+        height: 350px;
 
-      // }
+      }
     }
     // #footer{
     //   @include mq('lg'){

@@ -135,6 +135,21 @@ ul.not {
   @media (min-width: 1920px) {
     .funny-font {
       font-size: 36px; } }
+  .funny-font a.social-ipad-port {
+    display: none; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .funny-font a.social-ipad-port {
+        display: inline-block;
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        color: #000; }
+        .funny-font a.social-ipad-port i {
+          font-size: 34px;
+          color: #000; }
+          .funny-font a.social-ipad-port i.fa.fa-whatsapp {
+            font-size: 34px; }
+          .funny-font a.social-ipad-port i.fa.fa-phone {
+            font-size: 34px; } }
 
 .description-slider {
   font-family: "Montserrat", sans-serif;
@@ -335,7 +350,7 @@ a i.fa.fa-whatsapp, a i.fa.fa-phone {
       display: block !important; } }
 
 html, body {
-  height: 100%;
+  height: auto;
   min-height: 100%;
   margin: 0; }
 
@@ -664,11 +679,8 @@ body {
           height: 60px;
           width: auto; } }
   #nav ul li.arrow-left a, #nav ul li.arrow-right a {
-    color: #c2c2c2;
     font-size: 30px;
     transition: color 1s ease; }
-  #nav ul li.arrow-left :hover, #nav ul li.arrow-right :hover {
-    color: #aaaaaa; }
   #nav ul li.arrow-left {
     top: 50%;
     left: 90%; }
@@ -1324,7 +1336,7 @@ table {
           width: 48%; } }
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
         #main-products #products #products-list a img.img-responsive {
-          width: 87%; } }
+          width: 95%; } }
       @media (min-width: 1282px) {
         #main-products #products #products-list a img.img-responsive {
           height: 45%;
@@ -1343,7 +1355,13 @@ table {
   right: 0;
   bottom: 0;
   left: 0;
-  height: auto; }
+  height: 150px;
+  background-image: url("../img/footer3.png");
+  width: 100%; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    #footer {
+      background-image: url("../img/footer-test-squashed.png");
+      height: 300px; } }
 
 #mycarousel a.left.carousel-control {
   text-shadow: none;
@@ -1835,7 +1853,7 @@ table {
           margin-left: 60%; } }
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
         .card-2 .content-about .social-contacto {
-          margin-left: 0; } }
+          display: none; } }
       @media (min-width: 992px) {
         .card-2 .content-about .social-contacto {
           margin-left: 0; } }

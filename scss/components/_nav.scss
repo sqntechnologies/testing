@@ -116,13 +116,13 @@
     }
     &.arrow-left, &.arrow-right{
       a{
-        color: #c2c2c2;
+        //color: #c2c2c2;
         font-size: 30px;
         transition: color 1s ease;
       }
-      :hover{
-        color: #aaaaaa;
-      }
+      // :hover{
+      //   color: #aaaaaa;
+      // }
     }
     &.arrow-left{
       top: 50%;

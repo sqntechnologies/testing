@@ -441,7 +441,7 @@
         and (max-device-width: 1024px)
         and (orientation: portrait)
         and (-webkit-min-device-pixel-ratio: 1) {
-          margin-left: 0;
+          display: none;
         }
         @include mq('md'){
           margin-left: 0;

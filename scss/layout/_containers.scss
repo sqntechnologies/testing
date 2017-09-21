@@ -24,8 +24,8 @@
     background-size: cover;
     background-position: center center;
     //margin: 7px;
+    // min-height: 100%;
     height: 100%;
-
     overflow-y: auto;
     // overflow-x: hidden;
     // @include mq('md'){
@@ -891,7 +891,7 @@
           and (max-device-width: 1024px)
           and (orientation: portrait)
           and (-webkit-min-device-pixel-ratio: 1) {
-            width: 87%;
+            width: 95%;
 
           }
           // @media (min-width:1280px){
@@ -925,7 +925,18 @@
     right: 0;
     bottom: 0;
     left: 0;
-    height: auto;
+    height: 150px;
+    background-image: url('../img/footer3.png');
+    width: 100%;
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 1) {
+      background-image: url('../img/footer-test-squashed.png');
+      height: 300px;
+
+    }
   }
 
   #mycarousel a.left.carousel-control{

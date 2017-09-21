@@ -213,8 +213,8 @@
           <a href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i style="color: #000;" class="fa fa-facebook" aria-hidden="true"></i> </a>
         </li>
         <li class="top-left hidden-xs"><a href="index.html"><img src="img/logoHN.png" alt=""></a></li>
-        <li class="arrow-left"><a href="motivate.html" class="animsition-link" data-animsition-in-class="fade-in-left-sm"><i class=" fa fa-arrow-right" aria-hidden="true"></i></a></li>
-        <li class="arrow-right"><a href="fresh.html" class="animsition-link"><i class=" fa fa-arrow-left animsition-link" aria-hidden="true"></i></a></li>
+        <li class="arrow-left"><a href="motivate.html" class="animsition-link" data-animsition-in-class="fade-in-left-sm"><i style="color: #329bca;" class=" fa fa-arrow-right" aria-hidden="true"></i></a></li>
+        <li class="arrow-right"><a href="fresh.html" class="animsition-link"><i style="color: #329bca;" class="fa fa-arrow-left animsition-link" aria-hidden="true"></i></a></li>
       </ul>
     </nav>
   </div>
@@ -225,29 +225,30 @@
   <script src="js/lib/animsition/animsition.min.js"></script>
   <script src="js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 50) {
-        $('#back-to-top').fadeIn();
-      }
-      else {
-        $('#back-to-top').fadeOut();
-      }
-    });
+
     // scroll body to 0px on click
-    $('#back-to-top').click(function () {
-      $('#back-to-top').tooltip('hide');
-      $('body,html').animate({
-        scrollTop: 0
-      }, 800);
-      return false;
-    });
+    // $('#back-to-top').click(function () {
+    //   $('#back-to-top').tooltip('hide');
+    //   $('body,html').animate({
+    //     scrollTop: 0
+    //   }, 800);
+    //   return false;
+    // });
     var images = ['HIDRO_GENIOUS_FOTO_1.jpeg', 'HIDRO_GENIOUS_FOTO_2.jpeg', 'HIDRO_GENIOUS_FOTO_3.jpeg'];
     $('.background-left').css({ 'background-image': 'url(img/genious/' + images[Math.floor(Math.random() * images.length)] + ')' });
 
     if ($(window).width() <= 768) {
-      $('.arrow-left a i').css('color', '#329bca');
-      $('.arrow-right a i').css('color', '#329bca');
-      $('body').css('background-color', '#329bca');
+    //   $('.arrow-left a i').css('color', '#329bca');
+    //   $('.arrow-right a i').css('color', '#329bca');
+    //   $('body').css('background-color', '#329bca');
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $('#back-to-top').fadeIn();
+        }
+        else {
+          $('#back-to-top').fadeOut();
+        }
+      });
     }
     $(".animsition").animsition({
       inClass: 'fade-in-right',

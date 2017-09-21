@@ -246,8 +246,8 @@
           <a href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
         </li>
         <li class="top-left hidden-xs"><a href="index.html"><img src="img/logoHN.png" alt=""></a></li>
-        <li class="arrow-left"><a  href="genious.html" class="animsition-link" data-animsition-in-class="fade-in-left-sm"><i class=" fa fa-arrow-right " aria-hidden="true"></i></a></li>
-        <li class="arrow-right"><a  href="motivate.html" class="animsition-link"  ><i class=" fa fa-arrow-left " aria-hidden="true"></i></a></li>
+        <li class="arrow-left"><a  href="genious.html" class="animsition-link" data-animsition-in-class="fade-in-left-sm"><i style="color: #9EC432;" class=" fa fa-arrow-right " aria-hidden="true"></i></a></li>
+        <li class="arrow-right"><a  href="motivate.html" class="animsition-link"  ><i style="color: #9EC432;" class="fa fa-arrow-left " aria-hidden="true"></i></a></li>
       </ul>
     </nav>
   </div>
@@ -258,22 +258,22 @@
   <script>
 
       // scroll body to 0px on click
-    $('#back-to-top').click(function () {
-      $('#back-to-top').tooltip('hide');
-      $('body,html').animate({
-        scrollTop: 0
-      }, 800);
-      return false;
-    });
+    // $('#back-to-top').click(function () {
+    //   $('#back-to-top').tooltip('hide');
+    //   $('body,html').animate({
+    //     scrollTop: 0
+    //   }, 800);
+    //   return false;
+    // });
     var images = ['HIDRO_FRESH_FOTO_1.jpeg', 'HIDRO_FRESH_FOTO_2.jpeg', 'HIDRO_FRESH_FOTO_3.jpeg'];
     $('.background-left').css({'background-image': 'url(img/fresh/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
 
     if($(window).width() <= 768){
       // do your stuff
-      $('body').css('background-color', '#9EC432');
-      $('.arrow-left a i').css('color', '#9EC432');
-      $('.arrow-right a i').css('color', '#9EC432');
+      // $('body').css('background-color', '#9EC432');
+      // $('.arrow-left a i').css('color', '#9EC432');
+      // $('.arrow-right a i').css('color', '#9EC432');
       $(window).scroll(function () {
         if ($(this).scrollTop() > 60) {
           $('#back-to-top').fadeIn();

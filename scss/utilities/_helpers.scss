@@ -180,6 +180,29 @@
     @media (min-width: 1920px){
       font-size: 36px;
     }
+    a.social-ipad-port{
+      display: none;
+      @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (orientation: portrait)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        display: inline-block;
+        font-family: $secondary-font;
+        font-size: 18px;
+        color: #000;
+        i{
+          font-size: 34px;
+          color: #000;
+          &.fa.fa-whatsapp{
+            font-size: 34px;
+          }
+          &.fa.fa-phone{
+            font-size: 34px;
+          }
+        }
+      }
+    }
     // @media (min-width: 1367px){
     //   font-size: 34px;
     // }

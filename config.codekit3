@@ -1167,6 +1167,797 @@
 		"oAP": "\/off.html",
 		"oF": 0
 		},
+	"\/PHPMailer-master\/class.phpmailer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/class.phpmailer.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/class.phpmaileroauth.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/class.phpmaileroauth.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/class.phpmaileroauthgoogle.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/class.phpmaileroauthgoogle.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/class.pop3.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/class.pop3.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/class.smtp.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/class.smtp.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/PHPMailer-master\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/PHPMailer-master\/composer.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/composer.lock",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/code_generator.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/code_generator.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/contactform.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/contactform.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/contents.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/contents.html",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/contentsutf8.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/contentsutf8.html",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/DKIM.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/DKIM.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/exceptions.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/exceptions.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/gmail.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/gmail.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/gmail_xoauth.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/gmail_xoauth.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/images\/phpmailer.png": {
+		"ft": 32768,
+		"iS": 5831,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/images\/phpmailer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/PHPMailer-master\/examples\/images\/phpmailer_mini.png": {
+		"ft": 32768,
+		"iS": 1842,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/images\/phpmailer_mini.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/PHPMailer-master\/examples\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/index.html",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/mail.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/mail.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/mailing_list.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/mailing_list.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/pop_before_smtp.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/pop_before_smtp.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/scripts\/shAutoloader.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/scripts\/shAutoloader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/PHPMailer-master\/examples\/scripts\/shBrushPhp.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/scripts\/shBrushPhp-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/PHPMailer-master\/examples\/scripts\/shCore.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/scripts\/shCore-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/PHPMailer-master\/examples\/scripts\/shLegacy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/scripts\/shLegacy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/PHPMailer-master\/examples\/scripts\/XRegExp.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/scripts\/XRegExp-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/PHPMailer-master\/examples\/send_file_upload.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/send_file_upload.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/send_multiple_file_upload.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/send_multiple_file_upload.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/sendmail.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/sendmail.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/signed-mail.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/signed-mail.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/smtp.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/smtp.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/smtp_check.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/smtp_check.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/smtp_no_auth.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/smtp_no_auth.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/ssl_options.phps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/examples\/ssl_options.phps",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCore.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCore-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreDefault.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreDefault-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreDjango.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreDjango-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreEclipse.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreEclipse-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreEmacs.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreEmacs-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreFadeToGrey.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreFadeToGrey-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreMDUltra.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreMDUltra-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreMidnight.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreMidnight-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shCoreRDark.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shCoreRDark-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeAppleScript.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeAppleScript-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeDefault.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeDefault-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeDjango.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeDjango-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeEclipse.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeEclipse-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeEmacs.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeEmacs-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeFadeToGrey.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeFadeToGrey-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeMDUltra.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeMDUltra-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeMidnight.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeMidnight-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeRDark.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeRDark-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/shThemeVisualStudio.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/shThemeVisualStudio-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/PHPMailer-master\/examples\/styles\/wrapping.png": {
+		"ft": 32768,
+		"iS": 631,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/examples\/styles\/wrapping.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/PHPMailer-master\/extras\/EasyPeasyICS.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/extras\/EasyPeasyICS.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/extras\/htmlfilter.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/extras\/htmlfilter.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/extras\/ntlm_sasl_client.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/extras\/ntlm_sasl_client.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/extras\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/extras\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/PHPMailer-master\/get_oauth_token.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/get_oauth_token.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/issue_template.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/PHPMailer-master\/issue_template.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-am.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-am.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ar.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-az.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-az.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-be.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-be.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-bg.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-bg.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ca.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ca.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ch.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ch.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-cs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-cs.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-da.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-da.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-de.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-de.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-el.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-el.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-eo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-eo.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-es.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-es.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-et.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-et.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-fa.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-fa.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-fi.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-fi.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-fo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-fo.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-fr.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-fr.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-gl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-gl.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-he.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-he.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-hr.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-hr.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-hu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-hu.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-id.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-id.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-it.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-it.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ja.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ja.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ka.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ka.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ko.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ko.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-lt.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-lt.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-lv.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-lv.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ms.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ms.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-nb.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-nb.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-nl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-nl.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-pl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-pl.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-pt.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-pt.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-pt_br.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-pt_br.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ro.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ro.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-ru.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-ru.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-sk.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-sk.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-sl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-sl.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-sr.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-sr.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-sv.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-sv.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-tr.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-tr.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-uk.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-uk.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-vi.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-vi.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-zh.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-zh.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/language\/phpmailer.lang-zh_cn.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/language\/phpmailer.lang-zh_cn.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/LICENSE",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/PHPMailerAutoload.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/PHPMailerAutoload.php",
+		"oF": 0
+		},
+	"\/PHPMailer-master\/VERSION": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/PHPMailer-master\/VERSION",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,

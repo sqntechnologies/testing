@@ -1,4 +1,4 @@
-contact-2.php<?php
+<?php
 /*
 THIS FILE USES PHPMAILER INSTEAD OF THE PHP MAIL() FUNCTION
 */
@@ -22,13 +22,13 @@ $subject = 'New message from contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message');
+$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Tu mensaje ha sido enviado, nos comunicaremos contigo pronto. ¡Gracias!';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = 'Hubo un problema al enviar tu mensaje. Intenta de nuevo más tarde.';
 
 /*
 *  LET'S DO THE SENDING

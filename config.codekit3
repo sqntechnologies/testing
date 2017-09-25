@@ -21,6 +21,12 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/contact-2.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact-2.php",
+		"oF": 0
+		},
 	"\/contacto.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1001,6 +1007,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/contact-2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/contact-2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/lib\/animsition\/animsition-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1113,6 +1129,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/owl.carousel.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/validator.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/validator-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

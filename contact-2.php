@@ -11,18 +11,18 @@ require 'PHPMailer-master/PHPMailerAutoload.php';
 
 // an email address that will be in the From field of the email.
 $fromEmail = 'demo@domain.com';
-$fromName = 'Demo contact form';
+$fromName = 'Pagina Hidronatura';
 
 // an email address that will receive the email with the output of the form
 $sendToEmail = 'rodrigo.zenteno7@gmail.com';
 $sendToName = 'Demo contact form';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'Nuevo Mensaje de hidronatura.mx';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
+$fields = array('name' => 'Nombre', 'email' => 'Email', 'message' => 'Mensaje');
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Tu mensaje ha sido enviado, nos comunicaremos contigo pronto. ¡Gracias!';
@@ -42,7 +42,7 @@ try
 
     if(count($_POST) == 0) throw new \Exception('Form is empty');
 
-    $emailTextHtml = "<h1>You have a new message from your contact form</h1><hr>";
+    $emailTextHtml = "<h1>Nuevo mensaje de forma de contacto de hidronatura.mx</h1><hr>";
     $emailTextHtml .= "<table>";
 
     foreach ($_POST as $key => $value) {
@@ -52,12 +52,13 @@ try
         }
     }
     $emailTextHtml .= "</table><hr>";
-    $emailTextHtml .= "<p>Have a nice day,<br>Best,<br>Ondrej</p>";
+    // $emailTextHtml .= "<p>Have a nice day,<br>Best,<br>Ondrej</p>";
 
     $mail = new PHPMailer;
 
     $mail->setFrom($fromEmail, $fromName);
-    $mail->addAddress($sendToEmail, $sendToName); // you can add more addresses by simply adding another line with $mail->addAddress();
+    $mail->addAddress('jurzua@hidronatura.mx', 'Jesus'); // you can add more addresses by simply adding another line with $mail->addAddress();
+    $mail->addAddress('fmorales@hidronatura.mx', 'Fernando'); // you can add more addresses by simply adding another line with $mail->addAddress();
     $mail->addReplyTo($from);
 
     $mail->isHTML(true);

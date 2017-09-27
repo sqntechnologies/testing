@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #logo {
   height: auto;
   margin-left: 4%;
@@ -1137,7 +1138,25 @@ table {
 
 #main-image img.img-responsive {
   margin: 0 auto;
-  height: auto; }
+  height: auto;
+  position: relative; }
+  #main-image img.img-responsive::before {
+    content: "";
+    position: absolute;
+    padding-top: 32%;
+    padding-left: 12%; }
+  #main-image img.img-responsive.onHover::before {
+    content: "¡Descúbrenos! Haz click en cualquiera de las flechas";
+    padding-top: 32%;
+    padding-left: 12%;
+    font-size: 20px;
+    font-family: "Covered By Your Grace", cursive;
+    display: block;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    height: 100vh;
+    z-index: 1999999999999; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     #main-image img.img-responsive {
       height: 70vh; } }
@@ -1161,6 +1180,23 @@ table {
     #main-image img.img-responsive {
       width: auto;
       height: 100vh; } }
+
+#main-image span.overlay {
+  opacity: 0;
+  transition: opacity .4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #000;
+  font-family: "Covered By Your Grace", cursive;
+  margin-top: 32%;
+  margin-left: 38.5%;
+  text-align: center; }
+
+#main-image img.img-responsive:hover + .overlay {
+  opacity: 1; }
 
 #main-products {
   background-image: url("../img/body-sm.jpg");

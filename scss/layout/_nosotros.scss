@@ -1,24 +1,26 @@
 
 #nosotros{
-  background-image: url('../img/01.png');
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  @include mq('md'){
+  // @include mq('md'){
+  //   height: 100vh;
+  //   overflow: hidden;
+  //   // height: 100vh;
+  //   // padding-top: 10px;
+  // }
+  // @media only screen
+  // and (min-device-width: 768px)
+  // and (max-device-width: 1024px)
+  // and (orientation: landscape)
+  // and (-webkit-min-device-pixel-ratio: 1) {
+  //   height: 93vh;
+  // }
 
 
-    height: 100vh;
-    // height: 100vh;
-    // padding-top: 10px;
-  }
-
-  @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    height: 170vh;
-  }
+  // @media only screen
+  // and (min-device-width: 768px)
+  // and (max-device-width: 1024px)
+  // and (orientation: portrait)
+  // and (-webkit-min-device-pixel-ratio: 1) {
+  //   height: 170vh;
+  // }
 
 }

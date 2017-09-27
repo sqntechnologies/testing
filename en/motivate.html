@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <title>Motivate Hidronatura</title>
 </head>
-<body>
+<body style="background-color: #aa0000">
   <div id="motivate" class="animsition">
     <nav class="navbar navbar-custom visible-xs" data-spy="affix" data-offset-top="197" role="navigation">
         <div class="container-fluid">
@@ -196,8 +196,8 @@
           <a href="https://www.facebook.com/hidronaturaa/?ref=br_rs" target="new"><i style="color: #000;" class="fa fa-facebook" aria-hidden="true"></i> </a>
         </li>
         <li class="top-left hidden-xs"><a href="index.html"><img src="../img/logoHN.png" alt=""></a></li>
-        <li class="arrow-left"><a href="fresh.html" class="animsition-link"  data-animsition-in-class="fade-in-left-sm"><i class=" fa fa-arrow-right" aria-hidden="true"></i></a></li>
-        <li class="arrow-right"><a href="genious.html" class="animsition-link"><i class=" fa fa-arrow-left" aria-hidden="true"></i></a></li>
+        <li class="arrow-left"><a href="fresh.html" class="animsition-link"  data-animsition-in-class="fade-in-left-sm"><i style="color: #aa0000" class=" fa fa-arrow-right" aria-hidden="true"></i></a></li>
+        <li class="arrow-right"><a href="genious.html" class="animsition-link"><i style="color: #aa0000" class=" fa fa-arrow-left" aria-hidden="true"></i></a></li>
       </ul>
     </nav>
   </div>
@@ -207,37 +207,32 @@
   <script src="../js/lib/animsition/animsition.min.js"></script>
   <script src="../js/lib/offcanvas/bootstrap.offcanvas.js"></script>
   <script>
-    $(window).scroll(function () {
+  //   // scroll body to 0px on click
+  //   $('#back-to-top').click(function () {
+  //   $('#back-to-top').tooltip('hide');
+  //   $('body,html').animate({
+  //     scrollTop: 0
+  //   }, 800);
+  //   return false;
+  // });
+    var images = ['HIDRO_MOTIVATE_FOTO_1.jpg', 'HIDRO_MOTIVATE_FOTO_2.jpg', 'HIDRO_MOTIVATE_FOTO_3.jpg'];
+    $('.background-left').css({'background-image': 'url(../img/motivate/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+
+    if($(window).width() <= 768){
       if ($(this).scrollTop() > 50) {
         $('#back-to-top').fadeIn();
       }
       else {
         $('#back-to-top').fadeOut();
       }
-      });
-      // scroll body to 0px on click
-      $('#back-to-top').click(function () {
-      $('#back-to-top').tooltip('hide');
-      $('body,html').animate({
-        scrollTop: 0
-      }, 800);
-      return false;
-    });
-    var images = ['HIDRO_MOTIVATE_FOTO_1.jpg', 'HIDRO_MOTIVATE_FOTO_2.jpg', 'HIDRO_MOTIVATE_FOTO_3.jpg'];
-    $('.background-left').css({'background-image': 'url(../img/motivate/' + images[Math.floor(Math.random() * images.length)] + ')'});
-
-
-    if($(window).width() <= 768){
-      $('.arrow-left a i').css('color', '#aa0000');
-      $('.arrow-right a i').css('color', '#aa0000');
-      $('body').css('background-color', '#aa0000');
     }
     $(".animsition").animsition({
       inClass: 'fade-in-right',
       outClass: 'fade-out-right-sm',
       linkElement: '.animsition-link',
-      inDuration: 1000,
-      outDuration: 500
+      inDuration: 400,
+      outDuration: 300
     });
   </script>
 </body>

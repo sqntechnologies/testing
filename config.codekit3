@@ -2000,9 +2000,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/base\/_base.css",
+		"oAP": "\/scss\/css\/_base.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/components\/_buttons.scss": {
@@ -2013,9 +2013,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/components\/_buttons.css",
+		"oAP": "\/scss\/css\/_buttons.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/components\/_nav.scss": {
@@ -2026,9 +2026,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/components\/_nav.css",
+		"oAP": "\/scss\/css\/_nav.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/components\/_table.scss": {
@@ -2039,9 +2039,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/components\/_table.css",
+		"oAP": "\/scss\/css\/_table.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/layout\/_card.scss": {
@@ -2052,9 +2052,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/layout\/_card.css",
+		"oAP": "\/scss\/css\/_card.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/layout\/_containers.scss": {
@@ -2065,9 +2065,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/layout\/_containers.css",
+		"oAP": "\/scss\/css\/_containers.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/layout\/_fresh.scss": {
@@ -2078,9 +2078,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/layout\/_fresh.css",
+		"oAP": "\/scss\/css\/_fresh.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/layout\/_genious.scss": {
@@ -2091,9 +2091,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/layout\/_genious.css",
+		"oAP": "\/scss\/css\/_genious.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/layout\/_motivate.scss": {
@@ -2104,9 +2104,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/layout\/_motivate.css",
+		"oAP": "\/scss\/css\/_motivate.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/layout\/_nosotros.scss": {
@@ -2117,9 +2117,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/layout\/_nosotros.css",
+		"oAP": "\/scss\/css\/_nosotros.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/utilities\/_helpers.scss": {
@@ -2130,9 +2130,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/utilities\/_helpers.css",
+		"oAP": "\/scss\/css\/_helpers.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/utilities\/_mixins.scss": {
@@ -2143,9 +2143,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/utilities\/_mixins.css",
+		"oAP": "\/scss\/css\/_mixins.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/utilities\/_variables.scss": {
@@ -2156,9 +2156,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/utilities\/_variables.css",
+		"oAP": "\/scss\/css\/_variables.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/style.scss": {
@@ -2171,7 +2171,7 @@
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/test.html": {
@@ -4114,11 +4114,11 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
